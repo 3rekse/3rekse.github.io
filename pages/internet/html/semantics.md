@@ -1,12 +1,14 @@
 ---
 layout: intro
-title: HTML semantic tags
+title: Tag semantici HTML
 level: 1
 ---
 
-# HTML Semantics
+# Semantica HTML
 
 Semantic - What purpose or role does this HTML element have 
+
+Semantica - Qual è lo scopo o il ruolo di questo elemento HTML
 
 
 ---
@@ -41,15 +43,17 @@ title: Semantic elements
 level: 2
 ---
 
+Gli elementi che pensano di essere più cool
+
 # Semantic elements
 The elements that think they are cooler
 
-* `<header>` — for more important information, like the masthead of the website, where the name and logo and navigation are
-* `<nav>` — navigation, defining the navigation of the website
-* `<footer>` — for less important information, like the footer of the website, usually includes the copyright statement, social icons, etc.
-* `<main>` — for defining the primary content
-* `<aside>` — for secondary information, stuff that’s not required to understand the primary content, like sidebars, pull quotes, etc.
-* `<section>` — the generic section element
+* `<header>` — per informazioni più importanti, come l'intestazione del sito web, dove si trovano il nome, il logo e la navigazione
+* `<nav>` — navigazione, definisce la navigazione del sito web
+* `<footer>` — per informazioni meno importanti, come il footer del sito web, di solito include la dichiarazione di copyright, icone social, ecc.
+* `<main>` — per definire il contenuto principale
+* `<aside>` — per informazioni secondarie, cose che non sono necessarie per capire il contenuto principale, come sidebar, citazioni, ecc.
+* `<section>` — l'elemento di sezione generico
 
 
 
@@ -91,7 +95,7 @@ title: Semantic elements
 level: 2
 ---
 
-# Simplified header / nav bar example
+# Esempio semplificato di header / barra di navigazione
 
 ```html
 ...
@@ -121,12 +125,12 @@ title: Semantic elements
 level: 2
 ---
 
-# Simplified header / nav bar example
+# Esempio semplificato di header / barra di navigazione
 
-* Have an `<h2>` heading in your `<heading>` section to give your document proper heading structure 
-* Use the `<nav>` element with an unordered list for any site navigation
-* Do not put an `<h1>` in any document section other than `<main>`
 
+* Avere un'intestazione `<h2>` nella tua sezione `<heading>` per dare al tuo documento una struttura di intestazione corretta
+* Usa l'elemento `<nav>` con un elenco non ordinato per qualsiasi navigazione del sito
+* Non mettere un `<h1>` in nessuna sezione del documento diversa da `<main>`
 
 
 ---
@@ -162,38 +166,38 @@ level: 2
 
 
 ---
-title: Semantic elements
+title: Elementi semantici
 level: 2
 ---
 
-# Main content area
+# Area di contenuto principale
 
-* Have an `<h1>` heading in your `<main>` content area to give your document proper heading structure 
-* Use the `<section>` or `<article>` elements to further organise the content 
-* `<section>` elements should be wrapped around every heading (except for the `<h1>`)
+* Avere un'intestazione `<h1>` nella tua area di contenuto `<main>` per dare al tuo documento una struttura di intestazione corretta 
+* Usa gli elementi `<section>` o `<article>` per organizzare ulteriormente il contenuto 
+* Gli elementi `<section>` dovrebbero essere avvolti attorno a ogni intestazione (ad eccezione dell'`<h1>`)
 
 
 ---
-title: Semantic elements
+title: Elementi semantici
 level: 2
 ---
 
-# Simplified footer with navigation example
+# Esempio semplificato di footer con navigazione
 
 ```html
 ...
 <body>
   ...
   <footer>
-    <h2>Site footer information</h2> <!-- Your document sections must have a header -->
+    <h2>Informazioni del footer del sito</h2> <!-- Le sezioni del tuo documento devono avere un'intestazione -->
 
-    <img src="/images/logo.png" alt="Company Logo" />
+    <img src="/images/logo.png" alt="Logo dell'azienda" />
 
     <nav>
       <ul>
         <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">Chi siamo</a></li>
+        <li><a href="contact.html">Contatti</a></li>
       </ul>
     </nav>
 
@@ -204,12 +208,12 @@ level: 2
 
 
 ---
-title: Semantic elements
+title: Elementi semantici
 level: 2
 ---
 
-# Simplified footer with navigation example
+# Esempio semplificato di footer con navigazione
 
-* Have an `<h2>` heading in your `<footer>` section to give your document proper heading structure 
-* Use the `<nav>` element with an unordered list for any site navigation within the footer
-* Do not put an `<h1>` in any document section other than `<main>`
+* Avere un'intestazione `<h2>` nella tua sezione `<footer>` per dare al tuo documento una struttura di intestazione corretta 
+* Usa l'elemento `<nav>` con un elenco non ordinato per qualsiasi navigazione del sito all'interno del footer
+* Non mettere un `<h1>` in nessuna sezione del documento diversa da `<main>`
