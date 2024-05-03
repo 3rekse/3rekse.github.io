@@ -1,194 +1,192 @@
 ---
 layout: intro
-title: HTML essentials
-level: 1
----
-
-# HTML Essentials
-
-Everything you need to know about Hypertext Markup Language
-
----
-title: So what is HTML
+title: Fondamenti di HTML
 level: 2
 ---
 
-# So what is HTML
-The essentials
+# Fondamenti di HTML
 
-HTML is a markup language we use to define the structure of the content of our web pages. 
+Tutto ciò che devi sapere sul linguaggio di markup ipertestuale🚀
 
-We use tags to define the content's purpose and give an element semantic meaning.
+## Contenuti 
 
-For example, the following text: 
+<Toc columns="2" maxDepth="3" minDepth="3" mode="all" />
+
+
+---
+title: Cos'è l'HTML
+level: 3
+---
+
+# Cos'è l'HTML
+Le basi
+
+L'HTML è un linguaggio di markup che usiamo per definire la struttura del contenuto delle nostre pagine web.
+
+Usiamo i tag per definire lo scopo del contenuto e dare un significato semantico a un elemento.
+
+Ad esempio, il seguente testo:
 
 ```html
-Buster is hungry 
+Bobby ha fame
 ```
 
-If we wanted to identify that line as a paragraph of text, we would write the following: 
+Se volessimo identificare quella riga come un paragrafo di testo, scriveremmo quanto segue:
 
 ```html
-<p>Buster is hungry</p>
+<p>Bobby ha fame</p>
 ```
 
-`<p>` refers to the HTML tag, and "Buster is hungry" refers to the content within the tag.
+`<p>` si riferisce al tag HTML, e "Buster ha fame" si riferisce al contenuto all'interno del tag.
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: Anatomy of an HTML Element
-level: 2
+title: il formato di un elemento HTML
+level: 3
 ---
 
-# Some common terms to understand
-The essentials
+# Alcuni termini comuni da capire
+Le basi
 
 ```html
-<p class="text-red">Buster is hungry</p>
+<p class="text-red">Buster ha fame</p>
 ```
 
 
-* `<p>` - opening tag — the part to an element that defines where this type of content starts
-* `</p>` - closing tag — the part of an element that defines where this type of content ends
-* `class="text-red"` - attribute — a piece of metadata that isn’t usually visible in the browser but defines extra information about the element
-* element — the combination of an open tag, the content, and a close tag
+* `<p>` - tag di apertura — la parte di un elemento che definisce dove inizia questo tipo di contenuto
+* `</p>` - tag di chiusura — la parte di un elemento che definisce dove finisce questo tipo di contenuto
+* `class="text-red"` - attributo — un pezzo di metadati che di solito non è visibile nel browser ma definisce informazioni extra sull'elemento
+* elemento — la combinazione di un tag di apertura, il contenuto e un tag di chiusura
 
 <!-- 
 
-Slide notes: 
-
--->
-
-
----
-title: Anatomy of an HTML Element
-level: 2
----
-
-# A note about nesting 
-The essentials
-
-You can put elements inside other elements. This is referred to as nesting. We also sometimes refer to these elements as having a parent-child relationship. 
-
-Keep in mind that the elements have to be nested properly. 
-
-```html
-<p class="text-red">Buster is <strong>very</strong> hungry</p>
-```
-
-The element above will work fine.
-
-
-```html
-<p class="text-red">Buster is <strong>very hungry</p></strong>
-```
-
-The element above is not structured properly because the `<p>` tag is closed before the `<strong>` tag. 
-
-
-<!-- 
-
-Slide notes: 
-
--->
-
-
-
-
----
-title: Comments
-level: 2
----
-
-# HTML Comments
-The essentials
-
-HTML comments are visible in the code of the page, but are not displayed in any way in the browser when the page is rendered. 
-
-An HTML comment begins with a \<!-- and then ends with a -->. 
-
-
-```html
-<!-- This is a single line comment that will  not be displayed in the browser -->
-
-<p>This is a paragraph <!-- This is an inline comment --> and nothing to see here</p>
-```
-
-<!-- 
-
-Slide notes: 
-
-Note: the code styling used currently makes the comment tags look silly 
+Note slide: 
 
 -->
 
 ---
-title: HTML Document
-level: 2
+title: Anatomia di un elemento HTML
+level: 3
 ---
 
-# HTML Document
-The essentials
+# Una nota sull'annidamento
+Le basi
 
-Here is what the code for an empty basic HTML document looks like: 
+Puoi inserire elementi all'interno di altri elementi. Questo è chiamato annidamento. A volte ci riferiamo anche a questi elementi come aventi una relazione genitore-figlio.
+
+Ricorda che gli elementi devono essere annidati correttamente.
+
+```html
+<p class="text-red">Buster è <strong>molto</strong> affamato</p>
+```
+
+L'elemento sopra funzionerà correttamente.
+
+```html
+<p class="text-red">Buster è <strong>molto affamato</p></strong>
+```
+
+L'elemento sopra non è strutturato correttamente perché il tag `<p>` viene chiuso prima del tag `<strong>`.
+
+<!-- 
+
+Note slide: 
+
+-->
+---
+title: Commenti
+level: 3
+---
+
+# Commenti HTML
+Le basi
+
+I commenti HTML sono visibili nel codice della pagina, ma non vengono visualizzati in alcun modo nel browser quando la pagina viene renderizzata.
+
+Un commento HTML inizia con un \<!-- e poi termina con un -->.
+
+
+```html
+<!-- Questo è un commento su una singola riga che non verrà visualizzato nel browser -->
+
+<p>Questo è un paragrafo <!-- Questo è un commento inline --> e non c'è nulla da vedere qui</p>
+```
+
+<!-- 
+
+Note slide: 
+
+Nota: lo stile del codice utilizzato attualmente rende i tag dei commenti ridicoli 
+
+-->
+
+---
+title: Documento HTML
+level: 3
+---
+
+# Documento HTML
+Le basi
+
+Ecco come appare il codice per un documento HTML base vuoto:
 
 ```html
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="it-it">
 <head>
   <meta charset="utf-8">
-  <title>Title of the page</title>
+  <title>Titolo della pagina</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 </head>
 <body>
-    <h1>Hello world</h1>
+    <h1>Ciao mondo</h1>
 </body>
 </html>
 ```
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: HTML Document
+title: Documento HTML
 level: 2
 ---
 
-# HTML Document (con't)
-The essentials
+# Documento HTML (continua)
+Le basi
 
-And here is a breakdown of every element: 
+E qui c'è una spiegazione di ogni elemento:
 
 ```html
-<!DOCTYPE html>                     <!-- Tells the browser this is an HTML5 page -->
-<html lang="en-ca">                 <!-- Opens the HTML tag and Sets the language of the page -->
-<head>                              <!-- Container for metadata we declare information about the page -->
-  <meta charset="utf-8">            <!-- Set's the character set to UTF-8 -->
-  <title>Title of the page</title>  <!-- In the head we declare the title of the page -->
+<!DOCTYPE html>                     <!-- Dice al browser che questa è una pagina HTML5 -->
+<html lang="it-it">                 <!-- Apre il tag HTML e imposta la lingua della pagina -->
+<head>                              <!-- Contenitore per i metadati, dichiariamo informazioni sulla pagina -->
+  <meta charset="utf-8">            <!-- Imposta il set di caratteri su UTF-8 -->
+  <title>Titolo della pagina</title>  <!-- Nel head dichiariamo il titolo della pagina -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-                                    <!-- Sets the zoom level (used for mobile)-->
+                                    <!-- Imposta il livello di zoom (usato per mobile)-->
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-                                    <!-- Addresses a compatibility issue with IE 11 -->
+                                    <!-- Risolve un problema di compatibilità con IE 11 -->
 </head>
-<body>                              <!-- The body section is where our page content goes -->
-    <h1>Hello world</h1>
+<body>                              <!-- La sezione body è dove va il contenuto della nostra pagina -->
+    <h1>Ciao mondo</h1>
 </body>
-</html>                             <!-- Closes the html tag -->
+</html>                             <!-- Chiude il tag html -->
 ```
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
