@@ -52,8 +52,7 @@ level: 3
 title: Logical operators
 
 ---
-
-## Operatori logici
+## [Operatori logici](https://tinyurl.com/3ya6ad2d)
 
 Tutte le espressioni booleane risultano dalla combinazione di condizioni e operatori.
 

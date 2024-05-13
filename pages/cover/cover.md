@@ -8,10 +8,11 @@ title: Welcome!
 
 ---
 
-# BENVENUTI all
+# BENVENUTI al
 # CreativeOMAR Office!
 
 Corso di Tecnologie Informatiche di Office Automation
+[DigitBOY](https://garasdn.glitch.me/)
 
 <!-- Add date to bottom of the page -->
 <div class="absolute bottom-0 ">
