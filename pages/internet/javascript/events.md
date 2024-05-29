@@ -1,138 +1,139 @@
 ---
-title: JavaScript events
+title: Eventi JavaScript
 layout: intro
----
-
-# JavaScript Events
-Handling all sorts of events
-
-
----
-title: JavaScript events
 level: 2
 ---
 
-# Introduction 
-JavaScript events 
-
-Events are actions that occur in the browser that you can listen to and then respond accordingly. There are many different types of events that we can listen to.
-
-For example: 
-
-* When the browser detects a network connection has been disconnected 
-* When the web page finishes loading 
-* When a button is clicked 
-* When the browser window is resized 
-* When a key on the keyboard is tapped 
-
-We can respond to specific events by adding an event handler to the event. This is usualy in the form of a named or anonymous function that runs when the event is "fired". This is referred to as "registering an event handler". 
+# Eventi JavaScript
+Gestione di tutti i tipi di eventi
 
 
 ---
-title: JavaScript events
-level: 2
+title: Eventi JavaScript
+level: 3
 ---
 
-# Introduction 
-JavaScript events 
+# Introduzione 
+Eventi JavaScript 
 
-For example, here is how we register a function to run when the button is clicked
+Gli eventi sono azioni che si verificano nel browser a cui è possibile ascoltare e quindi rispondere di conseguenza. Ci sono molti tipi diversi di eventi a cui possiamo ascoltare.
+
+Ad esempio: 
+
+* Quando il browser rileva che una connessione di rete è stata disconnessa 
+* Quando la pagina web finisce di caricare 
+* Quando viene cliccato un pulsante 
+* Quando la finestra del browser viene ridimensionata 
+* Quando viene premuto un tasto sulla tastiera 
+
+Possiamo rispondere a eventi specifici aggiungendo un gestore di eventi all'evento. Questo è solitamente sotto forma di una funzione nominata o anonima che viene eseguita quando l'evento viene "sparato". Questo è chiamato "registrazione di un gestore di eventi". 
+
+
+---
+title: Eventi JavaScript
+level: 3
+---
+
+# Introduzione 
+Eventi JavaScript 
+
+Ad esempio, ecco come registriamo una funzione da eseguire quando viene cliccato il pulsante
 
 ```html
-<!-- Button on our page in HTML -->
-<button id="btn-1">Click me</button>
+<!-- Pulsante sulla nostra pagina in HTML -->
+<button id="btn-1">Cliccami</button>
 
 ```
 
 ```js
-// Select the button
+// Seleziona il pulsante
 const btn = document.querySelector("#btn-1");
 
-// Function to run 
+// Funzione da eseguire 
 function buttonHandler(e) {
-    console.log("I am clicked!");
+    console.log("Sono stato cliccato!");
 }
 
-// Register the event handler on the button
+// Registra il gestore di eventi sul pulsante
 btn.addEventListener("click", buttonHandler);
 ```
 
 
 
 ---
-title: JavaScript events
-level: 2
+title: Eventi JavaScript
+level: 3
 ---
 
-# Other types of events 
-JavaScript events 
+# Altri tipi di eventi 
+Eventi JavaScript 
 
-Though we mostly look at `click` or `submit` events, there are tonnes of different types of events that we can register and listen to. 
+Sebbene guardiamo principalmente agli eventi `click` o `submit`, ci sono tonnellate di diversi tipi di eventi che possiamo registrare e ascoltare. 
 
-For example `dblclick` events occur when the user double clicks their mouse. And `mouseover` and `mouseout` can give us the state of the user's mouse and if it is over a specific element. 
+Ad esempio gli eventi `dblclick` si verificano quando l'utente fa doppio clic con il mouse. E `mouseover` e `mouseout` possono darci lo stato del mouse dell'utente e se è sopra un elemento specifico. 
 
 
 
 ---
-title: JavaScript events
-level: 2
+title: Eventi JavaScript
+level: 3
 ---
 
-# Event object
-JavaScript events 
+# Oggetto evento
+Eventi JavaScript 
 
-An event object is passed into our event handler function. Common practice is to call this object `e` or `event`.
+Un oggetto evento viene passato alla nostra funzione gestore di eventi. La pratica comune è chiamare questo oggetto `e` o `event`.
 
-The event object has a standard set of properties and methods available that can help us determine what was triggering the event and where on the screen the event occured.  
+L'oggetto evento ha un insieme standard di proprietà e metodi disponibili che possono aiutarci a determinare cosa ha innescato l'evento e dove sullo schermo è avvenuto l'evento.  
 
 ```js
-// Select the button
+// Seleziona il pulsante
 const btn = document.querySelector("#btn-1");
 
-// Register the event handler on the button
+// Registra il gestore di eventi sul pulsante
 btn.addEventListener("click", buttonHandler);
 
-// Function to run 
-// Note the event object that is sent to the console.log
+// Funzione da eseguire 
+// Nota l'oggetto evento che viene inviato a console.log
 function buttonHandler(event) {
-    console.log("Event object", event);
+    console.log("Oggetto evento", event);
 }
 ```
 
-[Event Object Reference](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+[Riferimento Oggetto Evento](https://developer.mozilla.org/it/docs/Web/API/Event)
 
 
 
 ---
-title: JavaScript events
-level: 2
+title: Eventi JavaScript
+level: 3
 ---
 
-# Events and forms
-JavaScript events 
+# Eventi e form
+Eventi JavaScript 
 
-HTML forms by default have an associated behavior to them. And so, if we are listening to, and working with events related to HTML forms, we need to disable the default browser behaviour. 
+Le form HTML hanno di default un comportamento associato a loro. E quindi, se stiamo ascoltando e lavorando con eventi relativi alle form HTML, dobbiamo disabilitare il comportamento predefinito del browser. 
 
-Thankfully, this can be done easily with one function call. 
+Fortunatamente, questo può essere fatto facilmente con una chiamata di funzione. 
 
 
 ```html
-<!-- Form on our page in HTML -->
+<!-- Form sulla nostra pagina in HTML -->
 <form id="form-1">...</form>
 
 ```
 
 ```js
-// Select the form
+// Seleziona il form
 const form = document.querySelector("#form-1");
 
-// Register the event handler on the form when the form is submitted
+// Registra il gestore di eventi sul form quando il form viene inviato
 form.addEventListener("submit", formHandler);
 
-// Function to run 
+// Funzione da eseguire 
 function formHandler(e) {
-    e.preventDefault(); // prevents the browser from submitting the form
-    console.log("I am clicked!");
+    e.preventDefault(); // impedisce al browser di inviare il form
+    console.log("Sono stato cliccato!");
 }
 
 
@@ -140,22 +141,22 @@ function formHandler(e) {
 
 
 ---
-title: JavaScript events
-level: 2
+title: Eventi JavaScript
+level: 3
 ---
 
 # Event bubbling
-JavaScript events 
+Eventi JavaScript 
 
-Event bubbling describes how an event is passed from the lowest child up the tree of parents.
+L'event bubbling descrive come un evento viene passato dal figlio più basso all'albero dei genitori.
 
-While this may seem counterintuitive, consider a `<button>` inside two nested parent `div`s. Technically, when the user clicks the `<button>`, that button resides in the two parents, and so JavaScript sends the events up the dom (know as "bubbling events").
+Sebbene possa sembrare controintuitivo, considera un `<button>` all'interno di due `div` genitori annidati. Tecnicamente, quando l'utente fa clic sul `<button>`, quel pulsante risiede nei due genitori, e quindi JavaScript invia gli eventi su dom (noto come "bubbling events").
 
 
 
 ---
-title: JavaScript events
-level: 2
+title: Eventi JavaScript
+level: 3
 layout: center
 ---
 
@@ -164,28 +165,28 @@ layout: center
 
 
 ---
-title: JavaScript events
-level: 2
+title: Eventi JavaScript
+level: 3
 ---
 
 # Event bubbling
-JavaScript events 
+Eventi JavaScript 
 
-If event bubbling is having unintended consequnces in your application, you can turn it off easily with the `.stopProrogation()` method. 
+Se l'event bubbling sta avendo conseguenze non intenzionali nella tua applicazione, puoi facilmente disattivarlo con il metodo `.stopProrogation()`. 
 
 
 ```js
-// Select the button
+// Seleziona il pulsante
 const btn = document.querySelector("#btn-1");
 
-// Register the event handler on the button
+// Registra il gestore di eventi sul pulsante
 btn.addEventListener("click", buttonHandler);
 
-// Function to run 
-// Note the event object that is sent to the console.log
+// Funzione da eseguire 
+// Nota l'oggetto evento che viene inviato a console.log
 function buttonHandler(event) {
-    event.stopProrogation(); // Stop the event from bubbling further up
-    console.log("Event object", event);
+    event.stopProrogation(); // Ferma l'evento dal salire ulteriormente
+    console.log("Oggetto evento", event);
 }
 ```
 
@@ -193,35 +194,35 @@ function buttonHandler(event) {
 
 
 ---
-title: JavaScript events
-level: 2
+title: Eventi JavaScript
+level: 3
 ---
 
-# Event delegation
-JavaScript events 
+# Delegazione di eventi
+Eventi JavaScript 
 
-The following pattern allows us to add one event handler and listen to all of the child events. 
+Il seguente pattern ci permette di aggiungere un gestore di eventi e ascoltare tutti gli eventi dei figli. 
 
-In the example below, on line 9, we are filtering out any clicks that weren't made by `<button>` elements.
+Nell'esempio sottostante, alla riga 9, stiamo filtrando tutti i click che non sono stati fatti da elementi `<button>`.
 
 ```html
-<!-- Button on our page in HTML -->
+<!-- Pulsante sulla nostra pagina in HTML -->
 <ul id="list-1">...</ul>
 
 ```
 
 ```js
-// Select the button
+// Seleziona il pulsante
 const list = document.querySelector("#list-1");
 
-// Register the event handler on the button
+// Registra il gestore di eventi sul pulsante
 list.addEventListener("click", listClickHandler);
 
-// Function to run 
+// Funzione da eseguire 
 function listClickHandler(event) {
     if (event.target.nodeName !== "BUTTON") { 
         return; 
     }
-    console.log("Event object", event.target.nodeNmae);
+    console.log("Oggetto evento", event.target.nodeName);
 }
 ```

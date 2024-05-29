@@ -1,195 +1,195 @@
 ---
 layout: intro
-title: HTML forms
-level: 1
----
-
-# HTML Forms
-
-Marking up HTML Forms
-
-
-
----
-title: Forms
+title: Moduli HTML
 level: 2
+---
+
+# Moduli HTML
+
+Marcatura dei moduli HTML
+
+
+
+---
+title: Moduli
+level: 3
 layout: image-right
 image: /internet/images/slides/html/forms/form.jpg
 ---
 
-# We want your inputs
-Forms enable users to provide input data
+# Vogliamo i tuoi input
+I moduli consentono agli utenti di fornire dati di input
 
-The `<form>` HTML element represents a document section containing interactive controls for submitting information.
+L'elemento HTML `<form>` rappresenta una sezione di documento contenente controlli interattivi per l'invio di informazioni.
 
 
-Forms are a very powerful tool for interacting with users — most commonly they are used for collecting data from users, or allowing them to control a user interface. 
+I moduli sono uno strumento molto potente per interagire con gli utenti: più comunemente vengono utilizzati per raccogliere dati dagli utenti o consentire loro di controllare un'interfaccia utente.
 
-In this section we will cover all the essential aspects of HTML forms including properly marking up their structure, validating form data, and submitting data to the server.
+In questa sezione copriremo tutti gli aspetti essenziali dei moduli HTML, inclusa la corretta marcatura della loro struttura, la validazione dei dati del modulo e l'invio dei dati al server.
 
 
 <!-- 
 
-Slide notes:
+Note sulla slide:
 
-Credit: Photo by Cytonn Photography: https://www.pexels.com/photo/close-up-photography-of-person-writing-on-white-paper-955392/
+Credit: Foto di Cytonn Photography: https://www.pexels.com/photo/close-up-photography-of-person-writing-on-white-paper-955392/
 
 -->
 
 ---
 layout: two-cols-header
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
 
-# Example form
+# Esempio di modulo
 
 ::left::
 
-We're going to learn about forms by building a simple contact us form.
+Impareremo sui moduli costruendo un semplice modulo di contatto.
 
-Our form will contain three text fields, one range field, and one button. 
+Il nostro modulo conterrà tre campi di testo, un campo di intervallo e un pulsante.
 
-We are asking the user for:
+Stiamo chiedendo all'utente:
 
-* their name, 
-* their email,
-* the level of urgency of their message, and 
-* the message they want to send
+* il loro nome,
+* la loro email,
+* il livello di urgenza del loro messaggio, e
+* il messaggio che vogliono inviare
 
-Hitting the button will send their data to a web server.
+Premendo il pulsante verranno inviati i loro dati a un server web.
 
 ::right::
 
 <div class="border p-3 bg-gray-50 ml-10 shadow-xl">
 
-<p><strong>Contact Form:</strong></p>
+<p><strong>Modulo di contatto:</strong></p>
 
-<label>Name:</label>
+<label>Nome:</label>
 <input type="text" class="ml-4 border border-gray-300" placeholder="Chris Rogers"/>
 
 <label>Email:</label>
 <input type="text" class="ml-4 border border-gray-300" placeholder="chris@avengers.com"/>
 
-<label>Urgency:</label>
+<label>Urgenza:</label>
 <input type="range" class="ml-4 border border-gray-300" />
 
-<label>Message:</label>
+<label>Messaggio:</label>
 <textarea class="ml-1 border border-gray-300" rows="5"></textarea>
 
-<button class="border border-gray-300 bg-white p-2" type="sybmit">Submit</button>
+<button class="border border-gray-300 bg-white p-2" type="sybmit">Invia</button>
 
 </div>
 
 
 <!-- 
 
-Slide notes: 
+Note sulla slide: 
 
 -->
 
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Forms
-Forms enable users to provide input data
+# Moduli
+I moduli consentono agli utenti di fornire dati di input
 
-We start by adding a `<form>` element and in most cases add an `action` and a `method` attribute.
+Iniziamo aggiungendo un elemento `<form>` e nella maggior parte dei casi aggiungiamo un attributo `action` e un attributo `method`.
 
 ```html
 <form action="/server-page-handling-form-data" method="post">
-  <!-- Form elements go in here -->
+  <!-- Gli elementi del modulo vanno qui -->
 </form>
 ```
 
-**Notes:** 
+**Note:** 
 
-* The `action` attribute defines the location (URL) where the form's collected data should be sent when it is submitted.
-* The `method` attribute defines which HTTP method to send the data with (usually `get` or `post`).
+* L'attributo `action` definisce la posizione (URL) dove i dati raccolti dal modulo dovrebbero essere inviati quando viene inviato.
+* L'attributo `method` definisce quale metodo HTTP utilizzare per inviare i dati (di solito `get` o `post`).
 
 
 <!-- 
 
-Slide notes: 
+Note sulla slide: 
 
 -->
 
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Forms
-Forms enable users to provide input data
+# Moduli
+I moduli consentono agli utenti di fornire dati di input
 
-Our contact form requires the following input elements as well as a `label` for each
+Il nostro modulo di contatto richiede i seguenti elementi di input oltre a un `label` per ciascuno
 
-* An input field for the name as a single line of text (`input` type `text`)
-* An input field for the email as a single line of text that should only accept email addresses (`input` type `email`)
-* An input field for the urgency range that accepts a number based on how urgent the issue is (`input` type `range`)
-* An input field for the message text that has multiple lines (`textarea` element)
+* Un campo di input per il nome come singola linea di testo (`input` di tipo `text`)
+* Un campo di input per l'email come singola linea di testo che dovrebbe accettare solo indirizzi email (`input` di tipo `email`)
+* Un campo di input per l'intervallo di urgenza che accetta un numero in base a quanto è urgente il problema (`input` di tipo `range`)
+* Un campo di input per il testo del messaggio che ha più righe (elemento `textarea`)
 
 
 
 <!-- 
 
-Slide notes: 
+Note sulla slide: 
 
 -->
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Forms
-Forms enable users to provide input data
+# Moduli
+I moduli consentono agli utenti di fornire dati di input
 
-We add our first `input` element of type `text` as well as the `label`
+Aggiungiamo il nostro primo elemento `input` di tipo `text` oltre al `label`
 
 
 ```html
 <form action="/server-page-handling-form-data" method="post">
   <ul>
     <li>
-      <label for="fullname">Name:</label>
+      <label for="fullname">Nome:</label>
       <input type="text" id="fullname" name="fullname" placeholder="Chris Rogers"/>
     </li>
   </ul>
 </form>
 ```
 
-**Notes:** 
+**Note:** 
 
-* Take a look at the `for` `id` and `name` attributes that are used to wire up the label and the `input` element
-* The `placeholder` attribute allows us to put helper text in the form element
+* Dai un'occhiata agli attributi `for` `id` e `name` che vengono utilizzati per collegare la label e l'elemento `input`
+* L'attributo `placeholder` ci consente di inserire del testo di aiuto nell'elemento del modulo
 
 
 <!-- 
 
-Slide notes: 
+Note sulla slide: 
 
 -->
 
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Forms
-Forms enable users to provide input data
+# Moduli
+I moduli consentono agli utenti di fornire dati di input
 
-Next we add our form elements to capture the users' email address
+Successivamente aggiungiamo i nostri elementi di modulo per catturare l'indirizzo email degli utenti
 
 
 ```html
@@ -204,28 +204,28 @@ Next we add our form elements to capture the users' email address
 </form>
 ```
 
-**Notes:** 
+**Note:** 
 
-* The `type` value is now set to `email`
+* Il valore `type` è ora impostato su `email`
 
 
 <!-- 
 
-Slide notes: 
+Note sulla slide: 
 
 -->
 
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Forms
-Forms enable users to provide input data
+# Moduli
+I moduli consentono agli utenti di fornire dati di input
 
-Next we add our form elements to capture the urgency value using the slider
+Successivamente aggiungiamo i nostri elementi di modulo per catturare il valore di urgenza utilizzando il cursore
 
 
 ```html
@@ -233,35 +233,35 @@ Next we add our form elements to capture the urgency value using the slider
   <ul>
     ...
     <li>
-      <label for="urgency">Urgency:</label>
+      <label for="urgency">Urgenza:</label>
       <input type="range" id="urgency" name="urgency" />
     </li>
   </ul>
 </form>
 ```
 
-**Notes:** 
+**Note:** 
 
-* The `type` value is now set to `range`
+* Il valore `type` è ora impostato su `range`
 
 
 <!-- 
 
-Slide notes: 
+Note sulla slide: 
 
 -->
 
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Forms
-Forms enable users to provide input data
+# Moduli
+I moduli consentono agli utenti di fornire dati di input
 
-We then use the `textarea` element to capture multiple lines of text
+Quindi utilizziamo l'elemento `textarea` per catturare più righe di testo
 
 
 ```html
@@ -269,35 +269,35 @@ We then use the `textarea` element to capture multiple lines of text
   <ul>
     ...
     <li>
-      <label for="message">Message:</label>
+      <label for="message">Messaggio:</label>
       <textarea id="messsage" rows="5"></textarea>
     </li>
   </ul>
 </form>
 ```
 
-**Notes:** 
+**Note:** 
 
-* The `rows` attribute sets the number of rows that are visible for the `textarea` input. Users may type more than 5 rows of text.
+* L'attributo `rows` imposta il numero di righe che sono visibili per l'input `textarea`. Gli utenti possono digitare più di 5 righe di testo.
 
 
 <!-- 
 
-Slide notes: 
+Note sulla slide: 
 
 -->
 
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Forms
-Forms enable users to provide input data
+# Moduli
+I moduli consentono agli utenti di fornire dati di input
 
-Lastly we add a submit button using the `<button>` element 
+Infine aggiungiamo un pulsante di invio utilizzando l'elemento `<button>` 
 
 
 ```html
@@ -305,38 +305,38 @@ Lastly we add a submit button using the `<button>` element
   <ul>
     ...
     <li>
-      <button type="submit">Submit</button>
+      <button type="submit">Invia</button>
     </li>
   </ul>
 </form>
 ```
 
-**Notes:** 
+**Note:** 
 
-* We have to put a `type=submit` attribute on our `<button>` to make it work with the form
-* The `<button>` doesn't require a label
+* Dobbiamo mettere un attributo `type=submit` sul nostro `<button>` per farlo funzionare con il modulo
+* Il `<button>` non richiede una label
 
 
 <!-- 
 
-Slide notes: 
+Note sulla slide: 
 
 -->
 
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Full form code:
+# Codice completo del modulo:
 
 ```html
 <form action="/server-page-handling-form-data" method="post">
   <ul>
     <li>
-      <label for="fullname">Name:</label>
+      <label for="fullname">Nome:</label>
       <input type="text" id="fullname" name="fullname" placeholder="Chris Rogers"/>
     </li>
     <li>
@@ -344,38 +344,38 @@ level: 2
       <input type="email" id="email" name="email" placeholder="chris@avengers.com"/>
     </li>
     <li>
-      <label for="urgency">Urgency:</label>
+      <label for="urgency">Urgenza:</label>
       <input type="range" id="urgency" name="urgency" />
     </li>
     <li>
-      <label for="message">Message:</label>
+      <label for="message">Messaggio:</label>
       <textarea id="messsage" rows="5"></textarea>
     </li>
-    <li><button type="submit">Submit</button></li>
+    <li><button type="submit">Invia</button></li>
   </ul>
 </form>
 ```
 
 <!-- 
 
-Slide notes: 
+Note sulla slide: 
 
 -->
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Client side validation 
-Forms enable users to provide input data
+# Validazione lato client 
+I moduli consentono agli utenti di fornire dati di input
 
-HTML has some attributes that we can use to validate input that the client is providing. 
+HTML ha alcuni attributi che possiamo utilizzare per validare l'input che il client sta fornendo.
 
-Not only can we make specific form fields required, we can also validate that numbers are a specific range, or text input follows a specific pattern.
+Non solo possiamo rendere specifici campi del modulo obbligatori, ma possiamo anche validare che i numeri siano un intervallo specifico, o che l'input di testo segua uno schema specifico.
 
-The code sample below shows how to use the `required` attribute to make an input mandatory.
+Il codice di esempio qui sotto mostra come utilizzare l'attributo `required` per rendere un input obbligatorio.
 
 ```html 
 <form>
@@ -392,86 +392,84 @@ Slide notes:
 
 -->
 
-
-
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Other types of inputs
-Forms enable users to provide input data
+# Altri tipi di input
+I moduli consentono agli utenti di fornire dati in input
 
-The `<input>` element has a many of different types so that we can collect different types of data from a user. We have seen `text` and `range`, and there in total 22 different types available. 
+L'elemento `<input>` ha molti tipi diversi in modo che possiamo raccogliere diversi tipi di dati da un utente. Abbiamo visto `text` e `range`, e in totale ci sono 22 tipi diversi disponibili.
 
-Some examples of these are `date`, `time`, `tel`, `password`, `number`, `checkbox` to name a few.
+Alcuni esempi di questi sono `date`, `time`, `tel`, `password`, `number`, `checkbox` per citarne alcuni.
 
-We also have the `select` element which allows us to add drop down lists to our forms.
+Abbiamo anche l'elemento `select` che ci consente di aggiungere elenchi a discesa ai nostri moduli.
 
 ```html 
 <form>
   ...
-  <label for="password">Password (required)</label>
+  <label for="password">Password (richiesta)</label>
   <input id="password" name="password" type="password" required="required" />
   ...
 </form>
 ```
 
-[List of input types and examples](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+[Elenco dei tipi di input ed esempi](https://developer.mozilla.org/it/docs/Web/HTML/Element/input)
 
-[The select element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+[L'elemento select](https://developer.mozilla.org/it/docs/Web/HTML/Element/select)
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: Forms
-level: 2
+title: Moduli
+level: 3
 ---
 
-# Form accessibility
-Forms enable users to provide input data
+# Accessibilità dei moduli
+I moduli consentono agli utenti di fornire dati in input
 
-* It is absolutely critical that your form elements all have a `<label>` and the `<label>` has a `for` attribute that matches an `<input>` field
-* If you click on the form `<label>` the browser will transfer focus to the `<input>` element. If this doesn't happen it's possible that something is wrong with your form.
-* You must have the `<form>` element wrap all of your `<input>` elements.
-* The `id` attributes that you use in your form elements must be unique and cannot start with a number
+* È assolutamente fondamentale che tutti gli elementi del tuo modulo abbiano un `<label>` e il `<label>` ha un attributo `for` che corrisponde a un campo `<input>`
+* Se fai clic sulla `<label>` del modulo, il browser trasferirà il focus all'elemento `<input>`. Se ciò non accade, è possibile che ci sia qualcosa di sbagliato nel tuo modulo.
+* Devi avere l'elemento `<form>` che avvolge tutti i tuoi elementi `<input>`.
+* Gli attributi `id` che utilizzi nei tuoi elementi di modulo devono essere unici e non possono iniziare con un numero
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: Forms Resources
-level: 2
+title: Risorse sui moduli
+level: 3
 layout: image-right
 image: /internet/images/slides/html/forms/confused.jpg
 ---
 
 
-# Forms resources
-Guides and cheatsheets
+# Risorse sui moduli
+Guide e cheatsheets
 
-* [The Form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
-* [Working with web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms)
-* [HTML Forms and JavaScript - Prof3ssorSt3v3](https://www.youtube.com/watch?v=ikR9DsGMUMc&list=PLyuRouwmQCjncCz8JChyPNRBvm2ONGYa2)
-* [Mobile Keyboards and HTML Forms - Prof3ssorSt3v3](https://www.youtube.com/watch?v=WGk-2_dD6L0&list=PLyuRouwmQCjncCz8JChyPNRBvm2ONGYa2&index=28)
-* [HTML Forms - Marksheet](https://marksheet.io/html-forms.html)
-* [HTML Forms - W3C](https://www.w3.org/TR/html401/interact/forms.html)
+* [L'elemento Form](https://developer.mozilla.org/it/docs/Web/HTML/Element/form)
+* [Lavorare con i moduli web](https://developer.mozilla.org/it/docs/Learn/Forms)
+* [Moduli HTML e JavaScript - Prof3ssorSt3v3](https://www.youtube.com/watch?v=ikR9DsGMUMc&list=PLyuRouwmQCjncCz8JChyPNRBvm2ONGYa2)
+* [Tastiere mobili e moduli HTML - Prof3ssorSt3v3](https://www.youtube.com/watch?v=WGk-2_dD6L0&list=PLyuRouwmQCjncCz8JChyPNRBvm2ONGYa2&index=28)
+* [Moduli HTML - Marksheet](https://marksheet.io/html-forms.html)
+* [Moduli HTML - W3C](https://www.w3.org/TR/html401/interact/forms.html)
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 Credit: 
 
-Photo by Andrea Piacquadio: https://www.pexels.com/photo/a-man-in-red-shirt-covering-his-face-3760043/
+Foto di Andrea Piacquadio: https://www.pexels.com/photo/a-man-in-red-shirt-covering-his-face-3760043/
 
 -->

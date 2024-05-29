@@ -1,59 +1,59 @@
 ---
-title: JavaScript loops
+title: Cicli JavaScript
 layout: intro
----
-
-# JavaScript Loops
-Looping through things
-
-
----
-title: JavaScript
 level: 2
 ---
 
-# We often need to repeat actions
-Loops
+# Cicli JavaScript
+Iterare attraverso le cose
 
-* Loops provide us with a way to repeatedly run code
-* This section covers `for` and `while` and `do..while` loops
-* JavaScript also provides an endless way to loop and iterate over arrays and objects, which we will cover later on
+---
+title: JavaScript
+level: 3
+---
+
+# Spesso abbiamo bisogno di ripetere le azioni
+Cicli
+
+* I cicli ci forniscono un modo per eseguire ripetutamente il codice
+* Questa sezione copre i cicli `for`, `while` e `do..while`
+* JavaScript fornisce anche un modo infinito per iterare su array e oggetti, che tratteremo più avanti
 
 ```js
-while (condition) {
-  // Code block that repeats
+while (condizione) {
+  // Blocco di codice che si ripete
 }
 
 do {
-  // Code block that repeats
-} while (condition);
+  // Blocco di codice che si ripete
+} while (condizione);
 
-for (begin; condition; step) {
-  // Code block that repeats
+for (inizio; condizione; passo) {
+  // Blocco di codice che si ripete
 }
 ```
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
 # While
-Loops
+Cicli
 
-* While the condition is truthy or evaluates to true, the code block will execute 
-* Watch out for infinite loops 
-* Don't forget to increment a counter in your code block 
+* Mentre la condizione è veritiera o valuta a vero, il blocco di codice verrà eseguito
+* Fai attenzione ai cicli infiniti
+* Non dimenticare di incrementare un contatore nel tuo blocco di codice
 
 ```js
-// Declare a value that we can use for the condition
+// Dichiarare un valore che possiamo usare per la condizione
 let i = 0; 
 
-// Execture the loop while i is less than 100 
+// Esegui il ciclo mentre i è minore di 100 
 while (i < 100) {
   console.log(i);
-  // Increment the counter 
+  // Incrementa il contatore 
   i = i + 1; 
 }
 
@@ -62,25 +62,25 @@ while (i < 100) {
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
 # Do...While
-Loops
+Cicli
 
-* The loop is executed once no matter what the condition set in the while statement is
-* After the loop runs once, the while condition is evaluated and if it is truthy or evaluates to true, the code block will execute again
-* Watch out for infinite loops 
-* Don't forget to increment a counter in your code block 
+* Il ciclo viene eseguito una volta indipendentemente dalla condizione impostata nell'istruzione while
+* Dopo che il ciclo è stato eseguito una volta, la condizione while viene valutata e se è veritiera o valuta a vero, il blocco di codice verrà eseguito di nuovo
+* Fai attenzione ai cicli infiniti
+* Non dimenticare di incrementare un contatore nel tuo blocco di codice
 
 ```js
-// Declare a value that we can use for the condition
+// Dichiarare un valore che possiamo usare per la condizione
 let i = 0; 
 
-// Execture the loop while i is less than 100 
+// Esegui il ciclo mentre i è minore di 100 
 do {
   console.log(i);
-  // Increment the counter 
+  // Incrementa il contatore 
   i = i + 1;
 } while (i < 100);
 
@@ -90,45 +90,47 @@ do {
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# For
-Loops
 
-* More complete, but less prone to coding errors, and more commonly used 
+# For
+Cicli
+
+* Più completo, ma meno incline a errori di codifica, e più comunemente usato 
 
 ```js
 for (let i = 0; i < 5; i++) {
-    console.log("Counter at", i);
+    console.log("Contatore a", i);
 }
 ```
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 class: "border-l-36 border-green-600"
+
 ---
 
-# Now you try! 
-Variables
+# Ora provaci tu! 
+Variabili
 
-* Open your JavaScript file and copy this code 
-* Add a `for` or `while` loop to walk through the array 
-* Use the console to log each colour name inside that array index, except if the colour is "hotpink" then console log "NOPE"
+* Apri il tuo file JavaScript e copia questo codice 
+* Aggiungi un ciclo `for` o `while` per attraversare l'array 
+* Usa la console per registrare ogni nome di colore all'interno di quell'indice dell'array, tranne se il colore è "hotpink" allora registra nella console "NOPE"
 
 ```js
-  // Declare an array
-  let favouriteColours = ["purple", "blue", "hotpink", "green", "yellow"];
+  // Dichiarare un array
+  let coloriPreferiti = ["viola", "blu", "rosa acceso", "verde", "giallo"];
 
-  // Loop through the array of favourite colours 
+  // Itera attraverso l'array dei colori preferiti 
 
-  // Inside the loop, use an if statement to check if a value is "hotpink"
+  // All'interno del ciclo, usa un'istruzione if per controllare se un valore è "rosa acceso"
   
-  // If it's hotpink then log to the console "NOPE"
+  // Se è "rosa acceso" allora registra nella console "NOPE"
   
-  // Otherwise just print the colour that is in the array index
+  // Altrimenti stampa semplicemente il colore che si trova nell'indice dell'array
 
-  // Output should be ("purple", "blue", "NOPE", "green", "yellow")
+  // L'output dovrebbe essere ("viola", "blu", "NOPE", "verde", "giallo")
 ```

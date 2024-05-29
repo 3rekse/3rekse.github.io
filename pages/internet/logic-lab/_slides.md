@@ -20,3 +20,11 @@ src: ./logic-gates.md
 ---
 src: ./programmable.md
 ---
+
+---
+src: ./algebra.md
+---
+
+---
+src: ./sequenziale.md
+---

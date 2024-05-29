@@ -1,24 +1,20 @@
 ---
 layout: intro
-title: HTML content tags
-level: 1
----
-
-# HTML Content
-
-📖 Marking up content like `<p>`, `<h1>`, and `<img>` tags
-
-
----
-title: Content Elements
+title: HTML Tag con contenuto 
 level: 2
 ---
 
-# Content tags
-Marking up content
+# Contenuto HTML
+📖 Contrassegnare il contenuto con i tag `<p>`, `<h1>` e `<img>`
 
-Here are a few of the main content tags that we use when building pages. There are some more obscure tags that have been left off this list for brevity.
+---
+title: Elementi di contenuto
+level: 3
+---
 
+# Tag di contenuto
+Contrassegnare il contenuto
+Ecco alcuni dei principali tag di contenuto che utilizziamo nella costruzione delle pagine. Sono stati omessi alcuni tag meno usati per brevità.
 * `<p>`
 * `<h1>` - `<h6>`
 * `<ul>` - `<ol>` - `<dl>`
@@ -27,23 +23,20 @@ Here are a few of the main content tags that we use when building pages. There a
 * `<strong>`
 * `<em>`
 * `<blockquote`
-
+  
 ---
-title: Paragraphs
-level: 2
+title: Paragrafi
+level: 3
 ---
 
-# Paragraphs
-Marking up content
-
-Paragraph tag for, you guessed it, paragraphs of text.
+# Paragrafi
+Contrassegnare il contenuto
+Tag di paragrafo per, come avrai indovinato, paragrafi di testo.
 
 ```html
-<p>Meatloaf andouille bacon alcatra short ribs. Salami meatball spare ribs,
-     shankle ribeye burgdoggen bacon pork. Beef andouille pig biltong.</p>
-
-<p>Drumstick andouille boudin, shankle jowl pork chop chuck picanha
-     short loin pork loin kevin chicken fatback.</p>
+<p>Gechi sono un gruppo di lucertole di solito piccole, di solito notturne. Si trovano su tutti i continenti tranne l'Antartide.</p>
+<p>
+Alcune specie vivono nelle case dove cacciano insetti attratti dalla luce artificiale</p>
 ```
 
 <div class="text-sm">
@@ -59,33 +52,31 @@ Slide notes:
 
 -->
 
-
-
 ---
-title: Headings
-level: 2
+titolo: Intestazioni
+level: 3 
 ---
 
-# Headings
-Marking up content
+# Intestazioni
+Marcare il contenuto
 
-Heading elements allow you to specify what content on your page is a heading or sub heading.
+Gli elementi di intestazione ti permettono di specificare quale contenuto della tua pagina è un'intestazione o un sottointestazione.
 
-* There should only be one `<h1>` on the page
-* Do not skip heading levels
+* Dovrebbe esserci solo un `<h1>` sulla pagina
+* Non saltare livelli di intestazione
 
 ```html
-<!-- 6 heading levels: -->
-<h1>Earth</h1>
-  <h2>North America</h2>
+<!-- 6 livelli di intestazione: -->
+<h1>Terra</h1>
+  <h2>America del Nord</h2>
     <h3>Canada</h3>
       <h4>Ontario</h4>
         <h5>Ottawa</h5>
           <h6>Kanata</h6>
-    <h3>United States</h3>
+    <h3>Stati Uniti</h3>
       <h4>California</h4>
   <h2>Africa</h2>
-    <h3>Egypt</h3>
+    <h3>Egitto</h3>
       <h4>Cairo</h4>
 ```
 
@@ -106,23 +97,23 @@ Slide notes:
 
 
 ---
-title: Lists
-level: 2
+titolo: Liste
+level: 3
 ---
 
-# Lists
-Marking up content
+# Liste
+Marcare il contenuto
 
-There are three types of lists that can be marked up. 
+Ci sono tre tipi di liste che possono essere marcate.
 
-`<ul>` Unordered lists - for when the order of the items in the list don't matter, such as a list of things to buy at the grocery store 
+`<ul>` Liste non ordinate - quando l'ordine degli elementi nella lista non importa, come ad esempio una lista di cose da comprare al supermercato.
 
 ```html
 <ul>
-    <li>Milk</li>
-    <li>Eggs</li>
-    <li>Chips</li>
-    <li>Bananas</li>
+    <li>Latte</li>
+    <li>Uova</li>
+    <li>Patatine</li>
+    <li>Banane</li>
 </ul>
 ```
 
@@ -140,23 +131,24 @@ Slide notes:
 
 
 ---
-title: Lists
-level: 2
+titolo: Liste
+level: 3
 ---
 
-# Lists
-Marking up content
+# Liste
+Marcare il contenuto
 
-There are three types of lists that can be marked up. 
+Ci sono tre tipi di liste che possono essere marcate.
 
-`<ol>` Ordered lists - for when the order of the items is important, like instructions in a recipe
+`<ol>` Liste ordinate - quando l'ordine degli elementi è importante, come ad esempio le istruzioni in una ricetta.
 
 ```html
 <ol>
-    <li>Add Milk</li>
-    <li>Beat the eggs and add to the milk</li>
-    <li>Smash the bananas and set aside</li>
+    <li>Aggiungi il latte</li>
+    <li>Batti le uova e aggiungile al latte</li>
+    <li>Schiaccia le banane e mettile da parte</li>
 </ol>
+
 ```
 
 <div class="text-sm">
@@ -173,25 +165,26 @@ Slide notes:
 
 
 ---
-title: Definition lists
-level: 2
+title: Liste di definizione
+level: 3
 ---
 
-# Lists
-Marking up content
+# Liste
+Marcare il contenuto
 
-There are three types of lists that can be marked up. 
+Ci sono tre tipi di liste che possono essere marcate.
 
-`<dl>` Description lists - for defining data and value pairs
+`<dl>` Liste di definizione - per definire coppie di dati e valori.
 
 ```html
 <dl>
-    <dt>Length</dt>
-    <dd>12 metres</dd>
+    <dt>Lunghezza</dt>
+    <dd>12 metri</dd>
 
-    <dt>Mass</dt>
-    <dd>5.4 metric tons</dd>
+    <dt>Massa</dt>
+    <dd>5.4 tonnellate metriche</dd>
 </dl>
+
 ```
 
 <div class="text-sm">
@@ -209,31 +202,31 @@ Slide notes:
 
 
 ---
-title: Links
-level: 2
+title: Collegamenti
+level: 3
 ---
 
-# Links
-Marking up content
+# Collegamenti
+Marcare il contenuto
 
-Links are the key to the whole web! Here's how to make a link. 
+I collegamenti sono la chiave di tutto il web! Ecco come creare un collegamento.
 
-First identify the text that you want to make a link.
+Innanzitutto identifica il testo a cui vuoi aggiungere un collegamento.
 
 ```html
-<p>Buster likes to go the groomer name <a>Martin</a></p>
+<p>Buster ama andare dal toelettatore di nome <a>Martin</a></p>
 ```
 
-Then add an `href` attribute to the `<a>` tag. 
+Poi aggiungi l'attributo href al tag `<a>`.
 
 ```html
-<p>Buster likes to go the groomer name <a href="">Martin</a></p>
+<p>Buster ama andare dal toelettatore di nome <a href="">Martin</a></p>
 ```
 
-Finally, add the web address to the `href` attribute 
+Infine, aggiungi l'indirizzo web all'attributo href.
 
 ```html
-<p>Buster likes to go the groomer name <a href="https://martin.cutshair.com">Martin</a></p>
+<p>Buster ama andare dal toelettatore di nome <a href="https://martin.cutshair.com">Martin</a></p>
 ```
 
 <div class="text-sm">
@@ -248,23 +241,22 @@ Slide notes:
 
 -->
 
-
 ---
-title: Images
-level: 2
+title: Immagini
+level: 3
 ---
 
-# Images
-Marking up content
+# Immagini
+Marcare il contenuto
 
-The `<img>` tag is used to display images on a web page.
+Il tag `<img>` viene utilizzato per visualizzare le immagini su una pagina web.
 
-* Images need two attributes to specify extra details about the image: 
-  * `src` - the location of the image and;
-  * `alt` - the description of the meaningful information in the image (or empty if the image is decorative)
+* Le immagini necessitano di due attributi per specificare informazioni aggiuntive sull'immagine:
+  * `src` - la posizione dell'immagine e;
+  * `alt` - la descrizione delle informazioni significative nell'immagine (o vuoto se l'immagine è decorativa)
 
 ```html
-<img src="buster.jpg" alt="Photo of Buster" />
+<img src="buster.jpg" alt="Foto di Buster" />
 ```
 
 <div class="text-sm">
@@ -279,25 +271,24 @@ Slide notes:
 
 -->
 
-
 ---
-title: Line break
-level: 2
+title: Interruzione di linea
+level: 3
 ---
 
-# Line break
-Marking up content
+# Interruzione di linea
+Marcare il contenuto
 
-If you ever need to force a line break (enter / new line) in your content you can use the `<br />` tag to acheive this.
+Se hai mai bisogno di forzare un'interruzione di linea (invio / nuova linea) nel tuo contenuto, puoi utilizzare il tag `<br />` per ottenerlo.
 
-  * `br />` - Self closing tag and must have the trailing slash `/` 
-  * `<br/>` - Can also be written without the space 
+  * `br />` - Tag auto-chiuso e deve avere la barra obliqua finale `/`
+  * `<br/>` - Può anche essere scritto senza lo spazio
 
 ```html
-<p>This is a paragraph<br />
-   And this is on a new line<br />
-   Also this is on a new line<br />
-   And one more new line for good luck</p>
+<p>Questo è un paragrafo<br />
+   E questo è su una nuova riga<br />
+   Anche questo è su una nuova riga<br />
+   E un'altra nuova riga per fortuna</p>
 ```
 
 <div class="text-sm">
@@ -315,24 +306,21 @@ Slide notes:
 
 ---
 title: Strong
-level: 2
+level: 3
 ---
 
 # Strong tag
-Marking up content
+Marcatura del contenuto
 
-The strong importance element
+L'elemento di forte importanza
 
-The `<strong>` element indicates that its contents have strong importance, seriousness, or urgency. 
+L'elemento `<strong>` indica che il suo contenuto ha una forte importanza, serietà o urgenza.
 
-* Browsers typically render the contents in bold type.
-* **Note:** Do not use the `<b>` tag to add emphasis or importance to content
+* I browser di solito rendono il contenuto in grassetto.
+* **Nota:** Non utilizzare il tag `<b>` per aggiungere enfasi o importanza al contenuto.
 
 ```html
-<p>... the most important rule, the rule you can never forget, 
-    no matter how much he cries, no matter 
-    how much he begs: <strong>never feed him 
-    after midnight</strong>.</p>
+<p>... la regola più importante, la regola che non puoi mai dimenticare, non importa quanto pianga, non importa quanto mendichi: <strong>mai nutrirlo dopo mezzanotte</strong>.</p>
 ```
 
 <div class="text-sm">
@@ -347,21 +335,21 @@ Slide notes:
 
 -->
 
-
 ---
-title: Emphasis
-level: 2
+title: Tag di enfasi
+level: 3
 ---
 
-# Emphasis tag
-Marking up content
+# Tag di enfasi
+Marcare il contenuto
 
-The `<em>` element marks text that has stress emphasis. 
+L'elemento `<em>` contrassegna il testo che ha un enfasi di stress.
 
-* Browsers typically render the contents in italics.
+* I browser di solito rendono il contenuto in corsivo.
 
 ```html
-<p>Something something something<em>this is important</em> something</p>
+<p>Qualcosa qualcosa qualcosa<em>questo è importante</em> qualcosa</p>
+
 ```
 
 <div class="text-sm">
@@ -376,26 +364,25 @@ Slide notes:
 
 -->
 
-
 ---
 title: Blockquote
-level: 2
+level: 3
 ---
 
 # Blockquote
-Marking up content
+Marcare il contenuto
 
-The `<blockquote>` element indicates that the enclosed text is an extended quotation. 
+L'elemento `<blockquote>` indica che il testo racchiuso è una citazione estesa.
 
-* Usually, this is rendered visually by indentation (see Notes for how to change it). 
+* Di solito, questo viene reso visivamente dall'indentazione (vedi Note per come cambiarlo).
 
 ```html
 <blockquote>
-    <p>The truth may be puzzling. It may take some work to grapple with.
-  It may be counterintuitive. It may contradict deeply held
-  prejudices. It may not be consonant with what we desperately want to
-  be true. But our preferences do not determine what's true.</p>
+    <p>La verità può essere puzzolente. Può richiedere un po' di lavoro per affrontarla.
+  Può essere controintuitiva. Può contraddire pregiudizi profondamente radicati.
+  Potrebbe non essere consonante con ciò che desideriamo disperatamente che sia vero. Ma le nostre preferenze non determinano ciò che è vero.</p>
 </blockquote>
+
 ```
 
 <div class="text-sm">

@@ -173,8 +173,9 @@ level: 3
 
 Questo diagramma ha meno complessità rispetto al primo. La riduzione del numero di porte per ottenere lo stesso risultato logico è uno degli obiettivi principali della progettazione logica digitale. Per i dispositivi elettronici, ciò consente di utilizzare più porte nello spazio limitato di un circuito integrato.
 
-
 ## END
 
 * [Somma bit in Esadecimale](http://tinyurl.com/2x65qywa)
 * [Contatore Esadecimale & Binario](http://tinyurl.com/yroohrrv)
+
+

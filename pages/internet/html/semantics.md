@@ -1,7 +1,7 @@
 ---
 layout: intro
 title: Tag semantici HTML
-level: 1
+level: 2
 ---
 
 # Semantica HTML
@@ -13,7 +13,7 @@ Semantica - Qual è lo scopo o il ruolo di questo elemento HTML
 
 ---
 title: Semantic elements
-level: 2
+level: 3
 ---
 
 <img class="h-full" src="/internet/images/slides/html/semantics/semantic-no-tags.png" alt="" />
@@ -27,7 +27,7 @@ Slide notes:
 
 ---
 title: Semantic elements
-level: 2
+level: 3
 ---
 
 <img class="h-full" src="/internet/images/slides/html/semantics/semantic-tags.png" alt="" />
@@ -40,13 +40,11 @@ Slide notes:
 
 ---
 title: Semantic elements
-level: 2
+level: 3
 ---
 
-Gli elementi che pensano di essere più cool
 
 # Semantic elements
-The elements that think they are cooler
 
 * `<header>` — per informazioni più importanti, come l'intestazione del sito web, dove si trovano il nome, il logo e la navigazione
 * `<nav>` — navigazione, definisce la navigazione del sito web
@@ -56,10 +54,9 @@ The elements that think they are cooler
 * `<section>` — l'elemento di sezione generico
 
 
-
 ---
 title: Semantic elements
-level: 2
+level: 3
 ---
 
 # HTML page sample
@@ -92,7 +89,7 @@ level: 2
 
 ---
 title: Semantic elements
-level: 2
+level: 3
 ---
 
 # Esempio semplificato di header / barra di navigazione
@@ -122,7 +119,7 @@ level: 2
 
 ---
 title: Semantic elements
-level: 2
+level: 3
 ---
 
 # Esempio semplificato di header / barra di navigazione
@@ -135,7 +132,7 @@ level: 2
 
 ---
 title: Semantic elements
-level: 2
+level: 3
 ---
 
 # Main content area
@@ -167,7 +164,7 @@ level: 2
 
 ---
 title: Elementi semantici
-level: 2
+level: 3
 ---
 
 # Area di contenuto principale
@@ -179,7 +176,7 @@ level: 2
 
 ---
 title: Elementi semantici
-level: 2
+level: 3
 ---
 
 # Esempio semplificato di footer con navigazione
@@ -209,7 +206,7 @@ level: 2
 
 ---
 title: Elementi semantici
-level: 2
+level: 3
 ---
 
 # Esempio semplificato di footer con navigazione

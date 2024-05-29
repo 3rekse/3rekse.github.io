@@ -1,19 +1,20 @@
 ---
-title: JavaScript functions
+title: Funzioni JavaScript
 layout: intro
+level: 2
 ---
 
-# JavaScript Functions
-The fundamental building blocks of JavaScript
+# Funzioni JavaScript
+I mattoni fondamentali di JavaScript
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 layout: center
 ---
 
-Keep things Dry
+Mantenere le cose DRY
 
 * **D**o not
 * **R**epeat
@@ -23,28 +24,28 @@ Keep things Dry
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Let's say we had an array of ages
-Functions
+# Diciamo che abbiamo un array di età
+Funzioni
 
-* We have an array of ages and want to know if they are allowed to consume alcohol in Las Vegas
-* If Las Vegas every changes the minimum age, or if we change our array, this code will be super annoying to maintain
+* Abbiamo un array di età e vogliamo sapere se possono consumare alcol a Las Vegas
+* Se Las Vegas cambia mai l'età minima, o se cambiamo il nostro array, questo codice sarà super fastidioso da mantenere
 
 ```js
 let listOfAges = [12, 34, 28, 21, 44, 90, 18, 20, 25];
 
 if ( listOfAges[0] >= 21) {
-  console.log('Age at Index 0 is of age')
+  console.log('L\'età all\'indice 0 è maggiore')
 }
 
 if ( listOfAges[1] >= 21) {
-  console.log('Age at Index 1 is of age')
+  console.log('L\'età all\'indice 1 è maggiore')
 }
 
 if ( listOfAges[2] >= 21) {
-  console.log('Age at Index 2 is of age')
+  console.log('L\'età all\'indice 2 è maggiore')
 }
 
 ...
@@ -55,13 +56,13 @@ if ( listOfAges[2] >= 21) {
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Let's add a function to do the age check
-Functions
+# Aggiungiamo una funzione per fare il controllo dell'età
+Funzioni
 
-* We can simplify this code by creating and adding a function to do our check
+* Possiamo semplificare questo codice creando e aggiungendo una funzione per fare il nostro controllo
 
 ```js
 let listOfAges = [12, 34, 28, 21, 44, 90, 18, 20, 25];
@@ -75,11 +76,11 @@ function canConsumeAlcoholInVegas(age) {
 }
 
 if (canConsumeAlcoholInVegas(listOfAges[0])) {
-  console.log('Age at Index 0 is of age')
+  console.log('L\'età all\'indice 0 è maggiore')
 }
 
 if (canConsumeAlcoholInVegas(listOfAges[1])) {
-  console.log('Age at Index 1 is of age')
+  console.log('L\'età all\'indice 1 è maggiore')
 }
 ...
 ```
@@ -87,13 +88,13 @@ if (canConsumeAlcoholInVegas(listOfAges[1])) {
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Finally, we can make this even better for loop
-Functions
+# Infine, possiamo migliorare questo ancora di più con un ciclo for
+Funzioni
 
-* We can further simplify this code by adding a for loop
+* Possiamo ulteriormente semplificare questo codice aggiungendo un ciclo for
 
 ```js
 let listOfAges = [12, 34, 28, 21, 44, 90, 18, 20, 25];
@@ -108,7 +109,7 @@ function canConsumeAlcoholInVegas(age) {
 
 for (let i = 0; i <= listOfAges.length; i++) {
   if (canConsumeAlcoholInVegas(listOfAges[i])) {
-    console.log(`Age at Index ${i} is of age`);
+    console.log(`L'età all'indice ${i} è maggiore`);
   }
 }
 ```
@@ -117,16 +118,16 @@ for (let i = 0; i <= listOfAges.length; i++) {
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Anatomy of a function
-Functions
+# Anatomia di una funzione
+Funzioni
 
-* Functions consist of three items:
-* The function keyword and the name of the function
-* The parameters that are passed into the function, seperated by commas
-* The code block that executes enclosed in curly braces
+* Le funzioni consistono in tre elementi:
+* La parola chiave function e il nome della funzione
+* I parametri che vengono passati alla funzione, separati da virgole
+* Il blocco di codice che viene eseguito racchiuso tra parentesi graffe
 
 ```js
 
@@ -144,14 +145,14 @@ console.log(canConsumeAlcoholInVegas(25)); // true
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Local variables
-Functions
+# Variabili locali
+Funzioni
 
-* Function variables are "scoped", so local variables won't be available outside the function 
-* In the example below, when we try to read `allowed` JavaScript will throw an error
+* Le variabili di funzione sono "scoped", quindi le variabili locali non saranno disponibili al di fuori della funzione 
+* Nell'esempio sottostante, quando proviamo a leggere `allowed` JavaScript lancerà un errore
 
 ```js
 
@@ -166,7 +167,7 @@ function canConsumeAlcoholInVegas(age) {
   return allowed
 }
 
-console.log(allowed); // Error!
+console.log(allowed); // Errore!
 
 ```
 
@@ -174,14 +175,14 @@ console.log(allowed); // Error!
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Outer variables
-Functions
+# Variabili esterne
+Funzioni
 
-* Variables declared outside of a function (in the direct parent) are made available to the function 
-* In the example below, 
+* Le variabili dichiarate al di fuori di una funzione (nel genitore diretto) sono rese disponibili alla funzione 
+* Nell'esempio sottostante, 
 
 ```js
 let age = 21;
@@ -198,7 +199,7 @@ function canConsumeAlcoholInVegas() {
     return allowed
 }
 
-console.log(canConsumeAlcoholInVegas()); // true!
+console.log(canConsumeAlcoholInVegas()); // vero!
 
 ```
 
@@ -206,16 +207,16 @@ console.log(canConsumeAlcoholInVegas()); // true!
 
 ---
 title: JavaScript
-level: 2
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try! 
+# Ora provate voi! 
 Basics
 
-* Open your JavaScript file and copy this code 
-* There is an outer variable called `age` (21) and an inner variable called `age` (16)
-* Try to guess which `age` variable will be used and what the output will be in the console
+* Apri il tuo file JavaScript e copia questo codice 
+* C'è una variabile esterna chiamata `age` (21) e una variabile interna chiamata `age` (16)
+* Prova a indovinare quale variabile `age` verrà utilizzata e quale sarà l'output nella console
 
 ```js
 let age = 21;
@@ -237,38 +238,38 @@ console.log(canVisitVegas()); // ????
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# A word about Global Variables
-Functions
+# Una parola sulle variabili globali
+Funzioni
 
-* Variables declared outside of a function are called "global" variables and given a global scope 
-* This means that they are visible from any function, which is considered bad practice 
-* Now that you know this, a much better practice is to put all of your logic and variables inside a function 
+* Le variabili dichiarate al di fuori di una funzione sono chiamate variabili "globali" e hanno uno scope globale 
+* Questo significa che sono visibili da qualsiasi funzione, il che è considerato una cattiva pratica 
+* Ora che lo sai, una pratica molto migliore è mettere tutta la tua logica e le tue variabili all'interno di una funzione 
 
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Function parameters 
-Functions
+# Parametri della funzione 
+Funzioni
 
-* We can pass in any number of parameters to the function
-* Order of parameters is extremely important when calling the function
+* Possiamo passare un qualsiasi numero di parametri alla funzione
+* L'ordine dei parametri è estremamente importante quando si chiama la funzione
 
 ```js
 function displayTodoItem(title, done) {
-    console.log(`ToDo Title: ${title}, Todo Done Status: ${done}`)
+    console.log(`ToDo Titolo: ${title}, Todo Stato Fatto: ${done}`)
 }
 
-displayTodoItem("Buy Groceries", false);
-displayTodoItem("Order Uber Eats", true);
-displayTodoItem("Call Mom", false);
-displayTodoItem("File taxes", false);
+displayTodoItem("Compra la spesa", false);
+displayTodoItem("Ordina Uber Eats", true);
+displayTodoItem("Chiama mamma", false);
+displayTodoItem("Presenta le tasse", false);
 
 ```
 
@@ -276,52 +277,52 @@ displayTodoItem("File taxes", false);
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Setting default parameters 
-Functions
+# Impostazione dei parametri predefiniti 
+Funzioni
 
 
-* We can set the `done` parameter to have a default value of `false` so if someone calls the function with only one parameter we can set `done` to `false`
+* Possiamo impostare il parametro `done` per avere un valore predefinito di `false` quindi se qualcuno chiama la funzione con un solo parametro possiamo impostare `done` su `false`
 
 ```js
 function displayTodoItem(title, done = false) {
-  console.log(`ToDo Title: ${title}, Todo Done Status: ${done}`)
+  console.log(`ToDo Titolo: ${title}, Todo Stato Fatto: ${done}`)
 }
 
-displayTodoItem("Buy Groceries");
-displayTodoItem("Order Uber Eats");
-displayTodoItem("Call Mom");
-displayTodoItem("File taxes");
+displayTodoItem("Compra la spesa");
+displayTodoItem("Ordina Uber Eats");
+displayTodoItem("Chiama mamma");
+displayTodoItem("Presenta le tasse");
 
 ```
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Checking parameters
-Functions
+# Controllo dei parametri
+Funzioni
 
 
-* Here is another way to check incoming parameters
+* Ecco un altro modo per controllare i parametri in arrivo
 
 ```js
 function displayTodoItem(title, done) {
-  // Check the value of done before using it in the console.log
+  // Controlla il valore di done prima di usarlo nel console.log
   if (done === undefined) {
     done = false;
   }
-  console.log(`ToDo Title: ${title}, Todo Done Status: ${done}`)
+  console.log(`ToDo Titolo: ${title}, Todo Stato Fatto: ${done}`)
 }
 
-displayTodoItem("Buy Groceries");
-displayTodoItem("Order Uber Eats");
-displayTodoItem("Call Mom");
-displayTodoItem("File taxes");
+displayTodoItem("Compra la spesa");
+displayTodoItem("Ordina Uber Eats");
+displayTodoItem("Chiama mamma");
+displayTodoItem("Presenta le tasse");
 
 ```
 
@@ -330,14 +331,14 @@ displayTodoItem("File taxes");
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Returning values
-Functions
+# Restituire valori
+Funzioni
 
 
-* A function can return a value back into the calling code as the result.
+* Una funzione può restituire un valore al codice chiamante come risultato.
 
 ```js
 function addNumbers(a, b) {
@@ -352,25 +353,25 @@ console.log(result);
 
 ---
 title: JavaScript
-level: 2
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try!
-Functions
+# Ora provate voi!
+Funzioni
 
-* Add code to the `screamMessage` below which loops for the amount of times as defined by count 
-* For each loop, make the `message` that was provided completely uppercase 
-* So your code below would result in "I DON'T LIKE HOTPINK" (x3) and 
-"I DON'T WANT TO FILE MY TAXES" (x5)
-* Hint: string methods toUpperCase is your friend 
+* Aggiungi codice al `screamMessage` sotto che cicla per il numero di volte definito da count 
+* Per ogni ciclo, rendi il `message` fornito completamente maiuscolo 
+* Quindi il tuo codice sotto risulterebbe in "NON MI PIACE IL ROSA CALDO" (x3) e 
+"NON VOGLIO PRESENTARE LE MIE TASSE" (x5)
+* Suggerimento: i metodi stringa toUpperCase sono i tuoi amici 
 
 ```js
 function screamMessage(count, message) {
-    // Add your logic here
+    // Aggiungi la tua logica qui
 }
 
-console.log(screamMessage(3,"I don't like HotPink"));
-console.log(screamMessage(5,"I don't want to file my taxes"));
+console.log(screamMessage(3,"Non mi piace il rosa caldo"));
+console.log(screamMessage(5,"Non voglio presentare le mie tasse"));
 
 ```

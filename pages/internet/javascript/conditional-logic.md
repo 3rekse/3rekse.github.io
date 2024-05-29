@@ -1,390 +1,370 @@
 ---
-title: JavaScript conditional logic
+title: logica condizionale javascript
 layout: intro
----
-
-# JavaScript Conditional Logic
-The programming language everyone loves and absolutely hates
-
-
-
----
-title: JavaScript
 level: 2
 ---
+# logica condizionale javascript
+il linguaggio di programmazione che tutti amano e assolutamente odiano
 
-# Making Decisions in JavaScript
-Conditional logic
 
-* All programming languages provide some way to make decisions and carry out actions based on those decisions
-* In JavaScript this is done through Conditional statements which are code structures used to test if an expression returns true or not. 
-* Code is then executed based on the results of the expression
+---
+title: javascript
+level: 3
+---
+
+# prendere decisioni in javascript
+logica condizionale
+
+* tutti i linguaggi di programmazione forniscono un modo per prendere decisioni e eseguire azioni basate su tali decisioni
+* in javascript questo viene fatto attraverso istruzioni condizionali che sono strutture di codice utilizzate per testare se un'espressione restituisce true o no.
+* il codice viene quindi eseguito in base ai risultati dell'espressione
 
 ```js
-// The most basic if...else conditional statement
-if (condition) {
-// Code runs if condition is true
+// l'istruzione condizionale if...else più basilare
+if (condizione) {
+// il codice viene eseguito se la condizione è vera
 } 
 else {
-// Code runs if condition is false 
+// il codice viene eseguito se la condizione è falsa 
 }
 ```
 
-
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
+# esempio di if...else
+logica condizionale
 
-# If...Else example 
-Conditional logic
-
-* Let's consider a more realistic example 
+* consideriamo un esempio più realistico
 
 ```js
-// Declare my variables
-let minutesBusLate = 25;
-let isStartedRunning = null;
+// dichiaro le mie variabili
+let minutiBusInRitardo = 25;
+let haIniziatoACorrere = null;
 
-// The most basic if...else conditional statement
-if (minutesBusLate > 30) {
-  // Code runs if condition is true
-  isStartedRunning = true;
+// l'istruzione condizionale if...else più basilare
+if (minutiBusInRitardo > 30) {
+  // il codice viene eseguito se la condizione è vera
+  haIniziatoACorrere = true;
 } 
 else {
-  // Code runs if condition is false 
-  isStartedRunning = false;
+  // il codice viene eseguito se la condizione è falsa 
+  haIniziatoACorrere = false;
 }
 ```
 
-
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# Comparison operators
-Conditional logic
+# operatori di confronto
+logica condizionale
 
-|Operator|Description|
+|operatore|descrizione|
 |--------|-----------|
-|!=|Not equal to|
-|==|Equal to|
-|===|Strictly equal to|
-|!==|Not strictly equal to|
-|<|Less than|
-|>|Greater than|
-|>=|Less than or equal to|
-|>=|Greater than or equal to|
-
+|!=|non uguale a|
+|==|uguale a|
+|===|strettamente uguale a|
+|!==|non strettamente uguale a|
+|<|minore di|
+|>|maggiore di|
+|<=|minore o uguale a|
+|>=|maggiore o uguale a|
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# Comparison operators
-Conditional logic
+# operatori di confronto
+logica condizionale
 
-* All comparison operators return a boolean value
-* `true` means yes, correct, or "the truth"
-* `false` means no, wrong, or "not the truth"
+* tutti gli operatori di confronto restituiscono un valore booleano
+* `true` significa sì, corretto, o "la verità"
+* `false` significa no, sbagliato, o "non la verità"
 
 ```js
-console.log( 10 > 8); // true (correct)
-console.log( 2 == 1); // false (wrong)
-console.log( 2 != 1); // true (correct)
-console.log( 99 <= 99); // true (correct)
-console.log( 50 <= 100); // false (wrong)
+console.log( 10 > 8); // true (corretto)
+console.log( 2 == 1); // false (sbagliato)
+console.log( 2 != 1); // true (corretto)
+console.log( 99 <= 99); // true (corretto)
+console.log( 50 <= 100); // false (sbagliato)
 
 ```
 
-<!-- 
-    
-    Slide notes: 
-
-
-    Credit: https://javascript.info/comparison
-
--->
-
-
-
-
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 class: "border-l-36 border-green-600"
+
 ---
 
-# Now you try! 
-Arrays
+# ora provaci tu!
+arrays
 
-* Open your JavaScript file and copy this code
-* We haven't looked at `functions` yet but for now don't worry about that
-* Modify **line 2** only by adding a conditional that checks if the variable **`num`** is even or odd
-* **HINT**: Google how to calculate an even number with JavaScript
+* apri il tuo file javascript e copia questo codice
+* non abbiamo ancora guardato le `funzioni` ma per ora non preoccuparti di quello
+* modifica **solo la riga 2** aggiungendo una condizione che controlla se la variabile **`num`** è pari o dispari
+* **suggerimento**: cerca su google come calcolare un numero pari con javascript
 
 ```js
-function isEven(num) {
-  if (/* ADD YOUR CONDITIONAL STATEMENT HERE */) {
-    console.log("Even");
+function iseven(num) {
+  if (/* aggiungi qui la tua istruzione condizionale */) {
+    console.log("pari");
   }
 }
 
-isEven(300); // Even
-isEven(55); // (Blank)
-isEven(44); // Even
-isEven(99); // (Blank)
-isEven(22); // Even
-isEven(2400); // Even
+iseven(300); // pari
+iseven(55); // (vuoto)
+iseven(44); // pari
+iseven(99); // (vuoto)
+iseven(22); // pari
+iseven(2400); // pari
 
 ```
 
-
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# Else if example 
-Conditional logic
+# esempio di else if
+logica condizionale
 
-* We can use else if logic to test a number of scenarios
-* The code sample below is testing different age values to determine the cost the person should pay based on their age
+* possiamo usare la logica else if per testare una serie di scenari
+* l'esempio di codice sottostante sta testando diversi valori di età per determinare il costo che la persona dovrebbe pagare in base alla sua età
 
 ```js
-let age = 16;
-let cost = null;
+let eta = 16;
+let costo = null;
 
-if (age > 18) {
-cost = 20;
-} else if (age > 10) {
-cost = 10;
-} else if (age > 5) {
-cost = 5;
+if (eta > 18) {
+costo = 20;
+} else if (eta > 10) {
+costo = 10;
+} else if (eta > 5) {
+costo = 5;
 } else {
-cost = 0;
+costo = 0;
 }
 ```
 
-
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# Nested conditionals
-Conditional logic
+# condizioni annidate
+logica condizionale
 
-* We can also test a condition based on a result of another condition
-* Say we wanted to test that a user was a certain age and from a certain location
+* possiamo anche testare una condizione in base al risultato di un'altra condizione
+* diciamo che volevamo testare che un utente avesse una certa età e provenisse da una certa località
 
 ```js
-let age = 19;
-let stateOrProvince = "Ontario";
+let eta = 19;
+let statoOProvincia = "ontario";
 
-if (stateOrProvince === "California") {
-  if (age >= 21) {
-    console.log("Hello Vegas");
+if (statoOProvincia === "california") {
+  if (eta >= 21) {
+    console.log("ciao vegas");
   } else {
-    console.log("Sorry");
+    console.log("mi dispiace");
   }
-} else if (stateOrProvince === "Ontario") {
-  if (age >= 19) {
-    console.log("Hello Toronto");
+} else if (statoOProvincia === "ontario") {
+  if (eta >= 19) {
+    console.log("ciao toronto");
   } else {
-    console.log("Sorry");
+    console.log("mi dispiace");
   }
 }
 ```
 
-
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 class: "border-l-36 border-green-600"
+
 ---
 
-# Now you try! 
-Arrays
+# ora provaci tu! 
+logica condizionale
 
-* Open your JavaScript file 
-* Write conditional logic for a rating system that console logs a message based on the users rating
-
+* apri il tuo file javascript 
+* scrivi una logica condizionale per un sistema di valutazione che registra un messaggio in base alla valutazione degli utenti
+  
 ```js
 const rating = 4;
 
-/* If rating is 5 */ 
-console.log("Excellent job");
-/* If rating is 4 */ 
-console.log("That's really wonderful");
-/* If rating is 3 */ 
-console.log("Great job");
-/* If rating is 2 */ 
-console.log("Awh no, that was a good try");
-/* If rating is 1 */ 
-console.log("Ummm, so this is awkward");
+/* se la valutazione è 5 */ 
+console.log("ottimo lavoro");
+/* se la valutazione è 4 */ 
+console.log("è davvero meraviglioso");
+/* se la valutazione è 3 */ 
+console.log("bel lavoro");
+/* se la valutazione è 2 */ 
+console.log("oh no, è stato un buon tentativo");
+/* se la valutazione è 1 */ 
+console.log("ehm, quindi questo è imbarazzante");
 
 ```
 
-
-
 ---
-title: JavaScript
-level: 2
+title: operatori logici
+level: 3
 ---
 
-# Logical operators
-Conditional logic
+# operatori logici
+logica condizionale
 
-* There are four logical operators in JavaScript
-* `||` OR 
-* `&&` AND 
-* `!` NOT
-* `??` Nullish Coalescing 
+* ci sono quattro operatori logici in javascript
+* `||` o OR
+* `&&` e AND
+* `!` non NOT
+* `??` coalescenza null 
 
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript OR
+level: 3
 ---
 
-# Logical operators - OR
-Conditional logic
+# operatori logici - o OR
+logica condizionale
 
-* The `||` OR operator tests two values or conditional statements and returns true if either are truthy
+* l'operatore `||` o testa due valori o istruzioni condizionali e restituisce true se almeno uno è veritiero
 
 ```js
-let isLoggedIn = false;
-let isLocalUser = true; 
+let isloggedin = false;
+let islocaluser = true; 
 
-if (isLoggedIn || isLocalUser) {
-    console.log("The user is either local OR logged in");
+if (isloggedin || islocaluser) {
+    console.log("l'utente è locale o ha effettuato l'accesso");
 }
 else {
-    console.log("The user is not local nor logged in");
+    console.log("l'utente non è locale né ha effettuato l'accesso");
 }
 ```
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript AND
+level: 3
 ---
 
-# Logical operators - AND
-Conditional logic
+# operatori logici - e AND
+logica condizionale
 
-* The `&&` AND operator tests two values or conditional statements and returns true if both are truthy
+* l'operatore `&&` e testa due valori o istruzioni condizionali e restituisce true se entrambi sono veritieri
 
 ```js
-let isLoggedIn = false;
-let isLocalUser = true; 
+let isloggedin = false;
+let islocaluser = true; 
 
-if ( isLoggedIn && isLocalUser) {
-    console.log("The user is both local AND logged in");
+if ( isloggedin && islocaluser) {
+    console.log("l'utente è sia locale che ha effettuato l'accesso");
 }
 else {
-    console.log("The user is either not local or not logged in, or not both");
+    console.log("l'utente non è locale o non ha effettuato l'accesso, o entrambi");
 }
 ```
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript NOT
+level: 3
 ---
 
-# Logical operators - NOT
-Conditional logic
+# operatori logici - non NOT
+logica condizionale
 
-* The `!` NOT operator converts the operand to a boleant value and then returns the opposite
+* l'operatore `!` non converte l'operando in un valore booleano e poi restituisce l'opposto
 
 ```js
-let isLoggedIn = false;
+let isloggedin = false;
 
-if (!isLoggedIn) {
-    console.log("The user is not logged in");
+if (!isloggedin) {
+    console.log("l'utente non ha effettuato l'accesso");
 }
 
 ```
 
 <!-- 
 
-    Credit: https://javascript.info/logical-operators
+    credit: https://javascript.info/logical-operators
 
 -->
 
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try! 
-Arrays
+# ora provaci tu! 
+arrays
 
-* Open your JavaScript file and copy this code
-* Please change the value of the `mystery` variable until your browser says "You got it" in the console
-* **HINT**: Google "string indexOf" to see what it does
+* apri il tuo file javascript e copia questo codice
+* per favore cambia il valore della variabile `mystery` fino a quando il tuo browser dice "ce l'hai fatta" nella console
+* **suggerimento**: cerca su google "string indexof" per vedere cosa fa
 
 ```js
 const mystery = ''; 
 
-if (mystery[0] === 'S' && mystery.length > 4 && mystery.indexOf('A') !== -1 ){
-  console.log("YOU GOT IT!");
+if (mystery[0] === 's' && mystery.length > 4 && mystery.indexof('a') !== -1 ){
+  console.log("ce l'hai fatta!");
 }
 else {
-  console.log("Keep trying, you can do it!")
+  console.log("continua a provare, ce la puoi fare!")
 }
 
 ```
 
 <!-- 
 
-    Credit: 
+    credit: 
     
-    Colt Steele
-    Developer and Bootcamp Instructor
+    colt steele
+    developer and bootcamp instructor
 
 -->
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# Switch Statement
-Conditional logic
+# istruzione switch
+logica condizionale
 
-* The switch statement is equivalent nesting multiple if statements
+* l'istruzione switch è equivalente all'annidamento di molteplici istruzioni if
 
 ```js
 let rating = 3;
 
 switch (rating) {
   case 5: 
-    console.log("Well done");
+    console.log("ben fatto");
     break;
   case 4: 
-    console.log("Good job");
+    console.log("buon lavoro");
     break;
   case 3:
-    console.log("That\'s okay");
+    console.log("va bene così");
     break;
   default:
-    console.log("See me after");
+    console.log("vediamoci dopo");
 }
 
 ```
 
 <!-- 
 
-    Credit: https://javascript.info/logical-operators
+    credit: https://javascript.info/logical-operators
 
 -->

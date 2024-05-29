@@ -1,27 +1,28 @@
 ---
 title: JavaScript fetch
 layout: intro
+level: 2
 ---
 
 # JavaScript Fetch
-Grabbing data from APIs 
+Recupero dati da API 
 
 
 ---
 title: JavaScript fetch
-level: 2
+level: 3
 ---
 
-# Introduction 
+# Introduzione 
 JavaScript fetch 
 
-The `fetch()` method provides an easy way for JavaScript developers to get data asynchronously. `fetch()` returns a Promise. 
+Il metodo `fetch()` fornisce un modo semplice per gli sviluppatori JavaScript di ottenere dati in modo asincrono. `fetch()` restituisce una Promise. 
 
 ```js
-// Address of the API 
+// Indirizzo dell'API 
 const API_URL = "https://pokeapi.co/api/v2/pokemon/8"
 
-// Running the fetch method
+// Esecuzione del metodo fetch
 fetch(API_URL);
 
 ```
@@ -29,49 +30,49 @@ fetch(API_URL);
 
 ---
 title: JavaScript fetch
-level: 2
+level: 3
 ---
 
-# Introduction 
+# Introduzione 
 JavaScript fetch 
 
-Since `fetch()` returns a Promise, we have to use the `then()` method to handle a successful resolution.
+Poiché `fetch()` restituisce una Promise, dobbiamo usare il metodo `then()` per gestire una risoluzione di successo.
 
 ```js
-// Address of the API 
+// Indirizzo dell'API 
 const API_URL = "https://pokeapi.co/api/v2/pokemon/8"
 
-// Running the fetch method
+// Esecuzione del metodo fetch
 fetch(API_URL)
-  .then((result) => {
-    // Handle the response
-  })
+    .then((result) => {
+        // Gestisci la risposta
+    })
 
 ```
 
 
 ---
 title: JavaScript fetch
-level: 2
+level: 3
 ---
 
-# Introduction 
+# Introduzione 
 JavaScript fetch 
 
-Since `fetch()` returns a Promise, we have to use the `catch()` method to handle any error situations.
+Poiché `fetch()` restituisce una Promise, dobbiamo usare il metodo `catch()` per gestire eventuali situazioni di errore.
 
 ```js
-// Address of the API 
+// Indirizzo dell'API 
 const API_URL = "https://pokeapi.co/api/v2/pokemon/8"
 
-// Running the fetch method
+// Esecuzione del metodo fetch
 fetch(API_URL)
-  .then((response) => {
-    // Handle the response
-  })
-  .catch((response) => {
-    // Whoops, something went wrong
-  });
+    .then((response) => {
+        // Gestisci la risposta
+    })
+    .catch((response) => {
+        // Ops, qualcosa è andato storto
+    });
 
 ```
 
@@ -79,137 +80,137 @@ fetch(API_URL)
 
 ---
 title: JavaScript fetch
-level: 2
+level: 3
 ---
 
-# Introduction 
+# Introduzione 
 JavaScript fetch 
 
-`fetch()` has two steps to accessing the response data. 
+`fetch()` ha due passaggi per accedere ai dati della risposta. 
 
-The first step sends the request. In the second step we need to "unpack" the response using the `json()` method (assuming the API is sending us data back in JSON).
+Il primo passaggio invia la richiesta. Nel secondo passaggio dobbiamo "disimballare" la risposta usando il metodo `json()` (supponendo che l'API ci stia inviando dati in formato JSON).
 
 ```js
-// Address of the API 
+// Indirizzo dell'API 
 const API_URL = "https://pokeapi.co/api/v2/pokemon/8"
 
-// Running the fetch method
+// Esecuzione del metodo fetch
 fetch(API_URL)
-  .then((response) => {
-    // We need to "unpack" the response object using the json() method
-    return response.json();
-  });
+    .then((response) => {
+        // Dobbiamo "disimballare" l'oggetto di risposta usando il metodo json()
+        return response.json();
+    });
 ```
 
 
 
 ---
 title: JavaScript fetch
-level: 2
+level: 3
 ---
 
-# Introduction 
+# Introduzione 
 JavaScript fetch 
 
-Lastly, we deal with the result of that second Promise and finally have access to the data that came back from the API.
+Infine, gestiamo il risultato di quella seconda Promise e finalmente abbiamo accesso ai dati che sono tornati dall'API.
 
 ```js
-// Address of the API 
+// Indirizzo dell'API 
 const API_URL = "https://pokeapi.co/api/v2/pokemon/8"
 
-// Running the fetch method
+// Esecuzione del metodo fetch
 fetch(API_URL)
-  .then((response) => {
-    // We need to "unpack" the response object using the json() method
-    return response.json();
-  })
-  .then((data) => {
-    console.log("Data from fetch", data);
-  })
+    .then((response) => {
+        // Dobbiamo "disimballare" l'oggetto di risposta usando il metodo json()
+        return response.json();
+    })
+    .then((data) => {
+        console.log("Dati da fetch", data);
+    })
 ```
 
 
 ---
 title: JavaScript fetch
-level: 2
+level: 3
 ---
 
-# Introduction 
+# Introduzione 
 JavaScript fetch 
 
-We then add our `catch()` method to deal with any errors that might have occured
+Aggiungiamo quindi il nostro metodo `catch()` per gestire eventuali errori che potrebbero essere occorsi
 
 ```js
-// Address of the API 
+// Indirizzo dell'API 
 const API_URL = "https://pokeapi.co/api/v2/pokemon/8"
 
-// Running the fetch method
+// Esecuzione del metodo fetch
 fetch(API_URL)
-  .then((response) => {
-    // We need to "unpack" the response object using the json() method
-    return response.json();
-  })
-  .then((data) => {
-    console.log("Data from fetch", data);
-  })
-  .catch((response) => {
-    // Whoops, something went wrong
-    console.log("ERROR");
-  });
+    .then((response) => {
+        // Dobbiamo "disimballare" l'oggetto di risposta usando il metodo json()
+        return response.json();
+    })
+    .then((data) => {
+        console.log("Dati da fetch", data);
+    })
+    .catch((response) => {
+        // Ops, qualcosa è andato storto
+        console.log("ERRORE");
+    });
 ```
 
 
 ---
 title: JavaScript fetch
-level: 2
+level: 3
 ---
 
-# Async and await 
+# Async e await 
 JavaScript fetch 
 
-Another way to use `fetch()` without the `then()` method is to use async and await key words
+Un altro modo per usare `fetch()` senza il metodo `then()` è usare le parole chiave async e await
 
 ```js
-// Address of the API 
+// Indirizzo dell'API 
 const API_URL = "https://pokeapi.co/api/v2/pokemon/8"
 
-// The function that has await inside it MUST have the async keyword 
+// La funzione che ha await al suo interno DEVE avere la parola chiave async 
 async function fetchPokemon() {
-    const response = await fetch(API_URL);
-    const data = await response.json();
-    console.log("Data from fetch using async await", data);
+        const response = await fetch(API_URL);
+        const data = await response.json();
+        console.log("Dati da fetch usando async await", data);
 }
 
-// Run the async function
+// Esegui la funzione async
 fetchPokemon(); 
 ```
 
 
 ---
 title: JavaScript fetch
-level: 2
+level: 3
 ---
 
-# Error handling with async await
+# Gestione degli errori con async await
 JavaScript fetch 
 
-Since we don't have a `catch()` method with async await, we need to use a different way to cover error handling
+Poiché non abbiamo un metodo `catch()` con async await, dobbiamo usare un modo diverso per coprire la gestione degli errori
 
 ```js
-// Address of the API 
+// Indirizzo dell'API 
 const API_URL = "https://pokeapi.co/api/v2/pokemon/8"
 
-// The function that has await inside it MUST have the async keyword 
+// La funzione che ha await al suo interno DEVE avere la parola chiave async 
 async function fetchPokemon() {
-  try {
-    const response = await fetch(API_URL);
-    const data = await response.json();
-    console.log("Data from fetch using async await", data);
-  }
-  catch(error) {
-    console.log("Error occured: ", error);
-  }  
+    try {
+        const response = await fetch(API_URL);
+        const data = await response.json();
+        console.log("Dati da fetch usando async await", data);
+    }
+    catch(error) {
+        console.log("Si è verificato un errore: ", error);
+    }  
 }
-// Run the async function
+// Esegui la funzione async
 fetchPokemon(); 
 ```

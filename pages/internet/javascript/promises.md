@@ -1,104 +1,104 @@
 ---
-title: JavaScript promises
+title: Promesse JavaScript
 layout: intro
 ---
 
-# JavaScript Promises
-Doing two things at once in JavaScript
+# Promesse JavaScript
+Fare due cose contemporaneamente in JavaScript
 
 
 ---
-title: JavaScript promises
+title: Promesse JavaScript
 level: 2
 ---
 
-# Introduction 
-JavaScript promises 
+# Introduzione 
+Promesse JavaScript 
 
-Promises are like a contract, but in JavaScript. 
+Le promesse sono come un contratto, ma in JavaScript. 
 
-JavaScript is, by default, single threaded, so all of our code is executed in sequence, one line after another. 
+JavaScript è, di default, single threaded, quindi tutto il nostro codice viene eseguito in sequenza, una riga dopo l'altra. 
 
-Unfortunetly, if one line of code, or one function for example, takes too long to execute, our application would get stuck, and sit and wait until that line completed it's operation. 
+Sfortunatamente, se una riga di codice, o una funzione per esempio, impiega troppo tempo per essere eseguita, la nostra applicazione si bloccherebbe, e si fermerebbe ad aspettare fino a quando quella riga ha completato la sua operazione. 
 
-This would create a horrible user experience - imaging if your app completely froze everytime it had to fetch data or run a complicated calculation. 
+Questo creerebbe un'esperienza utente orribile - immagina se la tua app si bloccasse completamente ogni volta che doveva recuperare dati o eseguire un calcolo complicato. 
 
-Enter Promises. Promises are a way for us to handle asynchronous operations in JavaScript.
+Entrano in gioco le Promesse. Le promesse sono un modo per gestire le operazioni asincrone in JavaScript.
 
-We can insert code that could potentially take a long time to run into a Promise, and then be notified by JavaScript when that Promise has completed execution (resolved).
+Possiamo inserire codice che potrebbe impiegare molto tempo per essere eseguito in una Promessa, e poi essere notificati da JavaScript quando quella Promessa ha completato l'esecuzione (risolta).
 
 
 
 ---
-title: JavaScript promises
+title: Promesse JavaScript
 level: 2
 ---
 
-# The four different states of a Promise 
-JavaScript promises 
+# I quattro diversi stati di una Promessa 
+Promesse JavaScript 
 
-* **fulfilled**: Action related to the promise succeeded
-* **rejected**: Action related to the promise failed
-* **pending**: Promise is still pending i.e. not fulfilled or rejected yet
-* **settled**: Promise has fulfilled or rejected
+* **fulfilled**: L'azione relativa alla promessa è riuscita
+* **rejected**: L'azione relativa alla promessa è fallita
+* **pending**: La promessa è ancora in attesa, cioè non è ancora né risolta né rifiutata
+* **settled**: La promessa è stata risolta o rifiutata
 
 
 
 
 ---
-title: JavaScript promises
+title: Promesse JavaScript
 level: 2
 ---
 
-# Setting up our first promise
-JavaScript promises 
+# Configurazione della nostra prima promessa
+Promesse JavaScript 
 
-For example, here is how we setup a promise and identify resolved and rejected values
+Per esempio, ecco come impostiamo una promessa e identifichiamo i valori risolti e rifiutati
 
 
 ```js
-// Create a promise using the Promise object
+// Creare una promessa utilizzando l'oggetto Promise
 const myFirstPromise = new Promise((resolve, reject) => {
-  // Set a max for our random number 
-  const MAX = 10;
-  // Returns a random number from 0 to MAX
-  const random = Math.floor(Math.random() * 10);
-  // Check the value of the random number is greater than 5
-  if (random > 5) {
-    // Success!
-    resolve("Hooray");
-  }
-  else {
-    // Not so successful
-    reject("Not High Enough");
-  }
+    // Impostare un massimo per il nostro numero casuale 
+    const MAX = 10;
+    // Restituisce un numero casuale da 0 a MAX
+    const random = Math.floor(Math.random() * 10);
+    // Controlla se il valore del numero casuale è maggiore di 5
+    if (random > 5) {
+        // Successo!
+        resolve("Evviva");
+    }
+    else {
+        // Non così riuscito
+        reject("Non abbastanza alto");
+    }
 });
 ```
 
 
 
 ---
-title: JavaScript promises
+title: Promesse JavaScript
 level: 2
 ---
 
-# Consuming our promise
-JavaScript promises 
+# Consumare la nostra promessa
+Promesse JavaScript 
 
-And here is how we execute our promise, and handle a successful resolved case
+Ecco come eseguiamo la nostra promessa, e gestiamo un caso risolto con successo
 
 ```js
-// We execute the promise using the "then" method
-// and pass in an function to handle the response
+// Eseguiamo la promessa utilizzando il metodo "then"
+// e passiamo una funzione per gestire la risposta
 myFirstPromise
-  .then((result) => {
-    console.log("Resolved response from Promise: " , result);
+    .then((result) => {
+        console.log("Risposta risolta dalla Promessa: " , result);
 });
 
-// You can name the result argulment variable anything you want - this works
+// Puoi chiamare la variabile argomento risultato come preferisci - questo funziona
 myFirstPromise
-  .then((message) => {
-    console.log("Resolved response from Promise: " , message);
+    .then((message) => {
+        console.log("Risposta risolta dalla Promessa: " , message);
 });
 ```
 
@@ -106,25 +106,25 @@ myFirstPromise
 
 
 ---
-title: JavaScript promises
+title: Promesse JavaScript
 level: 2
 ---
 
-# Consuming our promise
-JavaScript promises 
+# Consumare la nostra promessa
+Promesse JavaScript 
 
-And here is we use a catch method to deal with a rejected state from our promise
+Ecco come usiamo un metodo catch per gestire uno stato rifiutato dalla nostra promessa
 
 ```js
-// We execute the promise using the "then" method
-// and pass in an function to handle the response
+// Eseguiamo la promessa utilizzando il metodo "then"
+// e passiamo una funzione per gestire la risposta
 myFirstPromise
-  .then((result) => {
-    console.log("Resolved response from Promise: " , result);
-  })
-  .catch((result) => {
-    console.log("Rejected response from Promise: " , result);
-  });
+    .then((result) => {
+        console.log("Risposta risolta dalla Promessa: " , result);
+    })
+    .catch((result) => {
+        console.log("Risposta rifiutata dalla Promessa: " , result);
+    });
 
 
 ```
@@ -133,28 +133,28 @@ myFirstPromise
 
 
 ---
-title: JavaScript promises
+title: Promesse JavaScript
 level: 2
 ---
 
-# Consuming our promise
-JavaScript promises 
+# Consumare la nostra promessa
+Promesse JavaScript 
 
-And here is we use the finally method to run some code after our promise either resolves or was rejected
+Ecco come usiamo il metodo finally per eseguire del codice dopo che la nostra promessa è stata risolta o rifiutata
 
 ```js
-// We execute the promise using the "then" method
-// and pass in an function to handle the response
+// Eseguiamo la promessa utilizzando il metodo "then"
+// e passiamo una funzione per gestire la risposta
 myFirstPromise
-  .then((result) => {
-    console.log("Resolved response from Promise: " , result);
-  })
-  .catch((result) => {
-    console.log("Rejected response from Promise: " , result);
-  });
-  .finally(() => {
-    console.log("Promise has finally completed");
-  });
+    .then((result) => {
+        console.log("Risposta risolta dalla Promessa: " , result);
+    })
+    .catch((result) => {
+        console.log("Risposta rifiutata dalla Promessa: " , result);
+    });
+    .finally(() => {
+        console.log("La Promessa ha finalmente completato");
+    });
 
 
 ```
@@ -162,26 +162,26 @@ myFirstPromise
 
 
 ---
-title: JavaScript promises
+title: Promesse JavaScript
 level: 2
 ---
 
-# Waiting for multiple promises 
-JavaScript promises 
+# Attendere più promesse 
+Promesse JavaScript 
 
-What if we had multiple Promises that we needed to execute and wait for before doing something. No problem. Let's setup three promises. 
+E se avessimo più Promesse che dobbiamo eseguire e attendere prima di fare qualcosa. Nessun problema. Impostiamo tre promesse. 
 
 ```js
 const myFirstPromise = new Promise((resolve,reject) => {
-  resolve("My First Promise Resolved Response");
+    resolve("Risposta risolta della mia Prima Promessa");
 })
 
 const mySecondPromise = new Promise((resolve,reject) => {
-  resolve("My Second Promise Resolved Response");
+    resolve("Risposta risolta della mia Seconda Promessa");
 })
 
 const myThirdPromise = new Promise((resolve,reject) => {
-  resolve("My Third Promise Resolved Response");
+    resolve("Risposta risolta della mia Terza Promessa");
 })
 
 ```
@@ -189,26 +189,25 @@ const myThirdPromise = new Promise((resolve,reject) => {
 
 
 ---
-title: JavaScript promises
+title: Promesse JavaScript
 level: 2
 ---
 
-# Waiting for multiple promises 
-JavaScript promises 
+# Attendere più promesse 
+Promesse JavaScript 
 
-What if we had multiple Promises that we needed to execute and wait for before doing something. No problem. Let's setup three promises. 
+E se avessimo più Promesse che dobbiamo eseguire e attendere prima di fare qualcosa. Nessun problema. Impostiamo tre promesse. 
 
 ```js
-// This will wait for all of the promises to be executed
+// Questo aspetterà che tutte le promesse siano eseguite
 Promise.all([
-  myFirstPromise,
-  mySecondPromise,
-  myThirdPromise
+    myFirstPromise,
+    mySecondPromise,
+    myThirdPromise
 ])
-  .then((results) => {
-    // We get an array of all of the resolved responses
-    console.log(results)
-  })
+    .then((results) => {
+        // Otteniamo un array di tutte le risposte risolte
+        console.log(results)
+    })
 
 ```
-

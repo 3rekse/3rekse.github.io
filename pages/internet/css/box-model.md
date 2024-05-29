@@ -1,36 +1,36 @@
 ---
 layout: intro
-title: CSS box model
-level: 1
----
-
-# CSS Box Model
-
-Everything is a box in CSS
-
-
----
-title: What is the CSS box model
+title: Modello di box CSS
 level: 2
+---
+
+# Modello di box CSS
+
+Tutto è un box in CSS
+
+
+---
+title: Cos'è il modello di box CSS
+level: 3
 layout: image-right
 image: /internet/images/slides/css/box-model/stack.jpg
 ---
 
 
-# Box model
-So many boxes
+# Modello di box
+Tanti box
 
-Every single HTML element rendered on the screen is a rectangular box. These boxes can be nested (have other boxes inside them) or they can sit on their own. 
+Ogni singolo elemento HTML renderizzato sullo schermo è un box rettangolare. Questi box possono essere annidati (avere altri box al loro interno) o possono stare da soli. 
 
-Understanding these boxes is key to being able to create more complex layouts with CSS.
+Capire questi box è fondamentale per essere in grado di creare layout più complessi con CSS.
 
-The following slides go through the box model and how to size a box using `margin`, `padding` and `border`.
+Le seguenti slide illustrano il modello di box e come dimensionare un box utilizzando `margin`, `padding` e `border`.
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
-Photo by BERK OZDEMIR: https://www.pexels.com/photo/people-reading-books-in-library-3779187/
+Foto di BERK OZDEMIR: https://www.pexels.com/photo/people-reading-books-in-library-3779187/
 
 -->
 
@@ -38,107 +38,107 @@ Photo by BERK OZDEMIR: https://www.pexels.com/photo/people-reading-books-in-libr
 
 
 ---
-title: CSS box model
-level: 2
+title: Modello di box CSS
+level: 3
 ---
 
-# Block and inline boxes
-Everything is a box
+# Box di blocco e inline
+Tutto è un box
 
-There are two categories of boxes in CSS, **block** boxes and **inline** boxes.
+Ci sono due categorie di box in CSS, i box **di blocco** e i box **inline**.
 
-The difference between the two are that block boxes will break onto a new line and will take up all available width to fill up the space available in its container. Whereas inline elements won't break onto a new line or take up more width than they need.
+La differenza tra i due è che i box di blocco passeranno a una nuova riga e occuperanno tutta la larghezza disponibile per riempire lo spazio disponibile nel loro contenitore. Mentre gli elementi inline non passeranno a una nuova riga o occuperanno più larghezza di quanto ne abbiano bisogno.
 
-You can set the type of box using the `display` CSS property, though by default most HTML elements are block. Some HTML elements, such as `<a>`, `<span>`, `<em>` and `<strong>` use inline as their display type by default.
+Puoi impostare il tipo di box utilizzando la proprietà CSS `display`, anche se di default la maggior parte degli elementi HTML sono di blocco. Alcuni elementi HTML, come `<a>`, `<span>`, `<em>` e `<strong>` utilizzano inline come loro tipo di display di default.
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: CSS box model
-level: 2
+title: Modello di box CSS
+level: 3
 ---
 
-# Block and inline boxes
-Everything is a box
+# Box di blocco e inline
+Tutto è un box
 
-Here is an example of block and inline elements. 
+Ecco un esempio di elementi di blocco e inline. 
 
 <div class="border border-gray-300 p-2">
     <div class="mb-10 pl-2 border border-5 border-red-200">
-        <p>This is a block box <span class="text-xs text-gray-500">(like a <code>p</code> tag)</span></p>
+        <p>Questo è un box di blocco <span class="text-xs text-gray-500">(come un tag <code>p</code>)</span></p>
     </div>
     <div class="mb-10">
-        <p class="p-2 inline border border-5 border-blue-200">Inline <span class="text-xs text-gray-500">(like a <code>span</code> tag)</span></p>
+        <p class="p-2 inline border border-5 border-blue-200">Inline <span class="text-xs text-gray-500">(come un tag <code>span</code>)</span></p>
         <p class="ml-2 p-2 inline border border-5 border-blue-200">Inline</p>
         <p class="ml-2 p-2 inline border border-5 border-blue-200">Inline</p>
         <p class="ml-2 p-2 inline border border-5 border-blue-200">Inline</p>
     </div>
     <div class="mb-2 pl-2 border border-5 border-red-200">
-        <p>And we're back to block box <span class="text-xs text-gray-500">(like a <code>p</code> tag)</span></p>
+        <p>E siamo tornati al box di blocco <span class="text-xs text-gray-500">(come un tag <code>p</code>)</span></p>
     </div>
 </div>
 
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: CSS box model
-level: 2
+title: Modello di box CSS
+level: 3
 ---
 
-# Parts of a box
-Everything is a box
+# Parti di un box
+Tutto è un box
 
-* **Content:**  The area where your content is displayed; size it using properties like `width` and `height`.
-* **Padding:** The padding sits around the content as white space; size it using `padding` and related properties.
-* **Border:** The border box wraps the content and any padding; size it using `border` and related properties.
-* **Margin:** The margin is the outermost layer, wrapping the content, padding, and border as whitespace between this box and other elements; size it using `margin` and related properties.
+* **Contenuto:**  L'area dove viene visualizzato il tuo contenuto; dimensionalo utilizzando proprietà come `width` e `height`.
+* **Padding:** Il padding si trova attorno al contenuto come spazio bianco; dimensionalo utilizzando `padding` e proprietà correlate.
+* **Bordo:** Il box del bordo avvolge il contenuto e qualsiasi padding; dimensionalo utilizzando `border` e proprietà correlate.
+* **Margine:** Il margine è lo strato più esterno, avvolge il contenuto, il padding e il bordo come spazio bianco tra questo box e altri elementi; dimensionalo utilizzando `margin` e proprietà correlate.
 
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
 layout: center
-title: CSS box model
-level: 2
+title: Modello di box CSS
+level: 3
 ---
 
 <img src="/internet/images/slides/css/box-model/model.png" alt="" />
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: Margin
-level: 2
+title: Margine
+level: 3
 ---
 
-# Margin
-Everything is a box
+# Margine
+Tutto è un box
 
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
@@ -146,76 +146,76 @@ Slide notes:
 
 ---
 title: Padding
-level: 2
+level: 3
 ---
 
 # Padding
-Everything is a box
+Tutto è un box
 
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: Border
-level: 2
+title: Bordo
+level: 3
 ---
 
-# Border
-Everything is a box
+# Bordo
+Tutto è un box
 
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: CSS box model
-level: 2
+title: Modello di box CSS
+level: 3
 ---
 
-# The two sizing models
-Everything is a box
+# I due modelli di dimensionamento
+Tutto è un box
 
-The `box-sizing` CSS property allows us to include the padding and boarder in the calculation of an element’s height and width.
+La proprietà CSS `box-sizing` ci permette di includere il padding e il bordo nel calcolo dell'altezza e della larghezza di un elemento.
 
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: CSS box model resources
-level: 2
+title: Risorse sul modello di box CSS
+level: 3
 layout: image-right
 image: /internet/images/slides/css/selectors/books.jpg
 ---
 
 
-# Box model resources
-Guides and cheatsheets
+# Risorse sul modello di box
+Guide e cheatsheets
 
-* [Box model - Odin project](https://www.theodinproject.com/lessons/foundations-the-box-model)
-* [Box model - Learn the web](https://learntheweb.courses/topics/box-model/)
-* [Box sizing - Prof3ssorSt3v3](https://www.youtube.com/watch?v=EfCE-a31OiM&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=52) 
-* [Box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-* [Box model - Code academy](https://www.codecademy.com/resources/docs/css/box-model)
+* [Modello di box - Odin project](https://www.theodinproject.com/lessons/foundations-the-box-model)
+* [Modello di box - Learn the web](https://learntheweb.courses/topics/box-model/)
+* [Dimensionamento del box - Prof3ssorSt3v3](https://www.youtube.com/watch?v=EfCE-a31OiM&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=52) 
+* [Modello di box - MDN](https://developer.mozilla.org/it/docs/Learn/CSS/Building_blocks/The_box_model)
+* [Modello di box - Code academy](https://www.codecademy.com/resources/docs/css/box-model)
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 Credit: 
 

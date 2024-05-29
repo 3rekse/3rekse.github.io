@@ -1,93 +1,93 @@
 ---
 layout: intro
-title: CSS grid 
-level: 1
+title: CSS Grid 
+level: 2
 ---
 
 # CSS Grid
 
-🏢 another way to layout your boxes
+🏢 un altro modo per disporre i tuoi box
 
 
 ---
-title: So what is Grid
-level: 2
+title: Cos'è Grid
+level: 3
 layout: image-right
 image: /internet/images/slides/css/grid/layout.jpg
 ---
 
 
-# Grid basics
-Introduction to CSS Grid
+# Fondamenti di Grid
+Introduzione a CSS Grid
 
-## What is it? 
+## Cos'è? 
 
-CSS Grids are a two-dimensional grid-based layout framework that were created to specifically solve the layout challenges using both columns and rows.
+Le griglie CSS sono un framework di layout basato su griglie bidimensionali che sono state create specificamente per risolvere le sfide di layout utilizzando sia colonne che righe.
 
 
-## Why "Grid"?
+## Perché "Grid"?
 
-Flexbox is one-directional in nature, while grid gives us a bit more options being able to layout elements on a two-dimensional plane.
+Flexbox è unidirezionale per natura, mentre grid ci dà un po' più di opzioni essendo in grado di disporre gli elementi su un piano bidimensionale.
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 Credit: 
 
-Photo by Karolina Grabowska: https://www.pexels.com/photo/a-man-posting-a-schedule-reminder-5882583/
+Foto di Karolina Grabowska: https://www.pexels.com/photo/a-man-posting-a-schedule-reminder-5882583/
 
 -->
 
 
 
 ---
-title: How to use Grid
-level: 2
+title: Come usare Grid
+level: 3
 ---
 
 
-# Grid overview
-Introduction to CSS Grid
+# Panoramica di Grid
+Introduzione a CSS Grid
 
-Grid layouts have the following characteristics
+I layout di griglia hanno le seguenti caratteristiche
 
-* Grids are defined with rows and columns. 
-* You can define the size of the rows and columns.
-* Similiar to flexbox, grids have a container, and direct children (or items) that are placed into the grid container.
-* Children can be placed into the container automatically or you can specify a precise location.
-* Lines and areas on the grid can be named to make placement easier.
-* Grid items can be aligned within their area. 
+* Le griglie sono definite con righe e colonne. 
+* Puoi definire la dimensione delle righe e delle colonne.
+* Simile a flexbox, le griglie hanno un contenitore, e figli diretti (o elementi) che vengono inseriti nel contenitore della griglia.
+* I figli possono essere inseriti nel contenitore automaticamente o puoi specificare una posizione precisa.
+* Le linee e le aree sulla griglia possono essere nominate per facilitare la collocazione.
+* Gli elementi della griglia possono essere allineati all'interno della loro area. 
 
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 ---
-title: Grid lines
-level: 2
+title: Linee della griglia
+level: 3
 ---
 
 
-# Grid lines
-Introduction to CSS Grid
+# Linee della griglia
+Introduzione a CSS Grid
 
-A grid is made up of lines, which run horizontally and vertically. If your grid has four columns, it will have five column lines including the one after the last column.
+Una griglia è composta da linee, che corrono orizzontalmente e verticalmente. Se la tua griglia ha quattro colonne, avrà cinque linee di colonna compresa quella dopo l'ultima colonna.
 
-Line numbers start at one (1) and follow the writing mode (generally from from left to right).
+I numeri delle linee iniziano da uno (1) e seguono il modo di scrittura (generalmente da sinistra a destra).
 
 <ul class="grid-demo">
-  <li>Item A</li>
-  <li>Item B</li>
-  <li>Item C</li>
-  <li>Item D</li>
-  <li>Item E</li>
-  <li>Item F</li>
-  <li>Item G</li>
-  <li>Item H</li>
+  <li>Elemento A</li>
+  <li>Elemento B</li>
+  <li>Elemento C</li>
+  <li>Elemento D</li>
+  <li>Elemento E</li>
+  <li>Elemento F</li>
+  <li>Elemento G</li>
+  <li>Elemento H</li>
 </ul>
 
 
@@ -125,32 +125,32 @@ ul.grid-demo li:nth-child(6) { border-left: 5px solid #6b9080;  }
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: Grid tracks
-level: 2
+title: Tracce della griglia
+level: 3
 ---
 
 
-# Grid tracks
-Introduction to CSS Grid
+# Tracce della griglia
+Introduzione a CSS Grid
 
-A track is the space between two grid lines. Row tracks run across the rows, and column tracks run between the columns.
+Una traccia è lo spazio tra due linee di griglia. Le tracce di riga corrono attraverso le righe, e le tracce di colonna corrono tra le colonne.
 
 <ul class="grid-demo">
-  <li>Item A</li>
-  <li>Item B</li>
-  <li>Item C</li>
-  <li>Item D</li>
-  <li>Item E</li>
-  <li>Item F</li>
-  <li>Item G</li>
-  <li>Item H</li>
+  <li>Elemento A</li>
+  <li>Elemento B</li>
+  <li>Elemento C</li>
+  <li>Elemento D</li>
+  <li>Elemento E</li>
+  <li>Elemento F</li>
+  <li>Elemento G</li>
+  <li>Elemento H</li>
 </ul>
 
 
@@ -190,31 +190,31 @@ ul.grid-demo li:nth-child(4) { background-color: #a4c3b2;  }
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: Grid cell
-level: 2
+title: Cella della griglia
+level: 3
 ---
 
 
-# Grid cell
-Introduction to CSS Grid
+# Cella della griglia
+Introduzione a CSS Grid
 
-A grid cell is the smallest space on a grid defined by the intersection of row and column tracks. It's just like a table cell or a cell in a spreadsheet. If you define a grid and don't place any of the items they will automatically be laid out one item into each defined grid cell.
+Una cella di griglia è lo spazio più piccolo su una griglia definito dall'intersezione di tracce di riga e colonna. È proprio come una cella di tabella o una cella in un foglio di calcolo. Se definisci una griglia e non posizioni nessuno degli elementi, saranno disposti automaticamente un elemento in ogni cella di griglia definita.
 
 <ul class="grid-demo">
-  <li>Item A</li>
-  <li>Item B</li>
-  <li>Item C</li>
-  <li>Item D</li>
-  <li>Item E</li>
-  <li>Item F</li>
-  <li>Item G</li>
-  <li>Item H</li>
+  <li>Elemento A</li>
+  <li>Elemento B</li>
+  <li>Elemento C</li>
+  <li>Elemento D</li>
+  <li>Elemento E</li>
+  <li>Elemento F</li>
+  <li>Elemento G</li>
+  <li>Elemento H</li>
 </ul>
 
 
@@ -250,32 +250,32 @@ ul.grid-demo li:nth-child(2) { background-color: #a4c3b2;  }
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: Grid area
-level: 2
+title: Area della griglia
+level: 3
 ---
 
 
-# Grid area
-Introduction to CSS Grid
+# Area della griglia
+Introduzione a CSS Grid
 
-Several grid cells together. Grid areas are created by causing an item to span over multiple tracks.
+Diverse celle di griglia insieme. Le aree della griglia sono create facendo in modo che un elemento si estenda su più tracce.
 
 <ul class="grid-demo">
-  <li>Item A</li>
-  <li>Item B</li>
-  <li>Item C</li>
-  <li>Item D</li>
-  <li>Item E</li>
-  <li>Item F</li>
-  <li>Item G</li>
-  <li>Item H</li>
+  <li>Elemento A</li>
+  <li>Elemento B</li>
+  <li>Elemento C</li>
+  <li>Elemento D</li>
+  <li>Elemento E</li>
+  <li>Elemento F</li>
+  <li>Elemento G</li>
+  <li>Elemento H</li>
 </ul>
 
 
@@ -314,33 +314,31 @@ ul.grid-demo li:nth-child(7) { background-color: #a4c3b2;  }
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
-
-
 ---
-title: Grid area
-level: 2
+title: Area della griglia
+level: 3
 ---
 
 
 # Gap
-Introduction to CSS Grid
+Introduzione a CSS Grid
 
-A gutter or alley between tracks. For sizing purposes these act like a regular track. You can't place content into a gap but you can span grid items across it.
+Un canale o un vicolo tra le tracce. Per scopi di dimensionamento, questi agiscono come una traccia regolare. Non puoi posizionare contenuti in un gap, ma puoi estendere gli elementi della griglia attraverso di esso.
 
 <ul class="grid-demo">
-  <li>Item A</li>
-  <li>Item B</li>
-  <li>Item C</li>
-  <li>Item D</li>
-  <li>Item E</li>
-  <li>Item F</li>
-  <li>Item G</li>
-  <li>Item H</li>
+  <li>Elemento A</li>
+  <li>Elemento B</li>
+  <li>Elemento C</li>
+  <li>Elemento D</li>
+  <li>Elemento E</li>
+  <li>Elemento F</li>
+  <li>Elemento G</li>
+  <li>Elemento H</li>
 </ul>
 
 
@@ -375,7 +373,7 @@ ul.grid-demo li {
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
@@ -383,17 +381,17 @@ Slide notes:
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore della griglia
+level: 3
 ---
 
 
-# Grid container
-Introduction to CSS Grid
+# Contenitore della griglia
+Introduzione a CSS Grid
 
-The HTML element which has `display: grid` applied, and therefore creates a new grid formatting context for the direct children (the grid items).
+L'elemento HTML a cui è applicato `display: grid`, e quindi crea un nuovo contesto di formattazione della griglia per i figli diretti (gli elementi della griglia).
 
-Here we create a class called `.grid-container` which sets the `display` to `grid`.
+Qui creiamo una classe chiamata `.grid-container` che imposta il `display` a `grid`.
 
 ```css
 .grid-container {
@@ -401,41 +399,41 @@ Here we create a class called `.grid-container` which sets the `display` to `gri
 }
 ```
 
-And we apply the class to an `ul` to make the children render in the `grid` container.
+E applichiamo la classe a un `ul` per far renderizzare i figli nel contenitore `grid`.
 
 ```html 
 <ul class="grid-container">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 
 ```
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore della griglia
+level: 3
 layout: center
 ---
 
 
-Adding `display: grid` doesn't actually change very much on it's own. 
+Aggiungendo `display: grid` non cambia molto di per sé. 
 
-We need to specify columns.
+Dobbiamo specificare le colonne.
 
 <ul class="grid-demo">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 
 
@@ -469,22 +467,22 @@ ul.grid-demo li {
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore della griglia
+level: 3
 ---
 
 
-# Setting the columns
-Introduction to CSS Grid
+# Impostazione delle colonne
+Introduzione a CSS Grid
 
-We define rows and columns on our grid with the `grid-template-rows` and `grid-template-columns` properties.
+Definiamo righe e colonne sulla nostra griglia con le proprietà `grid-template-rows` e `grid-template-columns`.
 
 ```css
 .grid-container {
@@ -495,39 +493,39 @@ We define rows and columns on our grid with the `grid-template-rows` and `grid-t
 
 ```html 
 <ul class="grid-container">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 
 ```
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore della griglia
+level: 3
 layout: center
 ---
 
 
-Adding `grid-template-columns: 200px 200px 200px;` gives us three columns of `200px` each.
+Aggiungendo `grid-template-columns: 200px 200px 200px;` otteniamo tre colonne di `200px` ciascuna.
 
-Additional items automatically wrap down to the next row and maintain their column width.
+Gli elementi aggiuntivi si avvolgono automaticamente alla riga successiva e mantengono la loro larghezza di colonna.
 
-The remaining space in the container (if available) is left unused. 
+Lo spazio rimanente nel contenitore (se disponibile) viene lasciato inutilizzato. 
 
 <ul class="grid-demo">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 
 
@@ -562,23 +560,23 @@ ul.grid-demo li {
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore della griglia
+level: 3
 ---
 
 
-# The fr unit
-Introduction to CSS Grid
+# L'unità fr
+Introduzione a CSS Grid
 
-In the previous example we setup our grid to have three columns of `200px` each. 
+Nell'esempio precedente abbiamo impostato la nostra griglia per avere tre colonne di `200px` ciascuna. 
 
-Now we're introducing a new css unit called `fr`. These can only be used with grids and they stand for the term "fraction". The code below would create three equal columns in our grid.
+Ora stiamo introducendo una nuova unità css chiamata `fr`. Queste possono essere utilizzate solo con le griglie e stanno per il termine "frazione". Il codice sottostante creerebbe tre colonne uguali nella nostra griglia.
 
 ```css
 .grid-container {
@@ -589,35 +587,34 @@ Now we're introducing a new css unit called `fr`. These can only be used with gr
 
 ```html 
 <ul class="grid-container">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 
 ```
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
-
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 layout: center
 ---
 
 
-Adding `grid-template-columns: 1fr 1fr 1fr;` gives us three equal sized columns.
+Aggiungendo `grid-template-columns: 1fr 1fr 1fr;` otteniamo tre colonne di dimensioni uguali.
 
 <ul class="grid-demo">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 
 
@@ -652,22 +649,22 @@ ul.grid-demo li {
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 ---
 
 
-# The fr unit
-Introduction to CSS Grid
+# L'unità fr
+Introduzione a CSS Grid
 
-The `fr` units don't need to be even and can be of unequal sizes.
+Le unità `fr` non devono essere uguali e possono avere dimensioni disuguali.
 
 ```css
 .grid-container {
@@ -678,35 +675,35 @@ The `fr` units don't need to be even and can be of unequal sizes.
 
 ```html 
 <ul class="grid-container">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 
 ```
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 layout: center
 ---
 
 
-Adding `grid-template-columns: 1fr 2fr 1fr;` set the middle column to be twice the size as the first and last columns.
+Aggiungendo `grid-template-columns: 1fr 2fr 1fr;` impostiamo la colonna centrale per essere due volte la dimensione delle colonne prima e dopo.
 
 <ul class="grid-demo">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 
 
@@ -741,7 +738,7 @@ ul.grid-demo li {
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
@@ -749,15 +746,15 @@ Slide notes:
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 ---
 
 
-# The repeat notation 
-Introduction to CSS Grid
+# La notazione repeat 
+Introduzione a CSS Grid
 
-If we had a lot of columns, it would get really annoying to keep writing `1fr` over and over. So we can use the `repeat()` notation to repeat the directives. 
+Se avessimo molte colonne, sarebbe davvero fastidioso continuare a scrivere `1fr` ancora e ancora. Quindi possiamo usare la notazione `repeat()` per ripetere le direttive. 
 
 ```css
 .grid-container {
@@ -766,7 +763,7 @@ If we had a lot of columns, it would get really annoying to keep writing `1fr` o
 }
 ```
 
-Is equivalent to the following:
+È equivalente al seguente:
 
 ```css
 .grid-container {
@@ -777,7 +774,7 @@ Is equivalent to the following:
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
@@ -786,15 +783,15 @@ Slide notes:
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 ---
 
 
-# Placing items
-Introduction to CSS Grid
+# Posizionamento degli elementi
+Introduzione a CSS Grid
 
-Let's look at positioning items in the grid we created. We use the grid lines to set start and end points, and then the item will stretch to fill the available space in between the lines.
+Diamo un'occhiata al posizionamento degli elementi nella griglia che abbiamo creato. Usiamo le linee della griglia per impostare i punti di inizio e fine, e poi l'elemento si estenderà per riempire lo spazio disponibile tra le linee.
 
 ```css
 .grid-container {
@@ -804,39 +801,39 @@ Let's look at positioning items in the grid we created. We use the grid lines to
 }
 
 .item {
-  grid-column-start: 2; /* start at column line 2 */
-  grid-column-end: 4; /* end at column line 4 */
-  grid-row-start: 2; /*start at row line 2 */
-  grid-row-end: 5; /* end at row line 5 */
+  grid-column-start: 2; /* inizia alla linea della colonna 2 */
+  grid-column-end: 4; /* finisce alla linea della colonna 4 */
+  grid-row-start: 2; /*inizia alla linea della riga 2 */
+  grid-row-end: 5; /* finisce alla linea della riga 5 */
 }
 ```
 
 ```html 
 <ul class="grid-container">
-  <li class="item">Item 1</li>
+  <li class="item">Elemento 1</li>
 </ul>
 
 ```
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 layout: center
 ---
 
-What's happening here is that our Item 1 starts at the column line 2 and goes until column line 4.
+Quello che sta succedendo qui è che il nostro Elemento 1 inizia alla linea della colonna 2 e va fino alla linea della colonna 4.
 
-And our item starts on the second row line and extents all the way down to the last line which is row line 5.
+E il nostro elemento inizia sulla seconda linea della riga e si estende fino all'ultima linea che è la linea della riga 5.
 
 <ul class="grid-demo">
-  <li class="item">Item 1</li>
+  <li class="item">Elemento 1</li>
 </ul>
 
 
@@ -864,10 +861,10 @@ ul.grid-demo li {
 }
 
 ul.grid-demo li.item {
-  grid-column-start: 2; /* start at column line 2 */
-  grid-column-end: 4; /* end at column line 4 */
-  grid-row-start: 2; /*start at row line 2 */
-  grid-row-end: 5; /* end at row line 5 */
+  grid-column-start: 2; /* inizia alla linea della colonna 2 */
+  grid-column-end: 4; /* finisce alla linea della colonna 4 */
+  grid-row-start: 2; /*inizia alla linea della riga 2 */
+  grid-row-end: 5; /* finisce alla linea della riga 5 */
 }
 
 /* 
@@ -878,21 +875,19 @@ ul.grid-demo li.item {
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
-
-
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 layout: center
 ---
 
-What's happening here is that our Item 1 starts at the column line 2 and goes until column line 4.
+Quello che succede qui è che il nostro elemento 1 inizia alla linea della colonna 2 e va fino alla linea della colonna 4.
 
-And our item starts on the second row line and extents all the way down to the last line which is row line 5.
+E il nostro elemento inizia sulla seconda linea di riga e si estende fino all'ultima linea che è la linea di riga 5.
 
 <ul class="grid-demo">
   <li></li>
@@ -966,24 +961,24 @@ ul.grid-demo li:nth-child(18) { background-color: #6b9080;  }
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 ---
 
 
-# Grid template areas
-Introduction to CSS Grid
+# Aree del template Grid
+Introduzione a CSS Grid
 
-If using row and column numbers are a bit annoying, grid allows us to specificy the shape of our grid using name template areas and use our own derived names for each area in our grid. 
+Se l'uso di numeri di riga e colonna è un po' fastidioso, la griglia ci permette di specificare la forma della nostra griglia usando aree di template nominate e di usare i nostri nomi derivati per ogni area nella nostra griglia. 
 
-The following code creates a four column by three row grid and then defines which areas go into each section.
+Il seguente codice crea una griglia di quattro colonne per tre righe e poi definisce quali aree vanno in ogni sezione.
 
 ```css
 .grid-container {
@@ -1005,21 +1000,21 @@ The following code creates a four column by three row grid and then defines whic
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 ---
 
 
-# Grid template areas
-Introduction to CSS Grid
+# Aree del template Grid
+Introduzione a CSS Grid
 
-And this is the `HTML` that would implement that grid css
+E questo è l'`HTML` che implementerebbe quella griglia css
 
 ```html 
 <div class="grid-container">
@@ -1035,27 +1030,27 @@ And this is the `HTML` that would implement that grid css
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
 
 
 ---
-title: Grid container
-level: 2
+title: Contenitore Grid
+level: 3
 layout: center
 ---
 
-And here is our Grid Layout implemented using named templates.
+E qui è il nostro Layout Grid implementato usando template nominati.
 
-The header and footer span the whole row, and the content and side areas have two small columns on either side for padding.
+L'intestazione e il piè di pagina coprono l'intera riga, e le aree di contenuto e laterali hanno due piccole colonne su entrambi i lati per il padding.
 
 <ul class="grid-demo">
-  <li class="header">Header</li>
-  <li class="content">Content</li>
-  <li class="side">Side</li>
-  <li class="footer">Footer</li>
+  <li class="header">Intestazione</li>
+  <li class="content">Contenuto</li>
+  <li class="side">Lato</li>
+  <li class="footer">Piè di pagina</li>
 </ul>
 
 
@@ -1100,37 +1095,37 @@ ul.grid-demo li {
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 -->
 
 
 ---
-title: Grid Resournces
-level: 2
+title: Risorse Grid
+level: 3
 layout: image-right
 image: /internet/images/slides/css/flex-box/fallen-boxes.jpg
 ---
 
 
-# Grid resources
-Guides and cheatsheets
+# Risorse Grid
+Guide e cheatsheets
 
-These slides have barely scratched the surface of Grid. Please consider reviewing the following resources for additional information on CSS Grid.
+Queste slide hanno appena sfiorato la superficie di Grid. Si prega di considerare la revisione delle seguenti risorse per ulteriori informazioni su CSS Grid.
 
-* [Grid Garden game](https://cssgridgarden.com)
-* [Basic concepts of grid layout - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
-* [Named template areas - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas)
+* [Gioco Grid Garden](https://cssgridgarden.com)
+* [Concetti di base del layout della griglia - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+* [Aree del template nominate - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas)
 * [CSS Grid - web.dev](https://web.dev/learn/css/grid/)
 * [CSS Grid - CSS-tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [CSS Grid cheatsheet - yoksel](https://yoksel.github.io/grid-cheatsheet/)
 
 <!-- 
 
-Slide notes: 
+Note della slide: 
 
 Credit: 
 
-Photo by cottonbro studio: https://www.pexels.com/photo/person-in-black-leather-boots-sitting-on-brown-cardboard-boxes-4553277/
+Foto di cottonbro studio: https://www.pexels.com/photo/person-in-black-leather-boots-sitting-on-brown-cardboard-boxes-4553277/
 
 -->

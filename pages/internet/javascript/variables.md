@@ -1,41 +1,87 @@
 ---
-title: JavaScript variables
+title: Variabili JavaScript
 layout: intro
----
-
-# JavaScript Variables
-Learning about primitives, object literals, and variables
-
----
-title: JavaScript
 level: 2
 ---
 
-# Working with variables
-Variables
+# Variabili JavaScript
 
-There are three ways to declare a variable `var`, `let`, and `const`.
+3 concetti fondamentali della programmazione in JavaScript:
+
+1. **Primitivi:** In JavaScript, un tipo di dato primitivo è un dato che non ha metodi o proprietà (ad esempio, numeri, stringhe, booleani, null, undefined e simboli). Questi sono i blocchi di costruzione fondamentali dei programmi JavaScript.
+
+2. **Oggetti letterali:** Un oggetto letterale è un modo per definire un oggetto in JavaScript. È un elenco di coppie chiave-valore racchiuso tra parentesi graffe. Ad esempio: `let auto = {marca: "Fiat", modello: "500", anno: 2008};`
+
+3. **Variabili:** Le variabili sono contenitori per memorizzare valori di dati. In JavaScript.
+
+IMPORTANTE: acquisire una comprensione di questi concetti e come utilizzarli nella programmazione JavaScript.
+
+---
+title: JavaScript
+level: 3
+---
+
+# Lavorare con le variabili
+Variabili
+
+Ci sono tre modi per dichiarare una variabile `var`, `let` e `const`.
 
 ```js
-/* NEVER USE VAR */ 
-var myFirstVariable = "Hello";
+/* NON USARE MAI VAR */ 
+var miaPrimaVariabile = "Ciao";
 
-/* Then we have let */ 
-let mySecondVariable = "World";
+/* Poi abbiamo let */ 
+let miaSecondaVariabile = "Mondo";
 
-/* And finally we have const - for variables that need to be constant */ 
-const myConstVariable = true;
+/* E infine abbiamo const - per variabili che devono essere costanti */ 
+const miaVariabileConst = true;
 
 ```
 
+---
+title: L'uso di `var`
+level: 3
+---
+
+# L'uso di `var` per dichiarare variabili è sconsigliato per diversi motivi:
+
+1. **Ambito di funzione:** A differenza di `let` e `const`, `var` è soggetto all'hoisting e ha un ambito di funzione piuttosto che un ambito di blocco. Questo può portare a comportamenti inaspettati.
+
+2. **Riassegnazione involontaria:** Se dichiari la stessa variabile più volte usando `var`, non otterrai un errore. Questo può portare a bug difficili da individuare.
+
+3. **Non comunicano l'intenzione:** `let` e `const` comunicano meglio l'intenzione del codice. `const` indica che una variabile non dovrebbe essere riassegnata, mentre `let` indica che una variabile potrebbe essere riassegnata in futuro.
 
 ---
-title: JavaScript
-level: 2
+title: Esempio con uso di `var`
+level: 3
 ---
 
-# So many Variables 
-Variables
+# Ecco un esempio di come `var` può comportarsi in modo inaspettato:
+
+```javascript
+function esempio() {
+  var x = 1; // x è ora 1
+
+  if (true) {
+    var x = 2; // x è ora 2
+    console.log(x); // Stampa 2
+  }
+
+  console.log(x); // Stampa anche 2, non 1
+}
+
+esempio();
+```
+
+In questo esempio, potresti aspettarti che il secondo `console.log(x)` stampi `1`, ma invece stampa `2` perché `var` ha un ambito di funzione, non un ambito di blocco. Se avessi usato `let` al posto di `var`, avrebbe stampato `1` come previsto.
+
+---
+title: Tante Variabili
+level: 3
+---
+
+# Tante Variabili 
+Variabili
 
 * String 
 * Number 
@@ -50,21 +96,21 @@ Variables
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
 # String
-Variables
+Variabili
 
-String type is used to store textual data, or a sequence of characters.
+Il tipo String viene utilizzato per memorizzare dati di testo o una sequenza di caratteri.
 
 ```js
-  // This is a string 
-  // Note the quotation marks around the value
-  let messageOne = "Hello World";
+    // Questa è una stringa 
+    // Nota le virgolette attorno al valore
+    let messaggioUno = "Ciao Mondo";
 
-  // Single quotes also work as well
-  let messageTwo = 'Hello World';
+    // Anche le virgolette singole funzionano
+    let messaggioDue = 'Ciao Mondo';
 
 ```
 
@@ -72,43 +118,43 @@ String type is used to store textual data, or a sequence of characters.
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
 # Number
-JavaScript variables
+Variabili JavaScript
 
-As the name imples, you can store numeric values in a number. 
+Come suggerisce il nome, puoi memorizzare valori numerici in un numero. 
 
 ```js
-// this is a number
-let numberOfElephants = 33;
+// questo è un numero
+let numeroDiElefanti = 33;
 
-// The console will display 33
-console.log(numberOfElephants);
+// La console visualizzerà 33
+console.log(numeroDiElefanti);
 
 ```
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
 # Number
-JavaScript variables
+Variabili JavaScript
 
-This is the largest numerical value that can be stored safely in  a `number` 9007199254740991.
+Questo è il valore numerico più grande che può essere memorizzato in modo sicuro in un `number` 9007199254740991.
 
-If you think your app will need to store a bigger number, than you should use a `BigInt`.
+Se pensi che la tua app avrà bisogno di memorizzare un numero più grande, dovresti utilizzare un `BigInt`.
 
 ```js
-// this is a number
-let numberOfElephants = 9007199254740991;
+// questo è un numero
+let numeroDiElefanti = 9007199254740991;
 
-// The console will display 9007199254740991
-console.log(numberOfElephants);
+// La console visualizzerà 9007199254740991
+console.log(numeroDiElefanti);
 
-// This value comes from the number object 
+// Questo valore proviene dall'oggetto number 
 Number.MAX_SAFE_INTEGER; // 9007199254740991
 
 ```
@@ -116,19 +162,19 @@ Number.MAX_SAFE_INTEGER; // 9007199254740991
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
 # BigInt
-Variables
+Variabili
 
-This is the largest numerical value that can be stored in  a `number` 9007199254740991. 
+Questo è il valore numerico più grande che può essere memorizzato in un `number` 9007199254740991. 
 
-If you think your app will need to store a bigger number, than you should use a `BigInt`.
+Se pensi che la tua app avrà bisogno di memorizzare un numero più grande, dovresti utilizzare un `BigInt`.
 
 ```js
-  // this is how we use a BigInt
-  let numberOfElephants = BigInt(9007199254740992);
+    // questo è come usiamo un BigInt
+    let numeroDiElefanti = BigInt(9007199254740992);
 
 ```
 
@@ -136,265 +182,261 @@ If you think your app will need to store a bigger number, than you should use a 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
 # Boolean
-Variables
+Variabili
 
-Booleans can be set to `true` or `false`.
+I booleani possono essere impostati su `true` o `false`.
 
-While you can name your variables almost anything you want (there are some rules that JS applies), when it comes to `Boolean` values, you should try to name your variables with an `is` prefix. 
+Sebbene tu possa dare quasi qualsiasi nome alle tue variabili (ci sono alcune regole che JS applica), quando si tratta di valori `Boolean`, dovresti cercare di dare un nome alle tue variabili con un prefisso `is`. 
 
-For examples, `isEnabled`, `isPaidFor`, `isUserLoggedIn`. Also, avoid negative names, such as `isNotActive` or `isNotDone` as this can cause major confusion when reading code. 
+Per esempio, `isEnabled`, `isPaidFor`, `isUserLoggedIn`. Inoltre, evita nomi negativi, come `isNotActive` o `isNotDone` in quanto possono causare grande confusione durante la lettura del codice. 
 
 ```js
-  // this is a boolean
-  let isElephantPresent = false;
+    // questo è un booleano
+    let isElephantPresent = false;
 
-  // The console will display false
-  console.log(isElephantPresent);
+    // La console visualizzerà false
+    console.log(isElephantPresent);
 ```
 
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
 # Null
-Variables
+Variabili
 
-This is an assigned value that means nothing, nada. 
+Questo è un valore assegnato che significa nulla, niente. 
 
-We generally use this value to setup a variable and flag that nothing is set in the variable yet. 
+Usiamo generalmente questo valore per impostare una variabile e segnalare che nulla è impostato nella variabile ancora. 
 
 ```js
-  // this is a null value
-  let numElephants = null;
+    // questo è un valore null
+    let numElefanti = null;
 
-  // The console will display null
-  console.log(numElephants);
+    // La console visualizzerà null
+    console.log(numElefanti);
 ```
 
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
 # Undefined
-Variables
+Variabili
 
-The value `undefined` is set on a variable before an actual value is provided to the variable.
+Il valore `undefined` viene impostato su una variabile prima che un valore effettivo venga fornito alla variabile.
 
 ```js
-  // Whoops - declared a variable but didn't set it to anything
-  let numElephants;
+    // Oops - dichiarato una variabile ma non l'ho impostata su nulla
+    let numElefanti;
 
-  // The console will display undefined
-  console.log(numElephants); 
+    // La console visualizzerà undefined
+    console.log(numElefanti); 
 ```
 
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 ---
 
-# Objects literals
-Variables
+# Oggetti letterali
+Variabili
 
-Objects literals in JavaScript are a collection of name and value pairs. 
+Gli oggetti letterali in JavaScript sono una raccolta di coppie nome e valore. 
 
-The following is a really simple example of an object literal, though they can get very complex. 
+Il seguente è un esempio molto semplice di un oggetto letterale, anche se possono diventare molto complessi. 
 
 ```js
-  // Declare an object literal
-  const elephant = {
-    name: "Jimbo",
-    age: 200,
-    isMarried: false,
-  };
+    // Dichiarare un oggetto letterale
+    const elefante = {
+        nome: "Jimbo",
+        eta: 200,
+        isSposato: false,
+    };
 
-  // Access the whole object literal 
-  console.log(elephant)
+    // Accedere all'intero oggetto letterale 
+    console.log(elefante)
 
-  // Access a property using the dot notation and something called chaining 
-  console.log(elephant.name)
+    // Accedere a una proprietà utilizzando la notazione a punto e qualcosa chiamato chaining 
+    console.log(elefante.nome)
 
-  // Access a property using the dot notation and something called chaining 
-  console.log(elephant.age)
+    // Accedere a una proprietà utilizzando la notazione a punto e qualcosa chiamato chaining 
+    console.log(elefante.eta)
 
 ```
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try! 
-Variables
+# Ora provaci tu! 
+Variabili
 
-* Open your JavaScript file
-* Type this code in and check out the browser's console message
+* Apri il tuo file JavaScript
+* Digita questo codice e controlla il messaggio della console del browser
 
 ```js
-  // Declare an wage variable 
-  let wage = 33; 
+    // Dichiarare una variabile stipendio 
+    let stipendio = 33; 
 
-  // Declare another value 
-  let bonus = 22;
+    // Dichiarare un altro valore 
+    let bonus = 22;
 
-  // Manipulate the wage by adding the bonus to it 
-  wage = wage + bonus; 
+    // Manipolare lo stipendio aggiungendo il bonus ad esso 
+    stipendio = stipendio + bonus; 
 
-  // Console log the contents of the variable 
-  console.log("The updated wage is set to", wage);
+    // Console log il contenuto della variabile 
+    console.log("Lo stipendio aggiornato è impostato su", stipendio);
 
 ```
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try! 
-Variables
+# Ora provaci tu! 
+Variabili
 
-* Open your JavaScript file
-* Type this code in and check out the browser's console message
-* Figure out how to add a space in your console log to seperate the two messages
+* Apri il tuo file JavaScript
+* Digita questo codice e controlla il messaggio della console del browser
+* Cerca di capire come aggiungere uno spazio nel tuo console log per separare i due messaggi
 
 ```js
-  // Declare the start of message
-  let beginMessage = "Hello how are"; 
+    // Dichiarare l'inizio del messaggio
+    let inizioMessaggio = "Ciao come stai?"; 
 
-  // Declare the end of the message
-  let endMessage = "you doing?";
+    // Dichiarare la fine del messaggio
+    let fineMessaggio = "Cosa stai facendo?";
 
-  // Add both of the strings and display using the console log
-  console.log(beginMessage + endMessage);
+    // Aggiungi entrambe le stringhe e visualizza usando il console log
+    console.log(inizioMessaggio + fineMessaggio);
 
-  // Add a space to seperate the two messages?
+    // Aggiungi uno spazio per separare i due messaggi?
 
 ```
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try! 
-Variables
+# Ora provaci tu! 
+Variabili
 
-* Open your JavaScript file
-* Type this code in 
-* Define a `const` called `boilingPoint` and set it to `100`
-* Run this code in your browser and check out the browser's console message
+* Apri il tuo file JavaScript
+* Digita questo codice 
+* Definisci una `const` chiamata `puntoDiEbollizione` e impostala su `100`
+* Esegui questo codice nel tuo browser e controlla il messaggio della console del browser
 
 ```js
-  // Declare a const and set it to 100
+    // Dichiarare una const e impostarla su 100
 
-  // Try to assign the const a new value
-  boilingPoint = 105;
+    // Prova ad assegnare alla const un nuovo valore
+    puntoDiEbollizione = 105;
  
-  // Add both of the strings and display using the console log
-  console.log("The boiling point is:" , boilingPoint);
+    // Aggiungi entrambe le stringhe e visualizza usando il console log
+    console.log("Il punto di ebollizione è:" , puntoDiEbollizione);
 
 ```
 
 
 ---
 title: JavaScript
-level: 2
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try! 
-Variables
+# Ora provaci tu! 
+Variabili
 
-* Okay this one is sneaky
-* Open your JavaScript file
-* Define a constant variable called `quote` and put a `string` in the variable 
-* Set the value of the string to be `You had me at "Hello"` (note the included double quotation marks)
-* Console log the `quote` variable
+* Okay questa è subdola
+* Apri il tuo file JavaScript
+* Definisci una variabile costante chiamata `citazione` e metti una `stringa` nella variabile 
+* Imposta il valore della stringa su `Mi hai avuto a "Ciao"` (nota le virgolette doppie incluse)
+* Console log la variabile `citazione`
 
 ```js
-  // Declare a const and set it to - You had me at "Hello"
-  const quote = ; // ADD CODE HERE
+    // Dichiarare una const e impostarla su - Mi hai avuto a "Ciao"
+    const citazione = ; // AGGIUNGI CODICE QUI
  
-  // Add then display using the console log
-  console.log(quote);
+    // Aggiungi poi visualizza usando il console log
+    console.log(citazione);
 
 ```
-
-
-
 ---
 title: JavaScript
-level: 2
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try! 
-Variables
+# Ora provaci tu! 
+Variabili
  
-* Create an object literal named `product` and add the following properties 
-  * `price` set to `4.99`
-  * `name` set to `Nacho Cheese Doritos`
-  * `isInStock` set to `true`
-* Console log the `product` variable
+* Crea un oggetto letterale chiamato `prodotto` e aggiungi le seguenti proprietà 
+    * `prezzo` impostato a `4.99`
+    * `nome` impostato a `Nacho Cheese Doritos`
+    * `èInMagazzino` impostato a `true`
+* Console log della variabile `prodotto`
 
 ```js
 
-  // Declare a const called product
-  // Set the following properties 
-  //   price to 4.99 (Number)
-  //   name to Nacho Cheese Doritos (String)
-  //   isInStock to true (Boolean)
-  const product = {}; 
+    // Dichiarare una const chiamata prodotto
+    // Imposta le seguenti proprietà 
+    //   prezzo a 4.99 (Number)
+    //   nome a Nacho Cheese Doritos (String)
+    //   èInMagazzino a true (Boolean)
+    const prodotto = {}; 
  
-  // Add then display using the console log
-  console.log(product);
+    // Aggiungi poi visualizza usando il console log
+    console.log(prodotto);
 
 ```
 
 
 ---
 title: JavaScript
-level: 2
-
+level: 3
 ---
 
 # Template literals 
-Variables
+Variabili
 
-Template literals (also known as template strings) are enclosed by backticks [ ` ] and not quotation marks.
+I template literal (noti anche come stringhe di template) sono racchiusi da backticks [ ` ] e non da virgolette.
 
-Inside template literals you are able to execute expressions by using the `${...}` notation.
+All'interno dei template literal sei in grado di eseguire espressioni utilizzando la notazione `${...}`.
 
 ```js
-  // Declare a const called price and set it
-  const price = 4.99; 
+    // Dichiarare una const chiamata prezzo e impostarla
+    const prezzo = 4.99; 
 
-  // Declare a const called quantity and set it
-  const quantity = 7 
+    // Dichiarare una const chiamata quantità e impostarla
+    const quantità = 7 
  
-  // Console log will display - You can buy 7 elephants for $34.93
-  console.log(`You can buy ${quantity} elephants for $${price * quantity}`);
+    // Console log visualizzerà - Puoi comprare 7 elefanti per $34.93
+    console.log(`Puoi comprare ${quantità} elefanti per $${prezzo * quantità}`);
 
-  // Note the two dollar signs - the first is just the regular dollar sign
-  //  and the second one activates the expression within the curly braces
+    // Nota i due segni del dollaro - il primo è solo il normale segno del dollaro
+    //  e il secondo attiva l'espressione all'interno delle parentesi graffe
 
 ```
 
@@ -402,27 +444,26 @@ Inside template literals you are able to execute expressions by using the `${...
 
 ---
 title: JavaScript
-level: 2
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try! 
-Variables
+# Ora provaci tu! 
+Variabili
 
-* Let's practice using a template literal 
-* I've created three variables that you will need to reference
-* Using template literals and the console log, display the following by referencing the three variables 
-* `My phone number is (613) 825-6849`
+* Pratichiamo l'uso di un template literal 
+* Ho creato tre variabili che dovrai fare riferimento
+* Utilizzando i template literal e il console log, visualizza il seguente facendo riferimento alle tre variabili 
+* `Il mio numero di telefono è (613) 825-6849`
 
 ```js
-  // Declare some attributes 
-  let areaCode = 613;
-  let telephonePrefix = 825;
-  let lineNumber = 6849;
+    // Dichiarare alcuni attributi 
+    let prefissoArea = 613;
+    let prefissoTelefono = 825;
+    let numeroLinea = 6849;
  
-  // Use a string template literal 
-  // to display: "My phone number is (613) 825-6849"
-  console.log(`ADD_YOUR_CODE_HERE`);
+    // Usa un template literal di stringa 
+    // per visualizzare: "Il mio numero di telefono è (613) 825-6849"
+    console.log(`INSERISCI_IL_TUO_CODICE_QUI`);
 
 ```
-

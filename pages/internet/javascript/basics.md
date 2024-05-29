@@ -1,21 +1,22 @@
 ---
-title: JavaScript basics
+title: Basi di javascript
 layout: intro
----
-
-# JavaScript
-The programming language everyone loves and absolutely hates
-
-
----
-title: JavaScript
 level: 2
 ---
 
-# How to run JavaScript code
-Basics
+# javascript
+il linguaggio di programmazione che tutti amano e odiano assolutamente
 
-Running code in the `head` tag. Meh. 
+
+---
+title: javascript
+level: 3
+---
+
+# come eseguire il codice javascript
+fondamentali
+
+esecuzione del codice nel tag `head`. meh. 
 
 ```html
 <html>
@@ -23,12 +24,12 @@ Running code in the `head` tag. Meh.
     ...
     <script>
       /* 
-        This is a multiline 
-        JavaScript comment 
+        questo è un commento 
+        multilinea in javascript 
       */
 
-      // And this is a single line comment
-      console.log("Hello World");
+      // e questo è un commento su una singola riga
+      console.log("ciao mondo");
     
     </script>
   </head>
@@ -39,14 +40,14 @@ Running code in the `head` tag. Meh.
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# How to run JavaScript code
-Basics
+# come eseguire il codice javascript
+fondamentali
 
-Running code in the `body` tag. Better. 
+esecuzione del codice nel tag `body`. meglio. 
 
 ```html
 <html>
@@ -55,12 +56,12 @@ Running code in the `body` tag. Better.
     ...
     <script>
       /* 
-        This is a multiline 
-        JavaScript comment 
+        questo è un commento 
+        multilinea in javascript 
       */
 
-      // And this is a single line comment
-      console.log("Hello World");
+      // e questo è un commento su una singola riga
+      console.log("ciao mondo");
     
     </script>
   </body>
@@ -71,14 +72,14 @@ Running code in the `body` tag. Better.
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# How to run JavaScript code
-Basics
+# come eseguire il codice javascript
+fondamentali
 
-Running code in the `body` from a seperate `js` file. Best. 
+esecuzione del codice nel `body` da un file `js` separato. il migliore. 
 
 ```html
 <html>
@@ -94,70 +95,70 @@ Running code in the `body` from a seperate `js` file. Best.
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# Statements
-Basics
+# dichiarazioni
+fondamentali
 
-A statement is an instruction written in javascript code that the browser interprets and then does a thing. 
+una dichiarazione è un'istruzione scritta nel codice javascript che il browser interpreta e poi fa qualcosa. 
 
-**Always put in semi-colons at the end of a line of code**. 
+**metti sempre i punti e virgola alla fine di una riga di codice**. 
 
-JavaScript is loosely typed and may work without them but you will get unexpected behaviour. 
+javascript è di tipo debole e potrebbe funzionare senza di essi, ma otterrai un comportamento inaspettato. 
 
 ```js
-  let age = 300;
+  let eta = 300;
 ```
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# Code blocks
-Basics
+# blocchi di codice
+fondamentali
 
-Code blocks are sections of code bound by a `{` and a `}`
+i blocchi di codice sono sezioni di codice delimitate da `{` e `}`
 
-**Never put a semi-colon at the end of a code block, they don't need them**. 
+**non mettere mai un punto e virgola alla fine di un blocco di codice, non ne hanno bisogno**. 
 
 ```js
-let age = 300;
+let eta = 300;
 
-if (age > 50) {
-  console.log("Damn that's old");
+if (eta > 50) {
+  console.log("dannazione, è vecchio");
 }
 
-/* Note: there isn't a semi-colon at the end of line 6 */
+/* nota: non c'è un punto e virgola alla fine della riga 6 */
 
 ```
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# Naming conventions
-Basics
+# convenzioni di denominazione
+fondamentali
 
-The hardest thing to do in development, apart from everything, is to name your variables. 
+la cosa più difficile da fare nello sviluppo, a parte tutto, è dare un nome alle tue variabili. 
 
-There are three different naming conventions `pascal case`, `camel case`, and `snake case`. 
+ci sono tre diverse convenzioni di denominazione `pascal case`, `camel case`, e `snake case`. 
 
-(Note: there is a fourth - `kebab-case` but that doesn't work in JavaScript)
+(nota: ce n'è una quarta - `kebab-case` ma non funziona in javascript)
 
 ```js
-// Camel case 
-let numTodoItems = 41;
+// camel case 
+let numElementiDaFare = 41;
 
-// Pascal case 
-let NumTodoItems = 44;
+// pascal case 
+let NumElementiDaFare = 44;
 
-// Snake case 
-let num_todo_items = 32; 
+// snake case 
+let num_elementi_da_fare = 32; 
 
 
 ```
@@ -165,77 +166,112 @@ let num_todo_items = 32;
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# The most important line of code in JavaScript:
-Basics
+# la riga di codice più importante in javascript:
+fondamentali
 
-The `console` object provides access to the browser's debugging console. 
+l'oggetto `console` fornisce l'accesso alla console di debug del browser. 
 
-You can use the `console` object anywhere in your JavaScript code. 
+puoi usare l'oggetto `console` ovunque nel tuo codice javascript. 
 
-The easiest way to print something to the browsers console is to use the `console.log()` function shown below. Later on we'll look at some other `console` functions available to us. 
+il modo più semplice per stampare qualcosa sulla console del browser è usare la funzione `console.log()` mostrata di seguito. più avanti esamineremo alcune altre funzioni `console` disponibili per noi. 
 
 ```js
-// This is the border: 1px solid red; of JavaScript 
-console.log(numTodoItems);
+// questa è la border: 1px solid red; di javascript 
+console.log(numElementiDaFare);
 
 ```
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 class: "border-l-36 border-green-600"
 ---
 
-# Now you try! 
-Basics
+# ora provaci tu! 
+fondamentali
 
-* Create an HTML page
-* Add a script element to the bottom of the page
-* Add the following code to your page 
-* Open up the inspector tools in your browser 
-* View the console output
+* crea una pagina html
+* aggiungi un elemento script alla fine della pagina
+* aggiungi il seguente codice alla tua pagina 
+* apri gli strumenti di ispezione nel tuo browser 
+* visualizza l'output della console
 
 ```js
-  // Declare a variable
-  let message = "Hello World";
+  // dichiara una variabile
+  let messaggio = "ciao mondo";
 
-  // Console log the contents of the variable 
-  console.log(message);
+  // console log il contenuto della variabile 
+  console.log(messaggio);
 
 ```
+<div class="text-sm">
+
+[CODEPEN] (https://codepen.io/pen/)
+
+</div>
 
 
 ---
-title: JavaScript
-level: 2
+title: javascript
+level: 3
 ---
 
-# Other useful `console` functions
-Basics
+# altre funzioni `console` utili
+fondamentali
 
 ```js
-// Clear the console 
+// pulisce la console 
 console.clear();
 
-// General logging output
-console.log("Hello world");
+// output di log generale
+console.log("ciao mondo");
 
-// Logging information
-console.info("Some useful information");
+// log di informazioni
+console.info("alcune informazioni utili");
 
-// Outputs a warning message
-console.warn("Uh oh, this is a warning"); 
+// emette un messaggio di avvertimento
+console.warn("uh oh, questo è un avvertimento"); 
 
-// Outputs an error message
-console.error("Magor error occured");
+// emette un messaggio di errore
+console.error("è occorso un errore maggiore");
 
-// Outputs tabular data. The argument may be an array or object
-console.table(["Elephant", "Lion", "Tiger"]);
+// emette dati tabulari. l'argomento può essere un array o un oggetto
+console.table(["elefante", "leone", "tigre"]);
 
-// Outputs the stack trace, or the function path that was executed
-console.trace();
+// utilizzato per stampare un stack trace sulla console.
+ console.trace();
+```
+
+---
+title: javascript console.trace();
+level: 3
+---
+
+# console.trace();
+
+ Questo metodo può essere utile per il debug, perché ti mostra la sequenza di chiamate di funzione che hanno portato al punto in cui `console.trace()` è stato chiamato. 
+
+Ecco un esempio di come potrebbe essere utilizzato:
+
+```javascript
+function primaFunzione() {
+  secondaFunzione();
+}
+
+function secondaFunzione() {
+  terzaFunzione();
+}
+
+function terzaFunzione() {
+  console.trace();
+}
+
+primaFunzione();
+```
+In questo esempio, `console.trace()` viene chiamato all'interno di `terzaFunzione()`. Quando esegui questo codice, vedrai un output sulla console che mostra che `terzaFunzione()` è stata chiamata da `secondaFunzione()`, che a sua volta è stata chiamata da `primaFunzione()`.
+
 ```

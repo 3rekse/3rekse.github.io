@@ -1,36 +1,36 @@
 ---
 layout: intro
-title: CSS selectors
-level: 1
----
-
-# CSS Selectors
-
-Target HTML elements using CSS selectors
-
-
----
-title: What are CSS selectors
+title: Selettori CSS
 level: 2
+---
+
+# Selettori CSS
+
+Seleziona gli elementi HTML utilizzando i selettori CSS
+
+
+---
+title: Cosa sono i selettori CSS
+level: 3
 layout: image-right
 image: /internet/images/slides/css/selectors/library.jpg
 ---
 
 
-# Targeting our HTML
-Adding style to substance
+# Selezionare il nostro HTML
+Aggiungere stile alla sostanza
 
-We use CSS selectors to find specific elements on our HTML page so that we can apply CSS rules to that element. 
+Utilizziamo i selettori CSS per trovare specifici elementi sulla nostra pagina HTML in modo da poter applicare le regole CSS a quell'elemento.
 
-The latest version of CSS brings us a multitude of CSS selectors that allow us to be very specific when selecting HTML elements. 
+L'ultima versione di CSS ci offre una moltitudine di selettori CSS che ci permettono di essere molto specifici quando selezioniamo gli elementi HTML.
 
-The following slides go through all of the different types of selectors available.
+Le seguenti slide passano in rassegna tutti i diversi tipi di selettori disponibili.
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
-Photo by DS stories: https://www.pexels.com/photo/pile-of-colorful-boxes-7679762/
+Foto di DS stories: https://www.pexels.com/photo/pile-of-colorful-boxes-7679762/
 
 -->
 
@@ -38,16 +38,16 @@ Photo by DS stories: https://www.pexels.com/photo/pile-of-colorful-boxes-7679762
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# What is a selector
-Adding style to substance
+# Cos'è un selettore
+Aggiungere stile alla sostanza
 
-CSS selectors are the first part of our CSS Rules. They are a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector.
+I selettori CSS sono la prima parte delle nostre regole CSS. Sono un modello di elementi e altri termini che dicono al browser quali elementi HTML dovrebbero essere selezionati per avere i valori delle proprietà CSS all'interno della regola applicati a loro. L'elemento o gli elementi che sono selezionati dal selettore sono chiamati soggetto del selettore.
 
-In the example below, `body` and `p` are our selectors.
+Nell'esempio sottostante, `body` e `p` sono i nostri selettori.
 
 ```css
 body {
@@ -61,20 +61,20 @@ p {
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# Selector lists
-Adding style to substance
+# Liste di selettori
+Aggiungere stile alla sostanza
 
-If you have more than one element which uses the same CSS declarations, you are able to list out your selectors, seperated by a `,` and the CSS properties will be applied to all of the HTML elements targetted by the selectors in the list. 
+Se hai più di un elemento che utilizza le stesse dichiarazioni CSS, sei in grado di elencare i tuoi selettori, separati da una `,` e le proprietà CSS saranno applicate a tutti gli elementi HTML selezionati dai selettori nella lista.
 
 ```css
 h1 {
@@ -85,7 +85,7 @@ h2 {
   color: #333333;
 }
 
-/* Can be combined and written as */
+/* Può essere combinato e scritto come */
 
 h1 , h2 {
     color: #333333;
@@ -96,23 +96,23 @@ h1 , h2 {
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# Universal selector
-Adding style to substance
+# Selettore universale
+Aggiungere stile alla sostanza
 
-All markup and every element on the page can be selected using the `*` selector. 
+Tutti i markup e ogni elemento sulla pagina possono essere selezionati utilizzando il selettore `*`.
 
-In the example below, every element on a web page will get a 1px solid red border applied to them. 
+Nell'esempio sottostante, ogni elemento su una pagina web otterrà un bordo rosso solido di 1px applicato a loro.
 
 ```css
 * {
@@ -122,21 +122,21 @@ In the example below, every element on a web page will get a 1px solid red borde
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# Type selector
-Adding style to substance
+# Selettore di tipo
+Aggiungere stile alla sostanza
 
-A type selector (or element selector) selects all HTML elements of the given element type, and the syntax is just the name of the element.
+Un selettore di tipo (o selettore di elemento) seleziona tutti gli elementi HTML del dato tipo di elemento, e la sintassi è solo il nome dell'elemento.
 
 ```css
 h1 {
@@ -155,31 +155,31 @@ p {
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# Class selector
-Adding style to substance
+# Selettore di classe
+Aggiungere stile alla sostanza
 
-We can be more specific about what element we select by assigning a name to the HTML tag — called a class. Classes are just an attribute on your HTML tags. 
+Possiamo essere più specifici su quale elemento selezioniamo assegnando un nome al tag HTML — chiamato classe. Le classi sono solo un attributo sui tuoi tag HTML.
 
-You can use a class selector by adding a `.` infront of a class name in your CSS code.
+Puoi utilizzare un selettore di classe aggiungendo un `.` davanti a un nome di classe nel tuo codice CSS.
 
 ```html 
 <!-- index.html -->
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li class="selected">Item 3</li>
-  <li>Item 4</li>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li class="selected">Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 ```
 
@@ -192,31 +192,31 @@ You can use a class selector by adding a `.` infront of a class name in your CSS
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# ID selector
-Adding style to substance
+# Selettore ID
+Aggiungere stile alla sostanza
 
-ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element:
+I selettori ID sono simili ai selettori di classe. Selezionano un elemento con l'ID dato, che è un altro attributo che si posiziona su un elemento HTML:
 
-You can use an id selector by adding a `#` infront of a id in your CSS code.
+Puoi utilizzare un selettore id aggiungendo un `#` davanti a un id nel tuo codice CSS.
 
 ```html 
 <!-- index.html -->
 <ul>
-  <li id="unique-item">Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li id="unique-item">Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 ```
 
@@ -229,30 +229,30 @@ You can use an id selector by adding a `#` infront of a id in your CSS code.
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# Chaining selector
-Adding style to substance
+# Selettore a catena
+Aggiungere stile alla sostanza
 
-You can also target a specific HTML elements that have two or more specific classes applied to them. This is known as the chaining selector.
+Puoi anche selezionare specifici elementi HTML che hanno due o più classi specifiche applicate a loro. Questo è noto come selettore a catena.
 
-The chaining selector is used by not putting any spaces in between the class name.
+Il selettore a catena viene utilizzato non mettendo spazi tra il nome della classe.
 
 ```html 
 <!-- index.html -->
 <ul>
-  <li class="active first">Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-  <li>Item 4</li>
+  <li class="active first">Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
 </ul>
 ```
 
@@ -265,7 +265,7 @@ The chaining selector is used by not putting any spaces in between the class nam
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
@@ -273,25 +273,25 @@ Slide notes:
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# Descendant combinator
-Adding style to substance
+# Combinatore discendente
+Aggiungere stile alla sostanza
 
-Combinators are CSS selectors that are used to style elements that have a certain relationship with other selected elements. 
+I combinatori sono selettori CSS che vengono utilizzati per stilizzare elementi che hanno una certa relazione con altri elementi selezionati.
 
-The descendant combinator selector allows us to match all descendants of a specific element. 
+Il selettore combinatore discendente ci permette di abbinare tutti i discendenti di un elemento specifico.
 
 ```html 
 <!-- index.html -->
 <section class="parent">
   <p>lorem ipsum dolar</p>
-  <p class="child">lorem ipsum dolar</p> <!-- would be styled as has parent and child class -->
+  <p class="child">lorem ipsum dolar</p> <!-- sarebbe stilizzato come ha classe genitore e figlio -->
 </section>
 <section>
-  <p class="child">lorem ipsum dolar</p> <!-- would not be selected since not a child of a parent class -->
+  <p class="child">lorem ipsum dolar</p> <!-- non sarebbe selezionato poiché non è un figlio di una classe genitore -->
 </section>
 ```
 
@@ -304,7 +304,7 @@ The descendant combinator selector allows us to match all descendants of a speci
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
@@ -312,14 +312,14 @@ Slide notes:
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# Attribute selectors
-Adding style to substance
+# Selettori di attributi
+Aggiungere stile alla sostanza
 
-This group of selectors gives you different ways to select elements based on the presence of a certain attribute on an element.
+Questo gruppo di selettori ti dà diversi modi per selezionare elementi in base alla presenza di un certo attributo su un elemento.
 
 
 ```html 
@@ -337,24 +337,24 @@ p[data-course] {
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# Psuedo-class 
-Adding style to substance
+# Pseudo-classi
+Aggiungere stile alla sostanza
 
-This group of selectors style certain states of an element. The `:hover` pseudo-class for example selects an element only when it is being hovered over by the mouse pointer.
+Questo gruppo di selettori stila certi stati di un elemento. La pseudo-classe `:hover` per esempio seleziona un elemento solo quando viene passato sopra con il puntatore del mouse.
 
 ```html 
 <!-- index.html -->
-<a href="https://google.ca">Visit Google</a>
+<a href="https://google.ca">Visita Google</a>
 ```
 
 ```css
@@ -367,7 +367,7 @@ a:hover {
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
@@ -375,16 +375,16 @@ Slide notes:
 
 
 ---
-title: CSS Selectors
-level: 2
+title: Selettori CSS
+level: 3
 ---
 
-# Psuedo-elements
-Adding style to substance
+# Pseudo-elementi
+Aggiungere stile alla sostanza
 
-Pseudo-elements refer to a certain part of an element rather than the element itself. For example, `::first-letter` always selects the first letter of text inside an element (a `<p>` in the below case).
+Gli pseudo-elementi si riferiscono a una certa parte di un elemento piuttosto che all'elemento stesso. Ad esempio, `::first-letter` seleziona sempre la prima lettera del testo all'interno di un elemento (un `<p>` nel caso sottostante).
 
-In the example below, the psuedo-element selector would target just the letter `L` in the `<p>` and give it a background colour, font colour, and set the text size to `3rem`.
+Nell'esempio sottostante, il selettore pseudo-elemento avrebbe come target solo la lettera `L` nel `<p>` e gli darebbe un colore di sfondo, un colore di font e imposterebbe la dimensione del testo a `3rem`.
 
 
 ```html 
@@ -404,25 +404,25 @@ p::first-letter{
 
 <!-- 
 
-Slide notes: 
+Note slide: 
 
 -->
 
 
 
 ---
-title: CSS Selector Resources
-level: 2
+title: Risorse sui selettori CSS
+level: 3
 layout: image-right
 image: /internet/images/slides/css/selectors/books.jpg
 ---
 
 
-# Selector resources
-Guides and cheatsheets
+# Risorse sui selettori
+Guide e cheatsheets
 
-* [Combining and Chaining CSS Selectors - Prof3ssorSt3v3](https://www.youtube.com/watch?v=6VGKD7p4p-w&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=4)
-* [C in CSS Means Cascading - Prof3ssorSt3v3](https://www.youtube.com/watch?v=PigxOyVDIQg&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=2)
+* [Combinare e concatenare i selettori CSS - Prof3ssorSt3v3](https://www.youtube.com/watch?v=6VGKD7p4p-w&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=4)
+* [C in CSS significa Cascading - Prof3ssorSt3v3](https://www.youtube.com/watch?v=PigxOyVDIQg&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=2)
 * [Nth Child - Prof3ssorSt3v3](https://www.youtube.com/watch?v=4NsJtaaC0qI&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=15)
 * [Psuedo classes - Prof3ssorSt3v3](https://www.youtube.com/watch?v=0VDx1570X3U&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=14)
 * [Selectors - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)

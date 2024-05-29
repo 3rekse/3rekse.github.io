@@ -1,129 +1,125 @@
 ---
 title: JavaScript dom
 layout: intro
----
-
-# JavaScript DOM
-The Document Object Model
-
-
----
-title: JavaScript dom
 level: 2
 ---
 
-# Introduction 
-JavaScript dom 
+# JavaScript DOM
+Il Document Object Model
 
-The Document Object Model (DOM) is a representation of the objects that make up the structure and content of a web page.
+---
+title: JavaScript dom
+level: 3
+---
 
-For example, the paragraph below on our HTML page would have a corresponding JavaScript Object that we can access, modify, or remove.
+# Introduzione
+JavaScript dom
 
-The `document` object gives us a programatic way to access all of the properties, methods, elements, and events on our web page.
+Il Document Object Model (DOM) è una rappresentazione degli oggetti che costituiscono la struttura e il contenuto di una pagina web.
+
+Ad esempio, il paragrafo sottostante sulla nostra pagina HTML avrebbe un corrispondente oggetto JavaScript a cui possiamo accedere, modificare o rimuovere.
+
+L'oggetto `document` ci offre un modo programmatico per accedere a tutte le proprietà, metodi, elementi ed eventi della nostra pagina web.
 
 ```html
-<!-- Paragraph on our page in HTML -->
-<p>This is a paragraph</p>
+<!-- Paragrafo sulla nostra pagina in HTML -->
+<p>Questo è un paragrafo</p>
 
 ```
 
 ---
 title: JavaScript dom
-level: 2
+level: 3
 ---
 
-# Introduction 
-JavaScript dom 
+# Introduzione
+JavaScript dom
 
-For example, here is how we could access the paragraph in JavaScript
+Ad esempio, ecco come potremmo accedere al paragrafo in JavaScript
 
 ```html
-<!-- Paragraph on our page in HTML -->
-<p>This is a paragraph</p>
+<!-- Paragrafo sulla nostra pagina in HTML -->
+<p>Questo è un paragrafo</p>
 
 ```
 
 ```js
-/* Select all of the paragraphs on the page */
+/* Seleziona tutti i paragrafi sulla pagina */
 const paragraphs = document.querySelectorAll("p");
 
-// The first paragraph
+// Il primo paragrafo
 console.log(paragraphs[0]);
 
 ```
 
-
 ---
 title: JavaScript dom
-level: 2
+level: 3
 ---
 
-# Introduction 
-JavaScript dom 
+# Introduzione
+JavaScript dom
 
-The main dom methods we're looking at (con't):
+I principali metodi dom che stiamo esaminando (continua):
 
 ```js
-/* Get an element by an id */
+/* Ottieni un elemento per id */
 const myH1 = document.getElementByID("h1ID");
 
-/* Get elements by a class name */ 
+/* Ottieni elementi per nome di classe */ 
 const collectionOfElements = document.getElementById("classname");
 
-/* Get an element using a CSS selector (you can use an css selector pattern in here) */ 
+/* Ottieni un elemento utilizzando un selettore CSS (puoi utilizzare qualsiasi modello di selettore css qui) */ 
 const oneElement = document.querySelector(".container");
 
-/* Select a collections of elements that match the query pattern */
+/* Seleziona una collezione di elementi che corrispondono al modello di query */
 const paragraphs = document.querySelectorAll("p");
 
-/* Select a collections of elements that match the query pattern */
+/* Seleziona una collezione di elementi che corrispondono al modello di query */
 const newParagraph = document.createElement("p");
 
 ```
 
-
 ---
 title: JavaScript dom
-level: 2
+level: 3
 ---
 
-# Introduction 
-JavaScript dom 
+# Introduzione
+JavaScript dom
 
-The main dom methods we're looking at:
+I principali metodi dom che stiamo esaminando:
 
 ```js
-/* Add child node to parent */ 
+/* Aggiungi nodo figlio al genitore */ 
 const mainSection = document.getElementById("main");
 mainSection.appendChild(newParagraph);
 
-/* Modify a style property */ 
+/* Modifica una proprietà di stile */ 
 newParagraph.style.transform = "rotate(10deg)";
 
-/* Set text content */ 
+/* Imposta il contenuto del testo */ 
 const myLink = document.getElementById("a");
-myLink.textContent = "This is a link!";
+myLink.textContent = "Questo è un link!";
 
-/* Set attribute */ 
+/* Imposta l'attributo */ 
 const myLink = document.getElementById("a");
 myLink.setAttribute("href", "#");
 
-
 ```
-
 
 ---
 title: JavaScript dom
-level: 2
+level: 3
 ---
 
-# Introduction 
-JavaScript dom 
+# Introduzione
+JavaScript dom
 
-The main dom methods we're looking at:
+I principali metodi dom che stiamo esaminando:
 
 ```js
-/* Add child node to parent but as the first thing in the parent */ 
+/* Aggiungi nodo figlio al genitore ma come prima cosa nel genitore */ 
 const mainSection = document.getElementById("main");
 mainSection.prepend(newParagraph);
 ```

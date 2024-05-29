@@ -1,59 +1,59 @@
 ---
 layout: intro
-title: CSS flexbox 
-level: 1
----
-
-# CSS Flexbox
-
-💪 flex your skills and build layouts like a boss
-
-
----
-title: So what is Flexbox
+title: CSS Flexbox 
 level: 2
+---
+
+# css flexbox
+
+💪 metti alla prova le tue abilità e costruisci layout come un boss
+
+
+---
+title: quindi cos'è flexbox
+level: 3
 layout: image-right
 image: /internet/images/slides/css/flex-box/boxes.jpg
 ---
 
 
-# Flexbox basics
-Introduction to CSS Flexbox
+# basi di flexbox
+introduzione a css flexbox
 
-## What is it? 
+## cos'è? 
 
-Flexbox allows you to control the flow of the elements in a container by placing items in rows and columns.
+flexbox ti permette di controllare il flusso degli elementi in un contenitore posizionando gli elementi in righe e colonne.
 
 
-## Why "Flex"?
+## perché "flex"?
 
-Flexbox allows us to distribute space dynamically across elements of an unknown size, hence the term "flex"
+flexbox ci permette di distribuire lo spazio dinamicamente tra elementi di dimensioni sconosciute, da qui il termine "flex"
 
 
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
-Credit: 
+credito: 
 
-Photo by Ayrat: https://www.pexels.com/photo/photograph-of-brown-cardboard-boxes-12354555/
+foto di ayrat: https://www.pexels.com/photo/photograph-of-brown-cardboard-boxes-12354555/
 
 -->
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 layout: center
 ---
 
-<p>Flex box container</p>
+<p>contenitore flex box</p>
 <div class="border-dotted border-4 border-gray w-3xl">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -82,27 +82,27 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Start with a flex container
+# inizia con un contenitore flex
 
-We’re making a flex container and all the children of that container become flex items.
+stiamo creando un contenitore flex e tutti i figli di quel contenitore diventano elementi flex.
 
 ```html
 
 <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+    <li>elemento 1</li>
+    <li>elemento 2</li>
+    <li>elemento 3</li>
 </ul>
 
 ```
@@ -119,7 +119,7 @@ ul {
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
@@ -127,11 +127,11 @@ Slide notes:
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Flex direction
+# direzione flex
 
 ```css
 
@@ -144,9 +144,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -175,7 +175,7 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
@@ -183,11 +183,11 @@ Slide notes:
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Flex direction
+# direzione flex
 
 ```css
 
@@ -200,9 +200,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -232,19 +232,17 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
-
-
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Flex direction
+# direzione flex
 
 ```css
 
@@ -257,9 +255,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -289,19 +287,19 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Justify content
-We can distribute the elements along the axis that the flex items are arranged using the `justify-content` property.
+# giustifica contenuto
+possiamo distribuire gli elementi lungo l'asse in cui sono disposti gli elementi flex utilizzando la proprietà `justify-content`.
 
 ```css
 
@@ -315,9 +313,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -348,19 +346,19 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Justify content
-We can distribute the elements along the axis that the flex items are arranged using the `justify-content` property.
+# giustifica contenuto
+possiamo distribuire gli elementi lungo l'asse in cui sono disposti gli elementi flex utilizzando la proprietà `justify-content`.
 
 ```css
 
@@ -374,9 +372,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -407,19 +405,19 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Justify content
-We can distribute the elements along the axis that the flex items are arranged using the `justify-content` property.
+# giustifica contenuto
+possiamo distribuire gli elementi lungo l'asse in cui sono disposti gli elementi flex utilizzando la proprietà `justify-content`.
 
 ```css
 
@@ -433,9 +431,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -466,7 +464,7 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
@@ -474,12 +472,12 @@ Slide notes:
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Justify content
-We can distribute the elements along the axis that the flex items are arranged using the `justify-content` property.
+# giustifica contenuto
+possiamo distribuire gli elementi lungo l'asse in cui sono disposti gli elementi flex utilizzando la proprietà `justify-content`.
 
 ```css
 
@@ -493,9 +491,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -526,19 +524,17 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
-
-
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Justify content
-We can distribute the elements along the axis that the flex items are arranged using the `justify-content` property.
+# justify content
+possiamo distribuire gli elementi lungo l'asse che gli elementi flex sono disposti utilizzando la proprietà `justify-content`.
 
 ```css
 
@@ -552,9 +548,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -582,21 +578,19 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 </style>
 
-
 <!-- 
 
-Slide notes: 
+slide notes: 
 
 
 -->
 
-
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Flex wrap
+# flex wrap
 
 ```css
 
@@ -610,9 +604,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-lg">
 <ul class="flex-demo w-xl">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -644,18 +638,18 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Flex wrap
+# flex wrap
 
 ```css
 
@@ -669,9 +663,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-lg">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -704,7 +698,7 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
@@ -714,12 +708,12 @@ Slide notes:
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Aligning items
-We can distribute the elements along the cross axis that the flex items are arranged using the `align-items` property.
+# allineamento elementi
+possiamo distribuire gli elementi lungo l'asse trasversale che gli elementi flex sono disposti utilizzando la proprietà `align-items`.
 
 ```css
 
@@ -733,9 +727,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -768,7 +762,7 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
@@ -776,12 +770,12 @@ Slide notes:
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Aligning items
-We can distribute the elements along the cross axis that the flex items are arranged using the `align-items` property.
+# allineamento elementi
+possiamo distribuire gli elementi lungo l'asse trasversale che gli elementi flex sono disposti utilizzando la proprietà `align-items`.
 
 ```css
 
@@ -795,9 +789,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -830,7 +824,7 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
@@ -839,12 +833,12 @@ Slide notes:
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Aligning items
-We can distribute the elements along the cross axis that the flex items are arranged using the `align-items` property.
+# allineamento elementi
+possiamo distribuire gli elementi lungo l'asse trasversale che gli elementi flex sono disposti utilizzando la proprietà `align-items`.
 
 ```css
 
@@ -858,9 +852,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -893,19 +887,19 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Aligning items
-We can distribute the elements along the cross axis that the flex items are arranged using the `align-items` property.
+# allineamento elementi
+possiamo distribuire gli elementi lungo l'asse trasversale che gli elementi flex sono disposti utilizzando la proprietà `align-items`.
 
 ```css
 
@@ -919,9 +913,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -954,20 +948,17 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
-
+note slide: 
 
 -->
 
-
-
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Aligning items
-We can distribute the elements along the cross axis that the flex items are arranged using the `align-items` property.
+# allineamento degli elementi
+possiamo distribuire gli elementi lungo l'asse trasversale che gli elementi flex sono disposti utilizzando la proprietà `align-items`.
 
 ```css
 
@@ -985,9 +976,9 @@ ul li:nth-child(3) {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -1022,21 +1013,19 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
-
-
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Flex grow
-We can use the `flex-grow` property to have flex items take up more space
+# flex grow
+possiamo utilizzare la proprietà `flex-grow` per far occupare più spazio agli elementi flex
 
 ```css
 
@@ -1056,9 +1045,9 @@ ul li:nth-child(1) {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -1097,19 +1086,19 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Flex grow
-We can use the `flex-grow` property to have flex items take up more space
+# flex grow
+possiamo utilizzare la proprietà `flex-grow` per far occupare più spazio agli elementi flex
 
 ```css
 
@@ -1132,9 +1121,9 @@ ul li:nth-child(2) {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -1176,21 +1165,19 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
-
-
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Flex basis
-We can use the `flex-basis` to request the flex item be a certain width (or height in column mode)
+# flex basis
+possiamo utilizzare la `flex-basis` per richiedere che l'elemento flex sia di una certa larghezza (o altezza in modalità colonna)
 
 ```css
 
@@ -1208,9 +1195,9 @@ ul li {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -1245,20 +1232,19 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
-
 ---
-title: Flexbox
-level: 2
+title: flexbox
+level: 3
 ---
 
-# Gap
-We can use the `gap` property to add a gap between the flex items in the direction of the main axis.
+# gap
+possiamo utilizzare la proprietà `gap` per aggiungere uno spazio tra gli elementi flex nella direzione dell'asse principale.
 
 ```css
 
@@ -1272,9 +1258,9 @@ ul {
 
 <div class="border-dotted border-4 border-gray w-full">
 <ul class="flex-demo">
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>elemento 1</li>
+<li>elemento 2</li>
+<li>elemento 3</li>
 </ul>
 </div>
 
@@ -1310,35 +1296,35 @@ ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
 
 -->
 
 
 ---
-title: Flexbox Resournces
-level: 2
+title: risorse flexbox
+level: 3
 layout: image-right
 image: /internet/images/slides/css/flex-box/fallen-boxes.jpg
 ---
 
 
-# Flexbox resources
-Guides and cheatsheets
+# risorse flexbox
+guide e cheatsheets
 
-* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Flexbox cheat sheet](https://yoksel.github.io/flex-cheatsheet/)
-* [Flexbox Froggy](https://flexboxfroggy.com)
-* [Another Flexbox cheat sheet](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
-* [Article on sizing flexbox items](https://www.smashingmagazine.com/2018/09/flexbox-sizing-flexible-box/)
+* [una guida completa a flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [cheatsheet flexbox](https://yoksel.github.io/flex-cheatsheet/)
+* [flexbox froggy](https://flexboxfroggy.com)
+* [un'altra cheatsheet flexbox](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
+* [articolo sulla dimensione degli elementi flexbox](https://www.smashingmagazine.com/2018/09/flexbox-sizing-flexible-box/)
 
 <!-- 
 
-Slide notes: 
+note slide: 
 
-Credit: 
+credito: 
 
-Photo by cottonbro studio: https://www.pexels.com/photo/person-in-black-leather-boots-sitting-on-brown-cardboard-boxes-4553277/
+foto di cottonbro studio: https://www.pexels.com/photo/person-in-black-leather-boots-sitting-on-brown-cardboard-boxes-4553277/
 
 -->
