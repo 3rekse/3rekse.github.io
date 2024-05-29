@@ -1,8 +1,0 @@
-import{o as n,c as i,k as t,q as o,s as r,A as l,e as s,a6 as e}from"../modules/vue-CzHRG3tJ.js";import{I as p}from"./default-rR3UPZmJ.js";import{_ as c,d1 as a}from"../index-CLNHaTDe.js";import{p as u,u as d,f}from"./context-BF63dP51.js";import"../modules/shiki-C5i64R19.js";const _=s("h2",null,"Osservatore logico",-1),m=s("p",null,[e("Un modo semplice per vedere quali sono gli output del nostro PLD è utilizzare il pin "),s("strong",null,"A6"),e(" come input dell’osservatore logico e visualizzare i pixel verdi quando un output del PLD è "),s("code",null,"true"),e(" e i pixel gialli quando è "),s("code",null,"false"),e(".")],-1),h=s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-"},[s("span",{class:"line"},[s("span",null,"forever(function () {")]),e(`
-`),s("span",{class:"line"},[s("span",null,"    if (pins.A6.digitalRead()) {")]),e(`
-`),s("span",{class:"line"},[s("span",null,"        light.setAll(0x00ff00)")]),e(`
-`),s("span",{class:"line"},[s("span",null,"    } else {")]),e(`
-`),s("span",{class:"line"},[s("span",null,"        light.setAll(0xffff00)")]),e(`
-`),s("span",{class:"line"},[s("span",null,"    }")]),e(`
-`),s("span",{class:"line"},[s("span",null,"    pause(100)")]),e(`
-`),s("span",{class:"line"},[s("span",null,"})")])])],-1),g={__name:"180",setup(k){return u(a),d(),(v,x)=>(n(),i(p,o(r(l(f)(l(a),179))),{default:t(()=>[_,m,h]),_:1},16))}},B=c(g,[["__file","/@slidev/slides/180.md"]]);export{B as default};
