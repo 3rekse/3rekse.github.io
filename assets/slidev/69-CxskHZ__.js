@@ -1,0 +1,12 @@
+import{o,c as t,k as a,q as r,s as p,A as n,e,a6 as s}from"../modules/vue-DflCt9hH.js";import{I as c}from"./two-cols-header-Dm9WaQ7t.js";import{bi as l}from"../index-BXbHHbuc.js";import{p as u,u as m,f as d}from"./context-CgID4z_0.js";import"../modules/shiki-Din2pWPP.js";const h=e("h3",null,"🧑‍🎓",-1),g=e("p",null,"Studente-8",-1),_=e("h2",null,"Ecco una mia mappa concettuale che descrive il concetto di problema, algoritmo e programma:",-1),f=e("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[e("code",{class:"language-text"},[e("span",{class:"line"},[e("span",null,"                      Problema")]),s(`
+`),e("span",{class:"line"},[e("span",null,"                         |")]),s(`
+`),e("span",{class:"line"},[e("span",null,"             ----------------------")]),s(`
+`),e("span",{class:"line"},[e("span",null,"             |                    |")]),s(`
+`),e("span",{class:"line"},[e("span",null,"   È ciò che vogliamo         Algoritmo")]),s(`
+`),e("span",{class:"line"},[e("span",null,"        risolvere                 |")]),s(`
+`),e("span",{class:"line"},[e("span",null,"                      -----------------------")]),s(`
+`),e("span",{class:"line"},[e("span",null,"                      |                     |")]),s(`
+`),e("span",{class:"line"},[e("span",null,"              È il piano per                | Programma                     |")]),s(`
+`),e("span",{class:"line"},[e("span",null,"               risolverlo                   |")]),s(`
+`),e("span",{class:"line"},[e("span",null,"                                       È il piano tradotto in un")]),s(`
+`),e("span",{class:"line"},[e("span",null,"                                       linguaggio che il computer può eseguire")])])],-1),v=e("h2",null,"C’è un esempio pratico per chiarire meglio questi concetti? 📘",-1),k=e("p",null,"Questa mappa mi rappresenta la relazione tra i tre concetti: un problema è ciò che desideriamo risolvere, un algoritmo è il piano che descrive come risolvere quel problema, e un programma è l’implementazione di quell’algoritmo in un linguaggio comprensibile dal computer.",-1),b=e("h3",null,"Nella verifica saremo noi a eseguire correttamente gli algoritmi di conversione!",-1),A={__name:"69",setup(P){return u(l),m(),(x,q)=>(o(),t(c,r(p(n(d)(n(l),68))),{right:a(i=>[f,v]),left:a(i=>[k,b]),default:a(()=>[h,g,_]),_:1},16))}};export{A as default};
