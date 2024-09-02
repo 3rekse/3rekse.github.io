@@ -19,7 +19,7 @@ title: Specifiche
 
 ---
 
-## Specifiche 
+## Specifiche
 
 Utilizzare un browser per effettuare delle ricerche e scoprire cosa significano i seguenti acronimi:
 

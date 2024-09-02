@@ -1,7 +1,7 @@
 ---
 layout: intro
 title: CSS Flexbox 
-level: 2
+level: 3
 ---
 
 # css flexbox
@@ -11,7 +11,7 @@ level: 2
 
 ---
 title: quindi cos'è flexbox
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/css/flex-box/boxes.jpg
 ---
@@ -44,7 +44,7 @@ foto di ayrat: https://www.pexels.com/photo/photograph-of-brown-cardboard-boxes-
 
 ---
 title: flexbox
-level: 3
+level: 4
 layout: center
 ---
 
@@ -90,7 +90,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # inizia con un contenitore flex
@@ -128,7 +128,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # direzione flex
@@ -184,7 +184,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # direzione flex
@@ -239,7 +239,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # direzione flex
@@ -295,7 +295,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # giustifica contenuto
@@ -354,7 +354,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # giustifica contenuto
@@ -413,7 +413,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # giustifica contenuto
@@ -473,7 +473,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # giustifica contenuto
@@ -530,7 +530,7 @@ note slide:
 -->
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # justify content
@@ -587,7 +587,7 @@ slide notes:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # flex wrap
@@ -646,7 +646,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # flex wrap
@@ -709,7 +709,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # allineamento elementi
@@ -771,7 +771,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # allineamento elementi
@@ -834,7 +834,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # allineamento elementi
@@ -895,7 +895,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # allineamento elementi
@@ -954,7 +954,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # allineamento degli elementi
@@ -1021,7 +1021,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # flex grow
@@ -1094,7 +1094,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # flex grow
@@ -1173,7 +1173,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # flex basis
@@ -1240,7 +1240,7 @@ note slide:
 
 ---
 title: flexbox
-level: 3
+level: 4
 ---
 
 # gap
@@ -1304,7 +1304,7 @@ note slide:
 
 ---
 title: risorse flexbox
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/css/flex-box/fallen-boxes.jpg
 ---

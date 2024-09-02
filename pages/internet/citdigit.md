@@ -3,11 +3,12 @@ layout: cover
 level: 2
 title: BULLISMO 2.0
 background: /internet/images/solerosso.svg
+
 ---
 
 # BULLISMO 2.0
 
-### Il nuovo fenomeno del cyberbullismo
+## Il nuovo fenomeno del cyberbullismo
 
 [Essere cittadini digitali](https://sites.google.com/itiomar.net/essere-cittadini-digitali-2)
 
@@ -74,12 +75,12 @@ La sua risposta a una recensione di un cliente su Tripadvisor era diventata suo 
 
 [La Procura della Repubblica di Lodi ha aperto un'inchiesta, senza per ora ipotesi di reato.](https://www.rainews.it/articoli/2024/01/trovata-morta-la-ristoratrice-che-rispose-a-una-recensione-su-gay-e-disabili-85669fe5-4060-4761-91e6-580c7654f2e0.html)
 
-
 ---
 layout: cover
 level: 3
 background: /internet/images/solerosso.svg
 title: Il bullismo
+
 ---
 
 
@@ -140,16 +141,15 @@ Non hanno un rapporto con la vittima
 
 Per calmare la coscienza, la vittima è spesso considerata meritevole della propria sorte
 
-
 ---
-layout: two-cols-header
 level: 3
 title: Cyperbullismo
 
 ---
+
 > CYBERBULLISMO Atti aggressivi, intenzionali, ripetuti nel tempo, di vessazione,
 umiliazione, molestia, diffamazione condotti da un individuo o più individui attraverso varie forme di contatto elettronico, contro una vittima che non può difendersi
-::left::
+
 * BAITING (aizzare contro): prendere di mira utenti, nello specifico principianti, in ambienti virtuali di gruppo (es. chat, game,..) facendoli diventare oggetto di discussioni aggressive attraverso insulti e minacce per errori commessi dovuti
 all’inesperienza
 
@@ -160,43 +160,434 @@ un’aggressione fisica nella vita reale per poi pubblicarla online
 * CYBERSTALKING (molestia informatica): Comportamento in rete offensivo e molesto particolarmente
 insistente e intimidatorio tale da fare temere alla vittima per la propria sicurezza fisica
 
-::right::
+---
+level: 4
+title: Cyperbullismo
+
+---
+
+> Esempio CYBERBULLISMO Atti aggressivi
+
+<div class="scrollable">
+
+## Chat del Gioco Online
+
+**Giocatore1:** Ehi, chi è il nuovo? 🤔
+
+**Giocatore2:** Ah, è un principiante. Ha appena iniziato oggi. 😏
+
+**Giocatore3:** Ma sei serio? Questo n00b non sa neanche come si gioca! 😂
+
+**Giocatore1:** Dai, facciamogli vedere come si gioca davvero. 😈
+
+**Giocatore2:** Scommetto che non sa nemmeno come si usa l'abilità speciale. Che patetico! 🤦‍♂️
+
+**Giocatore3:** [rivolto al Principiante] Ehi, sei proprio inutile. Magari dovresti tornare a giocare ai giochi per bambini! 🎮👶
+
+**Principiante:** Scusate, sto ancora imparando. È il mio primo giorno. 😟
+
+**Giocatore1:** Ah, certo, primo giorno. Scommetto che sei così scarso anche nella vita reale. 😆
+
+**Giocatore3:** [aizza gli altri] Dai ragazzi, insultiamolo finché non se ne va. Non abbiamo bisogno di perdenti come lui nel nostro team! 👊
+
+**Giocatore2:** [insulti e minacce varie] 😡💀
+
+**Principiante:** Per favore, smettetela. Sto solo cercando di imparare. 😢
+
+**Giocatore1:** Ah, poverino. Sai cosa? Sei bannato da questa chat. 🚫
+
+
+## Video Online
+
+**Titolo del Video:** "Il N00b viene malmenato per strada! 📹"
+
+**Giocatore3:** [nel video, aggredisce fisicamente il Principiante mentre un altro giocatore riprende con il telefono] 📱😈
+
+**Commenti sotto il video:**
+
+**Giocatore1:** Ahahah, ben ti sta! Proprio un perdente. 🤣
+
+**Giocatore2:** Che spasso! Dovevamo farlo da tempo. 😜
+
+
+## Social Media
+
+**Post del Giocatore1:** "Il n00b ha appena subito una lezione di vita. Guardate il video! 😎"
+
+**Giocatore2:** [commento] È ora che impari a non infastidire i veri giocatori. 💪
+
+**Giocatore3:** [commento] Speriamo che abbia imparato la lezione. Se continua a giocare, gliene faremo vedere delle belle. 👀
+
+**Principiante:** [risponde] Per favore, lasciatemi in pace. Ho paura anche di uscire di casa. 😰
+
+**Giocatore1:** Ah, povero piccolo. Forse dovresti startene chiuso in casa per sempre. 🏠
+
+**Giocatore2:** Sì, non ci mancherai di certo. Anzi, ti seguiremo ovunque andrai. 👣
+
+</div>
+
+<style>
+.scrollable {
+  height: 95vh; /* Altezza massima dell'area scrollabile */
+
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
+
+---
+level: 4
+title: Cyperbullismo
+
+---
+
 * DENIGRATION (denigrazione): attività offensiva intenzionale dell’aggressore che mira a danneggiare la reputazione e la
 rete amicale di un’altra persona, concretizzabile anche in una singola azione capace di generare, con il contributo attivo non
 necessariamente richiesto, degli altri utenti di internet (reclutamento volontario), effetti a cascata non prevedibili
 * EXCLUSION (esclusione): esclusione intenzionale di un soggetto a opera di un aggressore da un gruppo online (lista di amici), chat, post, game interattivo o da altri ambienti.
 
+<div class="scrollable">
+
+## Chat del Social Media
+
+**Giocatore1:** Avete visto il post di Laura? 😒
+
+**Giocatore2:** Quale? Quello dove si vanta di aver vinto il torneo? 🙄
+
+**Giocatore3:** Sì, come se fosse un'impresa incredibile. Sappiamo tutti che ha barato. 😤
+
+**Giocatore1:** Esatto! Ho sentito dire che ha usato un hack per vincere. 🕵️‍♂️
+
+**Giocatore2:** Seriamente? Che schifo. Non capisco come possa avere ancora amici. 🤢
+
+**Giocatore3:** Dovremmo far sapere a tutti che tipo di persona è davvero. 🗣️
+
+**Giocatore1:** Buona idea. Condividerò un post per smascherarla. 📝
+
+**Giocatore2:** Conta su di me, condividerò e metterò un like. 👍
+
+**Giocatore3:** Anch'io! Così tutti sapranno che è solo una bugiarda. 📣
+
+**Giocatore1:** [Posta un messaggio pubblico] "Attenzione a Laura! Ha vinto il torneo barando e usando hack. Non è la persona che pensate sia! #Falsa #BarareNonÈVincere"
+
+**Altri utenti:** [commenti e condivisioni varie] 😡👎
+
+**Laura:** [risponde] Questo non è vero! Non ho mai barato! Perché state facendo questo? 😢
+
+**Giocatore2:** Ah, eccola qui. La principessa si difende. Che patetica. 😂
+
+**Giocatore3:** Nessuno ti crede, Laura. Sparisci. 👋
+
+## Gruppo di Gioco Online
+
+**Giocatore1:** Ehi ragazzi, avete già formato il team per la prossima partita? 🕹️
+
+**Giocatore2:** Sì, abbiamo scelto i migliori. 💪
+
+**Laura:** Posso unirmi anche io al team? 😃
+
+**Giocatore1:** Ahahah, Laura, stai scherzando? Non ci serve qualcuno che bara nel nostro team. 🙅‍♂️
+
+**Giocatore3:** Sì, meglio che trovi un altro gruppo. Sei fuori dal nostro. 🚫
+
+**Laura:** Ma non ho mai barato! Perché mi state escludendo? 😢
+
+**Giocatore2:** Non vogliamo avere nulla a che fare con te. Fine della storia. 😠
+
+**Laura:** Questo è ingiusto... 😔
+
+**Giocatore1:** E smettila di piagnucolare. Non sei più la benvenuta qui. 👋
+
+## Chat di Gruppo
+
+**Giocatore1:** Ehi, chi ha invitato Laura nella chat? 🧐
+
+**Giocatore2:** Non lo so, ma la rimuovo subito. Non vogliamo traditori qui. 🗑️
+
+**Laura:** Per favore, lasciatemi restare. Voglio solo parlare con voi. 😢
+
+**Giocatore3:** Troppo tardi, Laura. Sei fuori. [rimuove Laura dalla chat] 🚪
+
+**Giocatore1:** Bene, ora che la piaga è stata rimossa, possiamo continuare. ✌️
+</div>
+
+<style>
+.scrollable {
+  max-height: 300px; /* Altezza massima dell'area scrollabile */
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
 
 ---
-layout: two-cols-header
 title: Cyberbullismo 2
-level: 3
+level: 4
 
 ---
-::left::
 
 * FLAMING (lite furibonda): battagliare verbalmente online attraverso messaggi elettronici, violenti e volgari, tra due
 contendenti [...] non necessariamente in contatto nella vita reale, per una durata temporale delimitata dall’attività online condivisa
 * HARASSMENT (Molestia, vessazione): invio ripetuto di messaggi insultanti e volgari attraverso l’uso del computer e/o
 videotelefonino. Oltre a e-mail, sms, mms offensivi, pubblicazioni moleste su blog, forum e spyware per controllare i movimenti
 online della vittima
+
+<div class="scrollable">
+Un dialogo che simula il flaming e la molestia online:
+
+## Forum di Discussione Online
+
+**Utente1:** Non riesco a credere che ci siano persone che ancora difendono quel gioco. È orribile e pieno di bug! 🤮
+
+**Utente2:** Beh, forse è perché non sai giocare. Il gioco è fantastico e sei solo un incompetente. 😠
+
+**Utente1:** Ah, e tu saresti un esperto? Datti una svegliata. Chiunque con un minimo di cervello può vedere quanto fa schifo. 🧠💩
+
+**Utente2:** Forse sei tu che hai un cervello di gallina. Faresti meglio a tacere se non sai di cosa parli. 🐔
+
+**Utente1:** Oh, guarda chi parla. Scommetto che sei solo un ragazzino che vive nel seminterrato di mamma. 😂
+
+**Utente2:** Almeno io ho una vita. Tu invece passi tutto il tempo a lamentarti sui forum. Patetico. 😏
+
+**Utente1:** Tu sei patetico. Mi fai solo pena. 🙄
+
+**Utente2:** La tua esistenza è una barzelletta. Smettila di spammare con la tua stupidità. 😒
+
+## Chat di Gioco Online
+
+**Molestatore:** Sei davvero uno schifo a questo gioco. Non capisco come tu possa essere così scarso. 😡
+
+**Vittima:** Per favore, smettila di insultarmi. Sto solo cercando di giocare. 😔
+
+**Molestatore:** Ah, poverino. Sei così sensibile. Cresci un po'. 😈
+
+**Vittima:** Ho già chiesto di smetterla. Questo è molestia. 😢
+
+**Molestatore:** Oh, chiamalo come vuoi. Non mi interessa. Continuerò finché non smetterai di giocare. 😤
+
+## SMS/MMS Molesti
+
+**Molestatore:** Sei un perdente. Non sei buono a niente. 😠
+
+**Vittima:** Chi sei? Perché mi stai mandando questi messaggi? 😰
+
+**Molestatore:** Non importa chi sono. Sei solo un fallimento e tutti lo sanno. 📱💬
+
+**Vittima:** Per favore, smettila. Questo è davvero sconvolgente. 😢
+
+**Molestatore:** Ah, piangi pure. Nessuno ti prenderà mai sul serio. 😂
+
+## Social Media
+
+**Molestatore:** [commento sotto un post della Vittima] Guarda chi ha deciso di fare un post! Pensavo fossi scomparso nella tua vergogna. 😜
+
+**Vittima:** Per favore, lasciami in pace. Non ti ho fatto niente. 😔
+
+**Molestatore:** Ma certo, perché sei così perfetto. Oh aspetta, no, sei solo patetico. 👎
+
+**Vittima:** Questo è cyberbullismo. Ti segnalerò. 😡
+
+**Molestatore:** Ahahah, fai pure. Nessuno se ne preoccupa. Continuerò comunque. 😈
+
+>Questi dialoghi mettono in evidenza come il flaming e la molestia online possono danneggiare e stressare le vittime, creando un ambiente ostile e tossico.
+</div>
+
+<style>
+.scrollable {
+  max-height: 300px; /* Altezza massima dell'area scrollabile */
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
+
+---
+level: 4
+title: Cyperbullismo
+
+---
+
 * IMPERSONATION (sostituzione di persona) capacità di violare un account e accedere in modo non autorizzato a
 programmi e contenuti appartenenti alla persona intestataria dello stesso per compiere azioni a suo nome.
 
-::right::
-
 * HAPPY SLAPPING (schiaffeggiamento divertente): riproduzione di una registrazione di un’aggressione fisica nella vita
 reale a danno di una vittima e relativa pubblicazione online a cui aderiscono altri utenti che pur non avendo partecipato
-direttamente all’accaduto, esprimono commenti, insulti e altre affermazioni diffamanti e ingiuriose. I video vengono votati e
-consigliati come «preferiti» o «divertenti»
+dire
+
+<div class="scrollable">
+
+Ecco un dialogo che simula gli atti di impersonation e happy slapping:
+
+## Chat di Gruppo Online
+
+**Amico1:** Ehi ragazzi, avete visto il nuovo post di Marco? 🤔
+
+**Amico2:** No, cosa ha postato? 
+
+**Amico1:** Sta insultando tutti e dice che siamo dei perdenti. 😡
+
+**Amico2:** Davvero? Non sembra da lui. Fammi controllare. 🧐
+
+**Impostore (usando l'account di Marco):** Ahahah, sì, siete tutti dei patetici falliti. Non riesco a credere di aver sprecato tempo con voi. 👎
+
+**Amico1:** Marco, che ti prende? Perché dici queste cose? 😠
+
+**Impostore:** Perché è la verità. Ora lasciatemi in pace, non voglio avere nulla a che fare con voi. 🚪
+
+**Amico2:** Wow, Marco è davvero cambiato. Non mi aspettavo questo da lui. 😕
+
+**Amico1:** Dobbiamo parlare con lui di persona. Questo non ha senso. 😤
+
+## Qualche ora dopo, nella chat privata di Marco
+
+**Marco:** Ehi ragazzi, cosa succede? Perché tutti mi evitano? 😟
+
+**Amico1:** Sul serio, Marco? Dopo tutto quello che hai scritto? 🙄
+
+**Marco:** Di cosa state parlando? Non ho scritto nulla! 😨
+
+**Amico2:** Qualcuno deve aver avuto accesso al tuo account e ha postato un sacco di insulti. 🕵️‍♂️
+
+**Marco:** Non posso crederci. Devo cambiare subito la password. Mi dispiace tanto, ragazzi. 😢
+
+## Pochi giorni dopo, sui social media
+
+**Titolo del Video:** "Happy Slapping: Marco viene malmenato!"
+
+**Aggressore1:** [nel video, schiaffeggia Marco mentre un altro aggressore riprende con il telefono] 📱😈
+
+**Aggressore2:** Ahahah, guarda che faccia ha fatto! 😂
+
+**Commenti sotto il video:**
+
+**Utente1:** Ahah, questo è divertente! 🥳
+
+**Utente2:** Povero Marco, ma comunque esilarante. 🤣
+
+**Marco:** [commenta] Chi ha caricato questo video? Non posso credere che lo abbiate fatto. 😭
+
+**Aggressore1:** È solo uno scherzo, Marco. Fatti una risata. 😏
+
+**Aggressore2:** Sì, non fare il permaloso. È solo per divertimento. 😂
+
+**Amico1:** Questo è terribile. Non è per nulla divertente. Chiunque l'abbia fatto dovrebbe vergognarsi. 😡
+
+**Utente3:** Sì, questo è troppo. Dovremmo segnalare il video. 🚨
+
+**Marco:** Grazie, ragazzi. Mi sento davvero umiliato. 😔
+
+>Questi dialoghi mostrano come la sostituzione di persona e il happy slapping possano essere utilizzati per danneggiare la reputazione, umiliare e causare disagio emotivo alle vittime, creando situazioni di abuso e cyberbullismo.
+
+</div>
+
+<style>
+.scrollable {
+  max-height: 300px; /* Altezza massima dell'area scrollabile */
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
+
+---
+level: 4
+title: SEXTING
+
+---
 * SEXTING: adescare la vittima fingendosi un possibile partner, spingerla a
 scrivere o a inviare immagini a sfondo sessuale per poi divulgarle in rete
 * TRICKERY (Inganno): consiste nel pubblicare o condividere con terze
 persone le informazioni confidate dalla vittima in seguito a un periodo di
 amicizia in cui si è instaurato un rapporto di fiducia
 
+<div class="scrollable">
+
+Ecco un dialogo che simula gli atti di sexting e trickery:
+
+## Chat Privata di Social Media
+
+**Adescatore:** Ehi, ciao! Ho visto il tuo profilo e sembri davvero interessante. Vuoi fare due chiacchiere? 😊
+
+**Vittima:** Ciao! Certo, perché no. Anche tu sembri carino. 😉
+
+**Adescatore:** Grazie! Allora, cosa ti piace fare nel tempo libero? 🎉
+
+**Vittima:** Mi piace leggere, fare escursioni e uscire con gli amici. E tu? 😊
+
+**Adescatore:** Mi piace fare sport e guardare film. A proposito, ti va di scambiarci delle foto? Magari una tua foto carina? 📸
+
+**Vittima:** Ok, posso mandarti una mia foto. 😊 [invia una foto normale]
+
+**Adescatore:** Sei davvero bellissima! 😍 Vuoi vedere una mia foto? 
+
+**Vittima:** Certo! 
+
+**Adescatore:** [invia una foto normale] Ti piacerebbe ricevere qualcosa di più... personale? 😉
+
+**Vittima:** Non so... mi sembra un po' presto.
+
+**Adescatore:** Dai, solo per divertimento. Prometto di non mostrarla a nessuno. Mi fido di te. 💕
+
+**Vittima:** Va bene, ma solo questa volta. [invia una foto intima]
+
+**Adescatore:** Wow, sei incredibile. 😏
+
+## Settimane dopo, su un Forum Pubblico
+
+**Adescatore:** Ehi, guardate tutti cosa ho qui! La "perfetta" [Nome Vittima] non è poi così perfetta. 😂 [pubblica la foto intima]
+
+**Utente1:** Non posso credere che abbia mandato una foto del genere! 😲
+
+**Utente2:** Che imbarazzo! Non ci avrei mai creduto. 🤯
+
+**Vittima:** [scrive nei commenti] Questo è un abuso! Hai promesso di non mostrarla a nessuno! 😢
+
+**Adescatore:** Ah, poverina. Non avresti dovuto fidarti così facilmente. 🙄
+
+## Chat di Gruppo Online
+
+**Finto Amico:** Ehi, come va? Ti vedo un po' giù ultimamente. Tutto bene? 🤔
+
+**Vittima:** Ciao, sì, è solo che sto attraversando un periodo difficile. Grazie per chiedere. 😊
+
+**Finto Amico:** Mi dispiace sentirlo. Sai che puoi contare su di me, giusto? Se vuoi parlare, sono qui. 💬
+
+**Vittima:** Grazie, davvero. È solo che sto avendo problemi con la mia famiglia e con gli amici. È difficile fidarsi di qualcuno al momento. 😔
+
+**Finto Amico:** Capisco. È importante avere qualcuno con cui parlare. Se vuoi sfogarti, sono qui. 👂
+
+**Vittima:** Grazie. È solo che non so di chi fidarmi più. Sembra che tutti stiano approfittando di me. 😢
+
+**Finto Amico:** Puoi fidarti di me. Non dirò a nessuno quello che mi confidi. 🤝
+
+## Pochi giorni dopo, su un Gruppo Pubblico
+
+**Finto Amico:** Ehi, gente! Sentite questa. [Nome Vittima] ha dei seri problemi di fiducia. Pensa che tutti siano contro di lei. 😂
+
+**Utente1:** Ma davvero? Non avrei mai immaginato. Che tristezza. 😏
+
+**Utente2:** Sì, sembra che abbia proprio bisogno di una pausa. 🤦‍♂️
+
+**Vittima:** [entra nella chat] Non posso credere che tu abbia condiviso questo! Mi fidavo di te! 😡
+
+**Finto Amico:** Ah, sei troppo sensibile. Era solo uno scherzo. Fatti una risata. 😆
+
+>Questi dialoghi mostrano come il sexting e l'inganno (trickery) possano essere utilizzati per manipolare, umiliare e danneggiare le vittime, creando situazioni estremamente dannose e violente sul piano emotivo e sociale.
+
+</div>
+
+<style>
+.scrollable {
+  max-height: 300px; /* Altezza massima dell'area scrollabile */
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
+
 ---
-level: 3
+level: 4
 title: Omarillo Film
 layout: image-right
 image: /internet/images/intro/citdigit/7Feb2024.png
@@ -266,6 +657,81 @@ Un attacco ransomware può causare gravi danni finanziari alle vittime, sia a ca
 Inoltre, le organizzazioni colpite possono subire danni alla reputazione a causa della divulgazione di dati sensibili o della perdita di fiducia dei clienti.
 
 La pubblicazione degli attacchi ransomware è spesso finalizzata a esercitare pressione sulle vittime, a dimostrare le capacità del gruppo criminale e a generare profitto aggiuntivo attraverso la vendita dei dati rubati.
+
+---
+level: 4
+title: La Richiesta di un Riscatto
+
+---
+
+<div class="scrollable">
+
+### La Richiesta di un Riscatto: Simulazione di Dialogo
+
+**Scenario:** Un'organizzazione viene colpita da un attacco ransomware. Il responsabile IT dell'azienda riceve un messaggio dagli attaccanti che richiedono un riscatto per sbloccare i sistemi.
+
+## Chat Cifrata tra il Responsabile IT e il Gruppo Ransomware
+
+**Responsabile IT:** Chi siete e cosa volete? 😠
+
+**Attaccante:** Siamo il gruppo DarkRansom. Abbiamo bloccato i vostri sistemi e cifrato tutti i vostri dati. Per riaverli, dovete pagare un riscatto. 💻🔒
+
+**Responsabile IT:** Come avete fatto a entrare nei nostri sistemi? 😡
+
+**Attaccante:** Abbiamo sfruttato una vulnerabilità nel vostro software. La sicurezza è debole. 📉🔓
+
+**Responsabile IT:** Quanto chiedete per sbloccare i nostri sistemi? 💰
+
+**Attaccante:** 50 Bitcoin. Se non pagate entro 72 ore, i vostri dati verranno cancellati definitivamente. ⏳🕑
+
+**Responsabile IT:** 50 Bitcoin? È una somma enorme! Non possiamo permetterci di pagare così tanto. 😨
+
+**Attaccante:** Questo non è un nostro problema. Se volete i vostri dati, dovete pagare. Altrimenti, li pubblicheremo online e venderemo a chiunque sia interessato. 🖥️📂
+
+**Responsabile IT:** Come possiamo essere sicuri che ci darete la chiave di decrittazione se paghiamo? 🤔
+
+**Attaccante:** Non avete altra scelta che fidarvi. Se non pagate, perderete tutto. È semplice. 🔑
+
+**Responsabile IT:** Ci serve più tempo per raccogliere la somma. Possiamo avere una proroga? ⏰
+
+**Attaccante:** Ogni ora di ritardo vi costerà 5 Bitcoin in più. Non pensate di poterci prendere in giro. 💣
+
+**Responsabile IT:** Va bene, faremo il possibile. Vi contatteremo appena abbiamo il pagamento. 😟
+
+**Attaccante:** Ricordate, 72 ore. Ogni minuto conta. 💀
+
+### La Pubblicazione degli Attacchi e la Pressione sulle Vittime
+
+**Attaccante:** [Pubblica un post su un forum oscuro] Abbiamo appena colpito un'altra grande azienda. Se non pagheranno, i loro dati verranno venduti al miglior offerente. Siamo DarkRansom, e nessuno è al sicuro. 😈💻
+
+**Commentatore1:** Wow, state davvero facendo danni. Posso comprare una parte dei dati? 🤑
+
+**Commentatore2:** Speriamo che paghino, così vedremo se siete veramente capaci di decrittare i dati. 🕵️‍♂️
+
+**Attaccante:** State a guardare e vedrete il potere di DarkRansom. Chiunque voglia fare affari con noi, è il benvenuto. 💼
+
+### Impatto e Danni Causati dall'Attacco
+
+**CEO dell'Azienda:** Questa situazione è devastante. Quanto ci costerà riparare tutto e quanto influirà sulla nostra reputazione? 😓
+
+**Responsabile IT:** I costi sono già elevati solo per le riparazioni. Se non paghiamo, rischiamo anche la perdita di fiducia dei nostri clienti e la divulgazione di dati sensibili. 💸📉
+
+**CEO dell'Azienda:** Dobbiamo prendere una decisione. Pagare il riscatto potrebbe essere l'unica opzione per limitare i danni. Ma ci metteremo a rischio di nuovi attacchi in futuro. 😔
+
+**Responsabile IT:** È una decisione difficile. Dobbiamo valutare tutti i rischi e prendere la scelta migliore per l'azienda. 🤔
+
+>Questo dialogo mostra le dinamiche di un attacco ransomware, con il gruppo criminale che esercita pressione sulla vittima per ottenere il riscatto, mentre l'azienda cerca di gestire la crisi e limitare i danni.
+
+</DIV>
+
+<style>
+.scrollable {
+  max-height: 500px; /* Altezza massima dell'area scrollabile */
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
 
 ---
 level: 3
@@ -408,3 +874,31 @@ Visto che la scuola ha dovuto ridurre la vulnerabilità della la propia rete ha 
 Per controllare i sistemi è necessario sviluppare delle competenze quali:
 
 ## LA LOGICA
+
+---
+level: 3
+title: Top 5 delle minacce
+
+---
+
+Ecco la **top 5 delle minacce di ultima generazione** nel campo della cybersecurity:
+
+1. **Ransomware potenziati dall'AI generativa**: Gli attacchi di ransomware che sfruttano l'intelligenza artificiale per aumentare la loro efficacia e dannosità.
+
+2. **Attacchi alla supply chain**: Minacce che mirano alle vulnerabilità presenti nella catena di approvvigionamento delle aziende, compromettendo così la sicurezza dei dati e dei servizi.
+
+3. **Vulnerabilità nei servizi cloud**: Minacce che sfruttano le vulnerabilità presenti nei servizi cloud per accedere e compromettere i dati sensibili delle organizzazioni.
+
+4. **Rischio cyber 2024**: Nuove minacce emergenti che rappresentano sfide significative per la sicurezza informatica, richiedendo strategie di prevenzione e difesa avanzate.
+
+5. **Attacchi di ingegneria sociale basati su IA e Deep Fake**: Minacce che utilizzano l'intelligenza artificiale e la tecnologia Deep Fake per condurre attacchi sofisticati di ingegneria sociale, mettendo a rischio la sicurezza delle informazioni e la privacy degli utenti.
+
+---
+level: 3
+title: Deep Fake
+---
+
+
+Il **Deep Fake** è una tecnica di sintesi dell'immagine umana basata sull'intelligenza artificiale. Questa tecnica viene utilizzata per combinare e creare immagini, video o audio falsi che sembrano autentici. Grazie all'uso di algoritmi avanzati di intelligenza artificiale, i Deep Fake possono creare contenuti che possono trarre in inganno spettatori non esperti, poiché sembrano reali anche se sono stati generati artificialmente. Questa tecnologia solleva questioni etiche e di sicurezza, poiché può essere utilizzata per creare contenuti manipolati dannosi o ingannevoli.
+
+Queste minacce di ultima generazione richiedono l'implementazione di strumenti e strategie di sicurezza all'avanguardia per proteggere le organizzazioni da potenziali attacchi informatici.

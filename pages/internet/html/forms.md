@@ -1,7 +1,7 @@
 ---
 layout: intro
 title: Moduli HTML
-level: 2
+level: 3
 ---
 
 # Moduli HTML
@@ -12,7 +12,7 @@ Marcatura dei moduli HTML
 
 ---
 title: Moduli
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/html/forms/form.jpg
 ---
@@ -39,7 +39,7 @@ Credit: Foto di Cytonn Photography: https://www.pexels.com/photo/close-up-photog
 ---
 layout: two-cols-header
 title: Moduli
-level: 3
+level: 4
 ---
 
 
@@ -93,7 +93,7 @@ Note sulla slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Moduli
@@ -123,7 +123,7 @@ Note sulla slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Moduli
@@ -147,7 +147,7 @@ Note sulla slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Moduli
@@ -183,7 +183,7 @@ Note sulla slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Moduli
@@ -219,7 +219,7 @@ Note sulla slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Moduli
@@ -255,7 +255,7 @@ Note sulla slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Moduli
@@ -291,7 +291,7 @@ Note sulla slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Moduli
@@ -327,7 +327,7 @@ Note sulla slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Codice completo del modulo:
@@ -365,7 +365,7 @@ Note sulla slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Validazione lato client 
@@ -394,7 +394,7 @@ Slide notes:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Altri tipi di input
@@ -428,7 +428,7 @@ Note slide:
 
 ---
 title: Moduli
-level: 3
+level: 4
 ---
 
 # Accessibilità dei moduli
@@ -448,7 +448,7 @@ Note slide:
 
 ---
 title: Risorse sui moduli
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/html/forms/confused.jpg
 ---

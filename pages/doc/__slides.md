@@ -4,10 +4,8 @@ hideInToc: false
 background: >-
   /office/images/book.jpg?s=612x612&w=0&k=20&c=GXNeWQ7EHO6xEyzBn0lG47KTjx8JmxZg8fx-Qhx7ZEo=
 level: 1
-title: Documenti
+title: LAB Documenti
 ---
-
-# Contenuti del corso 
 
 ## Office Automation DOCUMENTI
 

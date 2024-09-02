@@ -1,7 +1,7 @@
 ---
 layout: intro
 title: CSS Grid 
-level: 2
+level: 3
 ---
 
 # CSS Grid
@@ -11,7 +11,7 @@ level: 2
 
 ---
 title: Cos'è Grid
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/css/grid/layout.jpg
 ---
@@ -43,7 +43,7 @@ Foto di Karolina Grabowska: https://www.pexels.com/photo/a-man-posting-a-schedul
 
 ---
 title: Come usare Grid
-level: 3
+level: 4
 ---
 
 
@@ -68,7 +68,7 @@ Note slide:
 
 ---
 title: Linee della griglia
-level: 3
+level: 4
 ---
 
 
@@ -133,7 +133,7 @@ Note slide:
 
 ---
 title: Tracce della griglia
-level: 3
+level: 4
 ---
 
 
@@ -197,7 +197,7 @@ Note slide:
 
 ---
 title: Cella della griglia
-level: 3
+level: 4
 ---
 
 
@@ -258,7 +258,7 @@ Note slide:
 
 ---
 title: Area della griglia
-level: 3
+level: 4
 ---
 
 
@@ -321,7 +321,7 @@ Note slide:
 
 ---
 title: Area della griglia
-level: 3
+level: 4
 ---
 
 
@@ -382,7 +382,7 @@ Note della slide:
 
 ---
 title: Contenitore della griglia
-level: 3
+level: 4
 ---
 
 
@@ -420,7 +420,7 @@ Note della slide:
 
 ---
 title: Contenitore della griglia
-level: 3
+level: 4
 layout: center
 ---
 
@@ -475,7 +475,7 @@ Note della slide:
 
 ---
 title: Contenitore della griglia
-level: 3
+level: 4
 ---
 
 
@@ -510,7 +510,7 @@ Note della slide:
 
 ---
 title: Contenitore della griglia
-level: 3
+level: 4
 layout: center
 ---
 
@@ -567,7 +567,7 @@ Note della slide:
 
 ---
 title: Contenitore della griglia
-level: 3
+level: 4
 ---
 
 
@@ -603,7 +603,7 @@ Note della slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 layout: center
 ---
 
@@ -657,7 +657,7 @@ Note slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 ---
 
 
@@ -692,7 +692,7 @@ Note slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 layout: center
 ---
 
@@ -747,7 +747,7 @@ Note slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 ---
 
 
@@ -784,7 +784,7 @@ Note slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 ---
 
 
@@ -824,7 +824,7 @@ Note slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 layout: center
 ---
 
@@ -881,7 +881,7 @@ Note slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 layout: center
 ---
 
@@ -969,7 +969,7 @@ Note della slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 ---
 
 
@@ -1007,7 +1007,7 @@ Note della slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 ---
 
 
@@ -1038,7 +1038,7 @@ Note della slide:
 
 ---
 title: Contenitore Grid
-level: 3
+level: 4
 layout: center
 ---
 
@@ -1102,7 +1102,7 @@ Note della slide:
 
 ---
 title: Risorse Grid
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/css/flex-box/fallen-boxes.jpg
 ---

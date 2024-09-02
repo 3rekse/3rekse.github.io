@@ -8,7 +8,7 @@ title: Welcome!
 
 ---
 
-# Scopri HTON ?
+TML Presentation Framewo# Scopri HTON ?
 
 ## HyperText Omar Networking
 
@@ -32,46 +32,104 @@ Tutto ciò che devi sapere per iniziare lo sviluppo web, l'office automation, la
 ::left::
 
 * Logic Lab
-  * [Logica ed espressioni](/internet/logic-lab/expressions)
-  * [Elementi booleani](/internet/logic-lab/elements)
-  * [Esploratore logico](/internet/logic-lab/explorer)
-  * [Porte logiche](/internet/logic-lab/logic-gates)
-  * [Logica programmabile](/internet/logic-lab/programmable)
-  * [Circuitjs](http://tinyurl.com/yk7v5xzw)
-
-* Strumenti moderni per il front-end
-  * [Git & GitHub](https://www.robinwieruch.de/git-essential-commands/)
-  * VSCode
-  
-
+  *  <small>Logica ed espressioni; Elementi booleani; Porte logiche; Logica Combinatoria; Sequenziale </small> 
+  * [Sistemi di Numerazione Binari ](http://fabrizio.phpnet.us/Sistemi_di_numerazione)
+  * [Circuiti digitali](http://tinyurl.com/yk7v5xzw)
+* Giochiamo con antiche e moderne macchine 😂(le programmiamo)  
+  * [Macchina di turing](https://www.turingsimulator.net/) <small>1 comando :
+"(\<stato \>, \<chr read\>, \< stato + \>, \<chr write\>, \<mov testina\>)"</small>
+  * Le CPU [Johnny](https://tobisma.github.io/johnny/) e [8086](https://yjdoc2.github.io/8086-emulator-web/compile)
+  * [l'IDE Raptor ](http://fabrizio.phpnet.us/helpraptor) e la programmazione strutturata **flowcharts**
+   
 ::right::
 
-HyperText
-
-* Tecnologie HTML di base
+* Tratteremo le Tecnologie degli : HyperText - HTML di base
   * HTML5
   * CSS3
   * JavaScript
   * Accessibilità (#a11y) <sub>A11Y è un numeronimo. Si riferisce a quanto un software sia accessibile a tutti, compresi coloro con disabilità.</sub>
-  * API
-  * React (https://react.dev/learn)
+  
+* Parleremo dei pericoli di internet - Il Cyberbullismo
 
-I pericoli di internet - Il Cyberbullismo
+* [L'anima informatica](https://taranto2.assoraider.it/wp-content/uploads/2016/05/Manuale-di-segnalazione.pdf)
 
-<!-- 
-
+<!--
 Slide notes: 
+SINTASSI COMANDI : 
+(<stato corrente>, <carattere letto>, <prossimo stato>, <carattere scritto>, <movimento della testina>)
 
-* Ok, ecco l'elenco degli argomenti e di alcuni strumenti che tratteremo nelle prossime settimane
-*Oggi parliamo di Come funziona il web
-* E in futuro le lezioni copriranno
-   * HTML5 - che costituisce gli elementi costitutivi delle nostre pagine web - come contrassegnare i documenti in modo conforme e utilizzare correttamente tutti i tag semantici
-   * CSS3 - ciò che usiamo per dare stile alle nostre pagine - per renderle davvero magiche con i moderni CSS
-   * e JavaScript: ciò che utilizziamo per aggiungere importanti interazioni dell'utente alle nostre pagine
-   *Si parla anche di accessibilità (o denominata "a11y")
-   * Ci immergeremo in alcuni stack tecnologici moderni e utilizzeremo librerie come TailwindCSS, VueJS e Nuxt
-   * E poi abbiamo un intero elenco di strumenti moderni che potrai utilizzare e sperimentare. Questi sono esattamente gli stessi strumenti che utilizzerai quando entrerai nell'industria, quindi è davvero importante che tu acquisisca familiarità con loro ora
+Scrive la sequenza di caratteri HELLO= sul nastro vuoto
+(0,-,1,I,>)
+(1,-,2,T,>)
+(2,-,3,I,>)
+(3,-,4,_,>)
+(4,-,5,O,>)
+(5,-,6,M,>)
+(6,-,7,A,>)
+(7,-,8,R,>)
 
+Lanciamo un SOS 
+(0,-,S1,.,>)
+(S1,-,S2,.,>)
+(S2,-,S3,.,>)
+(S3,-,S4,_,>)
+(S4,-,S5,_,>)
+(S5,-,S6,_,>)
+(S6,-,S7,.,>)
+(S7,-,S8,.,>)
+(S8,-,S9,.,>)
+
+Verificare se la stringa data è palindroma. In caso positivo viene inserita la scritta <SI= sul nastro. 
+La stringa è formata solo dai caratteri A e B e deve avere una lunghezza pari. 
+Ricordiamo che una stringa è palindroma quando può essere letta indifferentemente da destra a sinistra e viceversa. In questo caso il programma cancella un carat-
+tere a un estremo e il corrispondente carattere all'altro estremo: se alla fine il nastro è vuoto significa che la stringa è palindroma. 
+
+Vediamo le regole del programma:
+(0, A, X, -, >)
+(Y, -, K, -, <)
+(0, B, Y, -, >)
+(Z, A, J, -, <)
+(X, A, X, A, >)
+(K, B, J, -, <)
+(X, B, X, B, >)
+(J, A, J, A, <)
+(X, -, Z, -, <)
+(J, B, J, B, <)
+(Y, A, Y, A, >)
+(J, -, 0, -, >)
+(Y, B, Y, B, >)
+(0, -, 1, S, >)
+(1, -, 2, I, >)
+
+Scriviamo un programma che analizza una stringa formata solo da caratteri A e B come sequenza di ingresso, sostituendo ogni occorrenza di A in B e viceversa:
+(0, A, 0, B, >)
+(0, B, 0, A, >)
+In questo caso è sufficiente la presenza di un unico stato, lo stato 0: al termine della stringa l'esecuzione sarà arrestata 
+poiché non esiste una quintupla che inizia con la coppia < 0, - >. Avviando l'esecuzione del programma.
+
+Calcolo del complemento di 1 byte a 2
+(0,1,0,0,>)
+(0,0,0,1,>)
+(0,-,a,-,<)
+(a,1,a,0,<)
+(a,0,b,1,<)
+(a,-,b,1,<)
+(b,0,b,0,<)
+(b,1,b,1,<)
+
+Contatore Binario 
+(0,-,Boot1,B,>)
+(Boot1,-,Boot2,1,>)
+(Boot2,-,Inc,T,<)
+
+(OK,T,Inc,T,<)
+(OK,0,OK,0,>) 
+(OK,1,OK,1,>) 
+
+(Inc,0,OK,1,>) 
+(Inc,1,Inc,0,<)
+(Inc,b,Inc,1,<)
+(Inc,-,OK,B,>)
 -->
 
 ---

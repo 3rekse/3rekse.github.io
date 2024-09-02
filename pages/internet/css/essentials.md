@@ -8,10 +8,12 @@ level: 2
 
 iniziare con css
 
+<Toc columns="2" maxDepth="3" minDepth="3" mode="next" />
+
 
 ---
-title: cos'è css
-level: 3
+title: Cos'è CSS
+level: 4
 layout: image-right
 image: /internet/images/slides/css/essentials/css-logo.jpg
 ---
@@ -36,7 +38,7 @@ foto di realtoughcandy.com: https://www.pexels.com/photo/man-love-people-woman-1
 
 ---
 title: sintassi css
-level: 3
+level: 4
 ---
 
 # sintassi di base
@@ -68,7 +70,7 @@ note slide:
 
 ---
 title: sintassi css
-level: 3
+level: 4
 ---
 
 # sintassi di base
@@ -89,7 +91,7 @@ note slide:
 
 ---
 title: sintassi css
-level: 3
+level: 4
 ---
 
 # set di regole css
@@ -110,7 +112,7 @@ note slide:
 
 ---
 title: sintassi css
-level: 3
+level: 4
 ---
 
 # aggiungere css a html
@@ -147,7 +149,7 @@ note slide:
 
 ---
 title: sintassi css
-level: 3
+level: 4
 ---
 
 # aggiungere css a html
@@ -182,7 +184,7 @@ note slide:
 
 ---
 title: sintassi css
-level: 3
+level: 4
 ---
 
 # aggiungere css a html
@@ -213,7 +215,7 @@ note slide:
 
 ---
 title: basi css
-level: 3
+level: 4
 ---
 
 # cascata di css
@@ -232,7 +234,7 @@ note slide:
 
 ---
 title: basi css
-level: 3
+level: 4
 ---
 
 # specificità
@@ -251,7 +253,7 @@ note slide:
 
 ---
 title: basi css
-level: 3
+level: 4
 ---
 
 # ereditarietà
@@ -270,7 +272,7 @@ note slide:
 
 ---
 title: basi css
-level: 3
+level: 4
 ---
 
 # colore
@@ -289,7 +291,7 @@ note slide:
 
 ---
 title: basi css
-level: 3
+level: 4
 ---
 
 # unità css
@@ -310,7 +312,7 @@ note slide:
 
 ---
 title: risorse css
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/css/essentials/css-books.jpg
 ---

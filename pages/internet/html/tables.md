@@ -1,7 +1,7 @@
 ---
 layout: intro
 title: Tabelle HTML
-level: 2
+level: 3
 ---
 
 # Tabelle HTML
@@ -12,7 +12,7 @@ Marcatura delle tabelle HTML
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -48,7 +48,7 @@ Note slide:
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -101,7 +101,7 @@ Note slide:
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -125,7 +125,7 @@ Note slide:
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -155,7 +155,7 @@ Note slide:
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -185,7 +185,7 @@ Note slide:
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -219,7 +219,7 @@ Note slide:
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -254,7 +254,7 @@ Note slide:
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -291,7 +291,7 @@ Note slide:
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -331,7 +331,7 @@ Note slide:
 ---
 layout: two-cols-header
 title: Elementi semantici
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -401,7 +401,7 @@ Usate quando devi visualizzare dati tabulari
 
 ---
 title: Tabelle
-level: 3
+level: 4
 ---
 
 # Tabelle
@@ -415,7 +415,7 @@ Sebbene sia al di fuori dell'ambito di questo corso, per tabelle più complesse,
 
 ---
 title: Risorse per le tabelle
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/html/tables/you-got-this.jpg
 ---

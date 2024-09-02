@@ -1,6 +1,7 @@
 ---
 title: Promesse JavaScript
 layout: intro
+level: 3
 ---
 
 # Promesse JavaScript
@@ -9,7 +10,7 @@ Fare due cose contemporaneamente in JavaScript
 
 ---
 title: Promesse JavaScript
-level: 2
+level: 4
 ---
 
 # Introduzione 
@@ -31,7 +32,7 @@ Possiamo inserire codice che potrebbe impiegare molto tempo per essere eseguito 
 
 ---
 title: Promesse JavaScript
-level: 2
+level: 4
 ---
 
 # I quattro diversi stati di una Promessa 
@@ -47,7 +48,7 @@ Promesse JavaScript
 
 ---
 title: Promesse JavaScript
-level: 2
+level: 4
 ---
 
 # Configurazione della nostra prima promessa
@@ -79,7 +80,7 @@ const myFirstPromise = new Promise((resolve, reject) => {
 
 ---
 title: Promesse JavaScript
-level: 2
+level: 4
 ---
 
 # Consumare la nostra promessa
@@ -102,12 +103,9 @@ myFirstPromise
 });
 ```
 
-
-
-
 ---
 title: Promesse JavaScript
-level: 2
+level: 4
 ---
 
 # Consumare la nostra promessa
@@ -134,7 +132,7 @@ myFirstPromise
 
 ---
 title: Promesse JavaScript
-level: 2
+level: 4
 ---
 
 # Consumare la nostra promessa
@@ -163,7 +161,7 @@ myFirstPromise
 
 ---
 title: Promesse JavaScript
-level: 2
+level: 4
 ---
 
 # Attendere più promesse 
@@ -190,7 +188,7 @@ const myThirdPromise = new Promise((resolve,reject) => {
 
 ---
 title: Promesse JavaScript
-level: 2
+level: 4
 ---
 
 # Attendere più promesse 

@@ -1,7 +1,7 @@
 ---
 layout: intro
 title: Selettori CSS
-level: 2
+level: 3
 ---
 
 # Selettori CSS
@@ -11,7 +11,7 @@ Seleziona gli elementi HTML utilizzando i selettori CSS
 
 ---
 title: Cosa sono i selettori CSS
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/css/selectors/library.jpg
 ---
@@ -39,7 +39,7 @@ Foto di DS stories: https://www.pexels.com/photo/pile-of-colorful-boxes-7679762/
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Cos'è un selettore
@@ -68,7 +68,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Liste di selettori
@@ -104,7 +104,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Selettore universale
@@ -130,7 +130,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Selettore di tipo
@@ -163,7 +163,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Selettore di classe
@@ -200,7 +200,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Selettore ID
@@ -236,7 +236,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Selettore a catena
@@ -274,7 +274,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Combinatore discendente
@@ -313,7 +313,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Selettori di attributi
@@ -344,7 +344,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Pseudo-classi
@@ -376,7 +376,7 @@ Note slide:
 
 ---
 title: Selettori CSS
-level: 3
+level: 4
 ---
 
 # Pseudo-elementi
@@ -412,7 +412,7 @@ Note slide:
 
 ---
 title: Risorse sui selettori CSS
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/css/selectors/books.jpg
 ---

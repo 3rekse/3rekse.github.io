@@ -1,13 +1,81 @@
 ---
-layout: intro
+layout: two-cols-header
 title: Logic Gates
 level: 2
 ---
 ## [Porte Logiche](https://tinyurl.com/25j6nhao)
 
+::right::
+
 ![Simbolo della porta OR](/internet/images/logic-lab/logic-gates/full-adder.png)
 
-Nel mondo reale, i dispositivi digitali non sono le astratte espressioni logiche dell'algebra booleana, ma sono implementazioni di queste espressioni nell'hardware. Le espressioni logiche vengono tradotte in strutture di dispositivi chiamate _porte logiche_. Una porta logica è sia una rappresentazione simbolica di un'operazione logica che, quando utilizzata nell'elettronica digitale, è un circuito effettivo nell'hardware. Di solito, una singola porta logica è composta da diversi transistor e condivide lo spazio con molti altri in un circuito integrato. 💻🔌
+::left::
+
+<div class="scrollable">
+
+
+🎶 **(Musica inizia con un ritmo energico e accattivante)** 🎶
+
+**Voce Narrante (con entusiasmo):**
+
+🎤 *"Benvenuti nel mondo digitale, dove la logica prende vita! Nel regno dell'hardware, dove ogni bit conta, scopriamo il cuore della tecnologia: le porte logiche!"*
+
+
+**Voce Cantata:**
+
+🎵 *"Logic gate, logic gate, vediamole operare!"*
+
+*"In ogni chip, in ogni byte, fanno tutto funzionare!"*
+
+**Voce Narrante:**
+
+🎤 *"Non solo simboli su uno schermo, ma circuiti reali che accendono il mondo. Dal semplice AND al complesso XOR, ogni porta è un piccolo ingegnere!"*
+
+
+**Voce Cantata:**
+
+🎵 *"AND, OR, NOT e NAND,*
+*porte logiche a comando!*
+*Transistor qui, transistor là,*
+*nella scheda stanno già!"*
+
+
+**Voce Narrante:**
+
+🎤 *"Dai transistor alla magia dell'integrazione, milioni di porte in una sola creazione. I circuiti integrati fanno il loro dovere, portando la logica dal pensiero all'hardware!"*
+
+
+**Voce Cantata:**
+
+🎵 *"Nel mondo reale fanno spettacolo,*
+*traducendo logica in un miracolo!*
+*Logic gate, logic gate, sentiamole cantare,*
+*ogni byte, ogni bit, fanno tutto illuminare!"*
+
+
+**Voce Narrante:**
+
+🎤 *"Accendi il tuo dispositivo, ecco il loro incanto: porte logiche al lavoro, dietro ogni comando. Preparati a scoprire il mondo delle porte logiche, dove ogni circuito ha il suo peso magico!"*
+
+
+🎶 **(Musica si conclude con una nota brillante e risolutiva)** 🎶
+
+
+**Voce Narrante (concludendo):**
+
+🎤 *"Benvenuti nel viaggio della logica digitale, dove ogni porta apre un mondo di possibilità. Let's dive into the logic gates!"*
+
+
+</div>
+   <style>
+.scrollable {
+  max-height: 500px; /* Altezza massima dell'area scrollabile */
+  max-width: 600px;  /* Larghezza massima dell'area scrollabile */
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
 
 ---
 level: 3
@@ -57,6 +125,7 @@ La porta AND ha un lato di ingresso piatto e un lato di uscita rotondo.
 
 ![Simbolo della porta AND](/internet/images/logic-lab/logic-gates/and-gate.png)
 
+<iframe style="max-width:100%" src="https://wordwall.net/embed/59d1db09b39b4f59a75aa4127e07c5ae?themeId=41&templateId=5&fontStackId=0"  frameborder="0" allowfullscreen></iframe>
 ---
 level: 3
 title:  Exclusive OR (XOR) gate
@@ -156,7 +225,7 @@ Tuttavia, se prendiamo le altre due condizioni inutilizzate dalla tabella di ver
 
 ``~(A ⊕ B)`` = ``(~A · ~B) + (A · B)``
 
-Per tornare a ``A ⊕ B`` dobbiamo negare questa equazione negativa. Poi, con l'aiuto del [Teorema di De Morgan](/internet/logic-lab/expressions#de-morgan-s-thereom), otteniamo un'equazione diversa per XOR ma è comunque logicamente equivalente a quella originale.
+Per tornare a ``A ⊕ B`` dobbiamo negare questa equazione negativa. Poi, con l'aiuto del [Teorema di De Morgan](/logic-lab/expressions#de-morgan-s-thereom), otteniamo un'equazione diversa per XOR ma è comunque logicamente equivalente a quella originale.
 
 ``A ⊕ B`` = ``(A + B) · ~(A · B)``
 

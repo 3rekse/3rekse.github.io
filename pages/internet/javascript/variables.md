@@ -1,7 +1,7 @@
 ---
 title: Variabili JavaScript
 layout: intro
-level: 2
+level: 3
 ---
 
 # Variabili JavaScript
@@ -18,7 +18,7 @@ IMPORTANTE: acquisire una comprensione di questi concetti e come utilizzarli nel
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Lavorare con le variabili
@@ -40,7 +40,7 @@ const miaVariabileConst = true;
 
 ---
 title: L'uso di `var`
-level: 3
+level: 4
 ---
 
 # L'uso di `var` per dichiarare variabili è sconsigliato per diversi motivi:
@@ -53,7 +53,7 @@ level: 3
 
 ---
 title: Esempio con uso di `var`
-level: 3
+level: 4
 ---
 
 # Ecco un esempio di come `var` può comportarsi in modo inaspettato:
@@ -77,7 +77,7 @@ In questo esempio, potresti aspettarti che il secondo `console.log(x)` stampi `1
 
 ---
 title: Tante Variabili
-level: 3
+level: 4
 ---
 
 # Tante Variabili 
@@ -96,7 +96,7 @@ Variabili
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # String
@@ -118,7 +118,7 @@ Il tipo String viene utilizzato per memorizzare dati di testo o una sequenza di 
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Number
@@ -137,7 +137,7 @@ console.log(numeroDiElefanti);
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Number
@@ -162,7 +162,7 @@ Number.MAX_SAFE_INTEGER; // 9007199254740991
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # BigInt
@@ -182,7 +182,7 @@ Se pensi che la tua app avrà bisogno di memorizzare un numero più grande, dovr
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Boolean
@@ -206,7 +206,7 @@ Per esempio, `isEnabled`, `isPaidFor`, `isUserLoggedIn`. Inoltre, evita nomi neg
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Null
@@ -228,7 +228,7 @@ Usiamo generalmente questo valore per impostare una variabile e segnalare che nu
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Undefined
@@ -248,7 +248,7 @@ Il valore `undefined` viene impostato su una variabile prima che un valore effet
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Oggetti letterali
@@ -280,7 +280,7 @@ Il seguente è un esempio molto semplice di un oggetto letterale, anche se posso
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 
@@ -308,7 +308,7 @@ Variabili
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 
@@ -336,7 +336,7 @@ Variabili
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 
@@ -362,7 +362,7 @@ Variabili
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 
@@ -385,7 +385,7 @@ Variabili
 ```
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 
@@ -415,7 +415,7 @@ Variabili
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Template literals 
@@ -444,7 +444,7 @@ All'interno dei template literal sei in grado di eseguire espressioni utilizzand
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 

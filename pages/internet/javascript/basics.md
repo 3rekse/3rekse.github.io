@@ -7,10 +7,11 @@ level: 2
 # javascript
 il linguaggio di programmazione che tutti amano e odiano assolutamente
 
+<Toc columns="2" maxDepth="3" minDepth="3" mode="next" />
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # come eseguire il codice javascript
@@ -41,7 +42,7 @@ esecuzione del codice nel tag `head`. meh.
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # come eseguire il codice javascript
@@ -73,7 +74,7 @@ esecuzione del codice nel tag `body`. meglio.
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # come eseguire il codice javascript
@@ -96,7 +97,7 @@ esecuzione del codice nel `body` da un file `js` separato. il migliore.
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # dichiarazioni
@@ -115,7 +116,7 @@ javascript è di tipo debole e potrebbe funzionare senza di essi, ma otterrai un
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # blocchi di codice
@@ -138,7 +139,7 @@ if (eta > 50) {
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # convenzioni di denominazione
@@ -167,7 +168,7 @@ let num_elementi_da_fare = 32;
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # la riga di codice più importante in javascript:
@@ -187,7 +188,7 @@ console.log(numElementiDaFare);
 
 ---
 title: javascript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 
@@ -217,7 +218,7 @@ fondamentali
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # altre funzioni `console` utili
@@ -248,7 +249,7 @@ console.table(["elefante", "leone", "tigre"]);
 
 ---
 title: javascript console.trace();
-level: 3
+level: 4
 ---
 
 # console.trace();

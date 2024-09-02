@@ -1,7 +1,7 @@
 ---
 layout: intro
 title: Fondamenti di HTML
-level: 2
+level: 3
 ---
 
 # Fondamenti di HTML
@@ -15,7 +15,7 @@ Tutto ciò che devi sapere sul linguaggio di markup ipertestuale🚀
 
 ---
 title: Cos'è l'HTML
-level: 3
+level: 4
 ---
 
 # Cos'è l'HTML
@@ -48,7 +48,7 @@ Note slide:
 
 ---
 title: il formato di un elemento HTML
-level: 3
+level: 4
 ---
 
 # Alcuni termini comuni da capire
@@ -72,7 +72,7 @@ Note slide:
 
 ---
 title: Anatomia di un elemento HTML
-level: 3
+level: 4
 ---
 
 # Una nota sull'annidamento
@@ -101,7 +101,7 @@ Note slide:
 -->
 ---
 title: Commenti
-level: 3
+level: 4
 ---
 
 # Commenti HTML
@@ -128,7 +128,7 @@ Nota: lo stile del codice utilizzato attualmente rende i tag dei commenti ridico
 
 ---
 title: Documento HTML
-level: 3
+level: 4
 ---
 
 # Documento HTML
@@ -160,7 +160,7 @@ Note slide:
 
 ---
 title: Documento HTML
-level: 3
+level: 4
 ---
 
 # Documento HTML (continua)

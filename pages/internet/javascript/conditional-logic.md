@@ -1,7 +1,7 @@
 ---
 title: logica condizionale javascript
 layout: intro
-level: 2
+level: 3
 ---
 # logica condizionale javascript
 il linguaggio di programmazione che tutti amano e assolutamente odiano
@@ -9,7 +9,7 @@ il linguaggio di programmazione che tutti amano e assolutamente odiano
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # prendere decisioni in javascript
@@ -31,7 +31,7 @@ else {
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 # esempio di if...else
 logica condizionale
@@ -56,7 +56,7 @@ else {
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # operatori di confronto
@@ -75,7 +75,7 @@ logica condizionale
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # operatori di confronto
@@ -96,7 +96,7 @@ console.log( 50 <= 100); // false (sbagliato)
 
 ---
 title: javascript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 
 ---
@@ -127,7 +127,7 @@ iseven(2400); // pari
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # esempio di else if
@@ -153,7 +153,7 @@ costo = 0;
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # condizioni annidate
@@ -183,7 +183,7 @@ if (statoOProvincia === "california") {
 
 ---
 title: javascript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 
 ---
@@ -212,7 +212,7 @@ console.log("ehm, quindi questo è imbarazzante");
 
 ---
 title: operatori logici
-level: 3
+level: 4
 ---
 
 # operatori logici
@@ -228,7 +228,7 @@ logica condizionale
 
 ---
 title: javascript OR
-level: 3
+level: 4
 ---
 
 # operatori logici - o OR
@@ -251,7 +251,7 @@ else {
 
 ---
 title: javascript AND
-level: 3
+level: 4
 ---
 
 # operatori logici - e AND
@@ -274,7 +274,7 @@ else {
 
 ---
 title: javascript NOT
-level: 3
+level: 4
 ---
 
 # operatori logici - non NOT
@@ -301,7 +301,7 @@ if (!isloggedin) {
 
 ---
 title: javascript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 
@@ -336,7 +336,7 @@ else {
 
 ---
 title: javascript
-level: 3
+level: 4
 ---
 
 # istruzione switch

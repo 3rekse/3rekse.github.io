@@ -1,7 +1,7 @@
 ---
 title: JavaScript dom
 layout: intro
-level: 2
+level: 3
 ---
 
 # JavaScript DOM
@@ -9,7 +9,7 @@ Il Document Object Model
 
 ---
 title: JavaScript dom
-level: 3
+level: 4
 ---
 
 # Introduzione
@@ -29,7 +29,7 @@ L'oggetto `document` ci offre un modo programmatico per accedere a tutte le prop
 
 ---
 title: JavaScript dom
-level: 3
+level: 4
 ---
 
 # Introduzione
@@ -54,7 +54,7 @@ console.log(paragraphs[0]);
 
 ---
 title: JavaScript dom
-level: 3
+level: 4
 ---
 
 # Introduzione
@@ -82,7 +82,7 @@ const newParagraph = document.createElement("p");
 
 ---
 title: JavaScript dom
-level: 3
+level: 4
 ---
 
 # Introduzione
@@ -110,7 +110,7 @@ myLink.setAttribute("href", "#");
 
 ---
 title: JavaScript dom
-level: 3
+level: 4
 ---
 
 # Introduzione

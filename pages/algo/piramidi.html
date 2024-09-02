@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Due Piramidi</title>
+    <style> 
+    
+    @font-face {
+        font-family: 'Aegyptus';
+        src: url('Aegyptus.woff2') format('woff2'),
+             url('Aegyptus.woff') format('woff');
+    }
+
+    body {
+            font-family: 'Aegyptus', sans-serif;
+            text-align: center;
+            background-color: #f7d065;
+        }
+        .piramide {
+            display: inline-block;
+            margin: 20px;
+        }
+        .mattone {
+            position: absolute;
+            width: 50px;
+            height: 30px;
+            
+            border: 2px solid #333;
+          
+        }
+    </style>
+</head>
+<body>
+    <h1 > LE DUE Piramidi </h1> 
+    <div id="message">Vence chi prende l'ultimo pietra! </div>
+    <button onclick="playerMove(1)"> da Piramide 1</button>
+    <button onclick="playerMove(2)"> da Piramide 2</button>
+    <button onclick="playerMove(3)"> da Entrambe</button>
+    <div id="piramide1" class="piramide"></div>
+    <div id="piramide2" class="piramide"></div>
+    <script src="piramidi.js"></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 ---
 title: Funzioni JavaScript
 layout: intro
-level: 2
+level: 3
 ---
 
 # Funzioni JavaScript
@@ -10,7 +10,7 @@ I mattoni fondamentali di JavaScript
 
 ---
 title: JavaScript
-level: 3
+level: 4
 layout: center
 ---
 
@@ -24,7 +24,7 @@ Mantenere le cose DRY
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Diciamo che abbiamo un array di età
@@ -56,7 +56,7 @@ if ( listOfAges[2] >= 21) {
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Aggiungiamo una funzione per fare il controllo dell'età
@@ -88,7 +88,7 @@ if (canConsumeAlcoholInVegas(listOfAges[1])) {
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Infine, possiamo migliorare questo ancora di più con un ciclo for
@@ -118,7 +118,7 @@ for (let i = 0; i <= listOfAges.length; i++) {
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Anatomia di una funzione
@@ -145,7 +145,7 @@ console.log(canConsumeAlcoholInVegas(25)); // true
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Variabili locali
@@ -175,7 +175,7 @@ console.log(allowed); // Errore!
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Variabili esterne
@@ -207,7 +207,7 @@ console.log(canConsumeAlcoholInVegas()); // vero!
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 
@@ -238,7 +238,7 @@ console.log(canVisitVegas()); // ????
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Una parola sulle variabili globali
@@ -252,7 +252,7 @@ Funzioni
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Parametri della funzione 
@@ -277,7 +277,7 @@ displayTodoItem("Presenta le tasse", false);
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Impostazione dei parametri predefiniti 
@@ -301,7 +301,7 @@ displayTodoItem("Presenta le tasse");
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Controllo dei parametri
@@ -331,7 +331,7 @@ displayTodoItem("Presenta le tasse");
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Restituire valori
@@ -353,7 +353,7 @@ console.log(result);
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Eventi JavaScript
 layout: intro
-level: 2
+level: 3
 ---
 
 # Eventi JavaScript
@@ -10,7 +10,7 @@ Gestione di tutti i tipi di eventi
 
 ---
 title: Eventi JavaScript
-level: 3
+level: 4
 ---
 
 # Introduzione 
@@ -31,7 +31,7 @@ Possiamo rispondere a eventi specifici aggiungendo un gestore di eventi all'even
 
 ---
 title: Eventi JavaScript
-level: 3
+level: 4
 ---
 
 # Introduzione 
@@ -62,7 +62,7 @@ btn.addEventListener("click", buttonHandler);
 
 ---
 title: Eventi JavaScript
-level: 3
+level: 4
 ---
 
 # Altri tipi di eventi 
@@ -76,7 +76,7 @@ Ad esempio gli eventi `dblclick` si verificano quando l'utente fa doppio clic co
 
 ---
 title: Eventi JavaScript
-level: 3
+level: 4
 ---
 
 # Oggetto evento
@@ -106,7 +106,7 @@ function buttonHandler(event) {
 
 ---
 title: Eventi JavaScript
-level: 3
+level: 4
 ---
 
 # Eventi e form
@@ -142,7 +142,7 @@ function formHandler(e) {
 
 ---
 title: Eventi JavaScript
-level: 3
+level: 4
 ---
 
 # Event bubbling
@@ -156,7 +156,7 @@ Sebbene possa sembrare controintuitivo, considera un `<button>` all'interno di d
 
 ---
 title: Eventi JavaScript
-level: 3
+level: 4
 layout: center
 ---
 
@@ -166,7 +166,7 @@ layout: center
 
 ---
 title: Eventi JavaScript
-level: 3
+level: 4
 ---
 
 # Event bubbling
@@ -195,7 +195,7 @@ function buttonHandler(event) {
 
 ---
 title: Eventi JavaScript
-level: 3
+level: 4
 ---
 
 # Delegazione di eventi

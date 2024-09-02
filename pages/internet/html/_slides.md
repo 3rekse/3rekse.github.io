@@ -3,13 +3,13 @@ layout: cover
 background: >-
   http://www.vatlat3880.altervista.org/STRUMENTI/ARCHIVIO%20IMMAGINI/Imm_VARIE/xxx_ipertesto_1.JPG
 level: 1
-title: IPERTESTI
+title: LAB 3 Linguaggi per gli ipertesti 
 ---
 
 
 # HTML CSS JavaScript
 
-4 Linguaggi per gli ipertesti 
+3 Linguaggi per gli ipertesti 
 
 <Toc columns="2" maxDepth="2" minDepth="2" mode="next" />
 

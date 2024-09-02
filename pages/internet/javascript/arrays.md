@@ -1,7 +1,7 @@
 ---
 title: Array JavaScript
 layout: intro
-level: 2
+level: 3
 ---
 
 # Array JavaScript
@@ -10,7 +10,7 @@ Memorizzare le cose di JavaScript negli array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Array in JavaScript
@@ -38,7 +38,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Array in JavaScript
@@ -66,7 +66,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Array in JavaScript
@@ -95,7 +95,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 
 ---
@@ -120,7 +120,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 
 ---
@@ -152,7 +152,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Proprietà e metodi
@@ -183,7 +183,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Proprietà e metodi
@@ -207,7 +207,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Proprietà e metodi
@@ -234,7 +234,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 ---
 
@@ -263,7 +263,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Const e array
@@ -289,7 +289,7 @@ Array
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # C'è anche un metodo reverse 
@@ -316,7 +316,7 @@ Array
 ```
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Copiare un array
@@ -347,7 +347,7 @@ Arrays
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Copiare un array
@@ -379,7 +379,7 @@ Arrays
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Copiare un array
@@ -410,7 +410,7 @@ Arrays
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Metodi dell'array

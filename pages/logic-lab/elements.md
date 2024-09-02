@@ -47,6 +47,8 @@ Un'equazione per mostrare espressioni logicamente equivalenti (dove entrambi i l
 
 ``~(A + B)`` = ``~A · ~B``
 
+<iframe style="max-width:100%" src="https://wordwall.net/it/embed/2a4e53f82a1b4565ad9e2eb0a6b31fcb?themeId=1&templateId=5&fontStackId=0"  frameborder="0" allowfullscreen></iframe>
+
 ---
 level: 3
 title: Logical operators

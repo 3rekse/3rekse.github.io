@@ -1,7 +1,7 @@
 ---
 title: Cicli JavaScript
 layout: intro
-level: 2
+level: 3
 ---
 
 # Cicli JavaScript
@@ -9,7 +9,7 @@ Iterare attraverso le cose
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Spesso abbiamo bisogno di ripetere le azioni
@@ -36,7 +36,7 @@ for (inizio; condizione; passo) {
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # While
@@ -62,7 +62,7 @@ while (i < 100) {
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 # Do...While
@@ -90,7 +90,7 @@ do {
 
 ---
 title: JavaScript
-level: 3
+level: 4
 ---
 
 
@@ -108,7 +108,7 @@ for (let i = 0; i < 5; i++) {
 
 ---
 title: JavaScript
-level: 3
+level: 4
 class: "border-l-36 border-green-600"
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: intro
 title: Modello di box CSS
-level: 2
+level: 3
 ---
 
 # Modello di box CSS
@@ -11,7 +11,7 @@ Tutto è un box in CSS
 
 ---
 title: Cos'è il modello di box CSS
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/css/box-model/stack.jpg
 ---
@@ -39,7 +39,7 @@ Foto di BERK OZDEMIR: https://www.pexels.com/photo/people-reading-books-in-libra
 
 ---
 title: Modello di box CSS
-level: 3
+level: 4
 ---
 
 # Box di blocco e inline
@@ -60,7 +60,7 @@ Note slide:
 
 ---
 title: Modello di box CSS
-level: 3
+level: 4
 ---
 
 # Box di blocco e inline
@@ -93,7 +93,7 @@ Note slide:
 
 ---
 title: Modello di box CSS
-level: 3
+level: 4
 ---
 
 # Parti di un box
@@ -115,7 +115,7 @@ Note slide:
 ---
 layout: center
 title: Modello di box CSS
-level: 3
+level: 4
 ---
 
 <img src="/internet/images/slides/css/box-model/model.png" alt="" />
@@ -129,7 +129,7 @@ Note slide:
 
 ---
 title: Margine
-level: 3
+level: 4
 ---
 
 # Margine
@@ -146,7 +146,7 @@ Note slide:
 
 ---
 title: Padding
-level: 3
+level: 4
 ---
 
 # Padding
@@ -163,7 +163,7 @@ Note slide:
 
 ---
 title: Bordo
-level: 3
+level: 4
 ---
 
 # Bordo
@@ -179,7 +179,7 @@ Note slide:
 
 ---
 title: Modello di box CSS
-level: 3
+level: 4
 ---
 
 # I due modelli di dimensionamento
@@ -198,7 +198,7 @@ Note slide:
 
 ---
 title: Risorse sul modello di box CSS
-level: 3
+level: 4
 layout: image-right
 image: /internet/images/slides/css/selectors/books.jpg
 ---

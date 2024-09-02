@@ -1,7 +1,7 @@
 ---
 layout: intro
 title: HTML Tag con contenuto 
-level: 2
+level: 3
 ---
 
 # Contenuto HTML
@@ -9,7 +9,7 @@ level: 2
 
 ---
 title: Elementi di contenuto
-level: 3
+level: 4
 ---
 
 # Tag di contenuto
@@ -26,7 +26,7 @@ Ecco alcuni dei principali tag di contenuto che utilizziamo nella costruzione de
   
 ---
 title: Paragrafi
-level: 3
+level: 4
 ---
 
 # Paragrafi
@@ -54,7 +54,7 @@ Slide notes:
 
 ---
 titolo: Intestazioni
-level: 3 
+level: 4 
 ---
 
 # Intestazioni
@@ -98,7 +98,7 @@ Slide notes:
 
 ---
 titolo: Liste
-level: 3
+level: 4
 ---
 
 # Liste
@@ -132,7 +132,7 @@ Slide notes:
 
 ---
 titolo: Liste
-level: 3
+level: 4
 ---
 
 # Liste
@@ -166,7 +166,7 @@ Slide notes:
 
 ---
 title: Liste di definizione
-level: 3
+level: 4
 ---
 
 # Liste
@@ -203,7 +203,7 @@ Slide notes:
 
 ---
 title: Collegamenti
-level: 3
+level: 4
 ---
 
 # Collegamenti
@@ -243,7 +243,7 @@ Slide notes:
 
 ---
 title: Immagini
-level: 3
+level: 4
 ---
 
 # Immagini
@@ -273,7 +273,7 @@ Slide notes:
 
 ---
 title: Interruzione di linea
-level: 3
+level: 4
 ---
 
 # Interruzione di linea
@@ -306,7 +306,7 @@ Slide notes:
 
 ---
 title: Strong
-level: 3
+level: 4
 ---
 
 # Strong tag
@@ -337,7 +337,7 @@ Slide notes:
 
 ---
 title: Tag di enfasi
-level: 3
+level: 4
 ---
 
 # Tag di enfasi
@@ -366,7 +366,7 @@ Slide notes:
 
 ---
 title: Blockquote
-level: 3
+level: 4
 ---
 
 # Blockquote
