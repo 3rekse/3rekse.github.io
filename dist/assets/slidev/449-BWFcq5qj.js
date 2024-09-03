@@ -1,6 +1,0 @@
-import{o as t,c as o,k as i,q as r,s as u,A as l,e}from"../modules/vue-DflCt9hH.js";import{I as a}from"./default-D8n-L-kp.js";import{hi as n}from"../index-BXbHHbuc.js";import{p as s,u as c,f as p}from"./context-CgID4z_0.js";import"../modules/shiki-Din2pWPP.js";const d=e("h1",null,"Aritmetic Logic Unit ALU chip centrale del’Unità di elaborazione centrale del computer CPU.",-1),m=e("p",null,"Progettata per eseguire un’intera serie di operazioni aritmetiche e logiche, è il cervello di calcolo del computer.",-1),x=e("ul",null,[e("li",null,"2 Operandi di 16-bit in inputs x, y,"),e("li",null,"6 input bits: zx, nx, zy, ny, f, no."),e("li",null,"1 output a 16-bit out = secondo una delle seguenti funzioni:")],-1),_=e("ul",null,[e("li",null,[e("pre",null,[e("code",null,`           0, 1, -1,
-`)])]),e("li",null,[e("pre",null,[e("code",null,`           x, y, !x, !y, -x, -y,
-`)])]),e("li",null,[e("pre",null,[e("code",null,`           x + 1, y + 1, x - 1, y - 1,
-`)])]),e("li",null,[e("pre",null,[e("code",null,`           x + y, x - y, y - x,
-`)])]),e("li",null,[e("pre",null,[e("code",null,`           x & y, x | y
-`)])])],-1),k={__name:"449",setup(y){return s(n),c(),(f,h)=>(t(),o(a,r(u(l(p)(l(n),448))),{default:i(()=>[d,m,x,_]),_:1},16))}};export{k as default};
