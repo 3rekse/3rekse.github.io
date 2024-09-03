@@ -1,0 +1,8 @@
+import{_ as i}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-uDhOKYWm.js";import{o as c,c as p,k as a,l as r,m,q as u,s as d,B as o,e as s,aa as e}from"./modules/vue-9M24w38T.js";import{I as _}from"./slidev/default-C3klLF9E.js";import{u as f,f as h}from"./slidev/context-mWja_fIZ.js";import"./modules/unplugin-icons-Bmhb8--w.js";import"./index-l2FSSgYu.js";import"./modules/shiki-D165QSPi.js";const k=s("p",null,"Supponiamo di salvare questo file come helloCpu.c e decidiamo di compilarlo ed eseguirlo su un sistema con un singolo processore (o CPU come a volte lo chiameremo). Ecco cosa vedremo:",-1),g=s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"prompt> gcc -o cpu helloCpu.c -Wall")]),e(`
+`),s("span",{class:"line"},[s("span",null,"prompt> ./cpu A")]),e(`
+`),s("span",{class:"line"},[s("span",null,"A")]),e(`
+`),s("span",{class:"line"},[s("span",null,"A")]),e(`
+`),s("span",{class:"line"},[s("span",null,"A")]),e(`
+`),s("span",{class:"line"},[s("span",null,"A")]),e(`
+`),s("span",{class:"line"},[s("span",null,"ˆC")]),e(`
+`),s("span",{class:"line"},[s("span",null,"prompt>")])])],-1),v={__name:"introSO.md__slidev_537",setup(C){const{$slidev:$,$nav:x,$clicksContext:n,$clicks:A,$page:B,$renderContext:P,$frontmatter:l}=f();return n.setup(),(b,N)=>{const t=i;return c(),p(_,u(d(o(h)(o(l),536))),{default:a(()=>[k,r(t,m({},{ranges:[]}),{default:a(()=>[g]),_:1},16)]),_:1},16)}}},j=v;export{j as default};
