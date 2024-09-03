@@ -1,0 +1,10 @@
+import{o as l,c as n,k as t,q as o,s as r,A as a,e as s,a6 as e}from"../modules/vue-DflCt9hH.js";import{_ as p}from"./cover.vue_vue_type_script_setup_true_lang-DpHAQHhR.js";import{b$ as i}from"../index-BXbHHbuc.js";import{p as c,u as d,f as h}from"./context-CgID4z_0.js";import"../modules/shiki-Din2pWPP.js";const m=s("h3",null,"🧠",-1),u=s("p",null,"Omarillo-11",-1),f=s("h3",null,"La sottrazione nel sistema binario utilizza un concetto simile al prestito nel sistema decimale. Ad esempio, per sottrarre 011 da 101:",-1),_=s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"  101")]),e(`
+`),s("span",{class:"line"},[s("span",null,"- 011")]),e(`
+`),s("span",{class:"line"},[s("span",null,"-----")]),e(`
+`),s("span",{class:"line"},[s("span",null,"  010")])])],-1),k=s("p",null,"Per la moltiplicazione, il processo è simile alla moltiplicazione decimale ma utilizza solo 0 e 1. Moltiplicare binari è come fare una serie di addizioni shiftate. Ad esempio, per moltiplicare 101 per 11:",-1),g=s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"   101")]),e(`
+`),s("span",{class:"line"},[s("span",null,"×   11")]),e(`
+`),s("span",{class:"line"},[s("span",null,"-------")]),e(`
+`),s("span",{class:"line"},[s("span",null,"   101")]),e(`
+`),s("span",{class:"line"},[s("span",null,"+ 1010  (shiftato a sinistra di una posizione)")]),e(`
+`),s("span",{class:"line"},[s("span",null,"-------")]),e(`
+`),s("span",{class:"line"},[s("span",null," 1111")])])],-1),z=s("p",null,"Il risultato è 1111, che è 15 in decimale. 💻",-1),N={__name:"111",setup(b){return c(i),d(),(v,x)=>(l(),n(p,o(r(a(h)(a(i),110))),{default:t(()=>[m,u,f,_,k,g,z]),_:1},16))}};export{N as default};
