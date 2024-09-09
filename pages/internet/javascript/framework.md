@@ -284,4 +284,9 @@ Omarillo-5
 
 **Studenti:** Grazie, Omarilli!
 
+<Toc columns="2" maxDepth="4" minDepth="4" mode="next" />
+
+---
+src: ./react.md
+
 ---

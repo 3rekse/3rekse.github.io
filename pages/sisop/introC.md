@@ -3,7 +3,17 @@ layout: cover
 background: >-
   /office/images/book.jpg?s=612x612&w=0&k=20&c=GXNeWQ7EHO6xEyzBn0lG47KTjx8JmxZg8fx-Qhx7ZEo=
 level: 1
-title: Lab.C
+title: C Lab.1972 -Il linguaggio C.
+
+### Calcolo
+
+Se l'anno corrente è il 2023:
+
+```plaintext
+2023 - 1972 = 51
+```
+
+Quindi, il linguaggio C ha 51 anni nel 2023.
 
 ---
 

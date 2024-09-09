@@ -25,7 +25,7 @@ image: /internet/images/intro/citdigit/carolina.png
 title: carolina
 level: 2
 layout: image-right
-image: /internet/images/intro/citdigit/carolina.png
+image: /internet/images/intro/citdigit/7Feb2024.png
 
 ---
 
@@ -166,7 +166,7 @@ insistente e intimidatorio tale da fare temere alla vittima per la propria sicur
 ::right::
 * DENIGRATION (denigrazione): attività offensiva intenzionale dell’aggressore che mira a danneggiare la reputazione e la
 rete amicale di un’altra persona, concretizzabile anche in una singola azione capace di generare, con il contributo attivo non
-necessariamente richiesto, degli altri utenti di internet (reclutamento volontario), effetti a cascata non prevedibili
+necessariamente richiesto, degli altri utenti di intern7Febet (reclutamento volontario), effetti a cascata non prevedibili
 * EXCLUSION (esclusione): esclusione intenzionale di un soggetto a opera di un aggressore da un gruppo online (lista di
 amici), chat, post, game interattivo o da altri ambienti.
 
@@ -191,7 +191,7 @@ programmi e contenuti appartenenti alla persona intestataria dello stesso per co
 
 * HAPPY SLAPPING (schiaffeggiamento divertente): riproduzione di una registrazione di un’aggressione fisica nella vita
 reale a danno di una vittima e relativa pubblicazione online a cui aderiscono altri utenti che pur non avendo partecipato
-direttamente all’accaduto, esprimono commenti, insulti e altre affermazioni diffamanti e ingiuriose. I video vengono votati e
+direttamente all’accaduto, esprimono commenti, insulti e altre affermazioni diffamanti e ingiur7Febiose. I video vengono votati e
 consigliati come «preferiti» o «divertenti»
 * SEXTING: adescare la vittima fingendosi un possibile partner, spingerla a
 scrivere o a inviare immagini a sfondo sessuale per poi divulgarle in rete

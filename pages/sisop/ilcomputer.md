@@ -1,8 +1,8 @@
 ---
+layout: cover
 level: 2
 title: Introduzione alle tecnologie informatiche
-layout: image-right
-image: /menu.png
+background: /internet/images/oldman.svg
 
 ---
 
@@ -12,17 +12,24 @@ Professore - Tecnologie informatiche
 
 ### Buongiorno, a tutti! Io mi chiamo Bonfiglio Fabrizio
 
-### Da oggi, organizziamoci in 2 gruppi di squadre speciali:
-- Il gruppo Studenti 
-- Il guppo Omarillos, neuroni di intelligenza naturale. 
+Memorizza l'[Uniform Resource Locator Kit bit.ly/m/TI](https://bit.ly/m/TI) un menu di riferimento per tutto l'anno scolastico
+
+### Da oggi, organizziamoci in 2 gruppi di squadre speciali
+
+- Il gruppo Studenti
+- Il guppo Omarillos, neuroni di intelligenza naturale
+
 ### Gruppo Omarillos, presentarvi e spiegate cosa farete?
 
-[uniform resource locator Kit bit.ly/m/TI](https://bit.ly/m/TI)
+#### Ma Ora, andiamo a esplorarlo insieme!
+
+
 
 ---
-layout: cover
 level: 3
 title: Welcome
+layout: image-right
+image: /menu.png
 
 ---
 
@@ -30,13 +37,15 @@ title: Welcome
 
 Omarillo - Neurone di Intelligenza Naturale
 
-### Certamente, Professore! Salve a tutti, io sono un Omarillo. 
-### Il nostro compito è stimolare l'apprendimento e la curiosità dei nostri coetanei, contaminandoli con la passione per la conoscenza. 
-### Vi aiuteremo a comprendere i concetti complessi delle tecnologie Informatiche in modo semplice e speriamo divertente. 🌟
+#### Certamente, Professore! Salve a tutti, io sono un Omarillo
 
-### Curiosi! Vi parleremo ora dei contenuti del nostro sito, URL:[omarillo.itomar.it](http://omarillo.itomar.it). 
- Questo sito è una risorsa incompleta per chi vuole approfondire la conoscenza delle tecnologie informatiche e dei sistemi digitali dovrà esaminare molto di più. 
-### Ma Ora, andiamo a esplorarlo insieme!
+#### Il nostro compito è stimolare l'apprendimento e la curiosità dei nostri coetanei, contaminandoli con la passione per la conoscenza
+
+#### Vi aiuteremo a comprendere i concetti complessi delle tecnologie Informatiche in modo semplice e speriamo divertente🌟
+
+#### Curiosi! Vi parleremo ora dei contenuti del nostro sito, URL:[omarillo.itomar.it](http://omarillo.itomar.it)
+
+ Questo sito è una risorsa incompleta per chi vuole approfondire la conoscenza delle tecnologie informatiche e dei sistemi digitali dovrà esaminare molto di più.
 
 ---
 layout: cover
@@ -133,11 +142,13 @@ level: 3
 
 ### 🧠 
 
-Omarillo-5
+Omarillo5 - **Allora Eccoti la tripla chiave**
 
-## Allora Eccoti la tripla chiave
+## 🔑1 Virtualizzazione
 
-# 🔑Virtualizzazione, 🔑Concorrenza 🔑Persistenza.
+## 🔑2 Concorrenza
+
+## 🔑3 Persistenza
 
 Imparando queste idee, imparerai tutto su come funziona un sistema operativo, incluso come decide quale programma eseguire successivamente su una CPU, come gestisce il sovraccarico di memoria  **sistema memoria virtuale** , come funzionano i monitor delle macchine virtuali, come gestire le informazioni sui dischi, e anche un po' su come costruire un sistema distribuito che funzioni quando alcune parti sono guaste. Quel genere di cose.
 
@@ -148,11 +159,11 @@ title: Welcome
 
 ---
 
-# 🧑‍🎓
+## 🧑‍🎓
 
 Studente-3
 
-# Non ho idea di cosa tu stia parlando, davvero!!
+## Non ho idea di cosa tu stia parlando, davvero!!
 
 ---
 layout: cover
@@ -161,11 +172,11 @@ title: Welcome
 
 ---
 
-# 🧑‍🏫
+## 🧑‍🏫
 
 Professore
- 
-# Bene! Questo significa che sei nella classe giusta.
+
+## Bene! Questo significa che sei nella classe giusta
 
 ---
 layout: cover

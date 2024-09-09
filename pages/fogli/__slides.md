@@ -1,7 +1,7 @@
 ---
 hideInToc: false
 level: 1
-title: Lab Fogli elettronici
+title: LAB Fogli elettronici
 ---
 
 ## Office Automation FOGLI ELETTRONICI

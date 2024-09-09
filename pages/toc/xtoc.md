@@ -23,5 +23,3 @@ Questo progresso potrebbe velocizzare compiti come la fattorizzazione di numeri 
 Le leggi che governano la programmazione quantistica spiegano le sfide nel progettare linguaggi di programmazione quantistica.
 
 I computer classici sono più facili da programmare grazie alla semplicità del loro flusso di controllo basato sui bit e sul "program counter".
-
-
