@@ -1,6 +1,0 @@
-import{o,c as i,k as r,q as u,s as a,B as l,e}from"./modules/vue-9M24w38T.js";import{I as s}from"./slidev/default-C3klLF9E.js";import{u as c,f as p}from"./slidev/context-mWja_fIZ.js";import"./index-l2FSSgYu.js";import"./modules/shiki-D165QSPi.js";const d=e("h1",null,"Aritmetic Logic Unit ALU chip centrale del’Unità di elaborazione centrale del computer CPU.",-1),_=e("p",null,"Progettata per eseguire un’intera serie di operazioni aritmetiche e logiche, è il cervello di calcolo del computer.",-1),m=e("ul",null,[e("li",null,"2 Operandi di 16-bit in inputs x, y,"),e("li",null,"6 input bits: zx, nx, zy, ny, f, no."),e("li",null,"1 output a 16-bit out = secondo una delle seguenti funzioni:")],-1),x=e("ul",null,[e("li",null,[e("pre",null,[e("code",null,`           0, 1, -1,
-`)])]),e("li",null,[e("pre",null,[e("code",null,`           x, y, !x, !y, -x, -y,
-`)])]),e("li",null,[e("pre",null,[e("code",null,`           x + 1, y + 1, x - 1, y - 1,
-`)])]),e("li",null,[e("pre",null,[e("code",null,`           x + y, x - y, y - x,
-`)])]),e("li",null,[e("pre",null,[e("code",null,`           x & y, x | y
-`)])])],-1),y={__name:"algebra.md__slidev_449",setup(f){const{$slidev:h,$nav:g,$clicksContext:n,$clicks:$,$page:z,$renderContext:b,$frontmatter:t}=c();return n.setup(),(k,v)=>(o(),i(s,u(a(l(p)(l(t),448))),{default:r(()=>[d,_,m,x]),_:1},16))}},A=y;export{A as default};
