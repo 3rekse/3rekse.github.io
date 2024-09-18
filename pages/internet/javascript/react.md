@@ -192,7 +192,687 @@ level: 5
 
 - **`sx create-react-app my-apptore/`:** Se usi un sistema di gestione dello stato come Redux o Context API, la logica di gestione dello stato globale va collocata qui.
 
-- **`utils/`:** Contiene funzioni di utilità, helper o logiche di supporto che possono essere riutilizzate in più parti dell'applicazione.
+- **`utils/`:** Contiene funzioni di utilità, helper o logiche di supporto che possono essere riutilizzate i---
+layout: cover
+level: 4
+
+---n più parti dell'applicazione.
+
+---
+layout: cover
+level: 3
+title: Aggiornamenti
+
+---
+
+🧠  - Omarillo 1 (Con tono autorevole):
+
+## Cari studenti! Oggi vi aggiorneremo su una notizia importante
+
+## Il progetto **`create-react-app`**, un tempo lo strumento più utilizzato per avviare applicazioni React, non è più attivamente mantenuto come in passato
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 2 (Con tono calmo):
+
+## "Il team di **React** ha annunciato che stanno spostando la loro attenzione su strumenti più moderni e avanzati per la creazione di applicazioni. Questi strumenti offrono funzionalità che vanno oltre le capacità di `create-react-app`."
+
+---
+layout: cover
+level: 3
+title: next
+
+---
+
+🧑‍🎓 Studente -  1:
+
+## "Ma perché non stanno più mantenendo `create-react-app`? Era un modo facile per iniziare con React!"
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 3 (Con tono rassicurante):
+
+## "Capisco la tua preoccupazione. Il punto è che `create-react-app` era perfetto per progetti semplici, ma oggi le esigenze dello sviluppo moderno richiedono strumenti più potenti, come il **rendering lato server**, la **generazione di siti statici** e molto altro."
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 4 (Entusiasta):
+
+## "Ed è qui che entrano in gioco le **alternative**! Strumenti come **Next.js**, **Vite** e **Gatsby** stanno rivoluzionando il modo in cui costruiamo applicazioni React."
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 5 (Con tono tecnico):
+
+## "Iniziamo con **Next.js**. È un **framework React** che offre **rendering lato server**, il che significa che le pagine possono essere caricate più velocemente e sono ottimizzate per i motori di ricerca. Se vuoi costruire un'applicazione React moderna, **Next.js** è una scelta eccellente."
+
+---
+layout: cover
+level: 3
+title: next
+
+---
+
+🧑‍🎓 Studente -  2:
+
+## "Ma **Next.js** non è troppo complesso rispetto a `create-react-app`?"
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 6 (Con tono didattico):
+
+## "Non preoccuparti! **Next.js** può sembrare complesso all'inizio, ma offre molta più **flessibilità**. Puoi iniziare in modo semplice e crescere gradualmente con funzionalità avanzate come il **routing automatico** e la **generazione di pagine statiche**."
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 7 (Con tono rapido):
+
+## "Poi abbiamo **Vite**! È uno strumento di build moderno e **incredibilmente veloce**. A differenza di `create-react-app`, Vite sfrutta le moderne API dei browser, offrendo tempi di compilazione quasi immediati, specialmente nei progetti più grandi."
+
+---
+layout: cover
+level: 3
+title: next
+
+---
+
+🧑‍🎓 Studente -  3:
+
+## "Ma posso usarlo con React? Vite non è pensato per Vue?"
+
+🧑‍🎓 Studente -  12:
+
+## VUE ?
+
+---
+layout: cover
+level: 3
+title: Vue.js
+
+---
+
+🧠  - Omarillo 1 (Con tono entusiasta)
+
+"Bene ragazzi, ora che discutiamo di alcune alternative a `create-react-app`, parliamo di un altro popolare framework: **Vue.js**! Qualcuno di voi ha già sentito parlare di Vue?"
+
+🧑‍🎓 Studente 11 (Con curiosità):
+
+"Sì, ho sentito il nome, ma non so bene di cosa si tratti. È simile a React?"
+
+---
+layout: cover
+level: 3
+title: Vue.js
+
+---
+
+🧠  - Omarillo 2 (Con tono spiegativo)
+
+## "Vue.js, come **React**, è un framework JavaScript usato per costruire interfacce utente. Tuttavia, mentre React è tecnicamente una libreria, **Vue.js** è un **framework completo** che offre tutto ciò di cui hai bisogno per costruire un'applicazione, incluso il routing e la gestione dello stato."
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 3 (Con tono chiaro):
+
+## "**Vue** è stato creato da [**Evan You**](https://evanyou.me/?utm=22b03) nel 2014. È nato come una soluzione più semplice e leggera rispetto a framework più complessi come Angular. Una delle sue forze principali è la **facilità d'uso** e la **curva di apprendimento** relativamente bassa."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 2 (Con tono pensieroso)
+
+## "Quindi Vue è più semplice da imparare rispetto a React?"
+
+🧠  - Omarillo 4 (Con tono ponderato)
+
+## "Sì, molti sviluppatori trovano Vue più facile da iniziare rispetto a React, soprattutto grazie alla sua sintassi chiara e ai **file single-file components**, dove HTML, CSS e JavaScript sono tutti contenuti in un unico file `.vue`. Questo rende lo sviluppo più ordinato e comprensibile."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 3 (Con tono curioso):
+
+## "Ma quali sono le **differenze** principali tra **Vue** e **React**? Cosa li distingue davvero?"
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 5 (Con tono analitico):
+
+## "Ecco le principali differenze tra Vue.js e React"
+
+1. **Sintassi**:
+   - **Vue** utilizza una sintassi basata su modelli, simile all'HTML, mentre **React** usa **JSX**, che combina HTML e JavaScript insieme.
+   - Con Vue, scrivi codice simile a quello che trovi in un normale file HTML, mentre in React, utilizzi un approccio più strettamente legato a JavaScript.
+
+2. **Gestione dello Stato**:
+   - Vue ha un suo sistema integrato chiamato **Vuex** per la gestione dello stato globale, mentre in React usi librerie come **Redux** o **Context API**.
+  
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 5 (Con tono analitico):
+
+3. **Flessibilità vs Struttura**:
+   - Vue è più strutturato. Fornisce una struttura per costruire applicazioni dall'inizio, ma senza essere troppo rigido. **React** è più flessibile ma richiede di scegliere e configurare più strumenti da solo.
+  
+4. **Ecosistema**:
+   - Vue offre una **soluzione più integrata**: il framework stesso si occupa di molte cose. React, invece, lascia a te la libertà di scegliere le librerie per routing, stato e altro.
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 6 (Con tono tecnico):
+
+## Per esempio, in **Vue** non devi scegliere un router o una libreria di gestione dello stato, poiché Vue ha **Vue Router** e **Vuex** pronti all'uso
+
+## React, invece, ti dà la libertà di scegliere qualsiasi libreria, come **React Router** o **Redux**, il che è fantastico per chi cerca flessibilità, ma potrebbe rallentarti se vuoi qualcosa di pronto."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 4 (Con tono riflessivo)
+
+## "Mi piace la flessibilità di React, ma sembra che Vue faccia risparmiare tempo. È corretto?"
+
+🧠  - Omarillo 7 (Con tono concorde):  
+
+### "Esattamente! **Vue** è pensato per essere più **pronto all'uso**. Ha tutto ciò che serve per costruire un'applicazione, senza dover fare molte configurazioni. Questo lo rende perfetto per chi vuole concentrarsi subito sullo sviluppo."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 11 (Con tono confuso):  
+"Avete menzionato che in React bisogna scegliere un **router** o una **libreria di gestione dello stato**. Ma cosa significa esattamente? Potete spiegarlo meglio?"
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧠  - Omarillo 1 (Con tono paziente):  
+
+### "Certo! Vediamo prima di tutto cos'è un **router**. Nei termini più semplici, un **router** ti permette di **navigare tra le pagine** di una web app, mantenendo l’esperienza a pagina singola (SPA). Immagina un'applicazione come Facebook: quando clicchi su un profilo, non viene ricaricata un'intera nuova pagina, ma solo una parte dell'interfaccia cambia. Questo è reso possibile grazie al **routing**."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧠  - Omarillo 2 (Con tono pratico):  
+
+### "Esattamente. Se stai usando **React**, hai bisogno di scegliere una libreria per il routing, poiché React non lo gestisce nativamente. La libreria più comune è **React Router**. Ti permette di definire percorsi (o 'route') specifici per la tua applicazione. Ad esempio, `/home` per la homepage o `/profile` per la pagina profilo."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 12 (Con tono curioso):  
+
+### "Quindi React Router è come un GPS per le pagine della mia app?"
+
+🧠  - Omarillo 3 (Con tono divertito):
+
+### "Esatto! Puoi pensarlo così. Definisce come e dove il browser deve 'navigare' quando clicchi su un link o esegui una determinata azione."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 10 (Con tono riflessivo):  
+
+### "Ma se Vue ha già il **Vue Router** integrato, in React devo configurare tutto da solo?"
+
+🧠  - Omarillo 4 (Con tono esplicativo):  
+
+### "Esatto. In Vue, **Vue Router** è strettamente integrato nel framework, quindi non devi cercare una libreria separata per gestire le rotte. In React, invece, devi installare **React Router** e configurarlo. La flessibilità di React ti dà la libertà di scegliere il tuo stack, ma significa anche più lavoro di configurazione."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 8 (Con tono dubbioso):  
+"E la gestione dello **stato**? Cos'è esattamente?"
+
+🧠  - Omarillo 5 (Con tono chiaro):  
+
+### "Ottima domanda! La **gestione dello stato** è un concetto fondamentale nelle applicazioni web moderne. Lo stato si riferisce alle **informazioni che la tua applicazione tiene in memoria** mentre l'utente la utilizza. Ad esempio, se sei su un sito di e-commerce, lo stato potrebbe includere il **carrello**, gli articoli che hai aggiunto, o l'utente che ha effettuato il login."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧠  - Omarillo 6 (Con tono tecnico):
+
+### "Quindi, in un’app semplice potresti avere lo stato locale in ogni componente. Ma quando l’app cresce, con molti componenti che devono condividere lo stesso stato (come il carrello della spesa in varie pagine), diventa difficile gestirlo."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 9 (Con tono preoccupato):
+
+### "Immagino che gestire tutto questo possa diventare un bel casino..."
+
+🧠  - Omarillo 7 (Con tono comprensivo):  
+
+### "Esatto! Ecco perché, in questi casi, si usano delle **librerie di gestione dello stato globale**. Queste librerie permettono a tutti i componenti della tua app di accedere allo stato in modo centralizzato e coerente."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧠  - Omarillo 8 (Con tono informativo):  
+
+### "Con React, la libreria più comune per gestire lo stato globale è **Redux**. È estremamente potente, ma può avere una curva di apprendimento ripida. Un'altra alternativa più semplice è la **Context API**, che è integrata in React e permette una gestione dello stato globale più semplice per app di piccole e medie dimensioni."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 5 (Con tono curioso):  
+
+### "E invece in Vue? Come funziona la gestione dello stato?"
+
+🧠  - Omarillo 9 (Con tono pratico):  
+
+### "In Vue, hai **Vuex**, una soluzione ufficiale per la gestione dello stato globale. È simile a Redux in molti aspetti, ma è progettato per essere strettamente integrato con Vue. Questo significa che non devi cercare una libreria separata o preoccuparti della compatibilità. Vuex ti offre tutto quello di cui hai bisogno per gestire lo stato, con una sintassi molto leggibile."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 3 (Con tono riflessivo):  
+
+### "Quindi, se volessi creare un'app più complessa, come un sito di e-commerce, dovrei sicuramente usare qualcosa come **Redux** o **Vuex**?"
+
+🧠  - Omarillo 10 (Con tono rassicurante):  
+
+### "Esattamente! Quando la tua app cresce e ha bisogno di **condividere dati tra più componenti** in modo efficace, è lì che entrano in gioco queste librerie di gestione dello stato. Per un'app di e-commerce, ad esempio, avresti probabilmente molte sezioni che devono conoscere lo stato del carrello o delle preferenze dell'utente."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 6 (Con tono curioso):  
+
+### "E come funziona esattamente Redux?"
+
+🧠  - Omarillo 11 (Con tono esplicativo):  
+
+### "**Redux** utilizza un approccio chiamato **store** per contenere tutto lo stato globale della tua app. Ogni volta che vuoi aggiornare lo stato, invii un'**azione** (action) che descrive cosa vuoi fare. Poi, un **reducer** prende l'azione e lo stato precedente e ritorna il nuovo stato. Questo processo è chiamato **architettura a flusso unidirezionale**, poiché i dati fluiscono sempre in una direzione chiara e prevedibile."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧠  - Omarillo 12 (Con tono tecnico):  
+
+### "Inoltre, una cosa fantastica di Redux è che ti offre strumenti come il **time-travel debugging**, che ti permettono di vedere ogni cambiamento di stato nella tua app nel tempo. Questo è estremamente utile per il debugging di app complesse."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 12 (Con tono impressionato):  
+
+### "Wow, sembra davvero potente! Ma potrebbe anche sembrare un po' complesso, soprattutto per chi inizia..."
+
+🧠  - Omarillo 7 (Con tono rassicurante):  
+
+### "È vero, **Redux** è potente ma può essere complesso, soprattutto all'inizio. Se stai costruendo un'app di piccole o medie dimensioni, potresti iniziare con la **Context API** di React o con **Vuex**, se usi Vue. Entrambe le soluzioni sono più facili da comprendere e sufficienti per molte applicazioni."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 10 (Con tono pragmatico):  
+
+## "Quindi, in sintesi, quando la mia app diventa più complessa, devo scegliere una **libreria di routing** per navigare tra le pagine e una **libreria di gestione dello stato** per gestire tutte le informazioni dell'app in modo centralizzato, giusto?"
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧠  - Omarillo 1 (Con tono soddisfatto):  
+
+### "Esattamente! È proprio così. A seconda delle esigenze della tua applicazione, puoi scegliere le soluzioni che ti offrono la flessibilità e la potenza di cui hai bisogno. E ricorda: ogni scelta dipende da quanto complessa diventa la tua app."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+**Conclusione:**
+
+Gli Omarilli hanno chiarito il concetto di **router** e **librerie di gestione dello stato** in un’applicazione React o Vue?
+
+Hanno spiegato come strumenti come **React Router**, **Vue Router**, **Redux** e **Vuex** giocano un ruolo cruciale nella costruzione di applicazioni complesse, aiutando gli studenti a capire meglio quando e perché usare queste librerie?
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 5 (Con tono pragmatico):
+
+## "E in termini di performance?
+
+C'è una differenza tra Vue e React?"
+
+🧠  - Omarillo 8 (Con tono tecnico):
+
+"In realtà, Vue e React hanno **performance molto simili** per la maggior parte delle applicazioni. Entrambi sono estremamente veloci grazie ai loro sistemi di **Virtual DOM**, che minimizzano i cambiamenti nel DOM reale. La differenza di performance potrebbe dipendere più dall'implementazione specifica che dal framework stesso."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 6 (Con tono riflessivo)
+
+"E per quanto riguarda la **community**? Quale framework ha più supporto?"
+
+🧠  - Omarillo 9 (Con tono informato)
+
+"**React** ha una community gigantesca. Essendo stato sviluppato da **Facebook**, ha il vantaggio di essere usato in molti grandi progetti e aziende. Ci sono **tonnellate di risorse** disponibili, dalla documentazione ufficiale a tutorial e blog. Anche **Vue** ha una community forte e in crescita, soprattutto in Cina e nell'Asia orientale. Entrambi i framework hanno un supporto eccellente, ma React ha un leggero vantaggio in termini di diffusione globale."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 7 (Con tono curioso):
+
+## "Quindi, cosa dovrei scegliere? Vue o React?"
+
+🧠  - Omarillo 10 (Con tono ponderato):  
+
+"Dipende dalle tue esigenze. Se vuoi un approccio **più strutturato** e pronto all'uso, **Vue** potrebbe essere la scelta migliore. È facile da iniziare e ti fornisce tutto ciò di cui hai bisogno fin dall'inizio. Se invece cerchi **maggiore flessibilità** e ti piace configurare ogni parte dell'applicazione, **React** potrebbe essere la strada giusta."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 8 (Con tono pratico)
+
+## "E se volessi creare una semplice interfaccia utente per un progetto personale?"
+
+🧠  - Omarillo 11 (Con tono pratico):
+
+"Per un progetto personale o per prototipi veloci, **Vue** potrebbe essere più indicato. La sua sintassi è semplice e puoi ottenere risultati rapidi senza troppa configurazione. Ma se pensi di scalare il progetto in futuro e vuoi massima libertà, React potrebbe darti più opzioni."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 9 (Con tono ambizioso)
+
+### "E se volessi creare un'applicazione complessa con molte interazioni? Cosa consigliate?"
+
+🧠  - Omarillo 12 (Con tono esperto):
+
+"Entrambi i framework sono in grado di gestire applicazioni complesse. Vue ha tutto ciò che serve già integrato, mentre React ti permette di personalizzare il tuo stack in base alle tue necessità. Per applicazioni complesse, potrebbe dipendere da cosa ti senti più a tuo agio a configurare e gestire."
+
+---
+layout: cover
+level: 3
+title: vue.js
+
+---
+
+🧑‍🎓 Studente 10 (Con tono motivato):
+
+## "Grazie mille! Penso che proverò Vue per il mio prossimo progetto, sembra perfetto per cominciare senza troppi ostacoli."
+
+🧠  - Omarillo 3 (Con tono incoraggiante):  
+
+## "Fantastico! Ti troverai benissimo. E ricorda, non importa quale framework scegli: l'importante è iniziare a sperimentare!"
+
+---
+layout: cover
+level: 3
+title: vue
+
+---
+
+🧠  - Omarillo 1 (Con tono conclusivo)
+
+## "E questo è il bello del mondo JavaScript! Che tu scelga **Vue** o **React**, entrambi sono strumenti incredibili per creare interfacce moderne e potenti. Esplorate, sperimentate e trovate la soluzione che funziona meglio per voi!"
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 8 (Con tono paziente):
+
+## "Comunque anche se **Vite** è nato per Vue, supporta perfettamente **React**. Puoi configurarlo facilmente e ottenere un'esperienza di sviluppo velocissima, ideale per chi lavora con progetti React."
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 9 (Con tono entusiasta):
+
+## "Infine, c'è l'alternativa **Gatsby**! Se stai costruendo **siti statici** o applicazioni che devono essere super ottimizzate per le performance, **Gatsby** è il framework che fa per te. Usa **React** e ha un ecosistema ricco di plugin per l'ottimizzazione delle immagini, il caricamento veloce delle pagine e altro."
+
+---
+layout: cover
+level: 3
+title: next
+
+---
+
+🧑‍🎓 Studente -  4:
+
+## "Ma non è più complicato rispetto a `create-react-app`?"
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 10 (Con tono motivante):
+
+## "Beh, **Gatsby** è molto flessibile. Potrebbe sembrare più complesso, ma è progettato per garantire **ottime performance** senza dover configurare manualmente ogni dettaglio. È perfetto per chi vuole un sito rapido e ottimizzato fin da subito."
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 11 (Con tono riassuntivo):
+
+## "Quindi, ricapitoliamo le alternative principali a **`create-react-app`**
+
+1. **Next.js** per applicazioni avanzate con rendering lato server.
+2. **Vite** per uno sviluppo super veloce e moderno.
+3. **Gatsby** per siti statici con performance top."
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 12 (Con tono ispirante):
+
+## "Non abbiate paura del cambiamento, ragazzi. Questi strumenti possono sembrare nuovi e complessi, ma vi daranno una **marcia in più** nello sviluppo di applicazioni moderne. Provate a sperimentare e trovare quello che si adatta meglio alle vostre esigenze!"
+
+---
+layout: cover
+level: 3
+title: next
+
+---
+
+🧑‍🎓 Studente -  5 (Con tono riflessivo):
+
+## "Capisco. Quindi, **create-react-app** è ancora utile per piccoli progetti, ma per applicazioni più grandi o complesse dovremmo considerare queste alternative?"
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 1 (Con tono rassicurante):
+
+## "Esattamente! `create-react-app` può ancora essere utile per iniziare rapidamente, ma se vuoi sfruttare tutte le nuove tecnologie e funzionalità di React, è tempo di esplorare altre strade."
+
+---
+layout: cover
+level: 3
+title: next
+
+---
+
+🧑‍🎓 Studente - 6:
+
+## "Grazie per l'aggiornamento! Penso che proverò **Next.js** nel mio prossimo progetto."
+
+---
+layout: cover
+level: 3
+title: package.json
+
+---
+
+🧠  - Omarillo 3 (Con tono incoraggiante):
+
+## "Benissimo! Siamo qui per aiutarti, quindi se hai bisogno di consigli o supporto con questi strumenti, chiedi pure!"
 
 ---
 layout: cover
@@ -482,7 +1162,11 @@ level: 4
 
 🧑‍🎓 Studente-10
 
-## Posso modificare il tag `<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />` per utilizzare un file SVG come favicon?
+## Posso modificare il tag
+
+### `<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />`
+
+## per utilizzare un file SVG come favicon?
 
 ---
 layout: cover
@@ -917,7 +1601,7 @@ title: SVG file
     repeatCount="indefinite" />
 
   <!-- Animazione del movimento -->
-  <animateTransform 
+  <animateTransform
     xlink:href="#bird"
     attributeName="transform"
     type="translate"
@@ -927,10 +1611,10 @@ title: SVG file
     repeatCount="indefinite" />
 
    <path id="wave" fill="none" stroke="blue" stroke-width="2">
-    <animate 
-      attributeName="d" 
-      dur="2s" 
-      repeatCount="indefinite" 
+    <animate
+      attributeName="d"
+      dur="2s"
+      repeatCount="indefinite"
       values="
         M0,100 Q50,50 100,100 T200,100 T300,100 T400,100;
         M0,100 Q50,150 100,100 T200,100 T300,100 T400,100;
@@ -1044,7 +1728,7 @@ Conclusione
 
 I file SVG sono uno strumento potentissimo per creare grafiche scalabili e leggere, con numerosi vantaggi nel contesto delle applicazioni web e dello sviluppo di interfacce utente. La loro capacità di essere manipolati tramite codice li rende estremamente flessibili per applicazioni interattive e dinamiche.
 
-## Ecco un esempio di animazione 
+## Ecco un esempio di animazione
 
 In questo esempio, creeremo un cerchio che cambia colore e si muove da sinistra a destra.
 

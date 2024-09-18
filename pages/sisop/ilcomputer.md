@@ -23,8 +23,6 @@ Memorizza l'[Uniform Resource Locator Kit bit.ly/m/TI](https://bit.ly/m/TI) un m
 
 #### Ma Ora, andiamo a esplorarlo insieme!
 
-
-
 ---
 level: 3
 title: Welcome

@@ -18,3 +18,7 @@ lang: it
 src: ./internet/javascript/react.md
 
 ---
+---
+src: ./internet/javascript/next.md
+
+---
