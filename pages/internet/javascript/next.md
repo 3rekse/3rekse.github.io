@@ -18,11 +18,9 @@ level: 4
 
 ### "Ok Omarilli, vi ho sentito parlare tanto di **Next.js**, ma non ho idea di come installarlo e iniziare. Potete guidarci?"
 
-
 🧠  - Omarillo 1 (con tono rassicurante):
 
 ### "Assolutamente! **Next.js** è un framework fantastico per React che ti permette di creare applicazioni complete con funzionalità come il rendering lato server e la generazione di pagine statiche. Pronti per il viaggio?"
-
 
 ---
 layout: cover
@@ -34,7 +32,6 @@ level: 4
 
 ### "Sì, ma da dove iniziamo? Voglio vedere qualcosa funzionare sul mio schermo!"
 
-
 🧠  - Omarillo 2 (con tono pratico):
 
 ### "Prima di tutto, devi avere **Node.js** installato sul tuo sistema. Controlla se ce l’hai eseguendo questo comando nel terminale:"
@@ -42,7 +39,6 @@ level: 4
 ```bash
 node -v
 ```
-
 
 ---
 layout: cover
@@ -54,7 +50,6 @@ level: 4
 
 ### "Sì, ho Node installato! E ora?"
 
-
 🧠  - Omarillo 3 (con tono chiaro):
 
 ### "Perfetto! Ora è il momento di creare il tuo progetto Next.js. Usa **npx** per creare un'app Next.js senza dover installare nulla globalmente. Digita questo comando nel terminale per iniziare il processo di creazione:"
@@ -62,7 +57,6 @@ level: 4
 ```bash
 npx create-next-app@latest
 ```
-
 
 ---
 layout: cover
@@ -73,7 +67,6 @@ level: 4
 🧑‍🎓 Studente 4 (digitando con curiosità):
 
 ### "Wow, così semplice? Cosa succede dopo?"
-
 
 🧠  - Omarillo 4 (con tono esplicativo):
 
@@ -89,11 +82,9 @@ level: 4
 
 ### "Ho visto che sta installando un sacco di cose. Cosa sta succedendo esattamente?"
 
-
 🧠  - Omarillo 5 (con tono didattico):
 
 ### "Next.js sta creando una struttura di base per la tua app. Sta installando tutte le dipendenze necessarie, come **React**, **React DOM** e gli strumenti per gestire il routing, il rendering lato server e la generazione delle pagine statiche. Non devi fare nulla a mano, pensa a tutto lui."
-
 
 ---
 layout: cover
@@ -119,7 +110,6 @@ cd next-app
 npm run dev
 ```
 
-
 ---
 layout: cover
 level: 4
@@ -128,12 +118,11 @@ level: 4
 
 🧑‍🎓 Studente 7 (con lo schermo illuminato):
 
-### "Wow! Sto vedendo 'Local: http://localhost:3000' sul terminale. Cosa faccio ora?"
+### "Wow! Sto vedendo 'Local: <http://localhost:3000>' sul terminale. Cosa faccio ora?"
 
 🧠  - Omarillo 7 (con tono felice):
 
 ### "Apri il browser e vai su `http://localhost:3000`. Vedrai la pagina iniziale della tua nuova app Next.js! Congratulazioni, hai appena creato la tua prima app Next.js."
-
 
 ---
 layout: cover
@@ -145,10 +134,9 @@ level: 4
 
 ### "Questo è davvero incredibile! Ma la struttura della cartella… cosa c’è dentro? A cosa servono questi file?"
 
-
 🧠  - Omarillo 8 (con tono esplicativo):
 
-### "Buona domanda! Facciamo una panoramica rapida della struttura. Ecco i file e le cartelle principali che troverai nella tua app Next.js:
+### "Buona domanda! Facciamo una panoramica rapida della struttura. Ecco i file e le cartelle principali che troverai nella tua app Next.js
 
 - **pages/**: Questa cartella è il cuore del routing di Next.js. Ogni file qui rappresenta una pagina dell’app. Ad esempio, `pages/index.js` è la tua homepage.
 - **public/**: Qui puoi mettere immagini o altri file statici che vuoi servire direttamente.
@@ -166,7 +154,6 @@ level: 4
 
 ### "Quindi, se volessi aggiungere una nuova pagina, basterebbe creare un nuovo file in `pages/`?"
 
-
 🧠  - Omarillo 9 (con tono confermativo):
 
 ### "Esattamente! Ad esempio, se crei un file `about.js` dentro la cartella `pages/`, automaticamente avrai una pagina raggiungibile all’indirizzo `http://localhost:3000/about`."
@@ -180,7 +167,6 @@ level: 4
 🧑‍🎓 Studente 10 (con tono curioso):
 
 ### "Ma e se volessi collegare quelle pagine? Come funziona la navigazione?"
-
 
 🧠  - Omarillo 10 (con tono esplicativo):
 

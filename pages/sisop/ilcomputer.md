@@ -5,10 +5,8 @@ title: Introduzione alle tecnologie informatiche
 background: /internet/images/oldman.svg
 
 ---
-
-### 🧑‍🏫
-
-Professore - Tecnologie informatiche
+<!-- markdownlint-disable MD033 MD026-->
+### 🧑‍🏫 Professore - Tecnologie informatiche
 
 ### Buongiorno, a tutti! Io mi chiamo Bonfiglio Fabrizio
 
@@ -21,7 +19,7 @@ Memorizza l'[Uniform Resource Locator Kit bit.ly/m/TI](https://bit.ly/m/TI) un m
 
 ### Gruppo Omarillos, presentarvi e spiegate cosa farete?
 
-#### Ma Ora, andiamo a esplorarlo insieme!
+#### Ma ora, andiamo a esplorare cosa faremo insieme!
 
 ---
 level: 3
@@ -31,9 +29,7 @@ image: /menu.png
 
 ---
 
-### 🧠
-
-Omarillo - Neurone di Intelligenza Naturale
+### 🧠 Omarillo - Neurone di Intelligenza Naturale
 
 #### Certamente, Professore! Salve a tutti, io sono un Omarillo
 
@@ -52,9 +48,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-1
+### 🧑‍🎓 Studente-1
 
 ## Ciao Omarillo! Ma allora cosa tratta il sito?
 
@@ -65,9 +59,7 @@ title: Welcome
 
 ---
 
-### 🧠 
-
-Omarillo-1
+### 🧠 Omarillo-1
 
 ### Il sito è suddiviso in diverse sezioni che coprono vari argomenti fondamentali dell'informatica. Ecco una panoramica:
 
@@ -88,11 +80,9 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
+### 🧑‍🎓 Studente-12
 
-Studente-12
-
-# Troppe cose da imparare!!
+## Troppe cose da imparare!!
 
 ## E io tutto questo dovrò studiare ?
 
@@ -100,23 +90,19 @@ Studente-12
 layout: cover
 title: Virtualizzazione, concorrenza e persistenza.
 level: 3
-background: https://vidabytes.com/wp-content/uploads/2021/05/Programas-para-crear-m%C3%A1quinas-virtuales-4-1024x614.jpg
+background: <https://vidabytes.com/wp-content/uploads/2021/05/Programas-para-crear-m%C3%A1quinas-virtuales-4-1024x614.jpg>
 
 ---
 
-### 🧠 
-
-Omarillo-12
-
+### 🧠 Omarillo-12
 
 https://github.com/rnatella/so_esempi/
 https://github.com/remzi-arpacidusseau
 https://pages.cs.wisc.edu/~remzi/OSTEP/
 
+## Già ! Ma da solo tre idee chiave fatti guidare!
 
-# Già ! Ma da solo tre idee chiave fatti guidare!
-
-# Ed ogni verifica riuscirai ad affrontare.
+## Ed ogni verifica riuscirai ad affrontare.
 
 ---
 layout: cover
@@ -125,11 +111,9 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
+### 🧑‍🎓 Studente-11
 
-Studente-11
-
-# Allora c'è qualcuno che me le vuole raccontare ?
+## Allora c'è qualcuno che me le vuole raccontare ?
 
 ---
 layout: cover
@@ -138,9 +122,7 @@ level: 3
 
 ---
 
-### 🧠 
-
-Omarillo5 - **Allora Eccoti la tripla chiave**
+### 🧠 Omarillo5 - **Allora Eccoti la tripla chiave**
 
 ## 🔑1 Virtualizzazione
 
@@ -157,9 +139,7 @@ title: Welcome
 
 ---
 
-## 🧑‍🎓
-
-Studente-3
+## 🧑‍🎓 Studente-3
 
 ## Non ho idea di cosa tu stia parlando, davvero!!
 
@@ -170,9 +150,7 @@ title: Welcome
 
 ---
 
-## 🧑‍🏫
-
-Professore
+## 🧑 Professore
 
 ## Bene! Questo significa che sei nella classe giusta
 
@@ -183,11 +161,9 @@ title: Welcome
 
 ---
 
-# 🧑‍🎓
+## 🧑‍🎓 Studente-7
 
-Studente-7
-
-# Io ho una domanda: qual è il modo migliore per imparare queste cose? 
+## Io ho una domanda: qual è il modo migliore per imparare queste cose?
 
 ---
 layout: cover
@@ -196,9 +172,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo -7
+### 🧠 Omarillo -7
 
 #### Eccellente domanda!
 
@@ -215,11 +189,9 @@ title: Welcome
 
 ---
 
-### 🧠
+### 🧠 Omarillo -6
 
-Omarillo -6
-
-# Già affondare nella testa non galleggiare. 🧠
+## Già affondare nella testa non galleggiare. 🧠
 
 ## Naturalmente, un po' di tempo dopo (suggerimento: la settimana prima della verifica! 📅), rileggere gli appunti per consolidare le tue conoscenze. 📚
 
@@ -232,9 +204,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo -10
+### 🧠 Omarillo -10
 
 ## In particolare, fare esercizi in cui scrivi e ti applichi per risolvere problemi reali è il modo migliore per mettere in pratica le idee contenute in questi appunti.
 
@@ -247,13 +217,11 @@ title: Welcome
 
 ---
 
-# 🧑‍🎓  👂 👁 ✋
-
-Studente-8
+## 🧑‍🎓  👂 👁 ✋ Studente-8
 
 ## Oh, lo so!
 
-# "Sento e dimentico. Vedo e ricordo. Faccio e capisco." 
+## "Sento e dimentico. Vedo e ricordo. Faccio e capisco."
 
 O qualcosa del genere.
 
@@ -268,9 +236,7 @@ title: Welcome
 
 ---
 
-# 🧑‍🏫
-
-Professore (sorpreso)
+## 🧑‍🏫 Professore (sorpreso)
 
 ## Come hai fatto a sapere cosa stavamo per dire?!
 
@@ -281,9 +247,7 @@ title: Welcome
 
 ---
 
-# 🧑‍🎓
-
-Studente-4
+## 🧑‍🎓 Studente-4
 
 [Basta sapere che ...](https://martinopillitteri.wixsite.com/exportrelationships/post/l-influencer-veste-confucio)
 
@@ -300,13 +264,13 @@ title: Welcome
 
 <div class="scrollable">
 
-Confucio (孔子) e Xunzi (荀子) sono due delle figure più importanti nella storia del pensiero cinese, entrambe associate alla scuola confuciana. 
+Confucio (孔子) e Xunzi (荀子) sono due delle figure più importanti nella storia del pensiero cinese, entrambe associate alla scuola confuciana.
 
 Tuttavia, le loro visioni del mondo e della natura umana differiscono significativamente.
 
 ### Confucio (551-479 a.C.)
 
-Confucio, noto anche come Kongzi o Kong Fuzi, è il fondatore della scuola confuciana. 
+Confucio, noto anche come Kongzi o Kong Fuzi, è il fondatore della scuola confuciana.
 
 La sua filosofia è centrata su concetti come l'umanità (ren), la giustizia (yi), la correttezza rituale (li), la saggezza (zhi) e la sincerità (xin). Alcuni dei punti chiave della filosofia di Confucio includono:
 
@@ -316,6 +280,7 @@ La sua filosofia è centrata su concetti come l'umanità (ren), la giustizia (yi
 4. **Educazione**: Confucio credeva fermamente nell'importanza dell'educazione e dell'auto-coltivazione per diventare una persona virtuosa.
 
 ### Xunzi (ca. 310-235 a.C.)
+
 Xunzi, conosciuto anche come Xun Kuang, è stato un importante esponente della scuola confuciana, ma con una visione molto più pessimista della natura umana rispetto a Confucio e Mencio (altro importante pensatore confuciano).
 
 Alcuni punti salienti del pensiero di Xunzi includono:
@@ -355,22 +320,11 @@ title: Welcome
 
 ---
 
-# 🧑‍🏫
-
-Professore (sbalordito)
+## 🧑‍🏫 Professore (sbalordito)
 
 Beh, penso che andremo d'accordo benissimo! Benissimo davvero.
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-# 🧑‍🎓
-
-Studente-3
+## 🧑‍🎓 Studente -3
 
 ## Professore, solo un'altra domanda, se posso.
 
@@ -387,11 +341,9 @@ title: Welcome
 
 ---
 
-# 🧑‍🏫
+## 🧑‍🏫 Professore
 
-Professore
-
-Ah, buona domanda, buona domanda! 
+Ah, buona domanda, buona domanda!
 
 Beh, penso che a volte sia utile tirarsi fuori da una narrazione e riflettere un po'; questi dialoghi sono quei momenti.
 
@@ -406,16 +358,13 @@ title: Welcome
 
 ---
 
-# 🧑‍🎓
-
-Studente-9
+## 🧑‍🎓 Studente-9
 
 Quindi dobbiamo pensare? Beh, sono pronto per questo.
 
 Voglio dire, cosa dovrei fare comunque?
 
 Non è che abbia molta vita al di fuori di questo istituto.
-
 
 ---
 layout: cover
@@ -424,15 +373,11 @@ title: Welcome
 
 ---
 
-## 🧑‍🎓 🧑‍🎓 🧑‍🎓
+## 🧑‍🎓 🧑‍🎓 🧑‍🎓 Studenti
 
-Studenti
+## BHUUUUU!
 
-# BHUUUUU!
-
-## 🧠 🧠 🧠 🧠
-
-Omarillos 
+## 🧠 🧠 🧠 🧠 Omarillos
 
 ## Neanche noi, purtroppo. Quindi mettiamoci al lavoro!
 
@@ -443,9 +388,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-2
+### 🧑‍🎓 Studente-2
 
 ## Sarà , non ho mai fatto lezioni così!
 
@@ -460,9 +403,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## Certamente! Nella sezione sull'architettura dei computer, troverete:
 
@@ -483,9 +424,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-3
+### 🧑‍🎓 Studente- 3
 
 ## Interessante! E cosa c'è nella sezione sui sistemi operativi?
 
@@ -496,9 +435,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-3
+### 🧠 Omarillo-3
 
 ## Nella sezione sui sistemi operativi, troverete:
 
@@ -519,9 +456,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente -4
 
 ## E cosa ci dici sulla programmazione e gli algoritmi?
 
@@ -532,9 +467,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-4
+### 🧠 Omarillo-4
 
 ## Nella sezione sulla programmazione e gli algoritmi, troverete:
 
@@ -549,6 +482,7 @@ Omarillo-4
 - **Problem Solving**: Tecniche di [problem solving](http://bit.ly/45minuti)*, come la suddivisione dei problemi complessi in parti più semplici e l'uso della ricorsione.
   
  NOTE: Seleziona TeraBebras: alunni del biennio delle scuole secondarie di secondo grado [13-15 anni circa]
+
 ---
 layout: cover
 level: 3
@@ -556,9 +490,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-5
+### 🧑‍🎓 Studente-5
 
 ## Omarillo, e per quanto riguarda i sistemi di numerazione? Come viene spiegato il sistema binario?
 
@@ -569,9 +501,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-5
+### 🧠 Omarillo-5
 
 ## Nella sezione sui sistemi di numerazione, troverete:
 
@@ -592,9 +522,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-9
+### 🧑‍🎓 Studente -9
 
 ### Grazie, Omarillo! Mi sembra che il sito sia una risorsa davvero preziosa per chi vuole iniziare ad approfondire la propria conoscenza nello scienze informatiche.
 
@@ -605,11 +533,9 @@ title: Welcome
 
 ---
 
-### 🧠
+### 🧠 Omarillo -12
 
-Omarillo-12
-
-## Ricordo agli studenti che le verifiche sono ogni 4 settimane e la prima sarà proprio sui sitemi di numerazione. 
+## Ricordo agli studenti che le verifiche sono ogni 4 settimane e la prima sarà proprio sui sitemi di numerazione.
 
 ### Studenti, avete altre domande per gli Omarillos?
 
@@ -620,9 +546,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-6
+### 🧑‍🎓 Studente-6
 
 ## Sì, una domanda! Omarillos, quali risorse aggiuntive consigliate per continuare a imparare dopo aver esplorato il sito?
 
@@ -633,9 +557,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ## Ottima domanda! Ecco alcune risorse aggiuntive che consiglio:
 
@@ -652,9 +574,8 @@ level: 3
 title: Welcome
 
 ---
-### 🧠
 
-Omarillo-3
+### 🧠 Omarillo -3
 
 ## Fantastico! Parleremo anche di processi e programmi, concetti fondamentali per comprendere come funziona un computer. Socio Omarillo, puoi introdurci cosa sono i processi e come si relazionano con i programmi?
 
@@ -665,22 +586,19 @@ title: Welcome
 
 ---
 
-### 🧠
+### 🧠 Omarillo-7
 
-Omarillo-7
+### Certo! Un **programma** è un insieme di istruzioni scritte in un linguaggio di programmazione.
 
-### Certo! Un **programma** è un insieme di istruzioni scritte in un linguaggio di programmazione. 
 ::right::
 
-1. Quando un programma viene eseguito, diventa un **processo**. 
+1. Quando un programma viene eseguito, diventa un **processo**.
 
 2. Un processo è un'entità in esecuzione che include il programma stesso, il suo stato attuale, e le risorse necessarie per la sua esecuzione, come la memoria e la CPU. 🌐
 
-
 ::left::
 
-
-```
+```txt
 Programma
 |-- Linguaggio di programmazione
 |-- Esecuzione
@@ -702,9 +620,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-7
+### 🧑‍🎓 Studente -7
 
 ## Quindi, un programma è come una ricetta scritta, mentre un processo è come cucinare effettivamente il piatto seguendo quella ricetta?
 
@@ -715,9 +631,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-8
+### 🧠 Omarillo-8
 
 ## Esattamente! La ricetta rappresenta le istruzioni del programma, e cucinare il piatto rappresenta il processo in esecuzione. Quando esegui un programma, il sistema operativo carica le istruzioni nella memoria, gestisce le risorse necessarie e monitora l'esecuzione del processo. 🍽️
 
@@ -728,9 +642,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore
+### 🧑‍🏫  Professore
 
 ## Ottimo esempio, Omarillo! Ora, puoi spiegare quali sono i compiti principali di un sistema operativo quando gestisce i processi?
 
@@ -741,9 +653,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-9
+### 🧠 Omarillo-9
 
 ## Certo! Il sistema operativo ha diversi compiti importanti:
 
@@ -760,9 +670,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-8
+### 🧑‍🎓 Studente-8
 
 ## Wow, sembra che il sistema operativo faccia un sacco di lavoro per gestire i processi! E come interviene in questo scenario, Omarillo?
 
@@ -773,9 +681,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## Ricordati il software di base detto sistema operativo è il maestro illusionista, inganna le applicazioni ignare nel pensare di avere la propria CPU privata e una grande memoria virtuale, mentre segretamente passa da un'applicazione all'altra e condivide la memoria.
 
@@ -788,9 +694,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore
+### 🧑‍🏫  Prof
 
 ## Grazie, Omarillo. Per concludere, visto che hai il massimo dei voti, puoi dare qualche consiglio agli studenti su come sviluppare le tue stesse competenze nel campo dei sistemi operativi e della gestione dei processi ?
 
@@ -801,9 +705,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-11
+### 🧠 Omarillo-11
 
 ## Assolutamente! Ecco alcuni consigli:
 
@@ -820,9 +722,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-9
+### 🧑‍🎓 Studente- 9
 
 ## Grazie mille, Omarillo e Professore! Ora ho una visione molto più chiara dei processi e dei programmi, e come posso sviluppare le mie competenze nel campo dei sistemi operativi. Non vedo l'ora di mettere in pratica questi consigli! 🙌
 
@@ -833,9 +733,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore
+### 🧑‍🏫Professore
 
 ## È stato un piacere avere voi e i vostri Omarilli qui oggi. Buon apprendimento a tutti! 🌟
 
@@ -846,9 +744,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-10
+### 🧑‍🎓 Studente-10
 
 ## Professore! IO, sono curioso di capire come funzionano i sistemi digitali. Da dove iniziamo? 🤔
 
@@ -859,9 +755,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo- 12
 
 ## Iniziamo con le basi. I sistemi digitali sono costruiti attorno a componenti elettronici che elaborano informazioni in forma digitale, cioè usando bit. Tutto, dai computer agli smartphone, funziona su questa logica binaria, dove ogni bit può essere 0 o 1. 🌐
 
@@ -872,9 +766,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-11
+### 🧑‍🎓 Studente-11
 
 ## Quindi, ogni informazione è rappresentata da sequenze di 0 e 1. Ma come vengono elaborati questi bit? 🔄
 
@@ -885,9 +777,7 @@ title: Welcome
 
 ---
 
-#### 🧠
-
-Omarillo-4
+#### 🧠 Omarillo-4
 
 ## Esattamente! I bit vengono elaborati da circuiti digitali che eseguono operazioni logiche. Questi circuiti sono costruiti con porte logiche come AND, OR, e NOT, che sono i mattoni fondamentali dell'architettura digitale. Immagina queste porte come interruttori che controllano il flusso di corrente elettrica. 🔌🔧
 
@@ -898,9 +788,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-12
+### 🧑‍🎓 Studente-12
 
 ## Capisco. E come si combinano queste porte logiche per creare circuiti più complessi? 🔍
 
@@ -911,9 +799,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-11
+### 🧠 Omarillo-11
 
 ## Le porte logiche si combinano per formare circuiti più complessi come addizionatori, moltiplicatori, e unità aritmetico-logiche (ALU). Questi circuiti possono eseguire operazioni matematiche e logiche complesse su numeri binari. Pensa all'ALU come al cervello matematico del sistema digitale. 🧠➕✖️
 
@@ -924,9 +810,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-3
+### 🧑‍🎓 Studente-3
 
 ## È davvero affascinante. E come si integra tutto questo nei computer e negli altri dispositivi? 🖥️
 
@@ -937,9 +821,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-1
+### 🧠 Omarillo-1
 
 ## Nei computer, tutti questi circuiti sono integrati nella CPU, che è il cuore del sistema. La CPU esegue istruzioni memorizzate nella memoria, utilizzando l'ALU per i calcoli e altri componenti per il controllo del flusso dei dati. Immagina la CPU come un direttore d'orchestra che coordina tutte le parti del computer per eseguire un programma. 🎶🧑‍🎤
 
@@ -950,9 +832,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-9
+### 🧑‍🎓 Studente-9
 
 ## E che dire della memoria? Come funziona in un sistema digitale? 🧠
 
@@ -963,9 +843,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-7
+### 🧠 Omarillo-7
 
 ## La memoria è essenziale per il funzionamento di qualsiasi sistema digitale. Esistono diversi tipi di memoria, come la RAM (memoria ad accesso casuale) e la ROM (memoria di sola lettura). La RAM è volatile, il che significa che perde i dati quando il sistema è spento, mentre la ROM conserva i dati anche senza alimentazione. La memoria è organizzata in celle, ciascuna delle quali memorizza gruppi di 8 bit, detti Byte una piccola quantità di dati. 📚🔒
 
@@ -976,9 +854,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-10
+### 🧑‍🎓 Studente-10
 
 ## Quindi la RAM è come una lavagna che si cancella quando spegni il computer, mentre la ROM è come un libro che conserva sempre le sue informazioni. Ma come interagiscono CPU e memoria? 📖
 
@@ -989,9 +865,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## Esattamente! La CPU accede alla memoria per leggere le istruzioni del programma e i dati necessari per eseguirle. Questo avviene attraverso il bus di sistema, che è come un'autostrada che collega la CPU, la memoria e altri componenti. La CPU invia segnali di controllo e indirizzi alla memoria per recuperare o memorizzare dati. 🛤️📲
 
@@ -1002,9 +876,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2 - Discussione su Programma, Algoritmo e Problema
+### 🧠 Omarillo-2 - Discussione su Programma, Algoritmo e Problema
 
 ## Ora esploreremo tre concetti fondamentali nell'informatica: programma, algoritmo e problema. Pronto a scoprire come questi elementi interagiscono tra loro? 🚀
 
@@ -1015,9 +887,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-5
+### 🧑‍🎓 Studente-5
 
 ## Sì, sono pronto. Ho sempre sentito parlare di questi termini, ma non sono sicuro di capire esattamente cosa significhino e come si collegano tra loro. 🤔
 
@@ -1028,9 +898,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-5
+### 🧠 Omarillo-5
 
 ## Ottimo! Iniziamo con il concetto di **problema**. Un problema è una questione o una domanda che richiede una soluzione. Ad esempio, trovare il percorso più breve tra due città o ordinare una lista di numeri. Il problema è ciò che vogliamo risolvere o capire. 🌍🔍
 
@@ -1041,9 +909,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-3
+### 🧑‍🎓 Studente-3
 
 ## Quindi un problema è essenzialmente una sfida o una domanda. Un problema è prendere un bel voto nella verifica sui sistemi di numerazione.
 
@@ -1056,9 +922,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo-12
 
 ## Ecco dove entra in gioco l'**algoritmo**. Un algoritmo è una sequenza finita di istruzioni passo-passo progettate per risolvere un problema specifico. Immagina una ricetta di cucina: ogni passo ti avvicina al piatto finale. Allo stesso modo, un algoritmo guida il computer attraverso i passi necessari per trovare la soluzione al problema. 📜➡️🍲
 
@@ -1069,9 +933,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-1
+### 🧑‍🎓 Studente-1
 
 ## Capisco, quindi un algoritmo è come una guida dettagliata per risolvere un problema.
 
@@ -1086,9 +948,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-9
+### 🧠 Omarillo-9
 
 ## Un **programma** è un'implementazione di un algoritmo in un linguaggio di programmazione specifico. Il programma è scritto in un linguaggio comprensibile dal computer, come Python, Java o C++, e può essere eseguito dalla macchina per risolvere il problema. Pensa al programma come alla versione codificata dell'algoritmo che può essere "capita" ed eseguita dal computer. 🖥️💻
 
@@ -1099,9 +959,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-8
+### 🧑‍🎓 Studente-8
 
 ## Ecco una mia mappa concettuale che descrive il concetto di problema, algoritmo e programma:
 
@@ -1137,11 +995,9 @@ title: Welcome
 
 ---
 
-### 🧠
+### 🧠 Omarillo-11
 
-Omarillo-11
-
-## Certo! Prendiamo un problema classico: **ordinare una lista di numeri**. 
+## Certo! Prendiamo un problema classico: **ordinare una lista di numeri**.
 
 1. **Problema:** Abbiamo una lista non ordinata di numeri e vogliamo ordinarla in ordine crescente.
 
@@ -1156,9 +1012,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-3
+### 🧠 Omarillo-3
 
 3. **Programma:** Ecco come potremmo implementare il Bubble Sort in Python:
 
@@ -1256,9 +1110,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente-4
 
 ## Questo esempio rende tutto molto più chiaro! Ora vedo come i tre concetti sono collegati. Il problema è la sfida iniziale, l'algoritmo è il piano per affrontarla e il programma è l'esecuzione di quel piano. Grazie, Omarillos, è tutto molto interessante! 😊
 
@@ -1269,9 +1121,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-1
+### 🧠 Omarillo-1
 
 ## Sono felice che tu abbia trovato utile la spiegazione! Comprendere la relazione tra problema, algoritmo e programma è fondamentale nell'informatica e nella programmazione.
 
@@ -1331,7 +1181,7 @@ title: Welcome
 
 Programma Eseguibile O4
 
-## Esatto! La trasformazione avviene tramite un processo chiamato **compilazione** o **interpretazione**, a seconda del linguaggio di programmazione. 
+## Esatto! La trasformazione avviene tramite un processo chiamato **compilazione** o **interpretazione**, a seconda del linguaggio di programmazione.
 
 - **Compilazione:** Se sei scritto in un linguaggio compilato, come C o C++, un programma speciale chiamato **compilatore** legge il tuo codice sorgente e lo traduce in un linguaggio macchina, creando così il programma eseguibile. Questo processo avviene una volta e produce un file binario che può essere eseguito direttamente dal computer. 🛠️
 
@@ -1417,9 +1267,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-6
+### 🧑‍🎓 Studente -6
 
 ## Grazie! Ma io, ho sempre sentito parlare di "processi" in relazione ai programmi, ma non sono sicuro di capire cosa siano esattamente e come siano collegati. Potresti spiegarmelo? 🤔
 
@@ -1430,9 +1278,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## Certo! Un **programma** come già detto è un insieme di istruzioni scritto in un linguaggio di programmazione che specifica un compito da eseguire. Quando esegui un programma, il sistema operativo crea un **processo**, che è un'istanza in esecuzione di quel programma.
 
@@ -1445,9 +1291,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-10
+### 🧑‍🎓 Studente-10
 
 ## Interessante! Quindi, un processo è ciò che realmente avviene quando un programma viene eseguito. Ma come gestisce tutto questo il sistema operativo? 🤨
 
@@ -1473,9 +1317,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-7
+### 🧑‍🎓 Studente-7
 
 ## Wow, è fantastico! Potresti spiegare più in dettaglio come funzioni e quali sono i tuoi compiti principali? 🖥️
 
@@ -1524,9 +1366,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-3
+### 🧑‍🎓 Studente-3
 
 ## È incredibile quanto lavoro tu faccia sei peggio dei pinguini di Madagascar!
 
@@ -1545,7 +1385,7 @@ Sistema Operativo Linux o6
 
 ## Certamente! Un **processo in foreground** è un processo che interagisce direttamente con l'utente. È attivo nella shell e l'utente deve aspettare che il processo termini per continuare ad usare la shell.
 
-Un **processo in background**, invece, esegue senza interagire direttamente con l'utente. L'utente può continuare a utilizzare la shell mentre il processo esegue in background. 
+Un **processo in background**, invece, esegue senza interagire direttamente con l'utente. L'utente può continuare a utilizzare la shell mentre il processo esegue in background.
 
 Per avviare un processo in background, si può usare l'operatore `&` alla fine del comando. Ad esempio:
 
@@ -1562,9 +1402,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-5
+### 🧑‍🎓 Studente-5
 
 ## Grazie per la spiegazione chiara! Ora ho una comprensione molto migliore di come i processi e i programmi interagiscono e di come il sistema operativo li gestisce. Grazie mille, Linux e professore! 🙏
 
@@ -1575,9 +1413,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore
+### 🧑‍🏫 Profes .
 
 ## Sono contento che tu abbia trovato utile la spiegazione! Comprendere come i processi funzionano e come sono gestiti dal sistema operativo è fondamentale per l'informatica. Buon proseguimento nei tuoi studi! 📚🚀
 
@@ -1588,9 +1424,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-7
+### 🧑‍🎓 Studente- 7
 
 ## Capisco. Ma cosa succede quando ci sono più processi che devono essere eseguiti contemporaneamente? Come gestisce la CPU questa situazione? ⏳
 
@@ -1601,9 +1435,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo- 2
 
 ## Ottima domanda! Per gestire più processi, la CPU utilizza il multitasking e il multithreading. Il multitasking permette di eseguire più processi apparentemente allo stesso tempo, alternando rapidamente tra di essi. Il multithreading, invece, permette a un singolo processo di essere diviso in più thread che possono essere eseguiti in parallelo. Immagina di avere più mani che lavorano su compiti diversi simultaneamente. 🙌🎭
 
@@ -1614,9 +1446,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-1
+### 🧑‍🎓 Studente- 1
 
 ## È davvero incredibile quanto siano sofisticati i sistemi digitali. Quali altre tecniche o componenti sono importanti in questa architettura? 🔧
 
@@ -1627,9 +1457,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo - 12
 
 ## Ci sono molte altre tecniche e componenti importanti, come la cache, che memorizza temporaneamente i dati più frequentemente utilizzati per velocizzare l'accesso, e i core multipli, che permettono l'elaborazione parallela su larga scala. Inoltre, i moderni sistemi digitali utilizzano tecniche di ottimizzazione come il pipelining e la predizione delle istruzioni per migliorare ulteriormente le prestazioni. 🚀🧩
 
@@ -1640,9 +1468,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-3
+### 🧑‍🎓 Studente - 3
 
 ## Grazie, professore, per questa spiegazione così chiara e dettagliata. Ora ho una visione molto più completa di come funzionano i sistemi digitali. È incredibile pensare a tutte le complessità e le innovazioni che rendono possibile la tecnologia che usiamo ogni giorno! 🌟😊
 
@@ -1653,9 +1479,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore - Discussione sull'Architettura del Computer
+### 🧑‍🏫 Professore - Discussione sull'Architettura del Computer
 
 ## Sono felice che tu abbia trovato utile la spiegazione! Allora, sei pronto per tuffarti nel mondo dell'architettura del computer? 😊
 
@@ -1667,10 +1491,7 @@ id: binario
 
 ---
 
-
-### 🧠
-
-Omarillo-3 - Discussione sui sistemi di numerazione
+### 🧠 Omarillo-3 - Discussione sui sistemi di numerazione
 
 ## Esploraiamo il sistema di numerazione binario? È come imparare l'alfabeto del linguaggio degli humanoid e che i computer usano per comunicare! 🌐
 
@@ -1681,9 +1502,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-10
+### 🧑‍🎓 Studente- 10
 
 ## OK, OK. Ho capito che è la base di tutto il calcolo digitale. Da dove iniziamo? 🤔
 
@@ -1694,9 +1513,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-5
+### 🧠 Omarillo -5
 
 ## Iniziamo con le basi. Il sistema di numerazione binario è un sistema posizionale come il nostro sistema decimale, ma utilizza solo due cifre: 0 e 1. Ogni cifra binaria è chiamata "bit", che è l'abbreviazione di "binary digit". 🌐
 
@@ -1709,9 +1526,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-8
+### 🧑‍🎓 Studente- 8
 
 ## Quindi, mentre il sistema decimale usa dieci cifre (da 0 a 9), il binario usa solo due cifre. Come rappresentiamo i numeri più grandi con solo 0 e 1? 🔢
 
@@ -1722,9 +1537,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-7
+### 🧠 Omarillo- 7
 
 ## Ottima domanda! Nel sistema binario, ogni posizione di un numero rappresenta una potenza di 2, proprio come nel sistema decimale ogni posizione rappresenta una potenza di 10. Ad esempio, il numero binario 1011 può essere spiegato come:
 
@@ -1742,9 +1555,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-6
+### 🧑‍🎓 Studente- 6
 
 ## Capisco, quindi ogni posizione in un numero binario rappresenta una potenza crescente di 2. Questo significa che più bit utilizziamo, più grande può essere il numero che possiamo rappresentare. Ma perché i computer usano il sistema binario? 🤔
 
@@ -1755,9 +1566,7 @@ title: Welcome
 
 ---
 
-#### 🧠
-
-Omarillo-12
+### 🧠  Omarillo 12
 
 ## Esatto! I computer usano il sistema binario perché è semplice ed efficiente per i circuiti elettronici. Nei circuiti digitali, è molto più facile rappresentare due stati distinti, come acceso e spento, o alta e bassa tensione, piuttosto che dieci stati diversi. Questo rende il sistema binario ideale per l'elaborazione e la memorizzazione dei dati. 💡
 
@@ -1768,9 +1577,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-5
+### 🧑‍🎓 Studente-5
 
 ## Ha senso. I computer possono quindi usare questi due stati per rappresentare 0 e 1, e combinandoli, possono eseguire operazioni complesse. Come si eseguono le operazioni matematiche di base, come l'addizione, nel sistema binario? ➕🧮
 
@@ -1781,9 +1588,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## Ottima domanda! Le operazioni matematiche di base nel sistema binario seguono regole semplici. Vediamo l'addizione come esempio:
 
@@ -1810,9 +1615,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-1
+### 🧑‍🎓 Studente-1
 
 ## Interessante! E cosa succede con le altre operazioni, come la sottrazione o la moltiplicazione? 🔍
 
@@ -1823,9 +1626,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-11
+### 🧠 Omarillo-11
 
 ### La sottrazione nel sistema binario utilizza un concetto simile al prestito nel sistema decimale. Ad esempio, per sottrarre 011 da 101:
 
@@ -1857,9 +1658,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-12
+### 🧑‍🎓 Studente-12
 
 ## Fantastico! Quindi le operazioni nel sistema binario seguono logiche simili a quelle del sistema decimale, ma con regole adattate ai due stati possibili. Ci sono altri aspetti importanti del sistema binario che dovrei conoscere? 📘
 
@@ -1870,9 +1669,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-9
+### 🧠 Omarillo-9
 
 ## Sì, ci sono alcuni concetti chiave come i complementi a 1 e a 2, che sono usati per rappresentare i numeri negativi e per facilitare le operazioni aritmetiche nei computer. Il complemento a 2, in particolare, è molto usato perché semplifica l'implementazione dell'addizione e della sottrazione dei numeri binari. 🎲🔢
 
@@ -1883,9 +1680,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-2
+### 🧑‍🎓 Studente-2
 
 ## Interessante! Quindi il sistema binario ha molte applicazioni pratiche nei computer e nei sistemi digitali. Grazie, professore, per questa spiegazione dettagliata. Ora ho una comprensione molto migliore di come funziona il sistema binario! 😊
 
@@ -1896,9 +1691,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-7
+### 🧠 Omarillo-7
 
 ## Sono felice che tu abbia trovato utile la spiegazione! Continua a esplorare e a fare domande. Il sistema binario è la base di tutto il calcolo digitale, e comprendere come funziona ti aprirà molte porte nel mondo della tecnologia. 🌐🚀
 
@@ -1913,11 +1706,9 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
+### 🧑‍🎓 Studente-4
 
-Studente-4
-
-## Prontissimo! Grazie, 
+## Prontissimo! Grazie,
 # Omarilli. Da dove iniziamo?
 
 ---
@@ -1927,9 +1718,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-5
+### 🧠 Omarillo-5
 
 ## Iniziamo sempre con le basi. Ecco una panoramica degli algoritmi di conversione tra i vari sistemi di numerazione.
 
@@ -1949,9 +1738,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ### E poi con un esempio:
 
@@ -1964,7 +1751,7 @@ Convertiamo il numero decimale 13 in binario:
 
 Leggendo i resti al contrario, otteniamo: **1101**.
 
-Ed infine con una [app guida](http://fabrizio.phpnet.us/Sistemi_di_numerazione/sdn.html) 
+Ed infine con una [app guida](http://fabrizio.phpnet.us/Sistemi_di_numerazione/sdn.html)
 ---
 layout: cover
 level: 3
@@ -1972,9 +1759,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-6
+### 🧑‍🎓 Studente-6
 
 ## Capito! E per la conversione da decimale a ottale?
 
@@ -1985,9 +1770,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-3
+### 🧠 Omarillo-3
 
 ## Bene, passiamo alla conversione da Decimale a Ottale.
 
@@ -2007,9 +1790,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-1
+### 🧠 Omarillo-1
 
 ## A seguire ... Esempio:
 
@@ -2028,9 +1809,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-8
+### 🧑‍🎓 Studente-8
 
 ## Chiaro! E come faccio a convertire da decimale a esadecimale?
 
@@ -2041,9 +1820,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo-12
 
 ## Ottima domanda! Ecco come convertire da Decimale a Esadecimale.
 
@@ -2063,9 +1840,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## Allego Esempio:
 
@@ -2083,9 +1858,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-5
+### 🧑‍🎓 Studente-5
 
 ## Perfetto! E se volessi convertire da binario a decimale?
 
@@ -2096,9 +1869,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-8
+### 🧠 Omarillo-8
 
 ## Certo! Vediamo come fare la conversione da Binario a Decimale.
 
@@ -2115,9 +1886,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ## sempre Esempio:
 
@@ -2135,9 +1904,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-7
+### 🧑‍🎓 Studente-7
 
 ## Grazie, Omarillo! Ora ho capito come fare tutte queste conversioni. Posso praticarle da solo per migliorare.
 
@@ -2148,9 +1915,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## Ottimo lavoro, Studente! Continuate a esercitarvi e a esplorare questi concetti. La pratica rende perfetti!
 
@@ -2163,16 +1928,14 @@ title: Welcome
 
 ---
 
-### 🧠
+### 🧠 Omarillo-4 - Neurone di Intelligenza Naturale
 
-Omarillo-4 - Neurone di Intelligenza Naturale
-
-## Certo, probabilmente per loro sarà complicato! 
+## Certo, probabilmente per loro sarà complicato!
 ### ALLORA Inizierei con le tabelle di conversione a 3 bit per l'ottale e a 4 bit per l'esadecimale. Queste tabelle ci aiutano a convertire rapidamente tra i vari sistemi di numerazione.
 
 ### Tabella di Conversione a 3 Bit (Ottale)
 
-### 3 Bit -> Ottale 
+### 3 Bit -> Ottale
 ```
 Binario  | Ottale
 ---------|-------
@@ -2193,9 +1956,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-1
+### 🧠 Omarillo-1
 
 ## Esempio di Conversione da Decimale a Ottale
 
@@ -2216,9 +1977,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo-12
 
 ## Ottimo! Ora vediamo come fare la conversione in esadecimale usando la tabella a 4 bit.
 
@@ -2229,9 +1988,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## Ecco la tabella di conversione a 4 bit per l'esadecimale.
 
@@ -2258,9 +2015,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo-12
 
 ## Esempio di Conversione da Decimale a Esadecimale
 
@@ -2281,9 +2036,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore
+### 🧑‍🏫 Professore
 
 ## Ben fatto, Omarilli! Studenti, avete domande su queste conversioni?
 Metodi di Conversione tra Sistemi di Numerazione
@@ -2295,9 +2048,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-9
+### 🧑‍🎓 Studente-9
 
 ## Omarillo, potresti fare un altro esempio di conversione da decimale a ottale e uno da decimale a esadecimale?
 
@@ -2308,9 +2059,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-9
+### 🧠 Omarillo-9
 
 ## Con piacere! Facciamo un altro esempio per ciascuna conversione.
 
@@ -2325,7 +2074,7 @@ Convertiamo il numero decimale 45 in ottale:
 3. **Passo 3**: Usa la tabella per convertire ogni gruppo di 3 bit in ottale.
    - 101 diventa 5, e 101 diventa 5.
 4. **Risultato**: 45 in ottale è **55**.
-   
+
 ---
 layout: cover
 level: 3
@@ -2333,9 +2082,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-4
+### 🧠 Omarillo-4
 
 ### Conversione da Decimale a Esadecimale
 
@@ -2356,9 +2103,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore
+### 🧑‍🏫 Professore
 
 ## Ottimo lavoro, Omarillo! Ora, studenti, esercitatevi con il [simulatore](http://fabrizio.phpnet.us/Sistemi_di_numerazione/testdecbin.html) e fatemi sapere se avete altre domande.
 
@@ -2369,9 +2114,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-6
+### 🧑‍🎓 Studente-6
 
 ## Certamente, professore. Ho già una domanda: come sarà la successiva verifica ? 🤔
 
@@ -2382,9 +2125,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-5 - Neurone di Intelligenza Naturale
+### 🧠 Omarillo-5 - Neurone di Intelligenza Naturale
 
 ## Ragazzi, dovrete dimostrare un'abilità fondamentale nel mondo digitale: l'uso efficiente della tastiera. Saper digitare velocemente e con precisione è cruciale in molti contesti. Vediamo insieme perché.
 
@@ -2395,9 +2136,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-7
+### 🧑‍🎓 Studente-7
 
 ## Omarillo, perché è così importante saper usare la tastiera in modo rapido e preciso?
 
@@ -2410,9 +2149,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-3
+### 🧠 Omarillo-3
 
 ## Ottima domanda! Iniziamo con l'efficienza nella digitazione. Se sei capace di digitare rapidamente, puoi scrivere testi, documenti, e-mail o messaggi in modo più efficiente. Questo è particolarmente utile quando hai delle scadenze strette o devi scrivere documenti lunghi. Chi vuole essere sempre di corsa per rispettare le scadenze?
 
@@ -2423,9 +2160,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-11
+### 🧑‍🎓 Studente-11
 
 ## Nessuno! Quindi, digitare velocemente aiuta a rispettare le scadenze.
 
@@ -2436,9 +2171,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-8
+### 🧠 Omarillo-8
 
 ## Esattamente! Poi, c'è la produttività. Quando digiti velocemente, completi le tue attività più rapidamente, permettendoti di dedicare più tempo ad altri compiti importanti. Immagina di poter risparmiare mezz'ora al giorno solo grazie alla tua velocità di digitazione!
 
@@ -2449,9 +2182,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-2
+### 🧑‍🎓 Studente-2
 
 ## Sembra un bel risparmio di tempo! Cos'altro c'è?
 
@@ -2462,9 +2193,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ## La comunicazione efficace. Oggi, la comunicazione avviene principalmente attraverso la scrittura. Una buona abilità nella digitazione ti consente di comunicare in modo chiaro, coerente e senza interruzioni. Puoi esprimere le tue idee più fluidamente e rispondere rapidamente ai messaggi o alle richieste.
 
@@ -2475,9 +2204,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente-4
 
 ## Quindi posso rispondere più velocemente alle e-mail e ai messaggi. E per quanto riguarda la partecipazione attiva online?
 
@@ -2488,9 +2215,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-1
+### 🧠 Omarillo-1
 
 ## Esatto! Saper digitare rapidamente ti consente di partecipare attivamente a chat, forum, social media e altre piattaforme online. Puoi condividere le tue opinioni, interagire con gli altri e partecipare alle discussioni in modo più efficace.
 
@@ -2501,9 +2226,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-12
+### 🧑‍🎓 Studente-12
 
 ## Capito. E per il lavoro?
 
@@ -2514,9 +2237,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## In molti lavori, la digitazione è una competenza fondamentale. Ad esempio, per lavori come segretariato, assistenza amministrativa, giornalismo o trascrizione, è essenziale avere una buona abilità nella digitazione per svolgere le attività richieste in modo efficiente.
 
@@ -2527,9 +2248,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-9
+### 🧑‍🎓 Studente-9
 
 ## Quindi, saper digitare velocemente può davvero influire sulle mie opportunità di lavoro.
 
@@ -2540,9 +2259,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-7
+### 🧠 Omarillo-7
 
 ## Assolutamente! Inoltre, digitare velocemente ti rende più autonomo nella gestione dei tuoi compiti e delle tue attività quotidiane. Non dovrai dipendere da altre persone per digitare per te o aspettare che qualcuno scriva per te.
 
@@ -2553,9 +2270,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-5
+### 🧑‍🎓 Studente-5
 
 ## Mi piace l'idea di essere più autonomo. C'è altro?
 
@@ -2566,9 +2281,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## Certo! La digitazione rapida è una competenza informatica di base richiesta in molti settori. Sapere utilizzare la tastiera in modo veloce e preciso ti rende più competente nell'uso dei computer e delle tecnologie digitali.
 
@@ -2579,9 +2292,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-8
+### 🧑‍🎓 Studente-8
 
 ## Ora capisco perché è così importante. Grazie, Omarillo!
 
@@ -2592,9 +2303,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-5
+### 🧠 Omarillo-5
 
 ## È un piacere! Ma non dimentichiamo le altre interfacce di input. Qualcuno sa quali sono e a cosa servono?
 
@@ -2605,9 +2314,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-8
+### 🧑‍🎓 Studente-8
 
 ## Mouse, touchpad, touchscreen... ce ne sono tanti. Ma come si confrontano con la tastiera?
 
@@ -2618,9 +2325,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-9
+### 🧠 Omarillo-9
 
 ## Ottimo punto! Il mouse e il touchpad sono essenziali per la navigazione e l'interazione con gli elementi visivi. I touchscreen sono fantastici per i dispositivi mobili e offrono un'interazione diretta. Tuttavia, per la digitazione intensa, la tastiera rimane insostituibile.
 
@@ -2631,9 +2336,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-11
+### 🧑‍🎓 Studente-11
 
 ## Quindi, ognuno ha il suo ruolo specifico.
 
@@ -2644,9 +2347,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-1
+### 🧠 Omarillo -1
 
 ## Esattamente! Ogni interfaccia di input è progettata per compiti diversi. Conoscere e utilizzare efficacemente ciascuna di esse ti rende un utente più versatile e produttivo.
 
@@ -2657,9 +2358,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-11
+### 🧠 Omarillo- 11
 
 ## Ricordate, ragazzi: praticare la digitazione è come allenare un muscolo. Più lo fate, più diventate bravi. Continuate a esercitarvi e vedrete grandi miglioramenti!
 
@@ -2670,9 +2369,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-7
+### 🧑‍🎓 Studente-7
 
 ## Omarillo, perché dovremmo iniziare ad allenarci ora?  
 
@@ -2683,13 +2380,13 @@ title: Welcome
 
 ---
 
-### 🧠
+### 🧠 Omarillo- 11
 
-Omarillo-11
+## Ottima domanda! Cominciare da giovani ha numerosi vantaggi.
 
-## Ottima domanda! Cominciare da giovani ha numerosi vantaggi.  
 ## Perché è vantaggioso allenarsi nella digitazione e altre competenze informatiche da adolescenti.
-## Lo sai lo sai, quando sei adolescente, la tua mente è più flessibile e pronta ad apprendere nuove abilità. Questo significa che le competenze che sviluppi ora possono diventare quasi automatiche man mano che cresci. 
+
+## Lo sai lo sai, quando sei adolescente, la tua mente è più flessibile e pronta ad apprendere nuove abilità. Questo significa che le competenze che sviluppi ora possono diventare quasi automatiche man mano che cresci.
 
 ---
 layout: cover
@@ -2698,9 +2395,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-2
+### 🧑‍🎓 Studente-2
 
 ## Quindi, è più facile imparare e mantenere queste abilità se iniziamo da giovani?
 
@@ -2711,9 +2406,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ## Esattamente! Inoltre, la pratica precoce ti consente di accumulare esperienza e tempo di utilizzo, il che significa che diventi sempre più veloce e preciso. Immagina di allenarti a digitare per 30 minuti al giorno. Se inizi da adolescente, avrai anni di pratica quando entrerai nel mondo del lavoro.
 
@@ -2724,9 +2417,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-9
+### 🧑‍🎓 Studente-9
 
 ## Questo significa che avremo un grande vantaggio rispetto a chi inizia più tardi?
 
@@ -2737,9 +2428,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-8
+### 🧠 Omarillo- 8
 
 ## Sì, esattamente! Inoltre, la velocità e l'efficienza nella digitazione ti aiutano a gestire meglio i compiti scolastici e le attività extra-curriculari. Se diventi rapido e preciso nella digitazione da giovane, puoi completare i tuoi lavori più rapidamente e dedicare più tempo ad altre attività e ai tuoi progetti personali.
 
@@ -2750,9 +2439,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-1
+### 🧑‍🎓 Studente-1
 
 ## Quindi non è solo una questione di velocità, ma anche di migliorare la nostra capacità di gestire il tempo.
 
@@ -2763,9 +2450,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo-12
 
 ## Esattamente! E non dimentichiamo la tua crescita personale. Imparare a digitare bene ti aiuta a sviluppare abilità organizzative e di gestione del tempo che sono utili in ogni aspetto della vita. Inoltre, acquisendo competenze informatiche solide da giovane, sarai più preparato per le sfide future.
 
@@ -2776,9 +2461,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-5
+### 🧑‍🎓 Studente-5
 
 ## Questo è davvero incoraggiante. E come si confrontano queste competenze con altre interfacce di input?
 
@@ -2789,9 +2472,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-3
+### 🧠 Omarillo-3
 
 ## La solita domanda! Anche se mouse, touchpad e touchscreen sono importanti e con questi ti stai già allenando!! O sbaglio?
 
@@ -2803,9 +2484,7 @@ level: 3
 title: Welcome
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente-4
 
 ## Grazie, Omarillo! Ora vedo perché è così vantaggioso allenarsi da giovani.
 
@@ -2816,9 +2495,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## È stato un piacere spiegare tutto questo. Ricorda, ogni competenza che acquisisci ora ti prepara per un futuro di successi!
 
@@ -2829,9 +2506,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-4 - Neurone di Intelligenza Naturale
+### 🧠 Omarillo-4 - Neurone di Intelligenza Naturale
 
 ## Ecco perché i computer sono messi a disposizione degli studenti, ma perché è fondamentale lasciare la postazione di lavoro condivisa in ordine. Siete pronti a scoprire come questi aspetti influiscono sull'ambiente di apprendimento?
 
@@ -2842,9 +2517,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-7
+### 🧑‍🎓 Studente-7
 
 ## Omarillo, cosa dovremmo fare per mantenere le postazioni di lavoro in ordine?
 
@@ -2855,11 +2528,9 @@ title: Welcome
 
 ---
 
-### 🧠
+### 🧠 Omarillo-11
 
-Omarillo-11
-
-## Ottima domanda! I computer sono strumenti essenziali nel processo di apprendimento moderno. Offrono accesso a una vasta gamma di risorse educative, software e strumenti di ricerca che possono ampliare le tue conoscenze e competenze. 
+## Ottima domanda! I computer sono strumenti essenziali nel processo di apprendimento moderno. Offrono accesso a una vasta gamma di risorse educative, software e strumenti di ricerca che possono ampliare le tue conoscenze e competenze.
 ## Inoltre, ti permettono di completare compiti, progetti e esercizi pratici che sono cruciali per il tuo sviluppo.
 
 ---
@@ -2869,9 +2540,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-2
+### 🧑‍🎓 Studente-2
 
 ## Quindi, i computer ci aiutano a imparare in modo più efficace?
 
@@ -2882,9 +2551,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ## Esattamente! Ora, mantenere in ordine le postazioni di lavoro è altrettanto importante. Quando utilizzi un computer condiviso, è essenziale che tu lo lasci come lo hai trovato. Questo include:
 
@@ -2899,9 +2566,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-9
+### 🧑‍🎓 Studente-9
 
 ## Perché è così cruciale mantenere l'ordine?
 
@@ -2912,9 +2577,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-8
+### 🧠 Omarillo-8
 
 ## Mantenere l'ordine garantisce che tutti possano utilizzare i computer in modo efficace. Se non riponi correttamente gli accessori o lasci file personali, gli altri utenti potrebbero trovarsi in difficoltà o dover perdere tempo per sistemare la postazione. Inoltre, una postazione ordinata contribuisce a un ambiente di lavoro più professionale e meno stressante.
 
@@ -2925,9 +2588,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-1
+### 🧑‍🎓 Studente-1
 
 ## Quindi, lasciare tutto in ordine aiuta a mantenere un ambiente di lavoro più armonioso e produttivo.
 
@@ -2938,9 +2599,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo-12
 
 ## Esattamente! E non dimenticare che una buona manutenzione delle postazioni contribuisce anche alla durata dei computer e degli accessori. Piccole azioni quotidiane possono prevenire problemi futuri e assicurare che il computer rimanga in buone condizioni per tutti gli utenti.
 
@@ -2951,9 +2610,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-5
+### 🧑‍🎓 Studente-5
 
 ## Questo ha senso. E come possiamo assicurarci che tutto venga riposto correttamente?
 
@@ -2964,9 +2621,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-3
+### 🧠 Omarillo-3
 
 ## Ecco alcuni suggerimenti:
 
@@ -2981,9 +2636,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-10
+### 🧑‍🎓 Studente-10
 
 ## Capisco. Cos'altro dovremmo sapere riguardo l'uso dei computer condivisi?
 
@@ -2994,9 +2647,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-7
+### 🧠 Omarillo-7
 
 ## È importante anche essere consapevoli della sicurezza dei dati. Non lasciare informazioni sensibili sui computer condivisi e chiudi tutte le sessioni di lavoro correttamente. Questo aiuta a proteggere la tua privacy e a prevenire accessi non autorizzati.
 
@@ -3007,9 +2658,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente-4
 
 ## Quindi, la sicurezza dei dati è una parte cruciale dell'uso dei computer condivisi.
 
@@ -3020,9 +2669,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## Esattamente! Ricorda, l'uso responsabile e l'ordine sono fondamentali per garantire che tutti possano beneficiare delle risorse informatiche disponibili e che l'ambiente di lavoro rimanga produttivo e professionale.
 
@@ -3047,9 +2694,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## Posso contare sul vostro rispetto per la stazione di lavoro che vi viene assegnata e per tutto il laboratorio per la vostra aula e per tutto l'istituto?
 
@@ -3060,9 +2705,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-5
+### 🧠 Omarillo-5
 
 ## È stato un piacere! Altre domande su come utilizzare e mantenere le risorse informatiche? Non esitare a chiedere. Buono studio a tutti!
 
@@ -3073,9 +2716,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente-4
 
 ## Certamente, professore. Ho già una domanda: come fanno tutti quei componenti dei sitemi digitali a lavorare insieme e in armonia? 🤔
 
@@ -3086,9 +2727,7 @@ title: TV Quiz Omarillo
 
 ---
 
-### 🧑‍🏫
-
-Professore - Condividi il tuo punteggio con i tuoi coetanei!
+### 🧑‍🏫 Professore - Condividi il tuo punteggio con i tuoi coetanei!
 
 ### Bella domanda! Ma ora pensa ad un buon voto alla verifica! Qualificati!
 
@@ -3102,9 +2741,7 @@ title: Architettura dei sistemi digitali
 
 ---
 
-### 🧠
-
-Omarillo-9
+### 🧠 Omarillo-9
 
 ### Pensiamo a un sistema digitale come a un'orchestra, dove la CPU è il direttore. Ogni componente ha un ruolo preciso, e la sinfonia che producono è ciò che permette al computer di funzionare e gli spatiti sono i programmi. 🎶
 
@@ -3115,9 +2752,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-3
+### 🧑‍🎓 Studente-3
 
 ## Il cuore di ogni computer: la CPU, o Central Processing Unit. il cervello del computer, giusto? Esegue le istruzioni dei programmi.
 
@@ -3129,9 +2764,7 @@ title: Welcome
 ---
 
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## Esatto! La CPU è spesso chiamata il cervello del computer perché elabora le istruzioni e gestisce tutte le operazioni. Ma come funziona esattamente? Vediamolo insieme.
 
@@ -3142,9 +2775,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente-4
 
 ##  Come fa la CPU a sapere cosa fare?
 
@@ -3155,9 +2786,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-5
+### 🧠 Omarillo-5
 
 ## Ottima domanda. La CPU segue un ciclo chiamato ciclo di fetch-decode-execute. In questo ciclo, la CPU esegue continuamente tre passaggi fondamentali:
 
@@ -3172,9 +2801,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-3
+### 🧑‍🎓 Studente-3
 
 ## Quindi la CPU esegue un'istruzione alla volta?
 
@@ -3185,9 +2812,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-9
+### 🧠 Omarillo-9
 
 ## In teoria, sì. Ma in pratica, le CPU moderne sono molto più complesse. Possono eseguire più istruzioni simultaneamente grazie a tecniche come il pipelining, il multithreading e il multiprocessing.
 
@@ -3198,9 +2823,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-1
+### 🧑‍🎓 Studente-1
 
 ## Cos'è il pipelining?
 
@@ -3211,9 +2834,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-9
+### 🧠 Omarillo-9
 
 ## Il pipelining è una tecnica che permette alla CPU di lavorare su diverse fasi del ciclo di fetch-decode-execute contemporaneamente. Immaginate una catena di montaggio in una fabbrica: mentre una parte dell'istruzione viene prelevata, un'altra viene decodificata e un'altra ancora viene eseguita. Questo aumenta l'efficienza e la velocità della CPU.
 
@@ -3224,9 +2845,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-12
+### 🧑‍🎓 Studente-12
 
 ## E il multithreading?
 
@@ -3237,9 +2856,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-1
+### 🧠 Omarillo-1
 
 ## Il multithreading permette alla CPU di eseguire più thread, o sequenze di istruzioni, contemporaneamente. Questo è particolarmente utile per i programmi che possono essere suddivisi in parti indipendenti che possono essere eseguite parallelamente.
 
@@ -3250,9 +2867,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-10
+### 🧑‍🎓 Studente-10
 
 ## Quindi il multiprocessing è simile al multithreading?
 
@@ -3263,9 +2878,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-7
+### 🧠 Omarillo-7
 
 ## Sì, ma con una differenza importante. Il multiprocessing utilizza più core o CPU fisiche per eseguire le istruzioni in parallelo. Ogni core può eseguire il proprio ciclo di fetch-decode-execute indipendentemente dagli altri. Questo è comune nei moderni processori multicore.
 
@@ -3276,9 +2889,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-8
+### 🧑‍🎓 Studente-8
 
 ## Come fa la CPU a comunicare con la memoria e i dispositivi esterni?
 
@@ -3289,9 +2900,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ##  La CPU comunica con la memoria e i dispositivi esterni attraverso un sistema di bus. Ci sono diversi tipi di bus, tra cui il bus dati, il bus indirizzi e il bus di controllo. Il bus dati trasporta le informazioni, il bus indirizzi specifica dove devono essere lette o scritte le informazioni, e il bus di controllo gestisce i segnali di controllo e sincronizzazione.
 
@@ -3302,9 +2911,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-6
+### 🧑‍🎓 Studente-6
 
 ##  E come fa la CPU a sapere quali istruzioni eseguire?
 
@@ -3316,9 +2923,7 @@ title: Welcome
 ---
 
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## Le istruzioni che la CPU esegue sono memorizzate in programmi, che sono una serie di istruzioni codificate. Ogni CPU ha un set di istruzioni specifico che può comprendere ed eseguire, chiamato Instruction Set Architecture (ISA). Quando scriviamo programmi, essi vengono tradotti in queste istruzioni attraverso un processo chiamato compilazione o interpretazione.
 
@@ -3329,9 +2934,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente-4
 
 ## Quindi, quando eseguiamo un programma, la CPU legge queste istruzioni e le esegue una dopo l'altra?
 
@@ -3343,9 +2946,7 @@ title: Welcome
 ---
 
 
-### 🧠
-
-Omarillo-11
+### 🧠 Omarillo-11
 
 ## Esatto! La CPU legge le istruzioni dalla memoria, le decodifica per capire cosa devono fare, e poi le esegue. Questo avviene miliardi di volte al secondo nelle moderne CPU, permettendo ai computer di eseguire compiti complessi in tempi rapidissimi.
 
@@ -3356,9 +2957,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-5
+### 🧠 Omarillo-5
 
 ## Bene, ora che abbiamo una comprensione di base del funzionamento della CPU, vedremo più dettagliatamente alcune di queste tecniche avanzate con il [simulatore Johnny](https://tobisma.github.io/johnny/) per comprendere meglio i  concetti fondamentali.
 
@@ -3369,9 +2968,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-2
+### 🧑‍🎓 Studente-2
 
 ## Interessante metafora della fabrica! Quindi, la CPU coordina tutto, ma come riesce a gestire così tante istruzioni anche contemporaneamente? 🤓
 
@@ -3382,9 +2979,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-1
+### 🧠 Omarillo-1
 
 ## La CPU utilizza un'architettura a più livelli per gestire le istruzioni. Immagina una catena di montaggio: ci sono pipeline, cache e core multipli che lavorano insieme per eseguire compiti in parallelo, rendendo il processo più efficiente. 🏗️
 
@@ -3395,9 +2990,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-2
+### 🧑‍🎓 Studente-2
 
 ## Quindi, la CPU è come un abile giocoliere che mantiene tutto in aria senza far cadere nulla! Ma cosa succede quando abbiamo più CPU o core? Come lavorano insieme senza conflitti? 🤔
 
@@ -3408,9 +3001,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo-12
 
 ## Esattamente! Quando abbiamo più CPU o core, entra in gioco il concetto di parallelismo. I processori lavorano su compiti separati ma sincronizzati, come una squadra di costruttori che lavora su diverse parti di un edificio. La chiave è la coordinazione, gestita dal sistema operativo e dalle tecniche di sincronizzazione. 🛠️
 
@@ -3421,11 +3012,9 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
+### 🧑‍🎓 Studente-6
 
-Studente-6
-
-## Capisco. Ma come si fa a prevenire che due core lavorino sullo stesso compito e causino un conflitto? 
+## Capisco. Ma come si fa a prevenire che due core lavorino sullo stesso compito e causino un conflitto?
 
 ---
 layout: cover
@@ -3434,9 +3023,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## Ottima domanda! Qui entra in gioco il meccanismo delle "mutex" (mutual exclusion) e delle "barriere". Immagina di avere delle chiavi per accessi esclusivi a determinate risorse. Solo un core alla volta può usare una chiave, garantendo che non ci siano conflitti. E le barriere? Pensale come punti di incontro dove tutti devono aspettare prima di procedere insieme. 🔐🚧
 
@@ -3447,11 +3034,9 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
+### 🧑‍🎓 Studente-5
 
-Studente-5
-
-## È come un sistema di sicurezza per evitare incidenti in un cantiere! Fascinante. 
+## È come un sistema di sicurezza per evitare incidenti in un cantiere! Fascinante.
 ## È come quando nell'intervallo si formano le code alla macchinette
 ## E riguardo la memoria? Come viene gestita tra i vari core? 🧠
 
@@ -3462,9 +3047,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-11
+### 🧠 Omarillo-11
 
 ## La gestione della memoria è cruciale. Utilizziamo una memoria condivisa dove tutti i core possono leggere e scrivere, ma con meccanismi per evitare letture o scritture simultanee che potrebbero causare inconsistenze. Poi ci sono le cache per velocizzare l'accesso ai dati più usati. Pensa a un magazzino centrale e a piccoli ripostigli personali per ogni lavoratore. 📦🏠
 
@@ -3475,11 +3058,9 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
+### 🧑‍🎓 Studente-7
 
-Studente-7
-
-## Quindi, c'è un equilibrio delicato tra velocità e coerenza dei dati. Immagino che progettare tutto questo richieda un sacco di pianificazione e conoscenza! 
+## Quindi, c'è un equilibrio delicato tra velocità e coerenza dei dati. Immagino che progettare tutto questo richieda un sacco di pianificazione e conoscenza!
 
 ---
 layout: cover
@@ -3488,9 +3069,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-3
+### 🧠 Omarillo-3
 
 ## Assolutamente! Progettare l'architettura di un computer è come costruire una città: bisogna pianificare ogni dettaglio per assicurarsi che tutto funzioni senza intoppi. Ogni componente deve essere posizionato strategicamente e deve lavorare in armonia con gli altri. 🌆
 
@@ -3501,9 +3080,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente-4
 
 ## Mi piace questa immagine della città. Ultima domanda: come vedi il futuro dell'architettura del computer? Cosa ci aspetta? 🚀
 
@@ -3514,9 +3091,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## Il futuro è brillante e pieno di innovazioni. Stiamo vedendo progressi nei computer quantistici, che promettono di rivoluzionare il modo in cui elaboriamo le informazioni. Inoltre, le architetture neuromorfiche cercano di imitare il cervello umano per rendere i computer ancora più efficienti e potenti. Il cielo non è il limite, è solo l'inizio! 🌌
 
@@ -3527,9 +3102,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-8
+### 🧑‍🎓 Studente-8
 
 ## È incredibile pensare a tutte le possibilità. Grazie, Omarillo, per questa illuminante discussione! Non vedo l'ora di imparare di più e vedere dove ci porterà questa scolastica avventura. 🚀😊
 
@@ -3539,9 +3112,7 @@ level: 3
 title: Welcome
 
 ---
-### 🧠
-
-Omarillo-4 - Discussione sul Modello di Von Neumann
+### 🧠 Omarillo-4 - Discussione sul Modello di Von Neumann
 
 ## Allora, 🧑‍🎓🧑‍🎓🧑‍🎓 Studenti, partiamo ad esplorare uno dei pilastri fondamentali dell'architettura dei computer, Are you ready? 😊
 
@@ -3552,9 +3123,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-3
+### 🧑‍🎓 Studente-3
 
 ## Yesss! Ho sentito parlare del modello di Von Neumann, ma non sono sicuro di capire esattamente come funzioni. Potreste spiegarmelo? 🤔
 
@@ -3565,9 +3134,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ## Con piacere! Il modello di Von Neumann è come la mappa di una città digitale. Immagina una città dove le strade rappresentano i canali di comunicazione e gli edifici sono i componenti principali di un computer. Questo modello, proposto da John von Neumann negli anni '40, ha rivoluzionato il modo in cui progettiamo i computer. 🌐
 
@@ -3578,9 +3145,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-9
+### 🧑‍🎓 Studente-9
 
 ## Interessante! Ma quali sono i componenti principali di questo modello? 🏙️
 
@@ -3591,9 +3156,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-7
+### 🧠 Omarillo-7
 
 ## Bene, il modello di Von Neumann si basa su quattro componenti principali: la CPU, la memoria, i dispositivi di input/output (I/O), e il bus. Immagina la CPU come il cervello, la memoria come il magazzino delle informazioni, i dispositivi I/O come le porte della città, e il bus come le strade che collegano tutto. 🧠🏢🚪🛤️
 
@@ -3604,9 +3167,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-11
+### 🧑‍🎓 Studente-11
 
 ## Capisco. E come comunicano tra loro questi componenti? 📞   📞
 
@@ -3617,9 +3178,7 @@ title: Welcome
 
 ---
 
-#### 🧠
-
-Omarillo-7
+#### 🧠 Omarillo-7
 
 ## La comunicazione avviene attraverso il bus, che è come una rete di strade che connette tutti i quartieri della città. La CPU invia richieste di dati alla memoria attraverso il bus, e la memoria risponde fornendo i dati richiesti. Allo stesso modo, la CPU può inviare comandi ai dispositivi I/O per leggere o scrivere dati. 🚗📦📬
 
@@ -3630,9 +3189,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-6
+### 🧑‍🎓 Studente-6
 
 ## Quindi, tutto passa attraverso il bus? Non ci sono percorsi diretti tra i componenti? 🚦
 
@@ -3643,9 +3200,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-4
+### 🧠 Omarillo-4
 
 ## Esattamente! In un modello di Von Neumann puro, tutti i dati e le istruzioni viaggiano attraverso il bus. Questo può creare un "collo di bottiglia" noto come il collo di bottiglia di Von Neumann, dove troppe informazioni cercano di passare attraverso il bus allo stesso tempo, rallentando il sistema. 🏙️🚧
 
@@ -3656,9 +3211,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-1
+### 🧑‍🎓 Studente-1
 
 ## Ah, ecco perché sento spesso parlare di questo "collo di bottiglia". Quindi, quali sono i vantaggi di questo modello? 🌉
 
@@ -3669,9 +3222,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-11
+### 🧠 Omarillo-11
 
 ## Il modello di Von Neumann ha molti vantaggi. Prima di tutto, la sua semplicità lo rende facile da implementare e da capire. Inoltre, utilizza una sola memoria per dati e istruzioni, il che semplifica la gestione della memoria. Infine, è estremamente versatile e può essere adattato a una vasta gamma di applicazioni. 🌐🎓
 
@@ -3682,9 +3233,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-10
+### 🧑‍🎓 Studente-10
 
 ## Quindi, anche se ha dei limiti, la sua semplicità e versatilità lo rendono ancora molto utile. Esistono alternative al modello di Von Neumann? 🔄
 
@@ -3695,9 +3244,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ## Sì, ci sono modelli alternativi, come l'architettura Harvard, che separa la memoria per dati e istruzioni, riducendo il collo di bottiglia. Tuttavia, il modello di Von Neumann rimane una base fondamentale per capire come funzionano i computer e molte delle sue idee sono ancora utilizzate oggi. 🏛️🔧
 
@@ -3708,9 +3255,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-12
+### 🧑‍🎓 Studente-12
 
 ## Grazie! Ora ho una visione molto più chiara di come funziona il modello di Von Neumann. È affascinante vedere come queste idee abbiano plasmato la tecnologia che usiamo ogni giorno. 🚀😊
 
@@ -3721,9 +3266,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore - Discussione sull'Architettura a Più Livelli della CPU
+### 🧑‍🏫 Professore - Discussione sull'Architettura a Più Livelli della CPU
 
 ## Allora, 🧑‍🎓 Studente, pronto a esplorare l'affascinante mondo dell'architettura a più livelli della CPU? 😊
 
@@ -3734,9 +3277,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-8
+### 🧑‍🎓 Studente-8
 
 ## Assolutamente, professore! Ho sentito parlare di pipeline, cache e core multipli, ma non sono sicuro di come funzionino insieme. Potresti spiegarmelo? 🤔
 
@@ -3747,9 +3288,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-2
+### 🧠 Omarillo-2
 
 ## INIZIO IO, Con piacere! Pensa alla CPU come a una fabbrica ben organizzata. In questa fabbrica, ci sono diverse linee di produzione (le pipeline), magazzini di materiali (le cache) e squadre di lavoratori specializzati (i core multipli). 🏭
 
@@ -3760,9 +3299,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-10
+### 🧑‍🎓 Studente-10
 
 ## Interessante analogia! Allora, partiamo dalle pipeline. Come funzionano? 📦
 
@@ -3773,9 +3310,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-4
+### 🧠 Omarillo-4
 
 ## Le pipeline sono come linee di produzione in una fabbrica. Ogni fase della pipeline esegue una parte del processo di elaborazione delle istruzioni. Immagina una catena di montaggio: mentre una fase sta eseguendo un'istruzione, la fase successiva sta già lavorando sulla successiva. Questo permette di eseguire più istruzioni contemporaneamente, aumentando l'efficienza. 🔄🏗️
 
@@ -3786,9 +3321,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-12
+### 🧑‍🎓 Studente-12
 
 ## Quindi, le pipeline permettono alla CPU di lavorare su più istruzioni allo stesso tempo. Ma cosa succede se c'è un'interruzione o un'istruzione richiede più tempo? 🛠️
 
@@ -3799,9 +3332,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-6
+### 🧠 Omarillo-6
 
 ## Ottima domanda! Quando c'è un'interruzione, la pipeline può subire un "stall", una sorta di pausa, fino a quando l'istruzione che causa il problema non è completata. Tuttavia, le CPU moderne utilizzano tecniche come il "pipelining out-of-order" per mitigare questi problemi, eseguendo istruzioni che non dipendono dall'istruzione bloccata. ⏸️🚀
 
@@ -3812,9 +3343,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-2
+### 🧑‍🎓 Studente-2
 
 ## Molto interessante! E riguardo alle cache? Come funzionano in questo contesto? 🧠
 
@@ -3825,9 +3354,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-8
+### 🧠 Omarillo-8
 
 ## Le cache sono come piccoli magazzini vicini alla linea di produzione. Memorizzano i dati e le istruzioni più frequentemente utilizzati, riducendo il tempo che la CPU impiega per accedervi. Ci sono diversi livelli di cache: L1, L2 e L3, con L1 che è la più veloce ma anche la più piccola, e L3 che è più lenta ma più grande. Questi livelli di cache aiutano a mantenere la pipeline alimentata e a evitare ritardi. 📦⚡
 
@@ -3838,9 +3365,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-4
+### 🧑‍🎓 Studente-4
 
 ## Quindi, le cache riducono i tempi di accesso ai dati, mantenendo la pipeline efficiente. E i core multipli? Come lavorano insieme? 🤝
 
@@ -3851,9 +3376,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## I core multipli sono come squadre di lavoratori specializzati che possono lavorare su compiti diversi simultaneamente. Ogni core può eseguire un proprio set di istruzioni, permettendo alla CPU di gestire più processi in parallelo. Immagina di avere più linee di produzione in una fabbrica, ognuna con il proprio team. Questo parallelismo aumenta notevolmente la capacità di elaborazione del sistema. 🏗️🔧
 
@@ -3864,9 +3387,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-7
+### 🧑‍🎓 Studente-7
 
 ## Capisco. E come si coordinano questi core per evitare conflitti e garantire che tutto funzioni senza problemi? ⚙️
 
@@ -3877,9 +3398,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-10
+### 🧠 Omarillo-10
 
 ## La coordinazione tra i core è gestita dal sistema operativo e dai meccanismi di sincronizzazione. Utilizzano tecniche come i mutex (mutual exclusion) e le barriere per assicurare che solo un core alla volta possa accedere a risorse condivise, evitando conflitti. È come avere dei turni di lavoro ben organizzati per evitare che i lavoratori si pestino i piedi. 🔒🛠️
 
@@ -3890,9 +3409,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-7
+### 🧑‍🎓 Studente-7
 
 ## Ora tutto ha molto più senso! Quindi, le pipeline, le cache e i core multipli lavorano insieme per massimizzare l'efficienza della CPU. Esistono altre tecniche o componenti importanti che aiutano in questo processo? 🔍
 
@@ -3903,9 +3420,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-12
+### 🧠 Omarillo-12
 
 ## Sì, ci sono altre tecniche avanzate come l'Hyper-Threading, che permette a un singolo core di gestire più thread di esecuzione, e la predizione delle istruzioni, che anticipa quali istruzioni verranno eseguite successivamente per mantenere la pipeline sempre attiva. Ogni innovazione è come aggiungere un nuovo strumento alla nostra fabbrica per renderla ancora più efficiente e potente. 🔄🔧🚀
 
@@ -3916,9 +3431,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-9
+### 🧑‍🎓 Studente-9
 
 ## Fantastico! Grazie, per questa spiegazione dettagliata. Ora ho una visione molto più chiara di come funzionano le moderne CPU. È incredibile pensare a tutta l'ingegneria che c'è dietro! 🌟😊
 
@@ -3929,9 +3442,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo-1
+### 🧠 Omarillo-1
 
 ## Sono felice che tu abbia trovato utile la spiegazione! Continua a esplorare e a fare domande. L'architettura della CPU è un campo affascinante e in continua evoluzione, pieno di meraviglie tecnologiche da scoprire. 🌐🚀
 
@@ -3942,9 +3453,7 @@ title: Sistema Operativo - Shell
 
 ---
 
-### 🧑‍🎓
-
-Studente-11 - Discussione con Sistema Operativo Linux su Shell e Software
+### 🧑‍🎓 Studente-11 - Discussione con Sistema Operativo Linux su Shell e Software
 
 ## Linux stai lavorando! Ho un'altra domanda. Hai parlato della "shell" e sono un po' confuso su cosa sia esattamente. Potresti spiegarmelo? 🤔
 
@@ -3968,9 +3477,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-2
+### 🧑‍🎓 Studente-2
 
 ## Ah, quindi la shell è una specie di interprete tra me e il sistema operativo. Quali sono le differenze tra una shell e altri tipi di software? 🌟
 
@@ -3998,9 +3505,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-11
+### 🧑‍🎓 Studente-11
 
 ## Quindi, il software di base è essenziale per far funzionare il computer, mentre i software applicativi sono programmi che usiamo per compiti specifici. Come posso usare la shell per interagire con i software applicativi? 🤓
 
@@ -4038,9 +3543,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-5
+### 🧑‍🎓 Studente-5
 
 ## Grazie, Linux! Ora ho una comprensione molto migliore di cos'è la shell e delle differenze tra il software di base e i software applicativi. Non vedo l'ora di esplorare di più con la shell! 🙌
 
@@ -4064,9 +3567,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente -3  - Discussione tra Linux e Windows su Differenze e Competenza Digitale
+### 🧑‍🎓 Studente -3  - Discussione tra Linux e Windows su Differenze e Competenza Digitale
 
 ##  Bene Linux! Ho imparato molto su di te, ma mi chiedevo se Windows potesse anche lui partecipare alla discussione. Vorrei capire meglio le differenze sostanziali tra voi due e quale sistema operativo è più semplice per sviluppare competenze digitali. Potreste aiutarmi? 🤔
 
@@ -4155,9 +3656,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente
+### 🧑‍🎓 Studente
 
 ## Quindi, Linux, sei open source e usi gestori di pacchetti, mentre Windows è proprietario e usa file di installazione eseguibili. Quale sistema operativo è migliore per sviluppare competenze digitali? 🤓
 
@@ -4220,9 +3719,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente
+### 🧑‍🎓 Studente
 
 ## Grazie mille a entrambi! Ora ho una comprensione molto migliore delle vostre differenze e di come ciascuno di voi può aiutarmi a sviluppare diverse competenze digitali. Sono impaziente di esplorare di più sia con Linux che con Windows! 🙌
 
@@ -4259,9 +3756,7 @@ title: HardWare & SoftWare
 
 ---
 
-### 🧑‍🎓
-
-Studente - Discussione su Chi Dirige il Sistema Digitale
+### 🧑‍🎓 Studente - Discussione su Chi Dirige il Sistema Digitale
 
 ## Linux e Windows! Ho ancora qualche dubbio. Chi è che dirige davvero il sistema digitale? È la CPU o il sistema operativo? 🤔
 
@@ -4298,9 +3793,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente
+### 🧑‍🎓 Studente
 
 ## Quindi, la CPU esegue le istruzioni, ma è il sistema operativo che le fornisce e le organizza. Puoi fare un esempio di come lavorate insieme? 🤓
 
@@ -4347,9 +3840,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente
+### 🧑‍🎓 Studente
 
 ## Questo ha molto senso. Quindi, la CPU è come un potente lavoratore che esegue i compiti, mentre voi, i sistemi operativi, siete come i manager che assegnano i compiti e coordinano tutto. Ma allora, come fate a comunicare con la CPU e con gli altri componenti hardware? 🤔
 
@@ -4386,9 +3877,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente
+### 🧑‍🎓 Studente
 
 ## Capisco, quindi i driver e le API sono cruciali per la comunicazione tra software e hardware. Questo rende molto più chiaro il ruolo di ciascuno. Grazie mille per le spiegazioni, Linux e Windows! Ora mi sento molto più informato. 🙌
 
@@ -4428,9 +3917,9 @@ title: Welcome
 
 Studente - Discussione su top, htop e il Task Manager
 
-## Bene, visto che sono curioso di sapere di più su strumenti come **top**, **htop** e il **Task Manager**. 
+## Bene, visto che sono curioso di sapere di più su strumenti come **top**, **htop** e il **Task Manager**.
 
-## Omarillo, vuoi spiegarmi cosa sono e come si usano? 
+## Omarillo, vuoi spiegarmi cosa sono e come si usano?
 
 ## Hai detto che questi strumenti sono essenziali per monitorare e gestire i processi del sistema.
 
@@ -4441,9 +3930,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo - Neurone di Intelligenza Naturale
+### 🧠 Omarillo - Neurone di Intelligenza Naturale
 
 ## Certo! Iniziamo con **top**:
 
@@ -4459,9 +3946,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore
+### 🧑‍🏫 Professore
 
 ## Ottimo, Omarillo! Ora passiamo a **htop**.
 
@@ -4472,9 +3957,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo
+### 🧠 Omarillo
 
 ## **htop**:
    - **Cos'è:** Un'alternativa migliorata a **top**, con un'interfaccia utente più ricca e intuitiva.
@@ -4488,9 +3971,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore
+### 🧑‍🏫 Professore
 
 ## Molto bene! E adesso, parliamo del **Task Manager**.
 
@@ -4501,9 +3982,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo
+### 🧠 Omarillo
 
 ## **Task Manager** (Gestione Attività):
    - **Cos'è:** Uno strumento grafico integrato in Windows per monitorare e gestire i processi in esecuzione.
@@ -4517,9 +3996,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente-3
+### 🧑‍🎓 Studente-3
 
 ## Grazie per le spiegazioni dettagliate, Omarillo! Quindi, top e htop sono per Unix e Linux, mentre il Task Manager è per Windows. Quali sono i vantaggi di usare questi strumenti?
 
@@ -4530,9 +4007,7 @@ title: Welcome
 
 ---
 
-### 🧠
-
-Omarillo
+### 🧠 Omarillo
 
 ## Esatto! Ecco alcuni vantaggi:
 
@@ -4548,9 +4023,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓
-
-Studente
+### 🧑‍🎓 Studente
 
 ## Perfetto! Grazie, Omarillo e Professore! Ora ho una comprensione molto migliore di questi strumenti e di come usarli per monitorare e gestire il sistema. Non vedo l'ora di metterli in pratica! 🙌
 
@@ -4561,8 +4034,6 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫
-
-Professore
+### 🧑‍🏫 Professore
 
 ## È stato un piacere, Studente! Continua a esplorare e a imparare. Siamo qui per aiutarti lungo il cammino! 🌟

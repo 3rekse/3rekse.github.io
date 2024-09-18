@@ -3,8 +3,8 @@ layout: intro
 title: Fogli Esercizio con riferimenti
 level: 2
 ---
-
-# Esercizio "Esercizio con Riferimenti relativi e misti"
+<!-- markdownlint-disable MD033 -->
+## Esercizio "Esercizio con Riferimenti relativi e misti"
 
 Usa il programma Microsoft Excel oppure Google Fogli
 
@@ -26,12 +26,12 @@ title: Specifiche
 
 ---
 
-## Specifiche 
+## Specifiche
 
 Riprodurre le due tabelle nello stesso foglio di calcolo, come potete vedere nell'immagine allegata.
-Scrivere e formattare le tabelle utilizzando opportunamente il <spam style="color:lightgreen;">__"riempimento automatico"__, il comando __"Colori alternati"__, e il __"Copia-Incolla"__.</spam>
+Scrivere e formattare le tabelle utilizzando opportunamente il <spam style="color:lightgreen;">**"riempimento automatico"**, il comando **"Colori alternati"**, e il **"Copia-Incolla"**.</spam>
 
-In ultimo inserire le formule per il calcolo del "Peso netto" <spam style="color:lightgreen;">(nella parte di sinistra con riferimento relativo, nella parte di destra con riferimento misto).</spam>
+In ultimo inserire le formule per il calcolo del "Peso netto" <spam style="color:lightgreen;"> (nella parte di sinistra con riferimento relativo, nella parte di destra con riferimento misto).</spam>
 
 ---
 level: 3
@@ -42,13 +42,14 @@ title: Riferimento
 ---
 
 ## Riferimento
+
 Se trascini delle celle in un foglio elettronico, il comportamento dei riferimenti relativi e assoluti sarà diverso:
 
-- **Riferimenti assoluti**: il riferimento rimarrà lo stesso, indipendentemente da dove trascini la cella. <p style="font-size:0.6em;line-height:0.8;color:lightgreen;">Ad esempio, se hai una formula in cella B2 che fa riferimento a B1 con un riferimento assoluto (come `=$B$1`) e trascini la cella B2 in C2, il riferimento rimarrà a B1.</p>
+- **Riferimenti assoluti**: il riferimento rimarrà lo stesso, indipendentemente da dove trascini la cella. <spam style="font-size:0.6em;line-height:0.8;color:lightgreen;">Ad esempio, se hai una formula in cella B2 che fa riferimento a B1 con un riferimento assoluto (come `=$B$1`) e trascini la cella B2 in C2, il riferimento rimarrà a B1.</spam>
 
-- **Riferimenti relativi**: il riferimento cambierà in base alla nuova posizione della cella.<p style="font-size:0.6em;line-height:0.8;color:lightgreen;"> Ad esempio, se hai una formula in cella B2 che fa riferimento a B1 (come `=B1`) e trascini la cella B2 in C2, il riferimento cambierà automaticamente a C1.</p>
+- **Riferimenti relativi**: il riferimento cambierà in base alla nuova posizione della cella.<spam style="font-size:0.6em;line-height:0.8;color:lightgreen;"> Ad esempio, se hai una formula in cella B2 che fa riferimento a B1 (come `=B1`) e trascini la cella B2 in C2, il riferimento cambierà automaticamente a C1.</spam>
 
-<p style="font-size:0.7em;line-height:0.8;color:lightblue;">Questo comportamento può essere molto utile quando si desidera copiare formule in altre celle o spostare celle senza modificare i riferimenti alle celle originali.</p>
+<spam  style="font-size:0.7em;line-height:0.8;color:lightblue;">Questo comportamento può essere molto utile quando si desidera copiare formule in altre celle o spostare celle senza modificare i riferimenti alle celle originali.</spam>
 
 ::left::
 
