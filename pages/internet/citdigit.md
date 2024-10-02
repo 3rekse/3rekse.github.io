@@ -20,14 +20,14 @@ background: /internet/images/solerosso.svg
 level: 3
 title: 5/01/2013 Carolina
 layout: image
-image: /internet/citdigit/carolina.png
+image: /office/images/citdigit/carolina.png
 
 ---
 ---
 title: Carolina
 level: 4
 layout: image-right
-image: /internet/citdigit/carolina.png
+image: /office/images/citdigit/carolina.png
 
 ---
 
@@ -47,7 +47,7 @@ filmando tutto.
 title: 9/02/2014 Nadia
 level: 3
 layout: image-right
-image: /internet/citdigit/nadia.png
+image: /office/images/citdigit/nadia.png
 
 ---
 
@@ -590,7 +590,7 @@ Ecco un dialogo che simula gli atti di sexting e trickery:
 level: 4
 title: Omarillo Film
 layout: image-right
-image: /internet/images/intro/citdigit/7Feb2024.png
+image: /office/images/citdigit/7Feb2024.png
 
 ---
 ## 7 Febbraio 2024
@@ -896,8 +896,8 @@ Ecco la **top 5 delle minacce di ultima generazione** nel campo della cybersecur
 ---
 level: 3
 title: Deep Fake
----
 
+---
 
 Il **Deep Fake** è una tecnica di sintesi dell'immagine umana basata sull'intelligenza artificiale. Questa tecnica viene utilizzata per combinare e creare immagini, video o audio falsi che sembrano autentici. Grazie all'uso di algoritmi avanzati di intelligenza artificiale, i Deep Fake possono creare contenuti che possono trarre in inganno spettatori non esperti, poiché sembrano reali anche se sono stati generati artificialmente. Questa tecnologia solleva questioni etiche e di sicurezza, poiché può essere utilizzata per creare contenuti manipolati dannosi o ingannevoli.
 

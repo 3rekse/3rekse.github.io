@@ -1,7 +1,7 @@
 ---
 layout: cover
 hideInToc: false
-background: /office/images/book.jpg
+background: /office/images/oldman.svg
 level: 1
 title: Sistemi digitali
 

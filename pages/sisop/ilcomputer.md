@@ -2,7 +2,7 @@
 layout: cover
 level: 2
 title: Introduzione alle tecnologie informatiche
-background: /internet/images/oldman.svg
+background: /office/images/oldman.svg
 
 ---
 <!-- markdownlint-disable MD033 MD026-->
