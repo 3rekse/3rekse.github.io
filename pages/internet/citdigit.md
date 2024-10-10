@@ -378,7 +378,7 @@ Un dialogo che simula il flaming e la molestia online:
 
 **Molestatore:** Ah, piangi pure. Nessuno ti prenderà mai sul serio. 😂
 
-## Social Media
+## Nei Social Media
 
 **Molestatore:** [commento sotto un post della Vittima] Guarda chi ha deciso di fare un post! Pensavo fossi scomparso nella tua vergogna. 😜
 
@@ -421,7 +421,7 @@ Ecco un dialogo che simula gli atti di impersonation e happy slapping:
 
 ## Chat di Gruppo Online
 
-**Amico1:** Ehi ragazzi, avete visto il nuovo post di Marco? 🤔
+**Amico1:** Ehi ragazzi, avete visto il nuovo post di Pinocchio? 🤔
 
 **Amico2:** No, cosa ha postato? 
 
@@ -429,33 +429,33 @@ Ecco un dialogo che simula gli atti di impersonation e happy slapping:
 
 **Amico2:** Davvero? Non sembra da lui. Fammi controllare. 🧐
 
-**Impostore (usando l'account di Marco):** Ahahah, sì, siete tutti dei patetici falliti. Non riesco a credere di aver sprecato tempo con voi. 👎
+**Impostore (usando l'account di Pinocchio):** Ahahah, sì, siete tutti dei patetici falliti. Non riesco a credere di aver sprecato tempo con voi. 👎
 
-**Amico1:** Marco, che ti prende? Perché dici queste cose? 😠
+**Amico1:** Pinocchio, che ti prende? Perché dici queste cose? 😠
 
 **Impostore:** Perché è la verità. Ora lasciatemi in pace, non voglio avere nulla a che fare con voi. 🚪
 
-**Amico2:** Wow, Marco è davvero cambiato. Non mi aspettavo questo da lui. 😕
+**Amico2:** Wow, Pinocchio è davvero cambiato. Non mi aspettavo questo da lui. 😕
 
 **Amico1:** Dobbiamo parlare con lui di persona. Questo non ha senso. 😤
 
-## Qualche ora dopo, nella chat privata di Marco
+## Qualche ora dopo, nella chat privata di Pinocchio
 
-**Marco:** Ehi ragazzi, cosa succede? Perché tutti mi evitano? 😟
+**Pinocchio:** Ehi ragazzi, cosa succede? Perché tutti mi evitano? 😟
 
-**Amico1:** Sul serio, Marco? Dopo tutto quello che hai scritto? 🙄
+**Amico1:** Sul serio, Pinocchio? Dopo tutto quello che hai scritto? 🙄
 
-**Marco:** Di cosa state parlando? Non ho scritto nulla! 😨
+**Pinocchio:** Di cosa state parlando? Non ho scritto nulla! 😨
 
 **Amico2:** Qualcuno deve aver avuto accesso al tuo account e ha postato un sacco di insulti. 🕵️‍♂️
 
-**Marco:** Non posso crederci. Devo cambiare subito la password. Mi dispiace tanto, ragazzi. 😢
+**Pinocchio:** Non posso crederci. Devo cambiare subito la password. Mi dispiace tanto, ragazzi. 😢
 
 ## Pochi giorni dopo, sui social media
 
-**Titolo del Video:** "Happy Slapping: Marco viene malmenato!"
+**Titolo del Video:** "Happy Slapping: Pinocchio viene malmenato!"
 
-**Aggressore1:** [nel video, schiaffeggia Marco mentre un altro aggressore riprende con il telefono] 📱😈
+**Aggressore1:** [nel video, schiaffeggia Pinocchio mentre un altro aggressore riprende con il telefono] 📱😈
 
 **Aggressore2:** Ahahah, guarda che faccia ha fatto! 😂
 
@@ -463,11 +463,11 @@ Ecco un dialogo che simula gli atti di impersonation e happy slapping:
 
 **Utente1:** Ahah, questo è divertente! 🥳
 
-**Utente2:** Povero Marco, ma comunque esilarante. 🤣
+**Utente2:** Povero Pinocchio, ma comunque esilarante. 🤣
 
-**Marco:** [commenta] Chi ha caricato questo video? Non posso credere che lo abbiate fatto. 😭
+**Pinocchio:** [commenta] Chi ha caricato questo video? Non posso credere che lo abbiate fatto. 😭
 
-**Aggressore1:** È solo uno scherzo, Marco. Fatti una risata. 😏
+**Aggressore1:** È solo uno scherzo, Pinocchio. Fatti una risata. 😏
 
 **Aggressore2:** Sì, non fare il permaloso. È solo per divertimento. 😂
 
@@ -475,13 +475,14 @@ Ecco un dialogo che simula gli atti di impersonation e happy slapping:
 
 **Utente3:** Sì, questo è troppo. Dovremmo segnalare il video. 🚨
 
-**Marco:** Grazie, ragazzi. Mi sento davvero umiliato. 😔
+**Pinocchio:** Grazie, ragazzi. Mi sento davvero umiliato. 😔
 
 >Questi dialoghi mostrano come la sostituzione di persona e il happy slapping possano essere utilizzati per danneggiare la reputazione, umiliare e causare disagio emotivo alle vittime, creando situazioni di abuso e cyberbullismo.
 
 </div>
 
 <style>
+
 .scrollable {
   max-height: 300px; /* Altezza massima dell'area scrollabile */
   overflow-y: auto;  /* Abilita lo scroll verticale */
@@ -495,8 +496,8 @@ level: 4
 title: SEXTING
 
 ---
-* SEXTING: adescare la vittima fingendosi un possibile partner, spingerla a
-scrivere o a inviare immagini a sfondo sessuale per poi divulgarle in rete
+
+* SEXTING: adescare la vittima fingendosi un possibile partner, spingerla a scrivere o a inviare immagini a sfondo sessuale per poi divulgarle in rete
 * TRICKERY (Inganno): consiste nel pubblicare o condividere con terze
 persone le informazioni confidate dalla vittima in seguito a un periodo di
 amicizia in cui si è instaurato un rapporto di fiducia
@@ -509,67 +510,67 @@ Ecco un dialogo che simula gli atti di sexting e trickery:
 
 **Adescatore:** Ehi, ciao! Ho visto il tuo profilo e sembri davvero interessante. Vuoi fare due chiacchiere? 😊
 
-**Vittima:** Ciao! Certo, perché no. Anche tu sembri carino. 😉
+**Pinucchia:** Ciao! Certo, perché no. Anche tu sembri carino. 😉
 
 **Adescatore:** Grazie! Allora, cosa ti piace fare nel tempo libero? 🎉
 
-**Vittima:** Mi piace leggere, fare escursioni e uscire con gli amici. E tu? 😊
+**Pinucchia:** Mi piace leggere, fare escursioni e uscire con gli amici. E tu? 😊
 
 **Adescatore:** Mi piace fare sport e guardare film. A proposito, ti va di scambiarci delle foto? Magari una tua foto carina? 📸
 
-**Vittima:** Ok, posso mandarti una mia foto. 😊 [invia una foto normale]
+**VIttoria:** Ok, posso mandarti una mia foto. 😊 [invia una foto normale]
 
-**Adescatore:** Sei davvero bellissima! 😍 Vuoi vedere una mia foto? 
+**Adescatore:** Sei davvero bellissima! 😍 Vuoi vedere una mia foto?
 
-**Vittima:** Certo! 
+**Vittoria:** Certo!
 
 **Adescatore:** [invia una foto normale] Ti piacerebbe ricevere qualcosa di più... personale? 😉
 
-**Vittima:** Non so... mi sembra un po' presto.
+**Vittoria:** Non so... mi sembra un po' presto.
 
 **Adescatore:** Dai, solo per divertimento. Prometto di non mostrarla a nessuno. Mi fido di te. 💕
 
-**Vittima:** Va bene, ma solo questa volta. [invia una foto intima]
+**Vittoria:** Va bene, ma solo questa volta. [invia una foto intima]
 
 **Adescatore:** Wow, sei incredibile. 😏
 
 ## Settimane dopo, su un Forum Pubblico
 
-**Adescatore:** Ehi, guardate tutti cosa ho qui! La "perfetta" [Nome Vittima] non è poi così perfetta. 😂 [pubblica la foto intima]
+**Adescatore:** Ehi, guardate tutti cosa ho qui! La "perfetta" VITTORIA non è poi così perfetta. 😂 [pubblica la foto intima]
 
 **Utente1:** Non posso credere che abbia mandato una foto del genere! 😲
 
 **Utente2:** Che imbarazzo! Non ci avrei mai creduto. 🤯
 
-**Vittima:** [scrive nei commenti] Questo è un abuso! Hai promesso di non mostrarla a nessuno! 😢
+**Vittoria:** [scrive nei commenti] Questo è un abuso! Hai promesso di non mostrarla a nessuno! 😢
 
 **Adescatore:** Ah, poverina. Non avresti dovuto fidarti così facilmente. 🙄
 
-## Chat di Gruppo Online
+## Chat Gruppo Online
 
 **Finto Amico:** Ehi, come va? Ti vedo un po' giù ultimamente. Tutto bene? 🤔
 
-**Vittima:** Ciao, sì, è solo che sto attraversando un periodo difficile. Grazie per chiedere. 😊
+**Vittoria:** Ciao, sì, è solo che sto attraversando un periodo difficile. Grazie per chiedere. 😊
 
 **Finto Amico:** Mi dispiace sentirlo. Sai che puoi contare su di me, giusto? Se vuoi parlare, sono qui. 💬
 
-**Vittima:** Grazie, davvero. È solo che sto avendo problemi con la mia famiglia e con gli amici. È difficile fidarsi di qualcuno al momento. 😔
+**Vittoria:** Grazie, davvero. È solo che sto avendo problemi con la mia famiglia e con gli amici. È difficile fidarsi di qualcuno al momento. 😔
 
 **Finto Amico:** Capisco. È importante avere qualcuno con cui parlare. Se vuoi sfogarti, sono qui. 👂
 
-**Vittima:** Grazie. È solo che non so di chi fidarmi più. Sembra che tutti stiano approfittando di me. 😢
+**Vittoria:** Grazie. È solo che non so di chi fidarmi più. Sembra che tutti stiano approfittando di me. 😢
 
 **Finto Amico:** Puoi fidarti di me. Non dirò a nessuno quello che mi confidi. 🤝
 
 ## Pochi giorni dopo, su un Gruppo Pubblico
 
-**Finto Amico:** Ehi, gente! Sentite questa. [Nome Vittima] ha dei seri problemi di fiducia. Pensa che tutti siano contro di lei. 😂
+**Finto Amico:** Ehi, gente! Sentite questa. Vittoria ha dei seri problemi di fiducia. Pensa che tutti siano contro di lei. 😂
 
 **Utente1:** Ma davvero? Non avrei mai immaginato. Che tristezza. 😏
 
 **Utente2:** Sì, sembra che abbia proprio bisogno di una pausa. 🤦‍♂️
 
-**Vittima:** [entra nella chat] Non posso credere che tu abbia condiviso questo! Mi fidavo di te! 😡
+**Vittoria:** [entra nella chat] Non posso credere che tu abbia condiviso questo! Mi fidavo di te! 😡
 
 **Finto Amico:** Ah, sei troppo sensibile. Era solo uno scherzo. Fatti una risata. 😆
 
@@ -587,18 +588,20 @@ Ecco un dialogo che simula gli atti di sexting e trickery:
 </style>
 
 ---
+layout:cover
 level: 4
 title: Omarillo Film
-layout: image-right
-image: /office/images/citdigit/7Feb2024.png
 
 ---
-## 7 Febbraio 2024
+
+## 7 Febbraio
+
 ### Giornata Nazionale contro il Bullismo e il Cyberbullismo
 
 Quando le conseguenze delle proprie azioni aggressive
 sono lontane e non immediatamente visibili, è più facile
 allentare o disattivare i **controlli interni e i sensi di colpa**.
+
 <!--
 La **Cooperativa Sociale Mondo REC di Rimini** è orgogliosa di presentare ai Nostri studenti il lungometraggio:
 
@@ -629,6 +632,7 @@ level: 3
 title: Il blocco
 
 ---
+
 ## Bloccare l'accesso ai file e ai sistemi
 
 Il ransomware è un tipo di malware che blocca permanentemente l'accesso ai dati personali della vittima a meno che non venga pagato un riscatto.
@@ -769,11 +773,11 @@ title: Le tecniche di hacking ...
 
 ---
 level: 3
-title: Le tecniche di hacking 
+title: Le tecniche di hacking
 
 ---
 
-## Le tecniche di hacking più comuni
+## Tecniche di hacking più comuni
 
 * Attacchi di spoofing: Gli attacchi di spoofing implicano la falsificazione dell'identità o dell'indirizzo IP di un computer o di una rete al fine di ingannare i sistemi di sicurezza e ottenere accesso non autorizzato.
 
@@ -807,7 +811,7 @@ title: Un sistema poco vulnerabile
 
 ---
 
-## Suggerimenti di come rendere il tuo sistema meno vulnerabile
+## Suggerimenti - Come rendere il tuo sistema meno vulnerabile
 
 Sii consapevole delle pratiche di sicurezza online: Evita di cliccare su link sospetti o di scaricare file da fonti non attendibili. Sii cauto quando fornisci informazioni personali online e utilizza password complesse e uniche per i tuoi account.
 
@@ -824,7 +828,7 @@ title: Firewall
 
 ---
 
-Un firewall è un sistema di sicurezza informatica che monitora e controlla il traffico di rete in entrata e in uscita in base a regole di sicurezza predefinite. 
+Un firewall è un sistema di sicurezza informatica che monitora e controlla il traffico di rete in entrata e in uscita in base a regole di sicurezza predefinite.
 
 Il suo scopo principale è quello di creare una barriera tra una rete attendibile e una rete non attendibile, proteggendo così il sistema da potenziali minacce esterne.
 

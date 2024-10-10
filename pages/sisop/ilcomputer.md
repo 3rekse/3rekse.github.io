@@ -2110,6 +2110,227 @@ title: Welcome
 ---
 layout: cover
 level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-1 (curioso)  
+
+"Ho sentito parlare di complemento a due per rappresentare i numeri negativi, ma non capisco come funziona su un byte. Potete spiegarcelo?"
+
+### 🧠 Omarillo-1 (con tono entusiasta)
+
+"Assolutamente! Il **complemento a due** è un metodo usato per rappresentare i numeri negativi nel sistema binario. E funziona perfettamente con un byte, che è composto da 8 bit. Pronti a scoprire come funziona?"
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-2 (interessato):
+
+"Un byte ha 8 bit, giusto? Quindi può rappresentare 256 valori, da 0 a 255?"
+
+### 🧠 Omarillo-2 (confermando)
+
+"Esatto! Ma quando usiamo il complemento a due, metà di quei valori rappresenta i numeri negativi. Invece di andare da 0 a 255, possiamo rappresentare i numeri da -128 a +127."
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-3 (pensando)
+
+"Ma come possiamo avere numeri negativi con solo 0 e 1? Non c'è un segno meno..."
+
+### 🧠 Omarillo-3 (sorridendo)
+
+"È qui che entra in gioco il trucco! Usiamo l'**ultimo bit** del byte come **bit di segno**. Se il bit più significativo (quello a sinistra) è **0**, il numero è positivo. Se è **1**, è negativo. Ad esempio, il numero positivo 5 in binario è `00000101`."
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-4 (esaminando il codice binario)
+
+"E se fosse negativo? Come si rappresenta -5?"
+
+### 🧠 Omarillo-4 (spiegando)
+
+"Per rappresentare -5, usiamo il complemento a due. Si fa così:
+
+1. **Prendi il numero positivo** (5 in questo caso): `00000101`.
+2. **Inverti tutti i bit** (complemento a uno): `11111010`.
+3. **Aggiungi 1** all'inversione: `11111011`.
+
+Ecco, `11111011` è la rappresentazione binaria di -5 in complemento a due."
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-5 (perplesso)
+
+"Quindi, ogni numero negativo si ottiene invertendo i bit e aggiungendo 1?"
+
+### 🧠 Omarillo-5 (annuisce)
+
+"Esatto! Questo metodo funziona per qualsiasi numero negativo. Il bit più a sinistra, che è 1, ci indica che il numero è negativo."
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-6 (riflette)
+
+"Ok, ma come facciamo a capire che si tratta di -5 e non di qualche altro numero?"
+
+### 🧠 Omarillo-6 (risponde)
+
+"Beh, è facile! Quando vedi un numero binario con il bit più significativo a 1, sai che è un numero negativo. Puoi invertire il processo per capire quale numero rappresenta. Ecco come:
+
+1. **Inizia con il numero binario negativo**: `11111011`.
+2. **Inverti tutti i bit**: `00000100`.
+3. **Aggiungi 1**: `00000101` (che è 5 in binario).
+
+Quindi, `11111011` è -5!"
+
+
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-7 (sorpreso)
+
+"Ah! Adesso capisco! Ma, se rappresentiamo i numeri negativi così, qual è il numero più grande e il più piccolo che possiamo rappresentare con un byte?"
+
+### 🧠 Omarillo-7 (risponde con tono sicuro)
+
+"Il numero più grande è `01111111`, che è +127 in decimale. Il più piccolo invece è `10000000`, che rappresenta -128 in decimale. Questo perché il bit più significativo è 1, e tutti gli altri sono 0."
+
+
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-8 (facendo i conti)
+
+"Quindi, con un byte possiamo rappresentare numeri da -128 a +127, giusto?"
+
+### 🧠 Omarillo-8 (conferma)
+
+"Esattamente! Il complemento a due ti dà questa gamma di valori. E funziona anche per operazioni aritmetiche come la somma e la sottrazione, senza dover trattare i numeri positivi e negativi in modo diverso."
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-9 (con una domanda)
+
+"Ok, ma come funziona la sottrazione? Se sommo -5 a un altro numero, cosa succede?"
+
+### 🧠 Omarillo-9 (spiega pazientemente)
+
+"La cosa geniale del complemento a due è che puoi fare le sottrazioni semplicemente sommando! Ad esempio, se vuoi fare 10 - 5, in realtà sommi 10 a -5. Vediamo:
+
+1. **10** in binario è `00001010`.
+2. **-5** in binario è `11111011`.
+
+Ora sommiamo:
+
+```
+  00001010  (10)
++ 11111011  (-5)
+-
+  00000101  (5)
+```
+
+Il risultato è 5, che è corretto!"
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-10 (stupito)
+
+"Wow, quindi non dobbiamo pensare troppo alla sottrazione! Basta sommare!"
+
+### 🧠 Omarillo-10 (con tono allegro)
+
+"Esattamente! È per questo che il complemento a due è così utile: semplifica i calcoli, specialmente nelle CPU."
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-11 (pensando a qualcosa di più pratico)
+
+"Ma che succede se superiamo i limiti del byte, ad esempio se sommiamo qualcosa che dà più di +127 o meno di -128?"
+
+### 🧠 Omarillo-11 (con tono serio)
+
+"Questo è un punto importante! Quando superi i limiti, si verifica un **overflow**. Se sommi un numero che dà come risultato maggiore di 127 o minore di -128, il calcolo 'si ribalta'. Ad esempio, se provi a sommare 127 e 1, otterrai -128 perché l'overflow ha invertito il risultato."
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-12 (riflettendo)
+
+"Quindi il complemento a due non è solo per rappresentare numeri negativi, ma rende anche più semplici le operazioni matematiche con i numeri binari?"
+
+### 🧠 Omarillo-12 (conclusivo)
+
+"Esatto! Il **complemento a due** è il metodo standard per rappresentare i numeri negativi nei sistemi digitali proprio perché rende le operazioni aritmetiche efficienti e coerenti. E ora che lo conosci, hai uno strumento fondamentale per capire come funzionano i computer e le CPU!"
+
+---
+layout: cover
+level: 3
+title: Complemento a 2
+
+---
+
+### 🧑‍🎓 Studente-1 (entusiasta)
+
+"Grazie, Omarilli! Questo concetto mi era sempre sembrato complesso, ma ora tutto ha molto più senso!"
+
+---
+layout: cover
+level: 3
 title: Welcome
 
 ---
