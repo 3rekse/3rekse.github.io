@@ -1515,7 +1515,7 @@ title: Welcome
 
 ### 🧠 Omarillo -5
 
-## Iniziamo con le basi. Il sistema di numerazione binario è un sistema posizionale come il nostro sistema decimale, ma utilizza solo due cifre: 0 e 1. Ogni cifra binaria è chiamata "bit", che è l'abbreviazione di "binary digit". 🌐
+## Iniziamo con le basi. Il sistema di numerazione binario è un sistema posizionale come il nostro sistema decimale, ma utilizza solo due simboli: 0 e 1. Ogni cifra binaria è chiamata "bit", che è l'abbreviazione di "binary digit" e usa 2 simboli. 🌐
 
 ## Credo che tu sappia a cosa serve un sistema di numerazione!
 
@@ -1529,6 +1529,10 @@ title: Welcome
 ### 🧑‍🎓 Studente- 8
 
 ## Quindi, mentre il sistema decimale usa dieci cifre (da 0 a 9), il binario usa solo due cifre. Come rappresentiamo i numeri più grandi con solo 0 e 1? 🔢
+
+### 🧠 Omarillo- 4
+
+## Ottima domanda! Ma non cofondiamo le cifre con i simboli.
 
 ---
 layout: cover
@@ -1557,7 +1561,7 @@ title: Welcome
 
 ### 🧑‍🎓 Studente- 6
 
-## Capisco, quindi ogni posizione in un numero binario rappresenta una potenza crescente di 2. Questo significa che più bit utilizziamo, più grande può essere il numero che possiamo rappresentare. Ma perché i computer usano il sistema binario? 🤔
+## Capisco, quindi ogni posizione del bit in un numero binario rappresenta una potenza crescente di 2. Questo significa che più bit utilizziamo, più grande può essere il numero che possiamo rappresentare. Ma perché i computer usano il sistema binario? 🤔
 
 ---
 layout: cover
@@ -1809,7 +1813,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓 Studente-8
+### 🧑‍🎓 Studente-8.
 
 ## Chiaro! E come faccio a convertire da decimale a esadecimale?
 
@@ -1820,13 +1824,14 @@ title: Welcome
 
 ---
 
-### 🧠 Omarillo-12
+### 🧠 Omarillo-12.
 
 ## Ottima domanda! Ecco come convertire da Decimale a Esadecimale.
 
 ### 3. Conversione da Decimale a Esadecimale
 
 ### Passaggi:
+
 1. **Divisione successiva per 16**: Dividi il numero decimale per 16.
 2. **Resto**: Annota il resto (tra 0 e 15; per valori da 10 a 15, usa le lettere A-F).
 3. **Quoziente**: Usa il quoziente ottenuto come nuovo numero da dividere.
@@ -1840,7 +1845,7 @@ title: Welcome
 
 ---
 
-### 🧠 Omarillo-10
+### 🧠 Omarillo-10.
 
 ## Allego Esempio:
 
@@ -1858,7 +1863,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓 Studente-5
+### 🧑‍🎓 Studente-5.
 
 ## Perfetto! E se volessi convertire da binario a decimale?
 
@@ -1869,13 +1874,14 @@ title: Welcome
 
 ---
 
-### 🧠 Omarillo-8
+### 🧠 Omarillo-8.
 
 ## Certo! Vediamo come fare la conversione da Binario a Decimale.
 
 ### 4. Conversione da Binario a Decimale
 
-### Passaggi:
+### Passaggi
+
 1. **Posizione dei bit**: Ogni bit ha un valore basato sulla sua posizione (da destra a sinistra): 2^0, 2^1, 2^2, etc.
 2. **Somma dei valori**: Moltiplica ogni bit per il suo valore di posizione e somma tutti i risultati.
 
@@ -1886,7 +1892,7 @@ title: Welcome
 
 ---
 
-### 🧠 Omarillo-6
+### 🧠 Omarillo-6.
 
 ## sempre Esempio:
 
@@ -1904,7 +1910,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓 Studente-7
+### 🧑‍🎓 Studente-7.
 
 ## Grazie, Omarillo! Ora ho capito come fare tutte queste conversioni. Posso praticarle da solo per migliorare.
 
@@ -1915,7 +1921,7 @@ title: Welcome
 
 ---
 
-### 🧠 Omarillo-2
+### 🧠 Omarillo-2.
 
 ## Ottimo lavoro, Studente! Continuate a esercitarvi e a esplorare questi concetti. La pratica rende perfetti!
 
@@ -1931,6 +1937,7 @@ title: Welcome
 ### 🧠 Omarillo-4 - Neurone di Intelligenza Naturale
 
 ## Certo, probabilmente per loro sarà complicato!
+
 ### ALLORA Inizierei con le tabelle di conversione a 3 bit per l'ottale e a 4 bit per l'esadecimale. Queste tabelle ci aiutano a convertire rapidamente tra i vari sistemi di numerazione.
 
 ### Tabella di Conversione a 3 Bit (Ottale)
@@ -2225,8 +2232,6 @@ title: Complemento a 2
 ### 🧠 Omarillo-7 (risponde con tono sicuro)
 
 "Il numero più grande è `01111111`, che è +127 in decimale. Il più piccolo invece è `10000000`, che rappresenta -128 in decimale. Questo perché il bit più significativo è 1, e tutti gli altri sono 0."
-
-
 
 ---
 layout: cover
