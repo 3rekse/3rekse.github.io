@@ -777,7 +777,7 @@ title: Welcome
 
 ---
 
-#### 🧠 Omarillo-4
+### 🧠 Omarillo - 4
 
 ## Esattamente! I bit vengono elaborati da circuiti digitali che eseguono operazioni logiche. Questi circuiti sono costruiti con porte logiche come AND, OR, e NOT, che sono i mattoni fondamentali dell'architettura digitale. Immagina queste porte come interruttori che controllano il flusso di corrente elettrica. 🔌🔧
 
@@ -965,7 +965,7 @@ title: Welcome
 
 ::right::
 
-```
+```text
                       Problema
                          |
              ----------------------
@@ -1136,7 +1136,7 @@ title: Welcome
 
 ---
 
-# Discussione tra Programma Sorgente e Programma Eseguibile
+## Discussione tra Programma Sorgente e Programma Eseguibile
 
 ### 🧑‍💻
 
@@ -1366,7 +1366,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓 Studente-3
+### 🧑‍🎓 Studente - 3
 
 ## È incredibile quanto lavoro tu faccia sei peggio dei pinguini di Madagascar!
 
@@ -1379,9 +1379,7 @@ title: Welcome
 
 ---
 
-### 🐧
-
-Sistema Operativo Linux o6
+### 🐧 Sistema Operativo Linux o6
 
 ## Certamente! Un **processo in foreground** è un processo che interagisce direttamente con l'utente. È attivo nella shell e l'utente deve aspettare che il processo termini per continuare ad usare la shell.
 
@@ -1402,7 +1400,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓 Studente-5
+### 🧑‍🎓 Studente - 5
 
 ## Grazie per la spiegazione chiara! Ora ho una comprensione molto migliore di come i processi e i programmi interagiscono e di come il sistema operativo li gestisce. Grazie mille, Linux e professore! 🙏
 
@@ -1413,7 +1411,7 @@ title: Welcome
 
 ---
 
-### 🧑‍🏫 Profes .
+### 🧑‍🏫 Prof
 
 ## Sono contento che tu abbia trovato utile la spiegazione! Comprendere come i processi funzionano e come sono gestiti dal sistema operativo è fondamentale per l'informatica. Buon proseguimento nei tuoi studi! 📚🚀
 
@@ -1515,9 +1513,21 @@ title: Welcome
 
 ### 🧠 Omarillo -5
 
-## Iniziamo con le basi. Il sistema di numerazione binario è un sistema posizionale come il nostro sistema decimale, ma utilizza solo due simboli: 0 e 1. Ogni cifra binaria è chiamata "bit", che è l'abbreviazione di "binary digit" e usa 2 simboli. 🌐
+### Iniziamo con le basi. Il sistema di numerazione binario è un sistema posizionale come il nostro sistema decimale, ma utilizza solo due simboli: 0 e 1. Ogni cifra binaria è chiamata "bit", che è l'abbreviazione di "binary digit" e usa 2 simboli. 🌐
 
-## Credo che tu sappia a cosa serve un sistema di numerazione!
+### Credo che tu sappia a cosa serve un sistema di numerazione!
+
+ 😄 Per fare le divisioni per due, non hai bisogno di competenze speciali! Basta un po' di attenzione e la conoscenza di base dei numeri. NON SERVE LA CALCOLATRICE!
+
+Ecco cosa ti serve:
+
+- Conoscere i numeri: **Sai riconoscere e contare usando i numeri?**
+
+- Sapere cos'è la divisione: **Capisci cosa significa dividere un numero in parti uguali?**
+
+- Un po' di pratica: **Più ti eserciti, più facile diventerà!**
+
+Non preoccuparti, la divisione per due è davvero semplice.  Se hai bisogno di aiuto, [Consulta la guida](http://fabrizio.phpnet.us/Sistemi_di_numerazione/sdn.html) e fammelo sapere! 😉
 
 ---
 layout: cover
@@ -1543,7 +1553,7 @@ title: Welcome
 
 ### 🧠 Omarillo- 7
 
-## Ottima domanda! Nel sistema binario, ogni posizione di un numero rappresenta una potenza di 2, proprio come nel sistema decimale ogni posizione rappresenta una potenza di 10. Ad esempio, il numero binario 1011 può essere spiegato come:
+## Ottima domanda! Nel sistema binario, ogni posizione di un simbolo rappresenta una potenza di 2, proprio come nel sistema decimale ogni posizione di un simbolo rappresenta una potenza di 10. Ad esempio, il numero binario 1011 può essere spiegato come:
 
 - \(1 volta 2^3 = 8\)
 - \(0 volte 2^2 = 0\)
@@ -1634,7 +1644,7 @@ title: Welcome
 
 ### La sottrazione nel sistema binario utilizza un concetto simile al prestito nel sistema decimale. Ad esempio, per sottrarre 011 da 101:
 
-```
+```text
   101
 - 011
 -----
@@ -2346,8 +2356,8 @@ title: Welcome
 
 ---
 layout: cover
-level: 3
-title: Welcome
+level: 1
+title: Saper digitare
 
 ---
 
@@ -2509,7 +2519,7 @@ title: Welcome
 
 ### 🧠 Omarillo-2
 
-## Certo! La digitazione rapida è una competenza informatica di base richiesta in molti settori. Sapere utilizzare la tastiera in modo veloce e preciso ti rende più competente nell'uso dei computer e delle tecnologie digitali.
+## Certo! Saper digitare rapidamente e con precisione è una competenza fondamentale nel mondo digitale e sempre più richiesta in numerosi settori. Padroneggiare l'uso della tastiera non solo ti rende più efficiente, ma ti offre anche un notevole vantaggio nell'uso di qualsiasi tecnologia, dal computer al tablet. Investire nell'apprendimento della digitazione veloce ti aiuterà a risparmiare tempo, a lavorare meglio e a sentirti più sicuro nelle tue capacità informatiche. Esattamente come sai usare il tuo smartphone, anche la tastiera può diventare un'estensione naturale delle tue abilità digitali!
 
 ---
 layout: cover
@@ -2734,7 +2744,11 @@ title: Welcome
 
 ### 🧠 Omarillo-4 - Neurone di Intelligenza Naturale
 
-## Ecco perché i computer sono messi a disposizione degli studenti, ma perché è fondamentale lasciare la postazione di lavoro condivisa in ordine. Siete pronti a scoprire come questi aspetti influiscono sull'ambiente di apprendimento?
+### Ecco perché i computer sono messi a disposizione degli studenti, ma perché è fondamentale lasciare la postazione di lavoro condivisa in ordine. Siete pronti a scoprire come questi aspetti influiscono sull'ambiente di apprendimento?
+
+## 🧠 Omarillo-6 
+
+### Studente, ecco un'ottima risorsa per allenarti e migliorare le tue competenze digitali: [KB Competition](https://kb-competition.vercel.app/). Questo sito offre una serie di esercizi e competizioni per mettere alla prova le tue abilità in modo divertente e interattivo. Buon allenamento! 🚀
 
 ---
 layout: cover
@@ -2745,7 +2759,7 @@ title: Welcome
 
 ### 🧑‍🎓 Studente-7
 
-## Omarillo, cosa dovremmo fare per mantenere le postazioni di lavoro in ordine?
+## Omarilli, cosa dovremmo fare per mantenere le postazioni di lavoro in ordine?
 
 ---
 layout: cover

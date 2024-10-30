@@ -9,7 +9,7 @@ title: Sistemi digitali
 
 ## The Omarillo factory, your ICT adventure!
 
-## Annos Domini MMXXIV
+## Annus Domini MMXXIV
 
 <Toc columns="2" maxDepth="1" minDepth="1" mode="next" />
 
