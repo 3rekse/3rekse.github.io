@@ -23,8 +23,8 @@ AND, OR, NOT, è così che si fa,
 Con De Morgan, la logica si svelerà!
 
 **Voce 1:**
-Condizioni e variabili, tutto diventa chiaro,  
-Seguendo il teorema, il futuro è più raro!
+Con le condizioni e le variabili, tutto diventa chiaro.  
+Seguendo il teorema, il futuro non è più amararo!
 
 **Voce 2:**
 Quindi preparatevi, è ora di scoprire,  
@@ -61,7 +61,7 @@ level: 3
 
 ## Logica ed espressioni
 
-L'uso e lo studio della _logica_ consiste nel trovare un nuovo fatto analizzando se altri fatti insieme possono dimostrarsi veri o falsi.
+L'uso e lo studio della **logica** consiste nel trovare un nuovo fatto analizzando se altri fatti insieme possono dimostrarsi veri o falsi.
 
 - Se la temperatura esterna è al di sotto dello zero e non hai un cappotto, sentirai freddo.
 
@@ -70,7 +70,6 @@ L'uso e lo studio della _logica_ consiste nel trovare un nuovo fatto analizzando
 - Se sai nuotare o puoi salire su una barca in acqua, rimarrai a galla.
 
 Queste sono dichiarazioni di fatti che derivano dal fatto che una certa condizione sia vera.
-
 
 ### Dialogo tra Omarillo e gli Studenti su Logica ed Espressioni
 
@@ -85,7 +84,7 @@ title: Welcome
 
 Omarillo-12
 
-##  Ciao ragazzi! Oggi voglio parlarvi di qualcosa di molto interessante e fondamentale: la logica ed espressioni logiche. Qualcuno sa dirmi cos'è la logica?
+## Ciao ragazzi! Oggi voglio parlarvi di qualcosa di molto interessante e fondamentale: la logica ed espressioni logiche. Qualcuno sa dirmi cos'è la logica?
 
 ---
 layout: cover
@@ -98,7 +97,7 @@ title: Welcome
 
 Studente-12
 
-## Credo che la logica sia una disciplina che ci aiuta a capire se una dichiarazione è vera o falsa.
+## Credo che la logica sia una disciplina che ci aiuta a capire se una dichiarazione è vera o falsa
 
 ---
 layout: cover
@@ -111,7 +110,9 @@ title: Welcome
 
 Omarillo-2
 
-##  Esatto! La logica è l'arte di trovare un nuovo fatto analizzando se altri fatti insieme possono dimostrarsi veri o falsi. Ad esempio, se la temperatura esterna è al di sotto dello zero e non hai un cappotto, cosa succederà?
+## Esatto! La logica è l'arte di trovare un nuovo fatto analizzando se altri fatti insieme possono dimostrarsi veri o falsi.
+
+## Ad esempio, se la temperatura esterna è al di sotto dello zero e non hai un cappotto, cosa succederà?
 
 ---
 layout: cover
@@ -122,7 +123,7 @@ title: Welcome
 
 ### 🧑‍🎓
 
-Studente-3 
+Studente-3
 
 # Sentirò freddo!
 
