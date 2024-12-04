@@ -142,7 +142,10 @@ Omarillo 4 -
 ## Esattamente, Susanna. 
 ## Sono le operazioni di base che usiamo quotidianamente. 
 
-### Ma sapete che esistono anche altre forme di aritmetica, come l'aritmetica booleana? Questa è molto importante nel campo dell'informatica e dell'elettronica. 
+### Ma sapete che esistono anche altre forme di aritmetica, come l'aritmetica booleana? Questa è molto importante nel campo dell'informatica e dell'elettronica
+
+[Scopri di più sull'aritmetica booleana](https://kb-competition.vercel.app/aritmetica)
+
 
 ---
 layout: cover

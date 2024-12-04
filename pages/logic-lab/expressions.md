@@ -24,7 +24,7 @@ Con De Morgan, la logica si svelerà!
 
 **Voce 1:**
 Con le condizioni e le variabili, tutto diventa chiaro.  
-Seguendo il teorema, il futuro non è più amararo!
+Seguendo il teorema, il futuro non è più amaro!
 
 **Voce 2:**
 Quindi preparatevi, è ora di scoprire,  
