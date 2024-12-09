@@ -2951,8 +2951,8 @@ title: Welcome
 
 ---
 layout: cover
-level: 3
-title: Welcome
+level: 1
+title: Lavorare insieme e in armonia?
 
 ---
 
