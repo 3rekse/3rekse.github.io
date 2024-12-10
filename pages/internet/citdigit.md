@@ -586,7 +586,7 @@ Ecco un dialogo che simula gli atti di sexting e trickery:
   border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
 }
 </style>
-
+---
 ---
 layout:cover
 level: 4
@@ -602,13 +602,13 @@ Quando le conseguenze delle proprie azioni aggressive
 sono lontane e non immediatamente visibili, è più facile
 allentare o disattivare i **controlli interni e i sensi di colpa**.
 
-<!--
+
 La **Cooperativa Sociale Mondo REC di Rimini** è orgogliosa di presentare ai Nostri studenti il lungometraggio:
 
 [**"Tra le stelle e il mare - Ritorno a Pietrarubbia"**](https://youtu.be/nLFJV--1V24)
 
 Gli studenti possono condividere un commento, una sensazione, un'opinione relativa al film e all'argomento trattato  alla pagina Instagram di Mondo REC (https://www.instagram.com/mondorec.ragazziecinema/)
--->
+
 ---
 level: 3
 title: I gruppi ransomware
