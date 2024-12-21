@@ -13,7 +13,7 @@ title: Sistemi digitali
 
 <Toc columns="2" maxDepth="1" minDepth="1" mode="next" />
 
-[Link per i Colloqui ONLINE prenotati ](https://bit.ly/LineaProf) [🎄🎁🎅](https://gameomar.vercel.app/)
+[Link per i Colloqui ONLINE prenotati ](https://bit.ly/LineaProf) 🎄 [🎁](https://gameomar.vercel.app/) [🎅](https://gameomar.vercel.app/)
 
 ---
 src: ./sisop/__slides.md
@@ -45,6 +45,10 @@ src: ./cover/internet.md
 ---
 ---
 src: ./regole.md
+
+---
+---
+src: ./metacogn/metadialogo.md
 
 ---
 ---
