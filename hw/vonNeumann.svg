@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400">
+  <!-- Memoria -->
+  <rect x="50" y="50" width="150" height="100" fill="#add8e6" stroke="#FFF" stroke-width="2"/>
+  <text x="75" y="100" font-family="Arial" font-size="16" fill="#000">Memory RAM</text>
+
+  <!-- CPU -->
+  <rect x="250" y="50" width="150" height="200" fill="#f9c2d9" stroke="#FFF" stroke-width="2"/>
+  <text x="275" y="100" font-family="Arial" font-size="14" fill="#000">Control Unit</text>
+  <rect x="275" y="130" width="100" height="40" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="280" y="155" font-family="Arial" font-size="12" fill="#000">Registers</text>
+  <text x="275" y="190" font-family="Arial" font-size="14" fill="#000">ALU</text>
+  <rect x="275" y="210" width="100" height="30" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="285" y="230" font-family="Arial" font-size="12" fill="#000">Accumulator</text>
+  <text x="275" y="70" font-family="Arial" font-size="14" fill="#000">CPU</text>
+
+  <!-- Input -->
+  <rect x="50" y="200" width="100" height="50" fill="#90ee90" stroke="#FFF" stroke-width="2"/>
+  <text x="70" y="230" font-family="Arial" font-size="12" fill="#000">Input</text>
+
+  <!-- Output -->
+  <rect x="450" y="200" width="100" height="50" fill="#ffcccb" stroke="#FFF" stroke-width="2"/>
+  <text x="470" y="230" font-family="Arial" font-size="12" fill="#000">Output</text>
+
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#FFF"  />
+  </marker>
+  <marker id="rarrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#F00"  />
+  </marker>
+  <!-- Bus -->
+  <line x1="250" y1="100" x2="200" y2="100" stroke="#F00" stroke-width="2" marker-end="url(#rarrow)"/>
+  <line x1="150" y1="230" x2="250" y2="230" stroke="#FFF" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="400" y1="230" x2="450" y2="230" stroke="#FFF" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <text x="150" y="75" font-family="Arial" font-size="10" fill="#000">Bus</text>
+
+  <!-- Arrows -->
+  
+  <line x1="200" y1="125" x2="275" y2="125" stroke="#FFF" stroke-width="2" marker-end="url(#arrow)" />
+ <line x1="275" y1="125" x2="200" y2="125" stroke="#FFF" stroke-width="2" marker-end="url(#arrow)" />
+
+</svg>

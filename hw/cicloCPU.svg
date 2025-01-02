@@ -1,0 +1,27 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definizione delle frecce -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#f9f9f9" />
+    </marker>
+  </defs>
+
+  <!-- Rettangoli per le fasi -->
+  <rect x="20" y="50" width="100" height="50" stroke="#f9f9f9" fill="#000" />
+  <rect x="150" y="50" width="100" height="50" stroke="#f9f9f9" fill="#000" />
+  <rect x="280" y="50" width="100" height="50" stroke="#f9f9f9" fill="#000" />
+
+  <!-- Testo per le fasi -->
+<text x="45" y="80" font-family="Arial" font-size="14" fill="#f9f9f9">Fetch (1)</text>
+  <text x="175" y="80" font-family="Arial" font-size="14" fill="#f9f9f9">Decode (2)</text>
+  <text x="305" y="80" font-family="Arial" font-size="14" fill="#f9f9f9">Execute (3)</text>
+
+  <!-- Frecce tra le fasi -->
+  <line x1="120" y1="75" x2="150" y2="75" stroke="#f9f9f9" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="250" y1="75" x2="280" y2="75" stroke="#f9f9f9" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="380" y1="75" x2="390" y2="75" stroke="#f9f9f9" stroke-width="2"  />
+  <line x1="390" y1="75" x2="390" y2="150" stroke="#f9f9f9" stroke-width="2"  />
+  <line x1="390" y1="150" x2="5" y2="150" stroke="#f9f9f9" stroke-width="2" />
+<line x1="5" y1="150" x2="5" y2="75" stroke="#f9f9f9" stroke-width="2"/>
+<line x1="5" y1="75" x2="20" y2="75" stroke="#f9f9f9" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

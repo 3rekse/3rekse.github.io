@@ -1,0 +1,55 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definizione delle frecce -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#999" />
+    </marker>
+  </defs>
+
+  <!-- Etichette per le pipeline -->
+  <text x="50" y="30" font-family="Arial" font-size="16" font-weight="bold">Instruction Pipeline</text>
+
+  <!-- Stadi della pipeline -->
+  <g>
+    <rect x="50" y="50" width="100" height="50" fill="#ffcccc" stroke="#999" />
+    <text x="75" y="80" font-family="Arial" font-size="14" font-weight="bold">Fetch</text>
+
+    <rect x="200" y="50" width="100" height="50" fill="#ccffcc" stroke="#999" />
+    <text x="225" y="80" font-family="Arial" font-size="14" font-weight="bold">Decode</text>
+
+    <rect x="350" y="50" width="100" height="50" fill="#ccccff" stroke="#999" />
+    <text x="375" y="80" font-family="Arial" font-size="14" font-weight="bold">Execute</text>
+
+    <rect x="500" y="50" width="100" height="50" fill="#ffffcc" stroke="#999" />
+    <text x="525" y="80" font-family="Arial" font-size="14" font-weight="bold">Writeback</text>
+  </g>
+
+  <!-- Frecce tra gli stadi -->
+  <line x1="150" y1="75" x2="200" y2="75" stroke="#999" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="300" y1="75" x2="350" y2="75" stroke="#999" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="450" y1="75" x2="500" y2="75" stroke="#999" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Istruzioni sovrapposte nel pipelining -->
+  <g opacity="0.8">
+    <rect x="50" y="120" width="100" height="50" fill="#ffcccc" stroke="#999" />
+    <text x="75" y="150" font-family="Arial" font-size="12">Inst 2: Fetch</text>
+
+    <rect x="200" y="120" width="100" height="50" fill="#ccffcc" stroke="#999" />
+    <text x="220" y="150" font-family="Arial" font-size="12">Inst 1: Decode</text>
+
+    <rect x="350" y="120" width="100" height="50" fill="#ccccff" stroke="#999" />
+    <text x="370" y="150" font-family="Arial" font-size="12">Inst 0: Execute</text>
+
+    <rect x="200" y="190" width="100" height="50" fill="#ffcccc" stroke="#999" />
+    <text x="220" y="220" font-family="Arial" font-size="12">Inst 2: Decode</text>
+
+    <rect x="50" y="190" width="100" height="50" fill="#ccccff" stroke="#999" />
+    <text x="75" y="220" font-family="Arial" font-size="12">Inst 3: Fetch</text>
+
+    <rect x="350" y="190" width="100" height="50" fill="#ffffcc" stroke="#999" />
+    <text x="370" y="220" font-family="Arial" font-size="12">Inst 1: Execute</text>
+
+    <rect x="500" y="120" width="100" height="50" fill="#ffffcc" stroke="#999" />
+    <text x="520" y="150" font-family="Arial" font-size="12">Inst 0: Writeback</text>
+  </g>
+</svg>
