@@ -1,15 +1,16 @@
 ---
 layout: cover
-title: La logica 
+title: Dal SdN Binario alla logica
 level: 2
-
 ---
 
 ### 🧠
 
 Omarillo 3 - Neurone di Intelligenza Naturale
 
-## Buongiorno a tutti! Dovremmo ora trattare diversi argomenti matematici, e quindi ricominciamo dai SISTEMI DI NUMERAZIONE!
+## Buongiorno a tutti!
+
+## Dovremmo ora trattare diversi argomenti matematici, e quindi ricominciamo dai SISTEMI DI NUMERAZIONE!
 
 ## [Questa è una capra ? 🐐 ](https://www.artesvelata.it/tradimento-immagini-condizione-umana/)
 
@@ -22,7 +23,9 @@ level: 3
 
 ### 🧠 Omarillo 3 -
 
-## Ma, prima passiamo a qualcosa di storico. Qualcuno di voi ha mai sentito parlare del sistema di numerazione degli antichi egizi?
+## Ma, prima passiamo a qualcosa di storico. 
+
+## Qualcuno di voi ha mai sentito parlare del sistema di numerazione degli antichi egizi?
 
 ---
 layout: cover
@@ -47,12 +50,13 @@ level: 3
 Omarillo 2 -
 
 ## Esatto, Anna. Il sistema di numerazione egizio era decimale e utilizzava simboli specifici per rappresentare diverse quantità. Per esempio:
+
 - Il tratto (𓏺) rappresentava l'unità (1).
 - L'archetto (𓎼) rappresentava il dieci (10).
 - Il nodo (𓍢) rappresentava il cento (100).
 - E così via, fino a un milione.
 
-## Ad esempio, il numero 2763 sarebbe stato rappresentato come 𓆸𓆸𓍢𓍢𓍢𓍢𓍢𓍢𓍢𓎼𓎼𓎼𓎼𓎼𓎼𓏺𓏺𓏺.
+## Ad esempio, il numero 2763 sarebbe stato rappresentato come 𓆸𓆸𓍢𓍢𓍢𓍢𓍢𓍢𓍢𓎼𓎼𓎼𓎼𓎼𓎼𓏺𓏺𓏺
 
 ---
 layout: cover
@@ -78,8 +82,7 @@ level: 3
 
 Omarillo 12 -
 
-## Ottima domanda, Marco. La scoperta della Pietra di Rosetta nel 1799 ha fornito la chiave per decifrare questo antico sistema di scrittura. Questa pietra conteneva lo stesso testo scritto in greco, [demotico ed egizio geroglifico](https://www.eroicafenice.com/salotto-culturale/le-3-scritture-egizie-geroglifico-ieratico-e-demotico/), permettendo agli studiosi di capire come codificavano i geroglifici.
-
+## Ottima domanda, Marco. La scoperta della Pietra di Rosetta nel 1799 ha fornito la chiave per decifrare questo antico sistema di scrittura. Questa pietra conteneva lo stesso testo scritto in greco, [demotico ed egizio geroglifico](https://www.eroicafenice.com/salotto-culturale/le-3-scritture-egizie-geroglifico-ieratico-e-demotico/), permettendo agli studiosi di capire come codificavano i geroglifici
 
 ---
 layout: cover
@@ -115,6 +118,7 @@ level: 3
 Omarillo 8 -
 
 ## Come TUTTI VOI SANNO : L'aritmetica è la branca della matematica che si occupa delle proprietà e delle relazioni dei numeri.
+
 ## È una delle prime cose che impariamo a scuola. Qualcuno di voi può dirmi quali sono le operazioni fondamentali dell'aritmetica?
 
 ---
@@ -139,7 +143,7 @@ level: 3
 
 ## Esattamente, Susanna.
 
-## Sono le operazioni di base che usiamo quotidianamente. 
+## Sono le operazioni di base che usiamo quotidianamente.
 
 ### Ma sapete che esistono anche altre forme di aritmetica, come l'aritmetica booleana? Questa è molto importante nel campo dell'informatica e dell'elettronica
 
@@ -157,7 +161,7 @@ title: L'aritmetica booleana
 
 ## ALLORA Cos'è l'aritmetica booleana ?
 
-## Addizione, sottrazione, moltiplicazione e divisione !
+## Addizione, sottrazione, moltiplicazione e divisione!
 
 ---
 layout: cover
@@ -204,6 +208,7 @@ level: 3
 
 ## Se una delle due è falsa, allora il risultato è falso
 
+## Ma ricordati se utilizzi dei letterali e quindi delle variabili siamo nel campo dell' algebra e non dell'aritmetica.
 
 ---
 layout: cover

@@ -246,5 +246,3 @@ Questo diagramma ha meno complessità rispetto al primo. La riduzione del numero
 
 * [Somma bit in Esadecimale](http://tinyurl.com/2x65qywa)
 * [Contatore Esadecimale & Binario](http://tinyurl.com/yroohrrv)
-
-

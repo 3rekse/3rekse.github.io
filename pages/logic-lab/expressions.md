@@ -56,7 +56,6 @@ Benvenuti ragazzi, al nostro show si va!
 layout: intro
 title: Logic and expressions
 level: 3
-
 ---
 
 ## Logica ed espressioni
@@ -71,20 +70,19 @@ L'uso e lo studio della **logica** consiste nel trovare un nuovo fatto analizzan
 
 Queste sono dichiarazioni di fatti che derivano dal fatto che una certa condizione sia vera.
 
-### Dialogo tra Omarillo e gli Studenti su Logica ed Espressioni
-
 ---
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
-### 🧠
+## Dialogo tra Omarillo e gli Studenti su Logica ed Espressioni
 
-Omarillo-12
+### 🧠 Omarillo-12
 
-## Ciao ragazzi! Oggi voglio parlarvi di qualcosa di molto interessante e fondamentale: la logica ed espressioni logiche. Qualcuno sa dirmi cos'è la logica?
+## Ciao ragazzi! Oggi voglio parlarvi di qualcosa di molto interessante e fondamentale: 
+## La logica e le espressioni logiche.
+## Qualcuno sa dirmi cos'è la logica?
 
 ---
 layout: cover
@@ -131,14 +129,17 @@ Studente-3
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
 ### 🧠
 
 Omarillo-10
 
-##  Precisamente. Questa è una dichiarazione logica. Stiamo dicendo che, data una certa condizione (temperatura sotto lo zero e nessun cappotto), possiamo dedurre un risultato (sentirai freddo). Vediamo un altro esempio: "Se non sei malato, allora ti sentirai bene." Cosa possiamo dedurre da questa affermazione?
+### Precisamente. Questa è una dichiarazione logica. 
+## Stiamo dicendo che, data una certa condizione (temperatura sotto lo zero e nessun cappotto), possiamo dedurre un risultato (sentirai freddo). 
+### Vediamo un altro esempio: 
+## "Se non sei malato, allora ti sentirai bene." 
+## Cosa possiamo dedurre da questa affermazione?
 
 ---
 layout: cover
@@ -157,14 +158,16 @@ Studente-7
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
 ### 🧠
 
 Omarillo-4
 
-##  Non proprio. L'affermazione dice che se non sei malato, allora ti sentirai bene. Ma non ci dice nulla sul sentirsi bene come prova di non essere malato. Capite la differenza?
+##  Non proprio. L'affermazione dice che se non sei malato, allora ti sentirai bene. 
+## Ma non ci dice nulla sul sentirsi bene come prova di non essere malato. 
+
+## Capite la differenza?
 
 ---
 layout: cover
@@ -182,14 +185,17 @@ Studente-5
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
 ### 🧠
 
 Omarillo-3
 
-##  Esattamente. Questa è una deduzione valida. Ora, un'altra dichiarazione: "Se sai nuotare o puoi salire su una barca in acqua, rimarrai a galla." Cosa implica questa affermazione?
+##  Esattamente. Questa è una deduzione valida. 
+
+## Ora, un'altra dichiarazione: 
+## "Se sai nuotare o puoi salire su una barca in acqua, rimarrai a galla." 
+## Cosa implica questa affermazione?
 
 ---
 layout: cover
@@ -208,7 +214,6 @@ Studente-9
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
 ### 🧠
@@ -220,7 +225,7 @@ Omarillo-7
 - **Se sai nuotare**, rimarrai a galla.
 - **Se puoi salire su una barca in acqua**, rimarrai a galla.
 
-Anche se solo una di queste condizioni è vera, il risultato sarà lo stesso: rimarrai a galla.
+## Anche se solo una di queste condizioni è vera, il risultato sarà lo stesso: rimarrai a galla.
 
 ---
 layout: cover
@@ -239,14 +244,15 @@ Studente-5
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
 ### 🧠
 
 Omarillo-5
 
-##  Esatto! La logica è fondamentale in molti campi, dall'informatica alla filosofia, e ci aiuta a prendere decisioni basate su fatti e condizioni. Avete qualche domanda finora?
+##  Esatto! 
+## La logica è fondamentale in molti campi, dall'informatica alla filosofia, e ci aiuta a prendere decisioni basate su fatti e condizioni. 
+## Avete qualche domanda finora?
 
 ---
 layout: cover
@@ -463,18 +469,18 @@ Studente-7 **Marco:**
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
 ### 🧠
 
 Omarillo-11
 
-## Proprio così, Marco. Ora immaginiamo che tu sia felice quando NON sei malato. Useremo il simbolo ~ per indicare il NOT nella nostra equazione.
+## Proprio così, Marco. Ora immaginiamo che tu sia felice quando NON sei malato. 
+## Useremo il simbolo ~ per indicare il NOT nella nostra equazione.
 
 - Variabile A = "Sono malato"
 
-L'equazione per la felicità diventa:
+##L'equazione per la felicità diventa:
 
 ```
 Q = ~A

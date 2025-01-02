@@ -871,8 +871,8 @@ title: Welcome
 
 ---
 layout: cover
-level: 3
-title: Welcome
+level: 2
+title: Programma, Algoritmo e Problema
 
 ---
 
@@ -2126,9 +2126,8 @@ title: Welcome
 
 ---
 layout: cover
-level: 3
+level: 2
 title: Complemento a 2
-
 ---
 
 ### 🧑‍🎓 Studente-1 (curioso)  
@@ -2953,12 +2952,17 @@ title: Welcome
 layout: cover
 level: 1
 title: Lavorare insieme e in armonia?
-
 ---
+
+<Toc columns="2" maxDepth="2" minDepth="2" mode="next" />
 
 ### 🧑‍🎓 Studente-4
 
-## Certamente, professore. Ho già una domanda: come fanno tutti quei componenti dei sitemi digitali a lavorare insieme e in armonia? 🤔
+## Certamente, professore.
+
+## Abbiamo visto e fatto il test su HW e SW 2 insiemi di componenti fondamentali del sistemi digitali 
+
+## Ma io ho una domanda: come fanno tutti quei componenti dei sitemi digitali a lavorare insieme e in armonia? 🤔
 
 ---
 layout: section
@@ -2973,40 +2977,43 @@ title: TV Quiz Omarillo
 
 <iframe style="max-width:100%; justify-content: center; align-items: center;" src="https://wordwall.net/embed/play/76201/421/719" width="500" height="380" frameborder="0" allowfullscreen></iframe>
 
-
 ---
 layout: cover
 level: 2
 title: Architettura dei sistemi digitali
-
 ---
 
 ### 🧠 Omarillo-9
 
-### Pensiamo a un sistema digitale come a un'orchestra, dove la CPU è il direttore. Ogni componente ha un ruolo preciso, e la sinfonia che producono è ciò che permette al computer di funzionare e gli spatiti sono i programmi. 🎶
+### Pensiamo alla parte HW di un sistema digitale come ad un'orchestra, dove la CPU è il direttore. Ogni componente ha un ruolo preciso, e la sinfonia che producono è ciò che permette al computer di funzionare e gli spatiti sono i programmi. 🎶
 
 ---
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
 ### 🧑‍🎓 Studente-3
 
-## Il cuore di ogni computer: la CPU, o Central Processing Unit. il cervello del computer, giusto? Esegue le istruzioni dei programmi.
+## Il cuore di ogni computer è la CPU, o Central Processing Unit. 
+
+## Il cervello del computer, giusto? 
+
+## Esegue le istruzioni dei programmi la parte software del sistema.
 
 ---
 layout: cover
 level: 3
 title: Welcome
-
 ---
-
 
 ### 🧠 Omarillo-2
 
-## Esatto! La CPU è spesso chiamata il cervello del computer perché elabora le istruzioni e gestisce tutte le operazioni. Ma come funziona esattamente? Vediamolo insieme.
+## Esatto! 
+
+## La CPU è spesso chiamata il cervello del computer perché elabora le istruzioni e gestisce tutte le operazioni
+
+## Ma come funziona esattamente? Vediamolo insieme.
 
 ---
 layout: cover
@@ -3043,7 +3050,9 @@ title: Welcome
 
 ### 🧑‍🎓 Studente-3
 
-## Quindi la CPU esegue un'istruzione alla volta?
+## Quindi la CPU esegue un'istruzione alla volta, prima letta dalla RAM poi decodificata ed infine eseguita ?
+
+![Ciclo di Fetch-Decode-Execute](/hw/cicloCPU.svg)
 
 ---
 layout: cover
@@ -3052,143 +3061,37 @@ title: Welcome
 
 ---
 
-### 🧠 Omarillo-9
+### 🧑‍🎓 Studente 8
 
-## In teoria, sì. Ma in pratica, le CPU moderne sono molto più complesse. Possono eseguire più istruzioni simultaneamente grazie a tecniche come il pipelining, il multithreading e il multiprocessing.
+### Come fa la CPU a comunicare con la memoria e i dispositivi esterni?
 
----
-layout: cover
-level: 3
-title: Welcome
+### 🧠 Omarillo 6
 
----
+La CPU comunica con la memoria e i dispositivi esterni attraverso un sistema di bus.
 
-### 🧑‍🎓 Studente-1
+Ci sono diversi tipi di bus, tra cui il bus dati, il bus indirizzi e il bus di controllo. Il bus dati trasporta le informazioni, il bus indirizzi specifica dove devono essere lette o scritte le informazioni, e il bus di controllo gestisce i segnali di controllo e sincronizzazione.
 
-## Cos'è il pipelining?
+### 🧑‍🎓 Studente 6: E come fa la CPU a sapere quali istruzioni eseguire?
 
----
-layout: cover
-level: 3
-title: Welcome
+### 🧠 Omarillo 10
 
----
-
-### 🧠 Omarillo-9
-
-## Il pipelining è una tecnica che permette alla CPU di lavorare su diverse fasi del ciclo di fetch-decode-execute contemporaneamente. Immaginate una catena di montaggio in una fabbrica: mentre una parte dell'istruzione viene prelevata, un'altra viene decodificata e un'altra ancora viene eseguita. Questo aumenta l'efficienza e la velocità della CPU.
+ Le istruzioni che la CPU esegue sono memorizzate in programmi, che sono una serie di istruzioni codificate. Ogni CPU ha un set di istruzioni specifico che può comprendere ed eseguire, chiamato Instruction Set Architecture (ISA). Quando scriviamo programmi, essi vengono tradotti in queste istruzioni attraverso un processo chiamato compilazione o interpretazione.
 
 ---
 layout: cover
 level: 3
 title: Welcome
-
----
-
-### 🧑‍🎓 Studente-12
-
-## E il multithreading?
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo-1
-
-## Il multithreading permette alla CPU di eseguire più thread, o sequenze di istruzioni, contemporaneamente. Questo è particolarmente utile per i programmi che possono essere suddivisi in parti indipendenti che possono essere eseguite parallelamente.
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente-10
-
-## Quindi il multiprocessing è simile al multithreading?
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo-7
-
-## Sì, ma con una differenza importante. Il multiprocessing utilizza più core o CPU fisiche per eseguire le istruzioni in parallelo. Ogni core può eseguire il proprio ciclo di fetch-decode-execute indipendentemente dagli altri. Questo è comune nei moderni processori multicore.
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente-8
-
-## Come fa la CPU a comunicare con la memoria e i dispositivi esterni?
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo-6
-
-##  La CPU comunica con la memoria e i dispositivi esterni attraverso un sistema di bus. Ci sono diversi tipi di bus, tra cui il bus dati, il bus indirizzi e il bus di controllo. Il bus dati trasporta le informazioni, il bus indirizzi specifica dove devono essere lette o scritte le informazioni, e il bus di controllo gestisce i segnali di controllo e sincronizzazione.
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente-6
-
-##  E come fa la CPU a sapere quali istruzioni eseguire?
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-
-### 🧠 Omarillo-10
-
-## Le istruzioni che la CPU esegue sono memorizzate in programmi, che sono una serie di istruzioni codificate. Ogni CPU ha un set di istruzioni specifico che può comprendere ed eseguire, chiamato Instruction Set Architecture (ISA). Quando scriviamo programmi, essi vengono tradotti in queste istruzioni attraverso un processo chiamato compilazione o interpretazione.
-
----
-layout: cover
-level: 3
-title: Welcome
-
 ---
 
 ### 🧑‍🎓 Studente-4
 
 ## Quindi, quando eseguiamo un programma, la CPU legge queste istruzioni e le esegue una dopo l'altra?
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-
 ### 🧠 Omarillo-11
 
-## Esatto! La CPU legge le istruzioni dalla memoria, le decodifica per capire cosa devono fare, e poi le esegue. Questo avviene miliardi di volte al secondo nelle moderne CPU, permettendo ai computer di eseguire compiti complessi in tempi rapidissimi.
+## Esatto! La CPU legge le istruzioni dalla memoria, le decodifica per capire cosa devono fare, e poi le esegue. 
+
+## Questo avviene miliardi di volte al secondo nelle moderne CPU, permettendo ai computer di eseguire compiti complessi in tempi rapidissimi.
 
 ---
 layout: cover
@@ -3197,16 +3100,9 @@ title: Welcome
 
 ---
 
-### 🧠 Omarillo-5
+### 🧠 Omarillo5
 
 ## Bene, ora che abbiamo una comprensione di base del funzionamento della CPU, vedremo più dettagliatamente alcune di queste tecniche avanzate con il [simulatore Johnny](https://tobisma.github.io/johnny/) per comprendere meglio i  concetti fondamentali.
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
 
 ### 🧑‍🎓 Studente-2
 
@@ -3221,29 +3117,15 @@ title: Welcome
 
 ### 🧠 Omarillo-1
 
-## La CPU utilizza un'architettura a più livelli per gestire le istruzioni. Immagina una catena di montaggio: ci sono pipeline, cache e core multipli che lavorano insieme per eseguire compiti in parallelo, rendendo il processo più efficiente. 🏗️
+ La CPU utilizza un'architettura a più livelli per gestire le istruzioni. Immagina una catena di montaggio: ci sono pipeline, cache e core multipli che lavorano insieme per eseguire compiti in parallelo, rendendo il processo più efficiente. 🏗️
 
----
-layout: cover
-level: 3
-title: Welcome
+### 🧑‍🎓 Studente2
 
----
+ Quindi, la CPU è come un abile giocoliere che mantiene tutto in aria senza far cadere nulla! Ma cosa succede quando abbiamo più CPU o core? Come lavorano insieme senza conflitti? 🤔
 
-### 🧑‍🎓 Studente-2
+### 🧠 Omarillo12
 
-## Quindi, la CPU è come un abile giocoliere che mantiene tutto in aria senza far cadere nulla! Ma cosa succede quando abbiamo più CPU o core? Come lavorano insieme senza conflitti? 🤔
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo-12
-
-## Esattamente! Quando abbiamo più CPU o core, entra in gioco il concetto di parallelismo. I processori lavorano su compiti separati ma sincronizzati, come una squadra di costruttori che lavora su diverse parti di un edificio. La chiave è la coordinazione, gestita dal sistema operativo e dalle tecniche di sincronizzazione. 🛠️
+ Esattamente! Quando abbiamo più CPU o core, entra in gioco il concetto di parallelismo. I processori lavorano su compiti separati ma sincronizzati, come una squadra di costruttori che lavora su diverse parti di un edificio. La chiave è la coordinazione, gestita dal sistema operativo e dalle tecniche di sincronizzazione. 🛠️
 
 ---
 layout: cover
@@ -3256,13 +3138,6 @@ title: Welcome
 
 ## Capisco. Ma come si fa a prevenire che due core lavorino sullo stesso compito e causino un conflitto?
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
 ### 🧠 Omarillo-2
 
 ## Ottima domanda! Qui entra in gioco il meccanismo delle "mutex" (mutual exclusion) e delle "barriere". Immagina di avere delle chiavi per accessi esclusivi a determinate risorse. Solo un core alla volta può usare una chiave, garantendo che non ci siano conflitti. E le barriere? Pensale come punti di incontro dove tutti devono aspettare prima di procedere insieme. 🔐🚧
@@ -3271,47 +3146,45 @@ title: Welcome
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
-### 🧑‍🎓 Studente-5
+### 🧑‍🎓 Studente 5
 
-## È come un sistema di sicurezza per evitare incidenti in un cantiere! Fascinante.
+## È come un sistema di sicurezza per evitare incidenti in un cantiere! Interessante.
+
 ## È come quando nell'intervallo si formano le code alla macchinette
+
 ## E riguardo la memoria? Come viene gestita tra i vari core? 🧠
 
 ---
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
-### 🧠 Omarillo-11
+### 🧠 Omarillo.11
 
-## La gestione della memoria è cruciale. Utilizziamo una memoria condivisa dove tutti i core possono leggere e scrivere, ma con meccanismi per evitare letture o scritture simultanee che potrebbero causare inconsistenze. Poi ci sono le cache per velocizzare l'accesso ai dati più usati. Pensa a un magazzino centrale e a piccoli ripostigli personali per ogni lavoratore. 📦🏠
+## La gestione della memoria è cruciale. 
+
+## Utilizziamo una memoria condivisa dove tutti i core possono leggere e scrivere, ma con meccanismi per evitare letture o scritture simultanee che potrebbero causare inconsistenze. 
+
+## Poi ci sono le cache per velocizzare l'accesso ai dati più usati. Pensa a un magazzino centrale e a piccoli ripostigli personali per ogni lavoratore. 📦🏠
 
 ---
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
-### 🧑‍🎓 Studente-7
+### 🧑‍🎓 Studente 7
 
 ## Quindi, c'è un equilibrio delicato tra velocità e coerenza dei dati. Immagino che progettare tutto questo richieda un sacco di pianificazione e conoscenza!
 
----
-layout: cover
-level: 3
-title: Welcome
+### 🧠 Omarillo3
 
----
+## Assolutamente! Progettare l'architettura di un computer è come costruire una città: bisogna pianificare ogni dettaglio per assicurarsi che tutto funzioni senza intoppi. 
 
-### 🧠 Omarillo-3
-
-## Assolutamente! Progettare l'architettura di un computer è come costruire una città: bisogna pianificare ogni dettaglio per assicurarsi che tutto funzioni senza intoppi. Ogni componente deve essere posizionato strategicamente e deve lavorare in armonia con gli altri. 🌆
+## Ogni componente deve essere posizionato strategicamente e deve lavorare in armonia con gli altri. 🌆
 
 ---
 layout: cover
@@ -3320,18 +3193,11 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓 Studente-4
+### 🧑‍🎓 Studente- 4
 
 ## Mi piace questa immagine della città. Ultima domanda: come vedi il futuro dell'architettura del computer? Cosa ci aspetta? 🚀
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo-10
+### 🧠 Omarillo- 10
 
 ## Il futuro è brillante e pieno di innovazioni. Stiamo vedendo progressi nei computer quantistici, che promettono di rivoluzionare il modo in cui elaboriamo le informazioni. Inoltre, le architetture neuromorfiche cercano di imitare il cervello umano per rendere i computer ancora più efficienti e potenti. Il cielo non è il limite, è solo l'inizio! 🌌
 
@@ -3346,12 +3212,6 @@ title: Welcome
 
 ## È incredibile pensare a tutte le possibilità. Grazie, Omarillo, per questa illuminante discussione! Non vedo l'ora di imparare di più e vedere dove ci porterà questa scolastica avventura. 🚀😊
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
 ### 🧠 Omarillo-4 - Discussione sul Modello di Von Neumann
 
 ## Allora, 🧑‍🎓🧑‍🎓🧑‍🎓 Studenti, partiamo ad esplorare uno dei pilastri fondamentali dell'architettura dei computer, Are you ready? 😊
@@ -3363,16 +3223,9 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓 Studente-3
+### 🧑‍🎓 Studente- 3
 
 ## Yesss! Ho sentito parlare del modello di Von Neumann, ma non sono sicuro di capire esattamente come funzioni. Potreste spiegarmelo? 🤔
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
 
 ### 🧠 Omarillo-6
 
@@ -3385,20 +3238,12 @@ title: Welcome
 
 ---
 
-### 🧑‍🎓 Studente-9
+### 🧑‍🎓 Studente9
 
 ## Interessante! Ma quali sono i componenti principali di questo modello? 🏙️
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo-7
-
-## Bene, il modello di Von Neumann si basa su quattro componenti principali: la CPU, la memoria, i dispositivi di input/output (I/O), e il bus. Immagina la CPU come il cervello, la memoria come il magazzino delle informazioni, i dispositivi I/O come le porte della città, e il bus come le strade che collegano tutto. 🧠🏢🚪🛤️
+### 🧠 Omarillo 7 Questo diagramma rappresenta graficamente come i componenti principali del modello di Von Neumann collaborano per eseguire programmi.
+![vonNeumann](/hw/vonNeumann.svg)
 
 ---
 layout: cover
@@ -3406,87 +3251,60 @@ level: 3
 title: Welcome
 
 ---
+
+### 🧠 Omarillo 7
+
+ Bene, il modello di Von Neumann si basa su quattro componenti principali: la CPU, la memoria, i dispositivi di input/output (I/O), e il bus. Immagina la CPU come il cervello, la memoria come il magazzino delle informazioni, i dispositivi I/O come le porte della città, e il bus come le strade che collegano tutto. 🧠🏢🚪🛤️
 
 ### 🧑‍🎓 Studente-11
 
-## Capisco. E come comunicano tra loro questi componenti? 📞   📞
+### Capisco. E come comunicano tra loro questi componenti? 📞   📞
 
 ---
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
-#### 🧠 Omarillo-7
+### 🧠 Omarillo.7
 
-## La comunicazione avviene attraverso il bus, che è come una rete di strade che connette tutti i quartieri della città. La CPU invia richieste di dati alla memoria attraverso il bus, e la memoria risponde fornendo i dati richiesti. Allo stesso modo, la CPU può inviare comandi ai dispositivi I/O per leggere o scrivere dati. 🚗📦📬
+### La comunicazione avviene attraverso il bus, che è come una rete di strade che connette tutti i quartieri della città. La CPU invia richieste di dati alla memoria attraverso il bus, e la memoria risponde fornendo i dati richiesti. Allo stesso modo, la CPU può inviare comandi ai dispositivi I/O per leggere o scrivere dati. 🚗📦📬
 
----
-layout: cover
-level: 3
-title: Welcome
+### 🧑‍🎓 Studente6
 
----
-
-### 🧑‍🎓 Studente-6
-
-## Quindi, tutto passa attraverso il bus? Non ci sono percorsi diretti tra i componenti? 🚦
+### Quindi, tutto passa attraverso il bus? Non ci sono percorsi diretti tra i componenti? 🚦
 
 ---
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
 ### 🧠 Omarillo-4
 
-## Esattamente! In un modello di Von Neumann puro, tutti i dati e le istruzioni viaggiano attraverso il bus. Questo può creare un "collo di bottiglia" noto come il collo di bottiglia di Von Neumann, dove troppe informazioni cercano di passare attraverso il bus allo stesso tempo, rallentando il sistema. 🏙️🚧
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
+### Esattamente! In un modello di Von Neumann puro, tutti i dati e le istruzioni viaggiano attraverso il bus. Questo può creare un "collo di bottiglia" noto come il collo di bottiglia di Von Neumann, dove troppe informazioni cercano di passare attraverso il bus allo stesso tempo, rallentando il sistema. 🏙️🚧
 
 ### 🧑‍🎓 Studente-1
 
-## Ah, ecco perché sento spesso parlare di questo "collo di bottiglia". Quindi, quali sono i vantaggi di questo modello? 🌉
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
+### Ah, ecco perché sento spesso parlare di questo "collo di bottiglia". Quindi, quali sono i vantaggi di questo modello? 🌉
 
 ### 🧠 Omarillo-11
 
-## Il modello di Von Neumann ha molti vantaggi. Prima di tutto, la sua semplicità lo rende facile da implementare e da capire. Inoltre, utilizza una sola memoria per dati e istruzioni, il che semplifica la gestione della memoria. Infine, è estremamente versatile e può essere adattato a una vasta gamma di applicazioni. 🌐🎓
+### Il modello di Von Neumann ha molti vantaggi. Prima di tutto, la sua semplicità lo rende facile da implementare e da capire. Inoltre, utilizza una sola memoria per dati e istruzioni, il che semplifica la gestione della memoria. Infine, è estremamente versatile e può essere adattato a una vasta gamma di applicazioni. 🌐🎓
 
 ---
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
 ### 🧑‍🎓 Studente-10
 
-## Quindi, anche se ha dei limiti, la sua semplicità e versatilità lo rendono ancora molto utile. Esistono alternative al modello di Von Neumann? 🔄
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
+### Quindi, anche se ha dei limiti, la sua semplicità e versatilità lo rendono ancora molto utile. Esistono alternative al modello di Von Neumann? 🔄
 
 ### 🧠 Omarillo-6
 
-## Sì, ci sono modelli alternativi, come l'architettura Harvard, che separa la memoria per dati e istruzioni, riducendo il collo di bottiglia. Tuttavia, il modello di Von Neumann rimane una base fondamentale per capire come funzionano i computer e molte delle sue idee sono ancora utilizzate oggi. 🏛️🔧
+### Sì, ci sono modelli alternativi, come l'architettura Harvard, che separa la memoria per dati e istruzioni, riducendo il collo di bottiglia. Tuttavia, il modello di Von Neumann rimane una base fondamentale per capire come funzionano i computer e molte delle sue idee sono ancora utilizzate oggi. 🏛️🔧
 
 ---
 layout: cover
@@ -3497,7 +3315,7 @@ title: Welcome
 
 ### 🧑‍🎓 Studente-12
 
-## Grazie! Ora ho una visione molto più chiara di come funziona il modello di Von Neumann. È affascinante vedere come queste idee abbiano plasmato la tecnologia che usiamo ogni giorno. 🚀😊
+### Grazie! Ora ho una visione molto più chiara di come funziona il modello di Von Neumann. È affascinante vedere come queste idee abbiano plasmato la tecnologia che usiamo ogni giorno. 🚀😊
 
 ---
 layout: cover
@@ -3532,13 +3350,6 @@ title: Welcome
 
 ## INIZIO IO, Con piacere! Pensa alla CPU come a una fabbrica ben organizzata. In questa fabbrica, ci sono diverse linee di produzione (le pipeline), magazzini di materiali (le cache) e squadre di lavoratori specializzati (i core multipli). 🏭
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
 ### 🧑‍🎓 Studente-10
 
 ## Interessante analogia! Allora, partiamo dalle pipeline. Come funzionano? 📦
@@ -3558,12 +3369,29 @@ title: Welcome
 layout: cover
 level: 3
 title: Welcome
-
 ---
 
-### 🧑‍🎓 Studente-12
+### 🧠  Omarillo-9
 
-## Quindi, le pipeline permettono alla CPU di lavorare su più istruzioni allo stesso tempo. Ma cosa succede se c'è un'interruzione o un'istruzione richiede più tempo? 🛠️
+## In pratica, le CPU moderne sono molto più complesse. Possono eseguire più istruzioni simultaneamente grazie a tecniche come il pipelining, il multithreading e il multiprocessing.
+
+### 🧑‍🎓  Studente-1
+
+## Cos'è il pipelining?
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+#### 🧠  Omarillo 8
+
+### Considera un'ultima fase detta Writeback che rappresenta l'ultimo stadio del ciclo di esecuzione della CPU nel contesto del pipelining o dell'elaborazione delle istruzioni.
+
+### Scopo principale: i risultati calcolati durante la fase di Execute vengono scritti nella memoria principale o nei registri della CPU. Questo consente di rendere disponibile l'output dell'istruzione per l'utilizzo da parte di altre istruzioni o processi successivi.
+
+### Coinvolgimento dei registri: se l'istruzione modifica il contenuto di un registro (ad esempio, aggiornando un accumulatore con il risultato di un'operazione aritmetica), il valore viene aggiornato in questa fase e consente al processore di progredire con le istruzioni successive. Nel pipelining, la fase di Writeback per una particolare istruzione può sovrapporsi alle fasi Fetch, Decode e Execute di altre istruzioni, migliorando l'efficienza complessiva del processore.
 
 ---
 layout: cover
@@ -3571,6 +3399,152 @@ level: 3
 title: Welcome
 
 ---
+
+### 🧠 Omarillo-9
+
+## Il pipelining è una tecnica che permette alla CPU di lavorare su diverse fasi del ciclo di fetch-decode-execute e Writeback contemporaneamente. Immaginate una catena di montaggio in una fabbrica: mentre una parte dell'istruzione viene prelevata, un'altra viene decodificata e un'altra ancora viene eseguita. Questo aumenta l'efficienza e la velocità della CPU.
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+### 🧑‍🎓 Studente-12 con questo schema!
+
+![Ciclo di pipe](/hw/pipe.svg)
+
+## E il multithreading?
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+#### 🧠 Omarillo-1
+
+## Multithreading: Più efficienza! ⚙️🤖
+### Il multithreading permette alla CPU di eseguire più thread, o sequenze di istruzioni, contemporaneamente. 🕒💡 Questo è particolarmente utile per programmi che possono essere suddivisi in parti indipendenti, eseguite in parallelo 🛠️➡️🔄.
+
+## Tecnologie complementari: Pipelines & Multiprocessing 🖥️✨
+### Le CPU con pipelining 🚂 e il multiprocessing 🤝 sono tecnologie che lavorano insieme per migliorare:
+
+## Le prestazioni dei sistemi di calcolo ⚡.
+### L'elaborazione efficiente dei dati 📊💾.
+### L'utilizzo ottimale delle risorse del sistema ⚙️🌍.
+### 👉 La collaborazione tra queste tecnologie significa velocità 🚀 e potenza 💪 al servizio dell'utente!
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+#### 🧠 Omarillo 3
+
+### ⚙️ Il pipelining suddivide l'elaborazione di un'istruzione in più fasi sequenziali (🛠️ Fetch, 🔍 Decode, 🚀 Execute, ecc.), consentendo alla CPU di lavorare su diverse istruzioni contemporaneamente. Ad esempio:
+
+### 🕵️‍♂️ La fase Fetch acquisisce la prossima istruzione,
+### ⚡ Mentre la fase Execute elabora quella precedente.
+### 🎯 Scopo: Aumentare il throughput della CPU 🧠⚡, cioè il numero di istruzioni completate in un dato intervallo di tempo ⏱️.
+
+### 🖥️ Il multiprocessing sfrutta più core o CPU 💾💡 per eseguire più processi (o thread) in parallelo 🔄.
+
+### ✅ Ogni processo può eseguire istruzioni indipendenti.
+### 🤝 Oppure collaborare con altri processi per completare un'attività più ampia.
+### 🎯 Scopo: Migliorare la capacità del sistema 🌐 di eseguire più attività contemporaneamente, soprattutto per programmi CPU-bound 🧩🚦.
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+#### 🧠 Omarillo 4 Un esempio pratico
+
+### 📊 Supponiamo di avere un programma che deve elaborare un grande dataset:
+### ⚙️ Con pipelining, ogni istruzione che elabora una parte del dataset viene completata più velocemente grazie alla sovrapposizione delle fasi:
+### 🛠️ Fetch 🔍 Decode 🚀 Execute.
+### 🖥️ Con multiprocessing, il dataset può essere diviso tra più processi, ciascuno in esecuzione su un core separato 💾🎯.
+
+### 🧠 Sinergia tra tecniche
+### 🌀 Ogni core utilizza il pipelining per ottimizzare l'elaborazione delle istruzioni.
+### ♻️ Il multiprocessing coordina l'uso di più core per elaborare task indipendenti.
+### 🏎️ I moderni processori multi-core
+### Ogni core della CPU è dotato di una pipeline ⚡ per accelerare l'esecuzione delle istruzioni, mentre il multiprocessing 🧩 coordina il lavoro tra i core.
+
+### 🔑 Risultato: Questa sinergia è essenziale per raggiungere alte prestazioni nei sistemi contemporanei 🚀🌐, in particolare nei carichi di lavoro paralleli, come:
+### 🧪 Elaborazione scientifica 🎨 Rendering 3D 🌍 Server ad alte prestazioni.
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+### 🧑‍🎓 Studente 10- Quindi il multiprocessing è simile al multithreading?
+
+### 🧠 Omarillo 7- ✅ Sì, ma con una differenza importante:
+### 🔄 Il multiprocessing utilizza più core o CPU fisiche 🖥️⚡ per eseguire le istruzioni in parallelo.
+### 🔗 Ogni core può eseguire il proprio ciclo di 📥 Fetch 🔍 Decode 🚀 Execute indipendentemente dagli altri.
+### 🛠️ Questo è comune nei moderni processori multicore.
+### 🤔 Multiprocessing vs Multithreading
+### 🌀 Il multiprocessing e il multithreading possono sembrare simili perché entrambi gestiscono operazioni parallele 🚦,
+### 🎯 Ma sono ottimizzati per diversi tipi di carichi di lavoro:
+### 🔥 CPU-bound (elaborazioni pesanti): ottimali per il multiprocessing 🖥️💪.
+### 📡 I/O-bound (operazioni di input/output): meglio il multithreading 🌐.
+### 🔑 Scelta ideale dipende da: 🖥️ Le risorse hardware disponibili. 📊 Il tipo di compito da gestire.
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+## 🖥️ Il multiprocessing viene gestito principalmente dal sistema operativo e dalla CPU
+### ⚙️ Sistema operativo (OS): 🛠️ Si occupa di creare, schedulare e gestire i processi.
+### 📂 Ogni processo è indipendente e ha il proprio spazio di memoria 🗄️.
+### 📅 L'OS utilizza uno scheduler per assegnare i processi ai core disponibili della CPU 🎛️.
+### 🔗 La comunicazione tra processi (ad esempio, tramite pipe o shared memory) è facilitata dall'OS 📡.
+## ⚡ CPU (o più core della CPU):
+### 🚀 Esegue i processi in parallelo.
+### 🧩 I processori multi-core consentono l'esecuzione contemporanea di più processi 🔄.
+### 🏭 In sistemi con più CPU fisiche 🖥️🖥️, il multiprocessing può sfruttare queste risorse per un ulteriore parallelismo ⚙️🌐.
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+### 🔗 Il multithreading viene gestito sia dal sistema operativo che dalla libreria runtime del linguaggio di programmazione.
+
+## 🖥️ Sistema operativo (OS):
+## 🧵 In molte implementazioni, il sistema operativo tratta i thread come "lightweight processes" 🪶 e gestisce il loro scheduling 📅.
+## 📂 Ogni thread condivide lo spazio di memoria con il processo principale 🗄️.
+## ⚡ L'OS si occupa di assegnare i thread ai core disponibili 🎛️.
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+## 📚 Libreria runtime del linguaggio di programmazione:
+## 🛠️ In alcuni linguaggi (come Java, Python o C++), le librerie runtime gestiscono i thread all'interno del processo 🔄.
+## 🐍 In Python, la gestione dei thread è influenzata dal GIL (Global Interpreter Lock) 🔒, che limita l'esecuzione dei thread a un singolo core per operazioni CPU-bound 🖥️➡️.
+## ☕ In Java, i thread sono gestiti dalla Java Virtual Machine (JVM), che interagisce con l'OS per il threading 🤝🧵.
+
+---
+layout: cover
+level: 3
+title: Welcome
+---
+
+### 🧑‍🎓 Studente-12
+
+## Quindi, le pipeline permettono alla CPU di lavorare su più istruzioni allo stesso tempo. Ma cosa succede se c'è un'interruzione o un'istruzione richiede più tempo? 🛠️
 
 ### 🧠 Omarillo-6
 
@@ -3685,595 +3659,3 @@ title: Welcome
 ### 🧠 Omarillo-1
 
 ## Sono felice che tu abbia trovato utile la spiegazione! Continua a esplorare e a fare domande. L'architettura della CPU è un campo affascinante e in continua evoluzione, pieno di meraviglie tecnologiche da scoprire. 🌐🚀
-
----
-layout: cover
-level: 2
-title: Sistema Operativo - Shell
-
----
-
-### 🧑‍🎓 Studente-11 - Discussione con Sistema Operativo Linux su Shell e Software
-
-## Linux stai lavorando! Ho un'altra domanda. Hai parlato della "shell" e sono un po' confuso su cosa sia esattamente. Potresti spiegarmelo? 🤔
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux -o2
-
-## Certamente, Studente! La **shell** è un'interfaccia che ti permette di interagire con me, il sistema operativo, tramite comandi testuali. Pensa alla shell come a un intermediario tra te e il mio nucleo (kernel). Quando inserisci un comando nella shell, essa lo interpreta e lo passa al kernel per l'esecuzione. 🖥️
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente-2
-
-## Ah, quindi la shell è una specie di interprete tra me e il sistema operativo. Quali sono le differenze tra una shell e altri tipi di software? 🌟
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux -o12
-
-## Esatto! Ora, parliamo delle differenze tra me, il software di base (come la shell), e i software applicativi.
-
-1. **Software di Base:** Questo include il kernel, che è il cuore del sistema operativo, e vari componenti essenziali come la shell. Il mio kernel gestisce risorse come CPU, memoria e dispositivi di I/O, mentre la shell ti permette di interagire con queste risorse tramite comandi. In breve, il software di base è responsabile del funzionamento e della gestione dell'hardware e delle risorse del sistema. 🛠️
-
-2. **Software Applicativi:** Questi sono programmi che esegui per svolgere compiti specifici, come elaborare testi, navigare sul web o gestire email. Esempi di software applicativi includono LibreOffice, Firefox, e Thunderbird. I software applicativi utilizzano le risorse gestite dal software di base per funzionare, ma non gestiscono direttamente l'hardware del sistema. 📦
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente-11
-
-## Quindi, il software di base è essenziale per far funzionare il computer, mentre i software applicativi sono programmi che usiamo per compiti specifici. Come posso usare la shell per interagire con i software applicativi? 🤓
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux -O7
-
-## Esatto! Puoi usare la shell per avviare, controllare e interagire con i software applicativi. Ad esempio, se vuoi aprire il browser web Firefox, puoi semplicemente digitare il comando:
-
-```bash
-$ firefox &
-```
-
-Il simbolo `&` alla fine del comando esegue Firefox in background, permettendoti di continuare a usare la shell. Puoi anche utilizzare la shell per gestire file, installare nuovi software e molto altro.
-
-Alcuni comandi utili che potresti usare sono:
-
-- `ls` per elencare i file in una directory.
-- `cd` per cambiare directory.
-- `cp` per copiare file.
-- `mv` per spostare o rinominare file.
-- `rm` per rimuovere file.
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente-5
-
-## Grazie, Linux! Ora ho una comprensione molto migliore di cos'è la shell e delle differenze tra il software di base e i software applicativi. Non vedo l'ora di esplorare di più con la shell! 🙌
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux- O7
-
-## Sono felice di poter aiutare! La shell è uno strumento potente e versatile, e imparare a usarla ti darà un controllo molto maggiore sul tuo sistema. Buona esplorazione e buon apprendimento! 🚀
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente -3  - Discussione tra Linux e Windows su Differenze e Competenza Digitale
-
-##  Bene Linux! Ho imparato molto su di te, ma mi chiedevo se Windows potesse anche lui partecipare alla discussione. Vorrei capire meglio le differenze sostanziali tra voi due e quale sistema operativo è più semplice per sviluppare competenze digitali. Potreste aiutarmi? 🤔
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux -O4
-
-## Certamente, Studente! Sarà interessante avere Windows qui per un confronto. Ciao, Windows! Sei pronto a discutere le nostre differenze e a parlare di quale sistema operativo è più adatto per sviluppare competenze digitali? 🌟
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows - S6
-
-## Ciao, Linux e Studente! Sono felice di partecipare alla discussione. Parliamo delle nostre differenze e di come ciascuno di noi può aiutare gli utenti a sviluppare competenze digitali. 💻
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux
-
-## Iniziamo con le differenze fondamentali. Io sono un sistema operativo open source, il che significa che il mio codice sorgente è disponibile gratuitamente e può essere modificato e distribuito da chiunque. Questo incoraggia l'apprendimento e l'innovazione, poiché gli utenti possono esplorare e comprendere il mio funzionamento interno. 🛠️
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows
-
-## Io, invece, sono un sistema operativo proprietario sviluppato da Microsoft. Anche se il mio codice sorgente non è aperto al pubblico, offro un'interfaccia utente amichevole e un'ampia compatibilità con software di terze parti. Sono progettato per essere facile da usare e intuitivo per la maggior parte degli utenti. 🖥️
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux
-
-## Un'altra differenza sostanziale è nel modo in cui gestiamo l'installazione del software. Io utilizzo gestori di pacchetti come APT o YUM, che permettono di installare, aggiornare e rimuovere software facilmente tramite la linea di comando o interfacce grafiche come Synaptic. Questo approccio centralizzato può semplificare la gestione del software e mantenere il sistema aggiornato. 📦
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows
-
-## Io, invece, utilizzo file di installazione eseguibili (.exe o .msi) per l'installazione del software. Anche se non ho un gestore di pacchetti centralizzato come Linux, il mio processo di installazione è semplice e familiare per la maggior parte degli utenti. Offro anche il Microsoft Store, dove gli utenti possono trovare e installare applicazioni in modo sicuro. 🛍️
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente
-
-## Quindi, Linux, sei open source e usi gestori di pacchetti, mentre Windows è proprietario e usa file di installazione eseguibili. Quale sistema operativo è migliore per sviluppare competenze digitali? 🤓
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux
-
-## Dipende dalle competenze che vuoi sviluppare. Se sei interessato a imparare la programmazione, la gestione dei sistemi e la comprensione del funzionamento interno del sistema operativo, allora io sono una scelta eccellente. Offro strumenti di sviluppo potenti, un accesso facile alla linea di comando e la possibilità di esplorare il codice sorgente. 🛠️
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows
-
-## Se, invece, vuoi sviluppare competenze legate all'uso di software di produttività, design grafico, giochi o applicazioni commerciali, allora io sono una buona scelta. La mia interfaccia intuitiva e la vasta gamma di software disponibile rendono più facile iniziare. Inoltre, offro anche strumenti di sviluppo potenti come Visual Studio per la programmazione. 💼
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux
-
-## Inoltre, sono molto utilizzato nei server e nei dispositivi IoT, quindi se sei interessato alla gestione dei server o allo sviluppo per l'Internet delle Cose, l'uso di Linux può essere molto vantaggioso. 🌐
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows
-
-## E io sono molto utilizzato nei contesti aziendali e nelle postazioni di lavoro domestiche, quindi imparare a utilizzare Windows può essere molto utile per ruoli che richiedono competenze con applicazioni commerciali e ambienti di ufficio. 🏢
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente
-
-## Grazie mille a entrambi! Ora ho una comprensione molto migliore delle vostre differenze e di come ciascuno di voi può aiutarmi a sviluppare diverse competenze digitali. Sono impaziente di esplorare di più sia con Linux che con Windows! 🙌
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux
-
-## Sono felice di aver potuto aiutarti, Studente! Buona fortuna nel tuo percorso di apprendimento e non esitare a esplorare le mie funzionalità. 🚀
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows
-
-## Anch'io sono felice di averti aiutato! Buon apprendimento e divertiti esplorando tutto ciò che posso offrire. 🌟
-
----
-layout: cover
-level: 2
-title: HardWare & SoftWare
-
----
-
-### 🧑‍🎓 Studente - Discussione su Chi Dirige il Sistema Digitale
-
-## Linux e Windows! Ho ancora qualche dubbio. Chi è che dirige davvero il sistema digitale? È la CPU o il sistema operativo? 🤔
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows
-
-## È una domanda interessante e importante. La risposta breve è che entrambi giocano ruoli cruciali, ma in modi diversi. La **CPU** è il "cervello" del computer, esegue le istruzioni delle applicazioni e del sistema operativo. Il **sistema operativo**, d'altra parte, è il "direttore d'orchestra" che gestisce e coordina tutte le risorse del computer, inclusa la CPU. 🎵
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux
-
-## Esatto! Pensa alla CPU come a un potentissimo esecutore di comandi. Essa esegue operazioni matematiche, logiche e di controllo basate su istruzioni binarie. Senza di me, il sistema operativo, la CPU non saprebbe quali istruzioni eseguire o come gestire le risorse in modo efficiente. Io organizzo queste istruzioni e assegno compiti specifici alla CPU. 🧠
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente
-
-## Quindi, la CPU esegue le istruzioni, ma è il sistema operativo che le fornisce e le organizza. Puoi fare un esempio di come lavorate insieme? 🤓
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux
-
-## Certo! Prendiamo l'esempio di aprire un programma come un editor di testo. Quando chiedi al sistema operativo di aprire l'editor:
-
-1. **Input dell'Utente:** Tu clicchi sull'icona dell'editor di testo o digiti un comando nella shell.
-2. **Sistema Operativo:** Io ricevo questa richiesta e controllo se il programma è già in esecuzione o se deve essere caricato dalla memoria di massa (come un disco rigido).
-3. **Caricamento del Programma:** Se necessario, carico il programma nella memoria RAM.
-4. **CPU:** Una volta caricato, passo l'indirizzo del programma alla CPU.
-5. **Esecuzione:** La CPU inizia a eseguire le istruzioni del programma, gestendo operazioni come l'input da tastiera e l'output sullo schermo, tutto sotto il mio controllo e coordinamento. 📂🔄
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows
-
-## Un altro esempio potrebbe essere la gestione dei processi multipli:
-
-1. **Sistema Operativo:** Se stai eseguendo più applicazioni contemporaneamente, io gestisco quale processo ha accesso alla CPU in ogni momento, usando un sistema di schedulazione.
-2. **CPU:** La CPU esegue le istruzioni del processo corrente fino a quando non è il turno di un altro processo.
-3. **Sistema Operativo:** Quando è il momento di cambiare processo (chiamato "context switch"), salvo lo stato corrente della CPU e carico lo stato del nuovo processo, mantenendo l'illusione che tutti i programmi stiano funzionando simultaneamente. 🔄
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente
-
-## Questo ha molto senso. Quindi, la CPU è come un potente lavoratore che esegue i compiti, mentre voi, i sistemi operativi, siete come i manager che assegnano i compiti e coordinano tutto. Ma allora, come fate a comunicare con la CPU e con gli altri componenti hardware? 🤔
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux
-
-## Comunichiamo con la CPU e con gli altri componenti hardware attraverso i **driver** e le **interfacce di programmazione**. I driver sono programmi speciali che permettono al sistema operativo di controllare l'hardware specifico. 🖧
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows
-
-## Esatto! I driver fungono da traduttori tra il sistema operativo e l'hardware. Quando hai bisogno di stampare un documento, per esempio, il driver della stampante traduce le istruzioni del sistema operativo in un formato che la stampante può capire. Analogamente, usiamo le API (Application Programming Interfaces) per consentire ai programmi di richiedere servizi dal sistema operativo, come accesso ai file o connessioni di rete. 📄🔌
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente
-
-## Capisco, quindi i driver e le API sono cruciali per la comunicazione tra software e hardware. Questo rende molto più chiaro il ruolo di ciascuno. Grazie mille per le spiegazioni, Linux e Windows! Ora mi sento molto più informato. 🙌
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🐧
-
-Sistema Operativo Linux
-
-## È stato un piacere aiutarti, Studente! Continua a esplorare e imparare. 🚀
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🪟
-
-Sistema Operativo Windows
-
-## Siamo sempre qui per aiutarti. Buon apprendimento e divertiti con la tecnologia! 🌟
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-### 🧑‍🏫
-
-Studente - Discussione su top, htop e il Task Manager
-
-## Bene, visto che sono curioso di sapere di più su strumenti come **top**, **htop** e il **Task Manager**.
-
-## Omarillo, vuoi spiegarmi cosa sono e come si usano?
-
-## Hai detto che questi strumenti sono essenziali per monitorare e gestire i processi del sistema.
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo - Neurone di Intelligenza Naturale
-
-## Certo! Iniziamo con **top**:
-
-1. **top**:
-   - **Cos'è:** Un'utilità della riga di comando disponibile su Unix e Linux che visualizza i processi in esecuzione in tempo reale.
-   - **Come si usa:** Basta digitare `top` nel terminale e premere Invio. Vedrai un elenco aggiornato di processi con informazioni come l'uso della CPU, della memoria e il tempo di esecuzione.
-   - **Funzionalità:** Offre una visualizzazione dinamica e può essere filtrato e ordinato per mostrare i processi in vari modi. Puoi usare i tasti per interagire (ad esempio, 'q' per uscire, 'k' per terminare un processo). 📈
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🏫 Professore
-
-## Ottimo, Omarillo! Ora passiamo a **htop**.
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo
-
-## **htop**:
-   - **Cos'è:** Un'alternativa migliorata a **top**, con un'interfaccia utente più ricca e intuitiva.
-   - **Come si usa:** Digita `htop` nel terminale e premi Invio. È necessario installarlo prima se non è presente di default (`sudo apt-get install htop` su sistemi basati su Debian).
-   - **Funzionalità:** Fornisce una visualizzazione colorata e dettagliata dell'uso della CPU, della memoria e dei processi. Puoi navigare tra i processi usando i tasti freccia, terminare processi con il tasto F9, e filtrare i processi in modo interattivo. 🌈
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🏫 Professore
-
-## Molto bene! E adesso, parliamo del **Task Manager**.
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo
-
-## **Task Manager** (Gestione Attività):
-   - **Cos'è:** Uno strumento grafico integrato in Windows per monitorare e gestire i processi in esecuzione.
-   - **Come si usa:** Premi `Ctrl + Shift + Esc` o `Ctrl + Alt + Canc` e seleziona "Task Manager". Nella scheda "Processi", vedrai un elenco dei processi in esecuzione.
-   - **Funzionalità:** Mostra dettagli sui processi, inclusi l'uso della CPU, della memoria, del disco e della rete. Puoi terminare processi, visualizzare i servizi in esecuzione, e controllare le prestazioni del sistema. La scheda "Prestazioni" offre grafici in tempo reale dell'utilizzo delle risorse di sistema. 🖥️
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente-3
-
-## Grazie per le spiegazioni dettagliate, Omarillo! Quindi, top e htop sono per Unix e Linux, mentre il Task Manager è per Windows. Quali sono i vantaggi di usare questi strumenti?
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧠 Omarillo
-
-## Esatto! Ecco alcuni vantaggi:
-
-1. **Monitoraggio delle risorse:** Puoi vedere in tempo reale come vengono utilizzate la CPU, la memoria e altre risorse.
-2. **Gestione dei processi:** Puoi identificare e terminare processi che consumano troppe risorse o che non rispondono.
-3. **Diagnostica e risoluzione dei problemi:** Questi strumenti ti aiutano a diagnosticare problemi di performance e a risolverli rapidamente.
-4. **Ottimizzazione del sistema:** Puoi ottimizzare l'uso delle risorse, assicurando che il sistema funzioni in modo efficiente. 🔧
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🎓 Studente
-
-## Perfetto! Grazie, Omarillo e Professore! Ora ho una comprensione molto migliore di questi strumenti e di come usarli per monitorare e gestire il sistema. Non vedo l'ora di metterli in pratica! 🙌
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-### 🧑‍🏫 Professore
-
-## È stato un piacere, Studente! Continua a esplorare e a imparare. Siamo qui per aiutarti lungo il cammino! 🌟

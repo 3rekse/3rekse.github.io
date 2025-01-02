@@ -107,6 +107,7 @@ pins.A2.digitalWrite(pins.A4.digitalRead() || pins.A7.digitalRead())
 layout: two-cols-header
 title: Programmable AND gate
 level: 3
+
 ---
 ::left::
 
