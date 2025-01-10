@@ -26,6 +26,9 @@ src: ./formule.md
 src: ./costi_ricavi.md
 ---
 ---
+src: ./gauss.md
+---
+---
 src: ./contadino.md
 ---
 ---
