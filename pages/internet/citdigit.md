@@ -6,7 +6,9 @@ background: /internet/images/solerosso.svg
 
 ---
 
-# BULLISMO 2.0
+# BULLISMO 2.0 
+
+ [20/1 Giornata del Rispetto](https://https://3rekse.github.io/GdR.pdf)
 
 ## Il nuovo fenomeno del cyberbullismo
 
