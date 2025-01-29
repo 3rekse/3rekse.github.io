@@ -299,6 +299,8 @@ title: Le tecniche di hacking
 
 ## Le tecniche di hacking più comuni
 
+[Testa la sicurezza della tua password] (https://password.kaspersky.com)
+
 * Phishing: Il phishing è una tecnica in cui gli hacker inviano messaggi o e-mail fraudolenti che sembrano provenire da fonti affidabili, al fine di indurre le persone a rivelare informazioni personali o sensibili, come password o numeri di carta di credito.
 
 * Ingegneria sociale: L'ingegneria sociale è una tecnica in cui gli hacker manipolano le persone per ottenere informazioni o accesso a sistemi. Questo può includere l'uso di trucchi psicologici, come l'impersonificazione di un dipendente o l'uso di convincimenti persuasivi per ottenere informazioni riservate.

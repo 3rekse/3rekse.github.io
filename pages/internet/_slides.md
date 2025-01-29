@@ -1,5 +1,14 @@
 ---
+src: ./ai.md
+---
+
+---
+src: ./social.md
+
+---
+---
 src: ./citdigit.md
+
 ---
 
 ---

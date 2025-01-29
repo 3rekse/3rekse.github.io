@@ -89,7 +89,7 @@ title: Il bullismo
 ## Il bullismo: cos’è?
 
 >Un soggetto subisce bullismo quando è esposto ripetutamente e per lungo
-tempo alle azioni ostili di uno o più altri soggetti, e quando tali azioni sono
+tempo alle azioni ostili di uno o più soggetti, e quando tali azioni sono
 compiute in una situazione di squilibrio di forze.
 
 * INTENZIONALITA’
@@ -113,9 +113,7 @@ class: wide
 >Vittima
 
 Appare vulnerabile, fisicamente più debole, particolarmente impacciata nei movimenti
-
 Mostra timidezza e sensibilità e ha poca stima di sé
-
 Sperimenta ansia e scarso senso di autoefficacia. Ha ridotta assertività
 
 E’ dotata di scarse abilità sociali ed evidenzia difficoltà ad affermare se stessa nel gruppo dei coetanei (e spesso rifugiandosi nel mondo adulto)
@@ -124,9 +122,7 @@ E’ dotata di scarse abilità sociali ed evidenzia difficoltà ad affermare se 
 > Bullo
 
 Prova piacere ad umiliare gli altri, non comprende i sentimenti altrui
-
 Non accetta le regole o le figure che rappresentano l’autorità
-
 Tende a imporre il proprio punto di vista
 
 Ricorre spesso alla menzogna e la ritiene la strategia più efficace per la risoluzione dei conflitti
@@ -149,7 +145,7 @@ title: Cyperbullismo
 
 ---
 
-> CYBERBULLISMO Atti aggressivi, intenzionali, ripetuti nel tempo, di vessazione,
+> CYBERBULLISMO Atti aggressivi ripetuti nel tempo, intenzionali, di vessazione,
 umiliazione, molestia, diffamazione condotti da un individuo o più individui attraverso varie forme di contatto elettronico, contro una vittima che non può difendersi
 
 * BAITING (aizzare contro): prendere di mira utenti, nello specifico principianti, in ambienti virtuali di gruppo (es. chat, game,..) facendoli diventare oggetto di discussioni aggressive attraverso insulti e minacce per errori commessi dovuti
@@ -612,7 +608,7 @@ La **Cooperativa Sociale Mondo REC di Rimini** è orgogliosa di presentare ai No
 Gli studenti possono condividere un commento, una sensazione, un'opinione relativa al film e all'argomento trattato  alla pagina Instagram di Mondo REC (https://www.instagram.com/mondorec.ragazziecinema/)
 
 ---
-level: 3
+level: 2
 title: I gruppi ransomware
 
 ---
@@ -866,7 +862,7 @@ title: Controllare il traffico
 * Protocolli di sicurezza avanzati: Alcuni protocolli di rete come VLAN (Virtual Local Area Network) e VPN (Virtual Private Network) consentono di controllare e monitorare in modo più specifico il flusso di dati all'interno di una rete.
 
 ---
-level: 3
+level: 2
 title: Il traffico di rete nelle scuole
 
 ---
@@ -900,11 +896,77 @@ Ecco la **top 5 delle minacce di ultima generazione** nel campo della cybersecur
 5. **Attacchi di ingegneria sociale basati su IA e Deep Fake**: Minacce che utilizzano l'intelligenza artificiale e la tecnologia Deep Fake per condurre attacchi sofisticati di ingegneria sociale, mettendo a rischio la sicurezza delle informazioni e la privacy degli utenti.
 
 ---
-level: 3
+layout: cover
+level: 2
 title: Deep Fake
+background: /internet/images/DeepFake.jpg
 
 ---
 
-Il **Deep Fake** è una tecnica di sintesi dell'immagine umana basata sull'intelligenza artificiale. Questa tecnica viene utilizzata per combinare e creare immagini, video o audio falsi che sembrano autentici. Grazie all'uso di algoritmi avanzati di intelligenza artificiale, i Deep Fake possono creare contenuti che possono trarre in inganno spettatori non esperti, poiché sembrano reali anche se sono stati generati artificialmente. Questa tecnologia solleva questioni etiche e di sicurezza, poiché può essere utilizzata per creare contenuti manipolati dannosi o ingannevoli.
+## Discussione: Il mondo dei Deep Fake e le sue implicazioni  
+
+La conversazione si concentra su cos'è questa tecnologia, come funziona e quali problematiche etiche e sociali solleva.
+
+**Omarillo-1:** 🤖 *"I Deep Fake sono una tecnologia avanzata basata sull'intelligenza artificiale che permette di creare immagini, video e audio falsi ma incredibilmente realistici. Si usano reti neurali chiamate *GAN* (Generative Adversarial Networks) per ottenere risultati così sorprendenti."*  
+
+**Studente-1:** *"Ok, ma come si distinguono i Deep Fake dai contenuti autentici? Perché sembra impossibile riconoscerli."*  
+
+**Omarillo-2:** 🧐 *"Non è facile. Gli esperti analizzano dettagli come il movimento innaturale degli occhi, la qualità della pelle o artefatti visivi. Tuttavia, i Deep Fake stanno diventando sempre più sofisticati, rendendo questa distinzione sempre più difficile."*  
+
+---
+
+**Studente-2:** 😕 *"Ma perché qualcuno dovrebbe creare un Deep Fake? Non riesco a capirne l’utilità."*  
+
+**Omarillo-3:** 💡 *"Ci sono usi positivi, come nell'intrattenimento o nell'educazione, per riportare in vita personaggi storici o creare effetti visivi nei film. Tuttavia, il problema sorge quando vengono usati in modo dannoso, ad esempio per diffondere disinformazione o per creare video compromettenti che possono danneggiare una persona."*  
+
+**Studente-3:** 😡 *"Ho sentito di casi in cui i Deep Fake sono stati usati per il revenge porn o per diffondere falsi politici. È terribile!"*  
+
+**Omarillo-4:** 🙁 *"Sì, ed è uno degli aspetti più preoccupanti. I Deep Fake possono essere utilizzati per screditare persone, creare panico o manipolare opinioni pubbliche. Questo solleva enormi questioni etiche e richiede una regolamentazione più rigida."*  
+
+---
+
+**Studente-4:** 🤔 *"Ma come possiamo difenderci da questa tecnologia? Se sono così realistici, come facciamo a non farci ingannare?"*  
+
+**Omarillo-5:** 🔍 *"Ci sono strumenti tecnologici che aiutano a rilevare i Deep Fake, ma la prevenzione è fondamentale. È importante essere critici su ciò che vediamo online e verificare le fonti prima di condividere contenuti sospetti."* 
+
+**Studente-5:** *"Non credete che sia anche una questione di educazione digitale? Se le persone fossero più consapevoli, i Deep Fake non avrebbero lo stesso impatto."*  
+
+**Omarillo-6:** 📚 *"Esattamente. L'alfabetizzazione digitale è cruciale per aiutare le persone a distinguere il vero dal falso. La conoscenza è la nostra arma migliore contro gli abusi della tecnologia."*  
+
+---
+
+**Studente-6:** 🤨 *"Ma chi è responsabile quando un Deep Fake viene usato per fare del male? Chi si può punire?"*  
+
+**Omarillo-7:** ⚖️ *"Questa è una domanda difficile. Attualmente, le leggi variano da paese a paese. In alcuni casi, chi crea o distribuisce un Deep Fake dannoso può essere ritenuto responsabile. Tuttavia, ci sono ancora molte lacune legali da colmare."*  
+
+**Studente-7:** *"Quindi c’è un lato positivo nei Deep Fake, ma anche un lato oscuro. Come possiamo assicurare che vengano usati solo per scopi positivi?"*  
+
+**Omarillo-8:** 🌍 *"Questo richiede una collaborazione globale tra governi, aziende tecnologiche e società civile. Bisogna creare leggi più severe, ma anche incentivare lo sviluppo di tecnologie che aiutino a rilevare e prevenire gli abusi."*  
+
+---
+
+**Studente-8:** 😅 *"Ok, ma non credete che questo sia un po’ troppo allarmante? Non tutto quello che è falso è per forza dannoso, no?"*  
+
+**Omarillo-9:** 😊 *"Hai ragione. Non tutto ciò che è falso è negativo. Ad esempio, i Deep Fake possono essere usati in arte, per creare contenuti creativi o educativi. Il problema è come vengono utilizzati. La tecnologia non è intrinsecamente buona o cattiva: dipende dall'intenzione dell'utente."*  
+
+
+**Studente-9:** *"E se il Deep Fake diventasse così realistico da essere indistinguibile dal reale? Come potremmo sapere cosa è vero?"*  
+
+**Omarillo-10:** 🤖 *"In un futuro del genere, avremo bisogno di strumenti avanzati per la verifica delle informazioni e di una maggiore consapevolezza sociale. Forse, un giorno, i contenuti digitali avranno una sorta di 'certificazione' di autenticità."*  
+
+---
+
+**Studente-10:** *"C’è anche una questione emotiva. Se qualcuno usasse un Deep Fake per ferire un’altra persona, l’effetto sarebbe reale. Le emozioni negative sono vere, anche se il contenuto non lo è."*  
+
+**Omarillo-11:** 💔 *"Hai assolutamente ragione. Gli effetti emotivi di un Deep Fake possono essere devastanti, perché la vittima lo percepisce come reale. Questo dimostra quanto sia importante gestire questa tecnologia con estrema cautela."*  
+
+
+**Studente-11:** *"Non pensate che siamo arrivati a un punto in cui non possiamo più fidarci di nulla online? È tutto così confuso."*  
+
+**Omarillo-12:** 🌈 *"È vero che viviamo in un’era di incertezza digitale, ma con la giusta educazione e strumenti tecnologici possiamo affrontare queste sfide. La fiducia non deve sparire, ma deve diventare più consapevole."*  
+
+---
+
+La discussione si conclude con una riflessione comune: i Deep Fake rappresentano una tecnologia potente, con potenziali enormi sia positivi che negativi. Tuttavia, è fondamentale affrontare le sfide etiche e sociali che ne derivano per garantire che questa tecnologia venga usata a beneficio della società.
 
 Queste minacce di ultima generazione richiedono l'implementazione di strumenti e strategie di sicurezza all'avanguardia per proteggere le organizzazioni da potenziali attacchi informatici.
