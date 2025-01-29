@@ -15,6 +15,8 @@ title: Sistemi digitali
 
 [Link per i Colloqui ONLINE prenotati ](https://bit.ly/LineaProf) 🎄 [🎁](https://gameomar.vercel.app/) [🎁](https://bebras.it/students/)
 
+[Materiali sotto licenza Creative Commons Attribution – Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
 ---
 src: ./sisop/__slides.md
 
