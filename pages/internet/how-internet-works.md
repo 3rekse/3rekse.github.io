@@ -14,7 +14,7 @@ level: 3
 
 ---
 
-# Cosa viene trattato in questa sezione
+## Cosa viene trattato in questa sezione
 
 Dal collegamento del computer al caricamento del sito web
 
@@ -70,7 +70,7 @@ Passo 1 🧙
 ::right::
 <div class="ml-10 bg-zinc-100">
 <div class="flex justify-center">
-    <img alt="" class="place-content-end h-120" src="/internet/images/slides/internet/how-internet-works/map-01.png" />
+    <img alt="" class="place-content-end h-120" src="/rete/images/slides/internet/how-internet-works/map-01.png" />
 </div>
 </div>
 
@@ -103,7 +103,7 @@ Step 2- secondo passaggio nel processo di comunicazione tra un client (come un b
 ::right::
 <div class="ml-10 bg-zinc-100">
 <div class="flex justify-center">
-    <img alt="" class="place-content-end h-120" src="/internet/images/slides/internet/how-internet-works/map-02.png" />
+    <img alt="" class="place-content-end h-120" src="/rete/images/slides/internet/how-internet-works/map-02.png" />
 </div>
 </div>
 
@@ -134,7 +134,7 @@ Passo 3
 
 <div class="ml-10 bg-zinc-100">
     <div class="flex justify-center">
-        <img alt="" class="place-content-end h-120" src="/internet/images/slides/internet/how-internet-works/map-03.png" />
+        <img alt="" class="place-content-end h-120" src="/rete/images/slides/internet/how-internet-works/map-03.png" />
     </div>
 </div>
 
@@ -188,7 +188,7 @@ title: Page is displayed
 level: 3
 layout: image-right
 image: >-
-  /internet/images/slides/internet/how-internet-works/screen-01.png
+  /rete/images/slides/internet/how-internet-works/screen-01.png
 
 ---
 

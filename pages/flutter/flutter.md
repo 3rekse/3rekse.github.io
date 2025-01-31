@@ -1,7 +1,7 @@
 ---
 layout: cover
 background: >-
-  https://3rekse.github.io/internet/images/solerosso.svg
+  https://3rekse.github.io/rete/images/solerosso.svg
 hideInToc: true
 level: 1
 title: Welcome!

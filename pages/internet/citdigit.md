@@ -2,7 +2,7 @@
 layout: cover
 level: 2
 title: BULLISMO 2.0
-background: /internet/images/solerosso.svg
+background: /rete/images/solerosso.svg
 
 ---
 
@@ -80,7 +80,7 @@ La sua risposta a una recensione di un cliente su Tripadvisor era diventata suo 
 ---
 layout: cover
 level: 3
-background: /internet/images/solerosso.svg
+background: /rete/images/solerosso.svg
 title: Il bullismo
 
 ---
@@ -899,7 +899,7 @@ Ecco la **top 5 delle minacce di ultima generazione** nel campo della cybersecur
 layout: cover
 level: 2
 title: Deep Fake
-background: /internet/images/DeepFake.jpg
+background: /rete/images/DeepFake.jpg
 
 ---
 

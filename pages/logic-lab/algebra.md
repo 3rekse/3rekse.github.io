@@ -1036,7 +1036,7 @@ Gottfried Wilhelm Leibniz (1646–1716) : THE INVENTION OF COMPUTER ARITHMETIC
 
 ::left::
 
-![Leibniz](/internet/images/logic-lab/logic-gates/leibniz.jpg)
+![Leibniz](/rete/images/logic-lab/logic-gates/leibniz.jpg)
 
 ---
 level: 2

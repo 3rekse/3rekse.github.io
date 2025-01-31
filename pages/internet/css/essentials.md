@@ -15,7 +15,7 @@ iniziare con css
 title: Cos'è CSS
 level: 4
 layout: image-right
-image: /internet/images/slides/css/essentials/css-logo.jpg
+image: /rete/images/slides/css/essentials/css-logo.jpg
 ---
 
 
@@ -314,7 +314,7 @@ note slide:
 title: risorse css
 level: 4
 layout: image-right
-image: /internet/images/slides/css/essentials/css-books.jpg
+image: /rete/images/slides/css/essentials/css-books.jpg
 ---
 
 

@@ -417,7 +417,7 @@ Sebbene sia al di fuori dell'ambito di questo corso, per tabelle più complesse,
 title: Risorse per le tabelle
 level: 4
 layout: image-right
-image: /internet/images/slides/html/tables/you-got-this.jpg
+image: /rete/images/slides/html/tables/you-got-this.jpg
 ---
 
 

@@ -13,7 +13,7 @@ level: 3
 title: Cos'è Grid
 level: 4
 layout: image-right
-image: /internet/images/slides/css/grid/layout.jpg
+image: /rete/images/slides/css/grid/layout.jpg
 ---
 
 
@@ -1104,7 +1104,7 @@ Note della slide:
 title: Risorse Grid
 level: 4
 layout: image-right
-image: /internet/images/slides/css/flex-box/fallen-boxes.jpg
+image: /rete/images/slides/css/flex-box/fallen-boxes.jpg
 ---
 
 

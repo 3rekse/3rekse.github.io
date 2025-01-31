@@ -13,7 +13,7 @@ Seleziona gli elementi HTML utilizzando i selettori CSS
 title: Cosa sono i selettori CSS
 level: 4
 layout: image-right
-image: /internet/images/slides/css/selectors/library.jpg
+image: /rete/images/slides/css/selectors/library.jpg
 ---
 
 
@@ -414,7 +414,7 @@ Note slide:
 title: Risorse sui selettori CSS
 level: 4
 layout: image-right
-image: /internet/images/slides/css/selectors/books.jpg
+image: /rete/images/slides/css/selectors/books.jpg
 ---
 
 

@@ -2,7 +2,7 @@
 layout: cover
 title: Confine tra reale e artificiale
 level: 2
-background: /internet/images/real.jpg
+background: /rete/images/real.jpg
 
 ---
 

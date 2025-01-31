@@ -160,7 +160,7 @@ level: 4
 layout: center
 ---
 
-<img src="/internet/images/slides/javascript/events/bubbling.png" alt="" />
+<img src="/rete/images/slides/javascript/events/bubbling.png" alt="" />
 
 
 

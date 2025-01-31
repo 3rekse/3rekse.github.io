@@ -17,7 +17,7 @@ Aggiungi un'altra variabile ``||variables:Q||`` per ricevere il valore risultant
 let inputs = [false, true]
 let Q = false
 ```
-![io](/internet/images/logic-lab/inout.png)
+![io](/rete/images/logic-lab/inout.png)
 
 ---
 title: Single input loop
@@ -50,7 +50,7 @@ Steps
 title: Single input loop code
 level: 3
 layout: image-right
-image: /internet/images/logic-lab/singIn.png
+image: /rete/images/logic-lab/singIn.png
 ---
 ```
 let inputs = [false, true]
@@ -104,7 +104,7 @@ let A = false
 let Q = !A
 ```
 
-![io](/internet/images/logic-lab/not.png)
+![io](/rete/images/logic-lab/not.png)
 
 ---
 title: Not truth table
@@ -145,7 +145,7 @@ Prendi un altro ciclo ``||loops:for element||`` e inseriscilo in modo che circon
 title: Two input loop code 
 level: 3
 layout: image-right
-image: /internet/images/logic-lab/twoInOut.png
+image: /rete/images/logic-lab/twoInOut.png
 ---
 
 ## Two input loop

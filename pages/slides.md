@@ -6,7 +6,7 @@ level: 1
 title: Sistemi digitali
 
 ---
-![Esempio di Immagine](https://3rekse.github.io/internet/images/terra.jpg)
+![Esempio di Immagine](https://3rekse.github.io/rete/images/terra.jpg)
 
 ## The Omarillo factory, your ICT adventure!
 

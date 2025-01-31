@@ -2,7 +2,7 @@
 layout: cover
 title: Smartphone e Isolamento Sociale
 level: 2
-background: /internet/images/smartphone.jpg
+background: /rete/images/smartphone.jpg
 
 ---
 

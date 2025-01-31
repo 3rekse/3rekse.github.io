@@ -105,7 +105,7 @@ Ecco un esempio di come potrebbe essere implementato un [flip-flop D](https://ti
 
 ::left::
 
-![dflipflop](/internet/images/logic-lab/DFF.png)
+![dflipflop](/rete/images/logic-lab/DFF.png)
 
 
 ::right::

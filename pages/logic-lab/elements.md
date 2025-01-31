@@ -304,7 +304,7 @@ let B = false
 let Q = (A || B) && !(A && B)
 ```
 
-![menu](/internet/images/logic-lab/logic-gates/menu.png)
+![menu](/rete/images/logic-lab/logic-gates/menu.png)
 
 ::right::
 

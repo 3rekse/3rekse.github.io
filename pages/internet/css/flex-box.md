@@ -13,7 +13,7 @@ level: 3
 title: quindi cos'è flexbox
 level: 4
 layout: image-right
-image: /internet/images/slides/css/flex-box/boxes.jpg
+image: /rete/images/slides/css/flex-box/boxes.jpg
 ---
 
 
@@ -1306,7 +1306,7 @@ note slide:
 title: risorse flexbox
 level: 4
 layout: image-right
-image: /internet/images/slides/css/flex-box/fallen-boxes.jpg
+image: /rete/images/slides/css/flex-box/fallen-boxes.jpg
 ---
 
 

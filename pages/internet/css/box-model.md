@@ -13,7 +13,7 @@ Tutto è un box in CSS
 title: Cos'è il modello di box CSS
 level: 4
 layout: image-right
-image: /internet/images/slides/css/box-model/stack.jpg
+image: /rete/images/slides/css/box-model/stack.jpg
 ---
 
 
@@ -118,7 +118,7 @@ title: Modello di box CSS
 level: 4
 ---
 
-<img src="/internet/images/slides/css/box-model/model.png" alt="" />
+<img src="/rete/images/slides/css/box-model/model.png" alt="" />
 
 <!-- 
 
@@ -200,7 +200,7 @@ Note slide:
 title: Risorse sul modello di box CSS
 level: 4
 layout: image-right
-image: /internet/images/slides/css/selectors/books.jpg
+image: /rete/images/slides/css/selectors/books.jpg
 ---
 
 

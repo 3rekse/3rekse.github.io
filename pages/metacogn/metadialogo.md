@@ -2,7 +2,7 @@
 layout: cover
 title: La Metacognizione e la Sua Importanza
 level: 1
-background: /internet/images/aula.webp
+background: /rete/images/aula.webp
 ---
 
 
@@ -454,7 +454,7 @@ title: L'uso degli smartphone e delle tecnologie per stimolare il pensiero lento
 layout: cover
 level: 2
 title: Vecchi amici nel 2048
-background: /internet/images/dove.jpg
+background: /rete/images/dove.jpg
 
 ---
 
@@ -487,7 +487,7 @@ title: Vecchi amici nel 2048
 layout: cover
 level: 2
 title: Vecchi amici nel 2048
-background: /internet/images/bar.jpg
+background: /rete/images/bar.jpg
 
 ---
 
@@ -602,7 +602,7 @@ title: Vecchi amici nel 2048
 layout: cover
 level: 2
 title: Vecchi amici nel 2048
-background: /internet/images/tecno.jpg
+background: /rete/images/tecno.jpg
 
 ---
 

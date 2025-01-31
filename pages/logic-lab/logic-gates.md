@@ -7,7 +7,7 @@ level: 2
 
 ::right::
 
-![Simbolo della porta OR](/internet/images/logic-lab/logic-gates/full-adder.png)
+![Simbolo della porta OR](/rete/images/logic-lab/logic-gates/full-adder.png)
 
 ::left::
 
@@ -99,7 +99,7 @@ title: NOT gate
 
 La porta NOT è una freccia in avanti con un piccolo cerchio all'uscita. La parte circolare del simbolo indica che l'uscita sta negando l'input.
 
-![Simbolo della porta NOT](/internet/images/logic-lab/logic-gates/not-gate.png)
+![Simbolo della porta NOT](/rete/images/logic-lab/logic-gates/not-gate.png)
 
 ---
 level: 3
@@ -111,7 +111,7 @@ title: OR gate
 
 La porta OR ha un lato di ingresso curvo e un lato di uscita appuntito.
 
-![Simbolo della porta OR](/internet/images/logic-lab/logic-gates/or-gate.png)
+![Simbolo della porta OR](/rete/images/logic-lab/logic-gates/or-gate.png)
 
 ---
 level: 3
@@ -123,7 +123,7 @@ title: AND gate
 
 La porta AND ha un lato di ingresso piatto e un lato di uscita rotondo.
 
-![Simbolo della porta AND](/internet/images/logic-lab/logic-gates/and-gate.png)
+![Simbolo della porta AND](/rete/images/logic-lab/logic-gates/and-gate.png)
 
 <iframe style="max-width:100%" src="https://wordwall.net/embed/59d1db09b39b4f59a75aa4127e07c5ae?themeId=41&templateId=5&fontStackId=0"  frameborder="0" allowfullscreen></iframe>
 ---
@@ -136,7 +136,7 @@ title:  Exclusive OR (XOR) gate
 
 Il simbolo della porta XOR è simile a quello della porta OR, ma ha una linea curva aggiuntiva che attraversa gli ingressi.
 
-![Simbolo della porta XOR](/internet/images/logic-lab/logic-gates/xor-gate.png)
+![Simbolo della porta XOR](/rete/images/logic-lab/logic-gates/xor-gate.png)
 
 ---
 level: 3
@@ -212,7 +212,7 @@ level: 3
 La conversione dell'equazione in porte logiche produce il seguente diagramma. Nota come ogni porta "collega" le variabili insieme proprio come i blocchi logici nel codice sopra.
 
 
-![Combinatorial XOR first version](/internet/images/logic-lab/logic-gates/combinatorial1-xor.png)
+![Combinatorial XOR first version](/rete/images/logic-lab/logic-gates/combinatorial1-xor.png)
 
 ---
 level: 3
@@ -238,7 +238,7 @@ level: 3
 
 ## [Combined logic](http://tinyurl.com/ytfazyv9)
 
-![Combinatorial XOR second version](/internet/images/logic-lab/logic-gates/combinatorial2-xor.png)
+![Combinatorial XOR second version](/rete/images/logic-lab/logic-gates/combinatorial2-xor.png)
 
 Questo diagramma ha meno complessità rispetto al primo. La riduzione del numero di porte per ottenere lo stesso risultato logico è uno degli obiettivi principali della progettazione logica digitale. Per i dispositivi elettronici, ciò consente di utilizzare più porte nello spazio limitato di un circuito integrato.
 

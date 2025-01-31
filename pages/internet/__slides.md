@@ -3,7 +3,7 @@ layout: cover
 hideInToc: false
 level: 1
 title: Internet con suoi pericoli
-background: /internet/images/terra.jpg
+background: /rete/images/terra.jpg
 
 ---
 

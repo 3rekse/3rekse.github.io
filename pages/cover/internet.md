@@ -12,7 +12,7 @@ TML Presentation Framewo# Scopri HTON ?
 
 ## HyperText Omar Networking
 
-Tutto su Internet sugli ipertesti e il networking !   
+Tutto su Internet sugli ipertesti e il networking !
 
 <!-- Add date to bottom of the page -->
 <div class="absolute bottom-0 ">
@@ -136,7 +136,7 @@ Contatore Binario
 level: 3
 title: Key
 layout: image-right
-image: /internet/images/slides/intro/the-course/developer.jpg
+image: /rete/images/slides/intro/the-course/developer.jpg
 
 ---
 

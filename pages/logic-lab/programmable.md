@@ -22,13 +22,13 @@ level: 3
  L'idea fisica di utilizzare la tua scheda come un PLD è la seguente:
 ::left::
 Gli input logici per `A` e `B` sono collegati ai pin di input digitali. L'output risultante `Q` è collegato a un pin di output digitale. Possiamo fare una rappresentazione generale della tua scheda come un PLD selezionando alcuni pin digitali da utilizzare come input e output per la nostra logica programmabile.
-![Scheda con due input logici e un output](/internet/images/logic-lab/pld/cpx-pld.png)
+![Scheda con due input logici e un output](/rete/images/logic-lab/pld/cpx-pld.png)
 
 
 ::right::
 "Collegando" i pin insieme con il codice, possiamo programmare porte logiche virtuali e far agire la scheda come un PLD. Con più pin e un po' più di codice, possiamo anche creare un circuito logico combinato.
 
-![Combinatorial XOR first version](/internet/images/logic-lab/pld/not-and-or.png)
+![Combinatorial XOR first version](/rete/images/logic-lab/pld/not-and-or.png)
 
 ---
 title: Logic observer
@@ -70,9 +70,9 @@ pins.A1.digitalWrite((!pins.A4.digitalRead()))
 
 ::right::
 
-![NOT gate with pin assignments](/internet/images/logic-lab/pld/not-gate-pins.png)
+![NOT gate with pin assignments](/rete/images/logic-lab/pld/not-gate-pins.png)
 
-![NOT gate wiring diagram](/internet/images/logic-lab/pld/not-gate-pld.png)
+![NOT gate wiring diagram](/rete/images/logic-lab/pld/not-gate-pld.png)
 
 ---
 layout: two-cols-header
@@ -83,9 +83,9 @@ level: 3
 ## Programmable OR gate
 
 ::right::
-![OR gate with pin assignments](/internet/images/logic-lab/pld/or-gate-pins.png)
+![OR gate with pin assignments](/rete/images/logic-lab/pld/or-gate-pins.png)
 
-![OR gate wiring diagram](/internet/images/logic-lab/pld/or-gate-pld.png)
+![OR gate wiring diagram](/rete/images/logic-lab/pld/or-gate-pld.png)
 
 ::left::
 
@@ -125,9 +125,9 @@ pins.A3.digitalWrite(pins.A4.digitalRead() && pins.A7.digitalRead())
 
 ::right::
 
-![AND gate with pin assignments](/internet/images/logic-lab/pld/and-gate-pins.png)
+![AND gate with pin assignments](/rete/images/logic-lab/pld/and-gate-pins.png)
 
-![AND gate wiring diagram](/internet/images/logic-lab/pld/and-gate-pld.png)
+![AND gate wiring diagram](/rete/images/logic-lab/pld/and-gate-pld.png)
 
 ---
 title: Combined logic 
@@ -206,11 +206,11 @@ let Q = (!A && B) || (A && !B)
 
 Creeremo una porta **XOR** programmando un dispositivo logico combinato per essa. Questa volta diciamo che l'intera @boardname@ è una porta **XOR** programmata.
 
-![XOR symbol with board image](/internet/images/logic-lab/pld/xor-cpx.png)
+![XOR symbol with board image](/rete/images/logic-lab/pld/xor-cpx.png)
 
 Useremo lo stesso schema di cablaggio che abbiamo utilizzato per la porta **OR** utilizzando **A4** e **A7** come pin di input con **A2** collegato al pin osservatore **A6**.
 
-![XOR gate wiring diagram](/internet/images/logic-lab/pld/xor-gate-pld.png)
+![XOR gate wiring diagram](/rete/images/logic-lab/pld/xor-gate-pld.png)
 
 ---
 layout: two-cols-header

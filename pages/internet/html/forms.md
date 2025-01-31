@@ -14,7 +14,7 @@ Marcatura dei moduli HTML
 title: Moduli
 level: 4
 layout: image-right
-image: /internet/images/slides/html/forms/form.jpg
+image: /rete/images/slides/html/forms/form.jpg
 ---
 
 # Vogliamo i tuoi input
@@ -450,7 +450,7 @@ Note slide:
 title: Risorse sui moduli
 level: 4
 layout: image-right
-image: /internet/images/slides/html/forms/confused.jpg
+image: /rete/images/slides/html/forms/confused.jpg
 ---
 
 
