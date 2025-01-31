@@ -82,6 +82,7 @@ title: Welcome
 layout: cover
 level: 3
 title: Welcome
+background: https://static.euronews.com/articles/stories/07/54/09/08/1920x1080_cmsv2_33d95b5a-bf91-5f79-b0a0-0c15137a5d45-7540908.jpg
 
 ---
 
@@ -92,6 +93,8 @@ title: Welcome
 **Studente-11:** 🤔 *"Wow, mi sento come in un film di fantascienza. Ma forse hai ragione: il confine lo costruiamo noi."*
 
 **Studente-12:** 😊 *"Sì, alla fine ciò che conta è come usiamo ciò che è artificiale per migliorare la nostra vita reale."*  
+
+[Boris Eldagsen 2023](https://it.euronews.com/cultura/2023/04/20/boris-eldagsen-rifiuta-il-premio-la-mia-opera-generata-dallia)
 
 ---
 layout: cover

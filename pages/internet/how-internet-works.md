@@ -8,14 +8,14 @@ level: 2
 
 Le basi di come funziona il web
 
-
-
 ---
 title: Indice per Come funziona Internet
 level: 3
+
 ---
 
 # Cosa viene trattato in questa sezione
+
 Dal collegamento del computer al caricamento del sito web
 
 * Come avviene la magia 🧙
