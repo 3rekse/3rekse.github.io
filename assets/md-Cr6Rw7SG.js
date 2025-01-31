@@ -1,0 +1,10 @@
+import{_ as o}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-CqHBehly.js";import{o as p,c as u,k as l,e,l as m,m as d,ac as a,q as c,s as f,B as n}from"./modules/vue-C12uiUEh.js";import{_ as k}from"./slidev/cover.vue_vue_type_script_setup_true_lang-CZW1vlA2.js";import{u as g,f as v}from"./slidev/context-CwiCxT4t.js";import"./modules/unplugin-icons-DJgmUv7V.js";import"./index-2AyV7bxw.js";import"./modules/shiki-BBIst5IO.js";const I={__name:"ilcomputer.md__slidev_129",setup(b){const{$slidev:_,$nav:$,$clicksContext:i,$clicks:x,$page:B,$renderContext:C,$frontmatter:t}=g();return i.setup(),(h,s)=>{const r=o;return p(),u(k,c(f(n(v)(n(t),128))),{default:l(()=>[s[1]||(s[1]=e("h3",null,"🧠 Omarillo-4 - Neurone di Intelligenza Naturale",-1)),s[2]||(s[2]=e("h2",null,"Certo, probabilmente per loro sarà complicato!",-1)),s[3]||(s[3]=e("h3",null,"ALLORA Inizierei con le tabelle di conversione a 3 bit per l’ottale e a 4 bit per l’esadecimale. Queste tabelle ci aiutano a convertire rapidamente tra i vari sistemi di numerazione.",-1)),s[4]||(s[4]=e("h3",null,"Tabella di Conversione a 3 Bit (Ottale)",-1)),s[5]||(s[5]=e("h3",null,"3 Bit -> Ottale",-1)),m(r,d({},{ranges:[]}),{default:l(()=>s[0]||(s[0]=[e("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[e("code",{class:"language-text"},[e("span",{class:"line"},[e("span",null,"Binario  | Ottale")]),a(`
+`),e("span",{class:"line"},[e("span",null,"---------|-------")]),a(`
+`),e("span",{class:"line"},[e("span",null,"000      | 0")]),a(`
+`),e("span",{class:"line"},[e("span",null,"001      | 1")]),a(`
+`),e("span",{class:"line"},[e("span",null,"010      | 2")]),a(`
+`),e("span",{class:"line"},[e("span",null,"011      | 3")]),a(`
+`),e("span",{class:"line"},[e("span",null,"100      | 4")]),a(`
+`),e("span",{class:"line"},[e("span",null,"101      | 5")]),a(`
+`),e("span",{class:"line"},[e("span",null,"110      | 6")]),a(`
+`),e("span",{class:"line"},[e("span",null,"111      | 7")])])],-1)])),_:1},16)]),_:1},16)}}};export{I as default};
