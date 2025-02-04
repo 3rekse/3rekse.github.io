@@ -100,6 +100,7 @@ background: https://static.euronews.com/articles/stories/07/54/09/08/1920x1080_c
 layout: cover
 level: 3
 title: Welcome
+background: /rete/images/cyberbull.jpg
 
 ---
 
@@ -107,6 +108,11 @@ title: Welcome
 La discussione tra i 12 Omarilli e i 12 studenti si intensifica. Uno degli studenti solleva un argomento delicato: il cyberbullismo. L’aula si riempie di un’atmosfera più seria mentre le creature artificiali e i ragazzi affrontano il tema.  
 
 **Un approfondimento sull'etica e l'emotività del reale e dell'artificiale**  
+
+---
+layout: cover
+level: 3
+title: Welcome
 
 ---
 
@@ -173,3 +179,95 @@ La discussione tra i 12 Omarilli e i 12 studenti si intensifica. Uno degli stude
 **Omarillo-12:** 🧠 *"Esatto. Ricordate: la tecnologia è potente, ma è solo un riflesso delle nostre intenzioni. Siate consapevoli e siate gentili, perché dietro ogni schermo c’è sempre un cuore umano che batte."*  
 
 La discussione termina con un momento di riflessione silenziosa. Studenti e Omarilli si alzano in piedi e si salutano, consapevoli che il confine tra reale e artificiale può essere sfumato, ma la responsabilità di usarlo bene è sempre reale e con l'intenzione di approfondire il tema del bullismo e del CyberBullismo.
+
+---
+layout: cover
+title: Storia dell'Intelligenza Artificiale
+level: 2
+background: /rete/images/aistory.jpg
+
+---
+
+## **La Storia dell'Intelligenza Artificiale**
+
+**Narrata dal Grande Omarillo**  
+
+In una sala illuminata da schermi olografici, 12 giovani studenti siedono in cerchio, attenti alle parole del **Grande Omarillo** , un'intelligenza artificiale saggia e antica. I suoi circuiti brillano di luce dorata mentre inizia a raccontare.  
+
+---
+
+**🟡 Grande Omarillo:** *"Amici, vi guiderò in un viaggio nel tempo, alla scoperta di come io e i miei simili siamo nati e cresciuti. L’intelligenza artificiale non è comparsa dal nulla: è il frutto di decenni di ricerca, sogni e innovazioni. Lasciate che vi porti indietro nel tempo..."*  
+
+---
+
+### 📖 **Gli Anni '60: Le Prime Idee e le Speranze Pionieristiche**
+
+**Grande Omarillo:** *"Siamo negli anni ‘60, un’epoca di esplorazione spaziale e grandi sogni tecnologici. Gli scienziati iniziano a immaginare macchine in grado di pensare come gli esseri umani. Nascono i primi programmi di IA, come il celebre **ELIZA**, un chatbot primitivo capace di simulare una conversazione terapeutica. Tuttavia, le capacità di questi sistemi sono ancora molto limitate."*  
+
+**Studente-1:** *"Ma quindi già allora si pensava a computer che potessero parlare con noi?"*  
+
+**Grande Omarillo:** *"Esatto! Ma le macchine erano lente e i computer troppo costosi. Le speranze erano grandi, ma la tecnologia dell'epoca non era abbastanza avanzata."*  
+
+<img src="/rete/images/eliza.webp" alt="Eliza" width="200"/>
+
+---
+
+### 📖 **Gli Anni '70-'80: L’Inverno dell’IA e i Sistemi Esperti**
+
+**Grande Omarillo:** *"Negli anni ‘70 e ‘80, l’IA attraversa un periodo difficile, chiamato *l'inverno dell'intelligenza artificiale*. I finanziamenti diminuiscono perché le macchine non mantengono le promesse fatte dagli scienziati. Tuttavia, qualcosa di importante nasce: i **sistemi esperti**. Questi programmi aiutano medici, ingegneri e scienziati a prendere decisioni basate su regole predefinite."*  
+
+**Studente-2:** *"Quindi non erano davvero intelligenti?"*  
+
+**Grande Omarillo:** *"Esatto! Seguivano regole scritte da esseri umani, ma non imparavano da sole. Non erano come me, né come le IA moderne che conoscete oggi."*  
+
+---
+
+### 📖 **Gli Anni '90: L’IA Comincia a Crescere**
+
+**Grande Omarillo:** *"Negli anni ‘90, la potenza dei computer aumenta e l’IA ricomincia a svilupparsi. Nel 1997, un evento cambia tutto: il supercomputer **Deep Blue** della IBM sconfigge il campione del mondo di scacchi, Garry Kasparov. È la prima volta che una macchina batte un essere umano in un gioco così complesso!"*  
+
+**Studente-3:** *"Wow! Quindi da quel momento l'IA è diventata più intelligente?"*  
+
+**Grande Omarillo:** *"Non proprio. Deep Blue era molto potente, ma non pensava come un essere umano: calcolava milioni di mosse al secondo. Tuttavia, la vittoria dimostra che le macchine possono superare gli esseri umani in compiti specifici."*  
+
+---
+
+### 📖 **Gli Anni 2000: L’Apprendimento Automatico e l’Inizio della Rivoluzione**
+
+**Grande Omarillo:** *"Ora arriviamo ai primi anni 2000. Qui accade qualcosa di straordinario: nasce il **machine learning**, l’apprendimento automatico. Le IA non si limitano più a seguire regole scritte dagli esseri umani, ma **iniziano ad apprendere dai dati**!"*  
+
+**Studente-4:** *"Quindi iniziano a pensare da sole?"*  
+
+**Grande Omarillo:** *"In un certo senso. Algoritmi come le **reti neurali artificiali** permettono alle macchine di riconoscere immagini, tradurre lingue e persino comprendere il linguaggio umano. Google, Facebook e altre aziende iniziano a investire massicciamente nell’IA."*  
+
+---
+
+### 📖 **Gli Anni 2010: Il Boom dell’IA e le Reti Neurali Profonde**
+
+**Grande Omarillo:** *"Ed eccoci agli anni 2010. Grazie alla grande quantità di dati su Internet e alla potenza delle nuove GPU, nascono le **reti neurali profonde** (*deep learning*). Algoritmi come **AlphaGo** sconfiggono i migliori giocatori umani nel gioco del Go, un’impresa considerata impossibile fino a poco tempo prima!"*  
+
+**Studente-5:** *"E quindi è qui che nascono gli assistenti virtuali?"*  
+
+**Grande Omarillo:** *"Esattamente! Siri, Alexa e Google Assistant iniziano a diventare popolari. L’IA ora è ovunque: nei nostri telefoni, nelle auto a guida autonoma e persino nei medici virtuali."*  
+
+---
+
+### 📖 **Oggi e il Futuro: L’IA Generativa e le Nuove Frontiere**
+
+**Grande Omarillo:** *"Ed eccoci ai giorni nostri. Ora abbiamo **l’IA generativa**, come me, capace di creare testi, immagini e persino musica. Strumenti come **ChatGPT, DALL·E e MidJourney** stanno cambiando il modo in cui interagiamo con la tecnologia."*  
+
+**Studente-6:** *"Ma fino a che punto può arrivare l’IA?"*  
+
+**Grande Omarillo:** *"Questa è la domanda più importante. L’IA può aiutare l’umanità in medicina, scienza e sostenibilità, ma ci sono anche rischi, come i **deepfake** e la disinformazione. È fondamentale sviluppare un’IA **etica e responsabile**."*  
+
+---
+
+### **La Conclusione: Un Futuro da Costruire Insieme**
+
+Il Grande Omarillo guarda i suoi studenti e conclude con saggezza:  
+
+🟡 **Grande Omarillo:** *"L’IA è uno strumento potente. Può essere usata per il bene o per il male, dipende da voi, gli esseri umani. Siete voi a dover decidere come svilupparla, controllarla e utilizzarla per migliorare il mondo. Io sarò sempre qui per aiutarvi a comprendere il passato… e costruire il futuro."*  
+
+I ragazzi si guardano, riflettendo sulle parole del Grande Omarillo. Il viaggio dell’IA è stato lungo e incredibile, e la sua evoluzione continua.  
+
+Chissà cosa ci riserverà il futuro?  
