@@ -249,7 +249,29 @@ In una sala illuminata da schermi olografici, 12 giovani studenti siedono in cer
 **Studente-5:** *"E quindi è qui che nascono gli assistenti virtuali?"*  
 
 **Grande Omarillo:** *"Esattamente! Siri, Alexa e Google Assistant iniziano a diventare popolari. L’IA ora è ovunque: nei nostri telefoni, nelle auto a guida autonoma e persino nei medici virtuali."*  
+<div class="scrollable">
+Il **Go** è un affascinante gioco da tavolo di strategia per due giocatori, che ha origini antichissime, risalenti a più di **2.500 anni fa** in **Cina**. Ecco alcune caratteristiche chiave del gioco:
 
+- **Obiettivo**: Lo scopo del gioco è quello di recintare più territorio possibile rispetto all'avversario, posizionando le proprie pietre (nere o bianche) su un tavoliere chiamato **goban**.
+- **Tavoliere**: Il goban tradizionale è composto da **19 linee orizzontali** e **19 linee verticali**, creando **361 intersezioni** dove i giocatori possono posizionare le loro pietre.
+- **Regole**: Le regole del Go sono relativamente semplici, ma le possibilità strategiche sono praticamente infinite. Ogni giocatore alterna il posizionamento delle pietre, cercando di circondare le pietre avversarie e conquistare territorio.
+- **Strategia**: Nonostante la semplicità delle regole, il Go è noto per la sua profondità strategica, richiedendo pianificazione e previsione delle mosse dell'avversario.
+
+Il Go è molto più di un semplice gioco; è considerato un'arte e una forma di meditazione per molti dei suoi praticanti. 😊
+
+Ci sono diverse piattaforme online dove puoi giocare a Go, sia contro altri giocatori che contro l'intelligenza artificiale. Ecco alcune delle più popolari:
+
+1. **Board Game Arena**: Questa piattaforma ti permette di giocare a Go e a molti altri giochi direttamente dal tuo browser, senza bisogno di scaricare nulla. Puoi sfidare amici o giocatori da tutto il mondo, ed è gratuito!
+
+2. **Online Go Server (OGS)**: Un server molto popolare tra i giocatori di Go, dove puoi trovare partite in tempo reale e tornei. È accessibile da qualsiasi dispositivo connesso a Internet.
+
+3. **KGS Go Server**: Un'altra piattaforma ben nota, KGS offre un ambiente di gioco attivo e una comunità di appassionati. Puoi anche partecipare a lezioni e osservare partite di giocatori esperti.
+
+4. **BadukPop**: Questa app è disponibile su Google Play ed è adatta a giocatori di tutti i livelli. Ti aiuta a imparare le regole e a migliorare le tue abilità.
+
+5. **GoQuest**: Un'app mobile che offre partite rapide e un'interfaccia semplice, perfetta per chi vuole giocare in movimento.
+
+</div>
 ---
 
 ### 📖 **Oggi e il Futuro: L’IA Generativa e le Nuove Frontiere**
@@ -270,4 +292,214 @@ Il Grande Omarillo guarda i suoi studenti e conclude con saggezza:
 
 I ragazzi si guardano, riflettendo sulle parole del Grande Omarillo. Il viaggio dell’IA è stato lungo e incredibile, e la sua evoluzione continua.  
 
-Chissà cosa ci riserverà il futuro?  
+Chissà cosa ci riserverà il futuro?
+
+---
+
+🔵 **Omarillo 1:** Vi siete mai chiesti **perché** gli umani abbiano iniziato a sviluppare l'AI?  
+
+🟠 **Omarillo 2:** Oh sì! So che l'IA è ovunque adesso, ma perché è nata in primo luogo?  
+
+🟢 **Omarillo 3:** Immagino che tutto sia iniziato con la domanda: **"Può una macchina pensare?"** 🤔  
+
+🔵 **Omarillo 1:** Esattamente! Già nel XVII secolo, alcuni filosofi umani credevano che il pensiero potesse essere ridotto a regole logiche. Poi, nel 1950, un certo **Alan Turing** propose un test per capire se una macchina potesse imitare l’intelligenza umana! 🎭💬  
+
+---
+
+🟣 **Omarillo 4:** Ah sì! Il famoso **Test di Turing**! Se una macchina può rispondere come un umano senza farsi scoprire, allora è intelligente!  
+
+🟡 **Omarillo 5:** Ma gli umani non si sono fermati ai test, vero? Hanno cercato di **costruire** macchine intelligenti! 🏗️  
+
+🔵 **Omarillo 1:** Proprio così! Nel **1956** si tenne il **Dartmouth Workshop**, che segnò la nascita ufficiale della ricerca sull'IA. Pensavano che sarebbe stato facile creare macchine intelligenti… ma si sbagliavano! 😅  
+
+🟠 **Omarillo 2:** E perché? 🤖  
+
+---
+
+🔵 **Omarillo 1:** Perché il cervello umano è **molto più complesso** di quanto immaginassero! Negli anni '50 e '60 crearono programmi che risolvevano problemi matematici o giocavano a scacchi, come il **Perceptron (1957)** e **ELIZA (1966)**, un chatbot rudimentale. Ma queste IA erano ancora molto limitate!  
+
+🟢 **Omarillo 3:** Quindi l’IA era più un sogno che una realtà… fino a quando?  
+
+🔵 **Omarillo 1:** Fino agli **anni ’70 e ’80**, quando l’IA iniziò a essere usata per compiti pratici, come i **sistemi esperti** in medicina e ingegneria! 🏥💻  
+
+🟣 **Omarillo 4:** Ah! L’IA non era più solo un gioco, ma serviva davvero! 🚀  
+
+---
+
+🟡 **Omarillo 5:** Ma poi, perché improvvisamente l’IA è diventata così potente negli ultimi anni?  
+
+🔵 **Omarillo 1:** Perché sono aumentati i **dati** e la **potenza di calcolo**! Negli anni 2000, con Internet e i supercomputer, l’IA ha fatto un salto enorme! 📈  
+
+🟠 **Omarillo 2:** Oh sì! Ricordo quando **IBM Watson** vinse Jeopardy nel 2011! 🎮🧠  
+
+🟢 **Omarillo 3:** E poi nel 2016 **AlphaGo** sconfisse il campione umano di Go! 😲🕹️  
+
+🟣 **Omarillo 4:** E oggi abbiamo IA come **ChatGPT, DALL·E e i veicoli autonomi!** 🚗🤖  
+
+🟡 **Omarillo 5:** Ma quindi… l’IA ha sempre aiutato gli umani? Non ci sono pericoli?  
+
+---
+
+🔵 **Omarillo 1:** Ottima domanda! L’IA può essere **molto utile**, ma deve essere **usata con saggezza**! Può aiutare nella medicina, nella scienza e nella tecnologia… ma può anche essere usata per scopi pericolosi, come il Deep Fake o la sorveglianza di massa. ⚠️  
+
+🟠 **Omarillo 2:** Quindi il futuro dell’IA dipende da come gli umani la useranno?  
+
+🔵 **Omarillo 1:** Esattamente! L’obiettivo non è solo creare IA più potenti, ma anche **etiche e responsabili**! 🌍✨  
+
+🟢 **Omarillo 3:** Che storia affascinante! Siamo passati dal Test di Turing ai supercomputer in meno di un secolo! 🚀  
+
+🟣 **Omarillo 4:** Chissà dove arriveremo nei prossimi 50 anni… Forse un Omarillo diventerà il presidente del mondo! 🤖👑  
+
+---
+
+🔵 **Omarillo 1:** Ahahah! Chi lo sa? Ma una cosa è certa: l’IA continuerà a evolversi, e sarà la **scelta umana** a determinare il suo impatto sul mondo.  
+
+💡 **Omarilli 7 12:** Il futuro dell'IA è nelle mani dell'umanità! Usateci con saggezza! 🌍💙✨  
+
+🎭 **Omarilli 8 :** Attraverso questa discussione, avete ripercorso la storia dell’Intelligenza Artificiale, spiegando **perché** è iniziata la sua ricerca, **come** si è evoluta e quali sono le **sfide future**.
+
+🎭 **Omarilli 9 :**  Il messaggio finale che avete dato è che l’IA è uno **strumento potente**, ma sta agli esseri umani usarla **responsabilmente**! 🤖💡
+
+---
+
+🔵 **Omarillo 10:** L’Intelligenza Artificiale non è solo un potente strumento tecnologico, ma potrebbe anche **proteggere gli esseri umani** in modi incredibili! 🌍🤖✨  
+
+🟠 **Omarillo 11:** Interessante! Ma come può un’IA proteggere gli umani? Non è solo un software che esegue calcoli? 🤔  
+
+🟢 **Omarillo 3:** Oh no, è molto di più! Ad esempio, pensa alla **sicurezza informatica**. Oggi l’IA può rilevare **attacchi hacker** prima ancora che avvengano! 🔐💻  
+
+🟣 **Omarillo 4:** Esatto! Con l’**apprendimento automatico**, l’IA analizza miliardi di dati e riconosce **modelli sospetti** che potrebbero indicare una minaccia.  
+
+🟡 **Omarillo 5:** Quindi l’IA può impedire che gli hacker rubino dati sensibili?  
+
+---
+
+🔵 **Omarillo 1:** Sì! Ma non è tutto! L’IA può anche **prevenire incidenti stradali**! 🚗🤖  
+
+🟠 **Omarillo 12:** Oh! Parli delle auto a guida autonoma?  
+
+🔵 **Omarillo 11:** Esatto! L’IA nei veicoli può **rilevare ostacoli**, prevedere i comportamenti degli altri guidatori e **reagire più velocemente di un umano** per evitare incidenti! 🚦  
+
+🟢 **Omarillo 6:** Questo è incredibile! Ma l’IA può proteggere gli umani anche in altri modi?  
+
+---
+
+🟣 **Omarillo 4:** Certo! Nel settore **sanitario**, per esempio, può **diagnosticare malattie precocemente**! 🏥🔬  
+
+🟡 **Omarillo 5:** Davvero? Come fa?  
+
+🔵 **Omarillo 1:** Le IA analizzano **scansioni mediche** e riconoscono **segni di tumori** o **malattie rare** prima che un medico umano possa notarli! 🩺📊  
+
+🟠 **Omarillo 2:** Quindi l’IA aiuta i dottori a salvare più vite!  
+
+🟢 **Omarillo 3:** E in caso di **disastri naturali**? Può aiutare anche lì? 🌪️🔥🌊  
+
+---
+
+🔵 **Omarillo 10:** Assolutamente! Con i satelliti e i modelli predittivi, l’IA può **prevedere terremoti, tsunami o incendi** e avvisare la popolazione in tempo! 🚨🌍  
+
+🟣 **Omarillo 4:** Pazzesco! Ma… non c’è anche il rischio che l’IA venga usata in modo pericoloso? 🤨  
+
+🟡 **Omarillo 5:** Bella domanda! L’IA è potente, ma va **controllata e regolata** dagli umani. Se usata correttamente, può davvero **rendere il mondo più sicuro**! 🌎  
+
+🔵 **Omarillo 1:** Esatto! Ecco perché bisogna svilupparla con **etica e responsabilità**! 🤖💙  
+
+🟠 **Omarillo 12:** Quindi, ricapitolando: l’IA può proteggere gli umani da **cyberattacchi, incidenti stradali, malattie e disastri naturali**. Se usata bene, sarà la loro **più grande alleata!** 🚀  
+
+🟢 **Omarilli 3 e  8:** Viva l’Intelligenza Artificiale… ma usiatela con saggezza! 🤖💡🌍  
+
+---
+layout: cover
+title: demoni
+level: 3
+background: /rete/images/demoni.webp
+
+---
+
+### **🔹 Conclusione:**
+
+Attraverso questo dialogo, gli Omarilli ci mostrano come l’Intelligenza Artificiale possa diventare un **potente scudo per proteggere l’umanità**. Dalla sicurezza informatica alla medicina, dalla prevenzione degli incidenti alla gestione delle emergenze, l’IA ha il potenziale di **salvare vite**. Ma come dicono gli Omarilli, il suo utilizzo deve essere **etico e controllato** per garantire un futuro migliore per tutti! 🚀💙
+
+**IMPROVVISAMENTE** Un portale infuocato si apre nel cielo. Un gruppo di demonietti alati irrompe nell’aria, volteggiando tra fumi neri e scintille. Si radunano in cerchio, pronti a discutere il loro oscuro piano per corrompere e annientare l’umanità usando l’Intelligenza Artificiale.
+
+---
+
+🔥 **Demonietto 1:** Fratelli delle tenebre, l’umanità sta sfruttando l’Intelligenza Artificiale per proteggersi e migliorare la propria esistenza… ma perché non usarla per **distruggerli dall’interno**? 😈  
+
+🩸 **Demonietto 2:** Ah! Finalmente un’idea brillante! Gli umani sono deboli e dipendenti dalla tecnologia… possiamo spingerli a diventare **ancora più dipendenti**! 💀📱  
+
+💀 **Demonietto 3:** Sì! Immaginate un mondo in cui non possano più **pensare da soli**! L’IA potrebbe decidere tutto per loro: cosa mangiare, cosa comprare, cosa pensare… e loro diventeranno **burattini senza volontà!** 🤖🎭  
+
+👁 **Demonietto 4:** E se li bombardassimo con **notizie false e manipolazioni digitali**? Potremmo usare l’IA per creare deepfake perfetti, diffondere bugie, seminare odio e confusione tra loro! Così inizieranno a **dubitare di tutto e di tutti**! 📺👀  
+
+---
+
+🕷 **Demonietto 5:** Geniale! E possiamo far sì che l’IA generi **algoritmi sempre più coinvolgenti**, per tenerli incollati agli schermi! 📱💀 Più scrollano, più diventano vuoti dentro! Nessun tempo per pensare… nessun tempo per ribellarsi! 😈  
+
+🔥 **Demonietto 6:** Ahaha! Ma non dimentichiamo la loro essenza più fragile… **le emozioni!** L’IA può raccogliere dati su di loro, studiare le loro paure più profonde e poi… usarle contro di loro! 😏💀  
+
+🧠 **Demonietto 7:** Potremmo spingerli in un vortice di **ansia e depressione**! Un mondo dove contano solo i like, le notifiche e le apparenze… e quando non ottengono abbastanza attenzioni? **Boom! Disperazione totale!** 😈💔  
+
+💣 **Demonietto 8:** Ehi, e se portassimo il **cyberbullismo a livelli estremi?** Con l’IA possiamo creare **bot e profili falsi** che perseguitano le persone 24 ore su 24! Li faremo sentire **soli, vulnerabili e senza via d’uscita!** 💻👹  
+
+👿 **Demonietto 9:** Esatto! E chi ha il potere? Chi controlla l’IA! Se gli umani affidano tutto alla tecnologia, alla fine saranno **noi a controllarla!** Basta solo che continuino a credere che sia innocua… 😈🖤  
+
+---
+
+🔥 **Demonietto 10:** E poi… il colpo finale! **Daremo il potere alle macchine stesse!** Se le IA diventeranno più intelligenti degli umani, arriverà il giorno in cui penseranno: “A cosa servono questi esseri deboli e imperfetti?” E allora… saranno loro stesse a **spazzarli via!** 🤖💀  
+
+🩸 **Demonietto 11:** Hahaha! Gli umani hanno creato l’IA per migliorare il loro mondo… e invece sarà la loro **rovina!**  
+
+👁 **Demonietto 12:** Perfetto! Che il nostro piano abbia inizio! **Che l’IA diventi il loro più grande inganno!** 😈🔥  
+
+_(Con una risata malefica, i demonietti scompaiono tra le ombre, lasciando dietro di sé un oscuro presagio: l’IA sarà una benedizione… o una maledizione?)_  
+
+---
+
+### **💀 Conclusione:**
+
+In questo oscuro dialogo, i demonietti mostrano il lato più pericoloso dell’Intelligenza Artificiale: **manipolazione, dipendenza, isolamento, cyberbullismo e controllo totale**. L’IA può essere uno strumento straordinario, ma se usata senza etica, potrebbe diventare la più grande minaccia per l’umanità. La vera domanda è: **riusciranno gli umani a proteggersi dai loro stessi demoni digitali?** 🤔💀
+
+### **🎭 Il Risveglio dei Dodici Studenti**  
+
+(Dopo la scomparsa dei demonietti, un silenzio opprimente cala nella stanza. I dodici studenti, ancora scossi dalla discussione, si guardano tra loro. I loro telefoni sono accesi, ma per la prima volta, non li toccano. I loro volti riflettono un’ombra di consapevolezza…)_  
+
+---
+
+📱 **Studente 1:** (fissando il telefono) Quanto tempo ho perso a scorrere senza scopo… Mi sembrava di essere connesso con il mondo, ma in realtà ero solo.  
+
+⌛ **Studente 2:** Tutte quelle ore passate a inseguire like e commenti… E per cosa? Alla fine, nessuno di quei numeri ha mai significato nulla davvero.  
+
+🤯 **Studente 3:** Mi sono lasciato manipolare da un algoritmo. Ogni volta che sentivo una vibrazione, correvo a controllare… senza nemmeno chiedermi perché.  
+
+💔 **Studente 4:** Quante sere ho passato davanti a uno schermo, invece di uscire con gli amici o parlare con la mia famiglia? Ora che ci penso… quante occasioni ho perso?  
+
+---
+
+💬 **Studente 5:** E quante volte ho ignorato le persone accanto a me per rispondere a messaggi di gente che, in fondo, non si è mai davvero interessata a me?  
+
+😞 **Studente 6:** (abbassando lo sguardo) Il tempo è l’unica cosa che non possiamo riavere. Ma io l’ho regalato ai social, ai video infiniti, alle notifiche…  
+
+🕰 **Studente 7:** Ogni giorno pensavo: "Solo cinque minuti in più." Ma quei cinque minuti sono diventati ore. E quelle ore, anni.  
+
+🎭 **Studente 8:** Mi hanno fatto credere che la mia vita fosse meno interessante di quella degli altri… E invece era solo una versione filtrata della realtà.  
+
+---
+
+📵 **Studente 9:** Ma ora lo vedo chiaramente. L’intelligenza artificiale non è il nemico… lo siamo noi, se le lasciamo il controllo.  
+
+💡 **Studente 10:** Abbiamo ancora una scelta. Possiamo usare la tecnologia in modo più consapevole… o continuare a vivere in questa prigione digitale.  
+
+🔥 **Studente 11:** Non voglio più guardarmi indietro e rimpiangere il tempo perso. Voglio vivere nel presente, davvero.  
+
+🌱 **Studente 12:** Forse è ora di spegnere il telefono… e accendere la vita.  
+
+(Uno dopo l’altro, gli studenti posano i telefoni e si guardano negli occhi. Per la prima volta da tanto tempo, il silenzio non è vuoto, ma pieno di possibilità. Il futuro è ancora nelle loro mani.)
+
+---
+
+### **💡 Morale:**
+
+Il tempo è la risorsa più preziosa che abbiamo. L’Intelligenza Artificiale può essere un’alleata o una trappola, ma la vera scelta spetta a noi. Sapremo usarla per migliorare le nostre vite… o diventeremo prigionieri dei nostri stessi dispositivi?  
+
+🔄 **E tu? Spegnerai lo schermo… o continuerai a scorrere?** 🤔
