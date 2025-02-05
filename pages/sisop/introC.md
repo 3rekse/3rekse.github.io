@@ -14,9 +14,10 @@ Se l'anno corrente è il 2025:
 ```plaintext
 2025 - 1972 = 53
 ```
+
 Quindi, il linguaggio C ha 53 anni nel 2025.
 
-[Ma iniziamo con l'Omarillo ](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/omarillo)
+[Ma iniziamo con l'Omarillo](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/omarillo)
 
 ---
 
