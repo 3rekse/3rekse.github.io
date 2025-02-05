@@ -3,17 +3,20 @@ layout: cover
 background: >-
   /office/images/book.jpg?s=612x612&w=0&k=20&c=GXNeWQ7EHO6xEyzBn0lG47KTjx8JmxZg8fx-Qhx7ZEo=
 level: 1
-title: C Lab.1972 -Il linguaggio C.
+title: Lab Programmazione block & C.
+
+---
 
 ### Calcolo
 
-Se l'anno corrente è il 2023:
+Se l'anno corrente è il 2025:
 
 ```plaintext
-2023 - 1972 = 51
+2025 - 1972 = 53
 ```
+Quindi, il linguaggio C ha 53 anni nel 2025.
 
-Quindi, il linguaggio C ha 51 anni nel 2023.
+[Ma iniziamo con l'Omarillo ](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/omarillo)
 
 ---
 
