@@ -3,7 +3,7 @@ layout: cover
 background: >-
   /office/images/book.jpg?s=612x612&w=0&k=20&c=GXNeWQ7EHO6xEyzBn0lG47KTjx8JmxZg8fx-Qhx7ZEo=
 level: 1
-title: Lab Programmazione block & C.
+title: Lab di Programmazione
 
 ---
 
@@ -17,11 +17,113 @@ Se l'anno corrente è il 2025:
 
 Quindi, il linguaggio C ha 53 anni nel 2025.
 
-[Ma iniziamo con l'Omarillo](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/omarillo)
+[Ma iniziamo con l'Omarillo Logo](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/omarillo)
 
 ---
 
-## Laboratorio: Tutorial
+![Omarillo Logo](https://raw.githubusercontent.com/3rekse/omarillo/master/icon.png)
+
+**Omarillo logo** è un linguaggio di programmazione visuale progettato per essere intuitivo e facile da usare, soprattutto per i principianti. Utilizza blocchi colorati che rappresentano diverse istruzioni di programmazione, che possono essere trascinati e incastrati insieme per creare script.
+
+Uno **script** è un insieme di istruzioni scritte in un linguaggio di programmazione o di scripting che viene eseguito da un interprete o da un motore di scripting. Gli script sono spesso utilizzati per automatizzare compiti ripetitivi, manipolare dati, controllare il comportamento di applicazioni software o creare contenuti dinamici per siti web.
+
+---
+
+Un algoritmo e uno script sono concetti correlati ma distinti nel campo della programmazione e dell'informatica.
+
+### Algoritmo
+
+Un algoritmo è una sequenza finita di istruzioni ben definite e non ambigue, progettate per risolvere un problema specifico o per eseguire un compito particolare.
+Gli algoritmi sono indipendenti dal linguaggio di programmazione e possono essere espressi in vari modi, come pseudocodice, diagrammi di flusso o descrizioni testuali.
+
+Esempio di algoritmo (in pseudocodice):
+
+```plaintext
+Algoritmo: Somma di due numeri
+1. Inizia
+2. Leggi il primo numero (a)
+3. Leggi il secondo numero (b)
+4. Calcola la somma (s = a + b)
+5. Stampa la somma (s)
+6. Fine
+```
+
+ORA TOCCA a VOI: Create in pseudocodice l'algoritmo che legge un numero intero, inizia a processare ogni sua cifra individualmente, ne calcola la divisione per 2 partendo dalla cifra più significativa, e costruisce il risultato ed il resto.
+
+---
+
+### Script
+
+Uno script è un insieme di istruzioni scritte in un linguaggio di programmazione o di scripting che viene eseguito da un interprete o da un motore di scripting. Gli script sono spesso utilizzati per automatizzare compiti ripetitivi, manipolare dati, controllare il comportamento di applicazioni software o creare contenuti dinamici per siti web.
+
+### Differenze principali
+
+- **Astrazione**: Un algoritmo è una descrizione astratta di un processo, mentre uno script è una concreta implementazione di un processo in un linguaggio di programmazione.
+- **Esecuzione**: Gli algoritmi non sono eseguibili direttamente; devono essere tradotti in codice eseguibile (come uno script) per essere eseguiti.
+- **Scopo**: Gli algoritmi sono utilizzati per risolvere problemi in modo generale e possono essere implementati in vari linguaggi, mentre gli script sono specifici per l'automazione di compiti in un contesto particolare.
+
+---
+
+Ecco alcune caratteristiche comuni degli script:
+
+1. **Automazione**: Gli script possono automatizzare operazioni che altrimenti richiederebbero intervento manuale.
+2. **Interpretabili**: Gli script sono generalmente eseguiti da un interprete piuttosto che compilati in codice macchina.
+3. **Facilità d'uso**: I linguaggi di scripting sono spesso progettati per essere facili da imparare e utilizzare.
+4. **Flessibilità**: Gli script possono essere modificati rapidamente per adattarsi a nuove esigenze o condizioni.
+
+---
+
+Esempi di linguaggi di scripting includono:
+
+- **JavaScript**: Utilizzato principalmente per lo sviluppo web.
+- **Python**: Utilizzato per una vasta gamma di applicazioni, dall'automazione alla scienza dei dati.
+- **Bash**: Utilizzato per la gestione e l'automazione dei sistemi Unix/Linux.
+- **PowerShell**: Utilizzato per la gestione e l'automazione dei sistemi Windows.
+
+---
+
+## Omarillo Logo è una estensione dall'idea di Mr-Coxall la turtle-logo
+
+![Omarillo Logo Blocks](https://raw.githubusercontent.com/3rekse/omarillo/master/assets/OmarilloBlocks.png)
+
+---
+
+### I blocchi di Omarillo
+
+Per i nostri studenti la mascotte Omarillo un neurone di intelligenza artificiale
+Gli omarilli sono degli organoidi cerebrali che i nostri studenti addestrano con **Omarillo Logo** il solo linguaggio che capiscono:
+
+- Lesson #1 → "Benvenuti all'I.T.I. Omar!" [YouTube](https://youtu.be/HW2zt7gOTXs) - [Arcade tutorial & restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson1)
+- Lesson #1 Advanced→ "Hello, World!"  [YouTube](https://youtu.be/qTC16Zdyr0s) - [Restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson1-advanced)
+- Lesson #2 → Omarillo si muove  [YouTube](https://youtu.be/6Iy0KVbIkzs) - [Arcade tutorial & restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson2)
+- Lesson #2 Advanced→ Moving Turtle    [YouTube](https://youtu.be/mutWUDvQsAo) - [Restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson2-advanced)
+- Lesson #3 → Omarillo si gira [YouTube](https://youtu.be/lnFRWyLXDUI) - [Arcade tutorial & restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson3)
+- Lesson #3 Advanced→ Turning Turtle   [YouTube](https://youtu.be/6zzq0y3baXo) - [Restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson3-advanced)
+- Lesson #4 → Omarillo con pastelli [YouTube](https://youtu.be/tOWJ47YGXX0) - [Arcade tutorial & restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson4)
+- Lesson #4 Advanced→ Pen color        [YouTube](https://youtu.be/XbgNxCnBZ1c) - [Restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson4-advanced)
+- Lesson #5 → Omarillo disegna [YouTube](https://youtu.be/sIrBfOgNz9k) - [Arcade tutorial & restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson5)
+- Lesson #5 Advanced→ Pen Up           [YouTube](https://youtu.be/ysTdV30WCdg) - [Restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson5-advanced)
+- Lesson #6 → Looping         [YouTube](https://youtu.be/xs2HbVJ8KQI) - [Arcade tutorial & restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson6)
+- Lesson #6 Advanced→ Looping          [YouTube](https://youtu.be/L8Mw3eyVer0) - [Restricted IDE](http://arcade.makecode.com/?lockedEditor=1#tutorial:https://github.com/3rekse/makecode-omarillo-logo-lesson6-advanced)
+
+---
+
+## Utilizza come estensione
+
+Questo repository può essere aggiunto come **estensione** in MakeCode.
+
+- apri [https://arcade.makecode.com/](https://arcade.makecode.com/)
+- clicca su **New Project**
+- clicca su **Extensions** nel menu della ruota dentata
+- cerca **https://github.com/3rekse/omarillo** e importa
+
+## I diagrammi di flusso
+
+[Una rappresentazione grafica degli algoritmi](http://fabrizio.phpnet.us/helpraptor/?i=1)
+
+---
+
+## Laboratorio: Tutorial C
 
 Un paio di consigli generali sulla programmazione: (se vuoi!)
 
