@@ -82,6 +82,8 @@ PIÈ DI PAGINA: copiare il testo (vedi risultato finale)
 
 Formattarlo in Verdana, prima riga dimensione 11 e le altre righe dimensione 10
 
+Centralo nella pagina
+
 INTESTAZIONE: inserire una clip art di una casa sul lago/fiume e una WordArt **(Menù Inserisci, Disegno, Nuovo, Azioni, WordArt)**
 
 ---
