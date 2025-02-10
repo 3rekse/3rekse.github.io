@@ -17,12 +17,12 @@ level: 3
 title: Inserimento testo
 
 ---
+
 ## Inserimento testo
 
 Scrivi il seguente testo così come è riportato:
 
 >Primi passi con un elaboratore di testi I programmi per l’elaborazione dei testi, word processor, sono di grande utilità nei settori più disparati della vita quotidiana: scuola, ufficio, tempo libero, ecc. Infatti, possono essere utilizzati per scrivere lettere, relazioni, circolari, articoli, libri, ricerche scolastiche, tesi di laurea, manifesti, schemi, pagine web. I software più diffusi per l’elaborazione di testi sono: Microsoft Word, Corel WordPerfect,Lotus Word Pro.
-
 
 ---
 level: 3
@@ -32,13 +32,14 @@ title: Interlinea & font
 
 ---
 
-
 <style>
 .two-cols-header {
   column-gap: 20px; /* aggiungi la tua dimensione desiderata qui */
 }
 </style>
+
 ## Interlinea & Font
+
 * Seleziona tutto il testo
 
 Ctrl+a
@@ -67,7 +68,6 @@ title: Grassetto & Dimensione font
 ---
 
 ## Grassetto & Dimensione font
-
 
 * Inserisci un a capo alla fine della frase
 
@@ -162,6 +162,7 @@ level: 3
 title: Controllo ortografico
 
 ---
+
 ## Esegui il controllo ortografico
 
 ![controlli](/office/images/primipassi/controlloortografico.png)
@@ -173,11 +174,13 @@ level: 3
 title: Margini e clip art  
 
 ---
+
 ## Margini
 
 ![margine](/office/images/primipassi/margine.png)
 
 * Imposta il margine sinistro della pagina a 4 cm e il margine destro a 3 cm
+  Il margine preciso si imposta (Menu File Impostazione pagina margini cm.)
 
 ![controlli](/office/images/primipassi/immagini.png)
 
@@ -207,7 +210,7 @@ title: Finale
 ---
 ::left::
 
-## RISULTATO FINALE 
+## RISULTATO FINALE
 
 ![primipassi](/office/images/primipassi/primipassi.png)
 
