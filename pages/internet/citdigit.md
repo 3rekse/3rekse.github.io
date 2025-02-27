@@ -227,6 +227,10 @@ Per calmare la coscienza, la vittima è spesso considerata meritevole della prop
 
 **Omarillo 7:** No! Bisogna capire anche **come funziona il web, i social e i pericoli nascosti**, come il cyberbullismo o le truffe online.  
 
+**APP YOUPOL** App della polizia di stato
+
+![youpol](https://www.poliziadistato.it/statics/38/youpolweb300.webp?art=1)
+
 ---
 
 🗣️ **3. Diritto alla libertà di espressione e accesso alle informazioni**
@@ -880,11 +884,6 @@ Ecco un dialogo che simula gli atti di sexting e trickery:
   border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
 }
 </style>
----
----
-layout:cover
-level: 4
-title: Omarillo Film
 
 ---
 
