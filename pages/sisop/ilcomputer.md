@@ -75,8 +75,9 @@ title: Welcome
 
 ---
 layout: cover
+title: Virtualizzazione, concorrenza e persistenza.
 level: 3
-title: Welcome
+background: <https://vidabytes.com/wp-content/uploads/2021/05/Programas-para-crear-m%C3%A1quinas-virtuales-4-1024x614.jpg>
 
 ---
 
@@ -86,30 +87,15 @@ title: Welcome
 
 ## E io tutto questo dovrò studiare ?
 
----
-layout: cover
-title: Virtualizzazione, concorrenza e persistenza.
-level: 3
-background: <https://vidabytes.com/wp-content/uploads/2021/05/Programas-para-crear-m%C3%A1quinas-virtuales-4-1024x614.jpg>
-
----
-
 ### 🧠 Omarillo-12
-
+<!--
 https://github.com/rnatella/so_esempi/
 https://github.com/remzi-arpacidusseau
 https://pages.cs.wisc.edu/~remzi/OSTEP/
-
+-->
 ## Già ! Ma da solo tre idee chiave fatti guidare!
 
 ## Ed ogni verifica riuscirai ad affrontare.
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
 
 ### 🧑‍🎓 Studente-11
 
@@ -122,7 +108,9 @@ level: 3
 
 ---
 
-### 🧠 Omarillo5 - **Allora Eccoti la tripla chiave**
+### 🧠 Omarillo5
+
+**Allora Eccoti la tripla chiave**
 
 ## 🔑1 Virtualizzazione
 
@@ -143,23 +131,9 @@ title: Welcome
 
 ## Non ho idea di cosa tu stia parlando, davvero!!
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
 ## 🧑 Professore
 
 ## Bene! Questo significa che sei nella classe giusta
-
----
-layout: cover
-level: 3
-title: Welcome
-
----
 
 ## 🧑‍🎓 Studente-7
 
@@ -229,25 +203,11 @@ O qualcosa del genere.
 - Occhio: 👁
 - Mano: ✋
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-## 🧑‍🏫 Professore (sorpreso)
+### 🧑‍🏫 Professore (sorpreso)
 
 ## Come hai fatto a sapere cosa stavamo per dire?!
 
----
-layout: cover
-level: 3
-title: Welcome
-
----
-
-## 🧑‍🎓 Studente-4
+### 🧑‍🎓 Studente-4
 
 [Basta sapere che ...](https://martinopillitteri.wixsite.com/exportrelationships/post/l-influencer-veste-confucio)
 

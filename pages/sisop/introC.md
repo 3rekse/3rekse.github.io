@@ -174,7 +174,7 @@ Ora impareremo come compilare il programma. Nota che useremo GCC come nostro ese
 Per compilare il file `hw.c` utilizzando il compilatore GCC su Windows, puoi seguire questi passaggi:
 
 1. **Installazione di GCC**:
-   - Su Windows, puoi utilizzare MinGW (Minimalist GNU for Windows) per ottenere GCC. Scarica e installa MinGW dal sito ufficiale: [MinGW-w64](http://mingw-w64.org/doku.php/download).
+   - Su Windows, puoi utilizzare MinGW (Minimalist GNU for Windows) per ottenere GCC. Scarica e installa MinGW dal sito ufficiale: [MinGW-w64](http://mingw-w64.org). [Download](https://winlibs.com)
    - Durante l'installazione, assicurati di selezionare l'opzione per aggiungere MinGW al PATH di sistema.
 
 2. **Compilazione del file `hw.c`**:

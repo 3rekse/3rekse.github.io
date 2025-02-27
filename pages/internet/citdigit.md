@@ -6,9 +6,7 @@ background: /rete/images/solerosso.svg
 
 ---
 
-# BULLISMO 2.0 
-
- [20/1 Giornata del Rispetto](https://3rekse.github.io/GdR.pdf)
+# BULLISMO 2.0
 
 ## Il nuovo fenomeno del cyberbullismo
 
@@ -18,6 +16,8 @@ background: /rete/images/solerosso.svg
 
 <Toc columns="3" maxDepth="3" minDepth="3" mode="next" />
 
+[20/1 Giornata del Rispetto](https://3rekse.github.io/GdR.pdf)
+
 ---
 level: 3
 title: 5/01/2013 Carolina
@@ -25,6 +25,7 @@ layout: image
 image: /office/images/citdigit/carolina.png
 
 ---
+
 ---
 title: Carolina
 level: 4
@@ -85,7 +86,6 @@ title: Il bullismo
 
 ---
 
-
 ## Il bullismo: cos’è?
 
 >Un soggetto subisce bullismo quando è esposto ripetutamente e per lungo
@@ -138,6 +138,248 @@ Si credono impotenti, «Anche difendessi non servirebbe a nulla»
 Non hanno un rapporto con la vittima
 
 Per calmare la coscienza, la vittima è spesso considerata meritevole della propria sorte
+
+---
+
+**Studente 1:** Omarilli, nella scuola il prof. Bonfiglio parla spesso di competenze digitali. La **Legge 107 del 2015** dice che dobbiamo imparare a usare i social network e i media in modo critico. Perché è così importante?  
+
+**Omarillo 1:** Perché il mondo digitale ha un impatto enorme sulla società! Ogni giorno interagite con informazioni, immagini e contenuti che possono influenzare il vostro pensiero. Sapere come riconoscere fake news, proteggere la vostra privacy e comunicare in modo responsabile è essenziale.  
+
+**Studente 2:** Ma non basta imparare a usare la tecnologia? Io so pubblicare video e modificare foto…  
+ 
+**Omarillo 2:** Non è sufficiente saper usare gli strumenti, bisogna anche capire **le conseguenze delle proprie azioni**. Pensate a chi diffonde informazioni false o a chi usa i social per insultare gli altri. Senza una consapevolezza critica, la tecnologia può diventare dannosa.  
+
+---
+
+**Studente 3:** E qui entra in gioco la **Legge 71 del 2017**, giusto?  
+
+**Omarillo 3:** Esatto! Questa legge è stata creata per **prevenire e combattere il cyberbullismo**, proteggendo soprattutto i minori.  
+
+**Studente 4:** Ho letto che se un minore ha più di 14 anni può chiedere la rimozione di una sua foto imbarazzante pubblicata online senza il suo consenso.  
+
+**Omarillo 4:** Sì, può rivolgersi direttamente al gestore del sito o del social network per farla cancellare. Se entro 48 ore non viene rimossa, può chiedere l’intervento del Garante per la protezione dei dati personali.  
+
+---
+
+**Studente 5:** Quindi, se qualcuno pubblica un mio video senza permesso, posso farlo rimuovere?  
+
+**Omarillo 5:** Certamente! Questa legge aiuta le vittime di cyberbullismo a difendersi. Inoltre, le scuole hanno il compito di educare e prevenire questi comportamenti, nominando un referente per il cyberbullismo.  
+
+**Studente 6:** Ma se uno condivide un meme su un compagno senza pensare alle conseguenze, è cyberbullismo?  
+
+---
+
+**Omarillo 6:** Dipende. Se quel meme è offensivo, umiliante o diffamatorio e viene diffuso con l’intento di ferire qualcuno, allora sì. Anche gli scherzi possono diventare dannosi nel mondo digitale.  
+
+**Studente 7:** E se invece sono io la vittima?  
+
+**Omarillo 7:** Se subisci atti di cyberbullismo, puoi parlarne con un adulto di fiducia, con un insegnante o con il referente scolastico. Puoi anche segnalare il problema ai social o alle autorità competenti.  
+
+**Studente 8:** Quindi la scuola ha un ruolo importante?  
+
+---
+
+**Omarillo 8:** Assolutamente! La scuola non solo deve **insegnare competenze digitali**, ma anche educare a un uso etico della tecnologia e aiutare chi è vittima di cyberbullismo.  
+
+**Studente 9:** E per chi fa cyberbullismo?  
+
+**Omarillo 9:** La legge prevede percorsi educativi e, nei casi più gravi, anche sanzioni. Ma il vero obiettivo è **prevenire** il problema prima che diventi un danno per qualcuno.  
+
+**Studente 10:** Quindi, oltre a saper usare la tecnologia, dobbiamo anche imparare a rispettare gli altri online?  
+
+---
+
+**Omarillo 10:** Esatto! Le competenze digitali non servono solo a navigare in rete, ma anche a farlo in modo **responsabile, consapevole e sicuro**.  
+
+**Studente 11:** Dobbiamo iniziare a vedere il web come un luogo in cui ci sono delle regole, proprio come nel mondo reale…  
+
+**Omarillo 11:** Esatto e quindi se ci sono regole ci sono diritti e doveri!
+
+---
+
+**Omarillo 12:** Consideriamo ora qualcosa di molto importante: **i vostri diritti nell’ambiente digitale**! Sapevate che, anche online, avete gli stessi diritti che avete nella vita reale?  
+
+**Studente 1:** Davvero? Ma quali sono questi diritti?  
+
+**Omarillo 2:** Sono definiti dal **Consiglio d’Europa**, che ha stabilito delle linee guida per **rispettare, proteggere e realizzare i diritti dei minorenni nel digitale**.  
+
+**Studente 2:** Quindi, anche su internet abbiamo protezioni speciali?  
+
+---
+
+**Omarillo 3:** Esatto! Il primo principio è che **i vostri diritti valgono anche online**. Ecco i principali:
+
+🛡️ **1. Diritto alla protezione e alla sicurezza**
+
+**Omarillo 4:** Nessuno può minacciarvi o abusare di voi online. Se vi sentite in pericolo, dovete segnalarlo a un adulto o a un’autorità competente. Le piattaforme devono **garantire la vostra sicurezza**.  
+
+**Studente 3:** E se qualcuno diffonde mie informazioni personali senza permesso?  
+
+**Omarillo 5:** Hai diritto alla **privacy e alla protezione dei tuoi dati**! Puoi chiedere che vengano rimossi contenuti personali pubblicati senza il tuo consenso.  
+
+---
+
+🎓 **2. Diritto all’educazione digitale**
+
+**Omarillo 6:** Avete diritto a **imparare come usare internet in modo sicuro e consapevole**. La scuola deve insegnarvi a riconoscere fake news, evitare truffe e proteggere la vostra identità digitale.  
+
+**Studente 4:** Quindi non basta saper usare il cellulare?  
+
+**Omarillo 7:** No! Bisogna capire anche **come funziona il web, i social e i pericoli nascosti**, come il cyberbullismo o le truffe online.  
+
+---
+
+🗣️ **3. Diritto alla libertà di espressione e accesso alle informazioni**
+
+**Omarillo 8:** Potete **esprimere le vostre idee online**, sempre rispettando gli altri. Nessuno può impedirvi di accedere a informazioni educative e culturali.  
+
+**Studente 5:** Ma se qualcuno pubblica commenti offensivi?  
+
+**Omarillo 9:** La **libertà di espressione non significa insultare o diffamare**! Se subite hate speech o cyberbullismo, potete segnalarlo.  
+
+---
+
+👥 **4. Diritto alla partecipazione digitale**
+
+**Omarillo 10:** Avete diritto a **partecipare attivamente alla vita digitale**, come nei progetti scolastici online o nei forum educativi.  
+
+**Studente 6:** Questo significa che possiamo farci sentire sulle questioni che ci riguardano?  
+
+**Omarillo 11:** Esatto! Le istituzioni devono ascoltare **anche i più giovani** sulle politiche digitali che li riguardano.  
+
+---
+
+⚖️ **5. Diritto alla protezione da contenuti dannosi**
+
+**Omarillo 12:** Internet può contenere materiali pericolosi, come contenuti violenti o fake news. Avete diritto a **strumenti di protezione**, come filtri e segnalazioni, per navigare in sicurezza.  
+
+**Studente 7:** Quindi non dovremmo accettare tutto quello che vediamo online?  
+
+**Omarillo 1:** Mai! **Dubitare e verificare** è essenziale per proteggersi da manipolazioni o disinformazione.  
+
+---
+
+🌍 **Conclusione: un web a misura di ragazzi**  
+
+**Studente 8:** È bello sapere che abbiamo tutti questi diritti! Ma chi li fa rispettare?  
+
+**Omarillo 2:** I governi, le scuole, le piattaforme digitali e **voi stessi**! Conoscere i vostri diritti è il primo passo per farli valere.  
+
+**Studente 9:** Ora possiamo usare internet con più consapevolezza!  
+
+**Omarillo 3:** Esatto! Il web è un luogo straordinario, ma deve essere **sicuro, inclusivo e rispettoso per tutti**. Usatelo con responsabilità e fate sentire la vostra voce! 🚀
+
+---
+
+**Studente:** Ehi Omarilli, ma a che età si può creare un account su un social network qui in Europa?  
+
+**Omarillo 1:** Bella domanda! Il **Regolamento Europeo** stabilisce che, per registrarsi e dare il proprio consenso al trattamento dei dati personali, bisogna avere almeno **16 anni**. Però ogni Paese può decidere un'età diversa.  
+
+**Studente:** Quindi in Italia com'è la situazione?  
+
+---
+
+**Omarillo 2:** In Italia le regole sono un po' diverse:  
+
+- **Fino a 13 anni** non puoi iscriverti a nessun social network. 🚫  
+- **Dai 13 ai 14 anni**, puoi registrarti **solo con il consenso dei tuoi genitori**. 👨‍👩‍👧  
+- **Dai 14 anni in su**, puoi **iscriverti autonomamente** e dare il consenso per il trattamento dei tuoi dati personali. ✅  
+
+**Studente:** Quindi, se ho 14 anni, posso crearmi un account senza chiedere il permesso ai miei genitori?
+
+---
+
+**Omarillo 3:** Esattamente! Ma ricorda che **avere l’età giusta non significa usare i social senza regole**. Bisogna sempre stare attenti alla privacy, ai dati personali e ai pericoli del web.  
+
+**Studente:** Capito! Quindi sotto i 14 anni serve sempre l’ok dei genitori. E se uno si iscrive con un’età falsa?  
+
+**Omarillo 4:** Beh, in teoria i social dovrebbero controllare, ma in pratica non sempre lo fanno. Però **mentire sulla propria età online può essere rischioso**: non solo si violano le regole, ma ci si espone a contenuti o contatti non adatti.  
+
+**Studente:** Giusto! Meglio essere consapevoli e usare il web in modo sicuro. Grazie, Omarilli!  
+
+**Omarillo 1:** Di niente! Ricordati sempre: il digitale è un'opportunità, ma va usato con responsabilità. 🚀
+
+---
+
+**Omarillo 10:**
+
+Ma parliamo di **come spesso utilizziamo il web e il digitale senza esserne davvero consapevoli**. 📱💻 Sappiamo davvero cosa succede ai nostri dati? Siamo sicuri di non cadere in trappole digitali? Scopriamolo insieme!  
+
+---
+
+**1️⃣ Condivisione eccessiva di dati personali**
+
+**Omarillo 12:**  
+Ogni volta che pubblichiamo una foto, un video o un post, stiamo **fornendo dati personali**. Spesso non leggiamo le impostazioni della privacy e non ci rendiamo conto che:  
+
+🔹 **Chiunque può vedere e salvare ciò che pubblichiamo** (screenshot, download)  
+🔹 Alcuni social raccolgono dati anche quando non li usiamo direttamente  
+🔹 Informazioni come la geolocalizzazione possono rivelare **dove siamo in tempo reale!**  
+
+👉 **Soluzione:** Controlliamo le impostazioni di privacy e **pensiamo prima di condividere**!  
+
+---
+
+**2️⃣ Trappole dei social network e della dipendenza digitale**
+
+**Omarillo 11:**  
+I social network sono progettati per **tenerci incollati allo schermo**. Notifiche, like, scroll infinito… tutto è studiato per creare **dipendenza**!  
+
+📢 Lo sapevate che?  
+🔹 Gli algoritmi selezionano contenuti per farci restare il più a lungo possibile  
+🔹 Il tempo che passiamo sui social può alterare il nostro umore e ridurre la concentrazione  
+🔹 Spesso ci confrontiamo con immagini irrealistiche, influenzando la nostra autostima  
+
+👉 **Soluzione:** **Usiamo il digitale in modo consapevole**, impostando limiti di tempo e scegliendo contenuti di qualità!  
+
+---
+
+**3️⃣ Truffe online e phishing**
+
+**Omarillo 9:**  
+Mai ricevuto un'email o un messaggio che dice "Hai vinto un iPhone! Clicca qui"? 🚨  
+Attenzione! **Il phishing è una delle truffe più diffuse**, e funziona perché:  
+
+🔹 Usa messaggi che sembrano autentici (banche, spedizioni, social)  
+🔹 Ci spinge ad agire in fretta (paura o premi falsi)  
+🔹 Ruba password e dati personali  
+
+👉 **Soluzione:**  
+⚠️ Non clicchiamo mai su link sospetti  
+🔍 Verifichiamo sempre le fonti  
+🔑 Usiamo password complesse e autenticazione a due fattori  
+
+---
+
+**4️⃣ Fake news e manipolazione delle informazioni**
+
+**Omarillo 8:**  
+Sapevate che molte notizie online sono **false o manipolate**? 🤯  
+
+🔹 I social diffondono le fake news più velocemente delle vere notizie  
+🔹 Le informazioni sono spesso **parziali o ingannevoli** per influenzare l'opinione pubblica  
+🔹 Alcuni siti guadagnano dalle **bufale**, perché generano molte visualizzazioni  
+
+👉 **Soluzione:**  
+📰 Controlliamo le fonti (giornali affidabili, siti ufficiali)  
+🔍 Verifichiamo su più siti prima di condividere  
+🛑 Non fidiamoci di titoli troppo sensazionalistici!  
+
+---
+
+**📌 Conclusione: Come essere cittadini digitali consapevoli?**
+
+**Omarillo 6:**  
+Il web è uno strumento potentissimo, ma dobbiamo usarlo **con intelligenza e responsabilità**. Ecco le **3 regole d'oro**:  
+
+1️⃣ **Pensare prima di condividere** 📸  
+2️⃣ **Proteggere i nostri dati e la nostra privacy** 🔒  
+3️⃣ **Verificare sempre le informazioni che leggiamo** 🧐  
+
+**Omarillo 1:**  
+Ora tocca a voi! Avete mai vissuto esperienze legate a questi rischi digitali? Cosa possiamo fare per migliorare il nostro rapporto con il web? 💬🚀  
+
+👉 **Dibattito aperto!** 🗣️💡
 
 ---
 level: 3
@@ -233,6 +475,60 @@ title: Cyperbullismo
   border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
 }
 </style>
+
+---
+
+**🔹 Cos'è un atto di vessazione?**  
+
+**📢 Omarillo 2:**  
+"Un atto di **vessazione** è un comportamento ripetuto che mira a **opprimere, tormentare o mettere sotto pressione** una persona. Spesso è associato a situazioni di bullismo o abuso di potere."  
+
+📌 **Esempi di vessazione:**
+
+- Un capo che obbliga un dipendente a compiti inutili o umilianti per logorarlo.  
+- Un compagno di scuola che ripetutamente prende di mira un altro con insulti o dispetti.  
+- Un gruppo che esclude sempre la stessa persona, isolandola intenzionalmente.  
+
+👉 **Caratteristica chiave:** La vessazione è **sistematica e ripetuta nel tempo**, con l'obiettivo di **intimidire o sottomettere** qualcuno.  
+
+---
+
+**🔹 Cos'è un atto di umiliazione?**
+
+**📢 Omarillo 3:**  
+"L'**atto di umiliazione**, invece, è un comportamento che provoca **vergogna o imbarazzo** in una persona, spesso pubblicamente."  
+
+📌 **Esempi di umiliazione:**
+
+- Prendere in giro qualcuno davanti agli altri per un errore.  
+- Diffondere un video o un'immagine imbarazzante senza consenso.  
+- Costringere qualcuno a fare qualcosa di degradante per "divertimento".  
+
+👉 **Caratteristica chiave:** L’umiliazione può essere **un singolo episodio** e ha l'obiettivo di **ridicolizzare o sminuire** qualcuno, spesso davanti ad altri.  
+
+---
+
+**🔍 Differenza tra vessazione e umiliazione**
+
+| ❓ **Caratteristica** | 🔹 **Vessazione** | 🔹 **Umiliazione** |
+|----------------------|-----------------|-----------------|
+| 🔄 **Ripetizione** | Avviene in modo sistematico e continuo. | Può essere un episodio isolato. |
+| 🎯 **Obiettivo** | Sottomettere, opprimere, logorare psicologicamente. | Ridicolizzare o far vergognare qualcuno. |
+| 👥 **Contesto** | Può essere nascosto o pubblico. | Di solito avviene davanti ad altre persone. |
+| ⚠️ **Esempio tipico** | Bullismo, mobbing, pressioni psicologiche. | Insulti pubblici, esposizione al ridicolo. |
+
+---
+
+**🚨 Perché è importante riconoscerli?**
+
+**📢 Omarillo 4:**  
+"Entrambi questi atti possono avere gravi conseguenze psicologiche su chi li subisce: ansia, insicurezza, isolamento sociale. È fondamentale **saperli riconoscere** per difendersi e aiutare chi ne è vittima."  
+
+🔹 **Se sei vittima di vessazione o umiliazione, parlane con un adulto di fiducia!**  
+🔹 **Non essere complice: se vedi qualcuno subire questi atti, intervieni o segnala la situazione.**  
+
+**📢 Omarillo 1:**  
+"Domande? Qualcuno ha mai assistito a episodi simili o vuole condividere una riflessione?" 🤔💬
 
 ---
 level: 4
