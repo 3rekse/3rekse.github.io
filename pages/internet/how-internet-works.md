@@ -4,7 +4,9 @@ title: Come funziona Internet
 level: 2
 ---
 
-# Come funziona Internet
+[LE RETE INFORMATICHE](../internet/sistemeReti.md)
+
+## Come funziona Internet
 
 Le basi di come funziona il web
 
@@ -31,9 +33,11 @@ Slide notes:
 ---
 title: Processo di funzionamento del web
 level: 3
+
 ---
 
-# Come avviene la magia 🧙
+## Come avviene la magia 🧙
+
 Dal collegamento del computer al caricamento del sito web.
 
 1. Internet 🌐
@@ -50,14 +54,15 @@ Slide notes:
 
 -->
 
-
 ---
 layout: two-cols
 title: Internet
 level: 3
+
 ---
 
-# Internet
+## Internet
+
 Passo 1 🧙
 
 * Sistema mondiale di reti informatiche 🌐

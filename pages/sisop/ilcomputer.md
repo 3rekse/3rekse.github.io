@@ -52,6 +52,19 @@ title: Welcome
 
 ## Ciao Omarillo! Ma allora cosa tratta il sito?
 
+```mermaid
+graph LR
+    Inizio[Avvia Processo] --> RaccoltaDati(Raccogli Input Utente);
+    RaccoltaDati --> Validazione{Dati Validi?};
+    Validazione -- Sì --> Elaborazione[Elabora Dati];
+    Validazione -- No --> Errore(Mostra Errore);
+    Elaborazione --> Salvataggio[Salva Risultati];
+    Salvataggio --> Fine(Completato);
+    Errore --> Inizio;
+
+
+```
+
 ---
 layout: cover
 level: 3
@@ -209,9 +222,7 @@ O qualcosa del genere.
 
 ### 🧑‍🎓 Studente-4
 
-[Basta sapere che ...](https://martinopillitteri.wixsite.com/exportrelationships/post/l-influencer-veste-confucio)
-
-Inoltre, sono un grande fan di Confucio, e un fan ancora più grande di Xunzi, che in realtà è una fonte migliore per questa citazione.
+Sono un grande fan di Confucio, e un fan ancora più grande di Xunzi, che in realtà è una fonte migliore per questa citazione.
 
 ---
 layout: cover
@@ -309,7 +320,7 @@ Beh, penso che a volte sia utile tirarsi fuori da una narrazione e riflettere un
 
 Quindi noi lavoreremo insieme per dare un senso a tutte queste idee piuttosto complesse.
 
-Seite pronti?
+Siete pronti?
 
 ---
 layout: cover
@@ -350,13 +361,342 @@ title: Welcome
 
 ### 🧑‍🎓 Studente-2
 
-## Sarà , non ho mai fatto lezioni così!
+## Sarà, non ho mai fatto lezioni così!
 
 ## Mi sembra tutto molto strano,  .. ma forse interessante!
 
 ## Possiamo ora approfondire la sezione sull'architettura dei computer?
 
 ---
+layout: cover
+level: 3
+title: Origini
+id: origini
+
+---
+
+### 🎭 **Dialogo: "Alle Origini dell'Informatica"**
+
+*Luogo: Aula virtuale interattiva con pannelli olografici e timeline storiche animate.*
+
+```mermaid
+graph LR
+    A[1940s: Primi Computer] --> B[1950s: Transistor]
+    B --> C[1960s: Minicomputer]
+    C --> D[1970s: Microprocessore]
+    D --> E[1980s: Personal Computer]
+    E --> F[1990s: Internet]
+    F --> G[2000s: Web 2.0 / Mobile]
+    G --> H[2010s: Cloud / AI]
+```
+* **1940s:**
+     Sviluppo dei primi computer elettronici digitali (es. ENIAC, Colossus).
+     Concetto di programma memorizzato (von Neumann).
+* **1950s:**
+     Invenzione del **transistor** (cambia radicalmente l'elettronica).
+     Nascita dei primi linguaggi di programmazione ad alto livello (FORTRAN, LISP).
+* **1960s:**
+     Sviluppo dei **minicomputer** (DEC PDP-1).
+     Nascita di ARPANET (precursore di Internet).
+     Invenzione del mouse e GUI (Douglas Engelbart).
+* **1970s:**
+     Invenzione del **microprocessore** (Intel 4004).
+     Nascita del personal computer (Altair 8800).
+     Sviluppo dei primi sistemi operativi (UNIX).
+* **1980s:**
+     Diffusione del **Personal Computer** (IBM PC, Apple Macintosh).
+     Nascita del World Wide Web (Tim Berners-Lee al CERN).
+     Linguaggi di programmazione come C++ e Perl.
+* **1990s:**
+     Esplosione di **Internet** e del World Wide Web.
+     Browser web grafici (Mosaic, Netscape Navigator).
+     Commercio elettronico.
+
+---
+
+* **2000s:**
+     Avvento del **Web 2.0** (social media, blog).
+     Diffusione degli **smartphone** e del computing mobile.
+     Nascita del cloud computing.
+* **2010s-Oggi:**
+     Crescita esponenziale del **Cloud Computing** e dei Big Data.
+     Avanzamento dell'**Intelligenza Artificiale** e del Machine Learning.
+     Blockchain e criptovalute.
+     IoT (Internet of Things).
+
+**🤖 Omarillo 1**: Benvenuti, giovani menti curiose! Oggi vi guideremo attraverso un viaggio: dalle **pitture rupestri** ai **quantum computer**.
+
+**👩‍🎓 Elena (Studente 1)**: Ma... l’informatica non è nata con i computer?
+
+**🤖 Omarillo 2**: Non proprio, Elena. L’informatica nasce dal bisogno di **organizzare e tramandare l’informazione**.
+
+**🧑‍🎓 Luca (Studente 2)**: Tipo la scrittura?
+
+**🤖 Omarillo 3**: Esattamente! Scrivere era già un modo per **salvare dati**, come oggi facciamo su un disco una chiavetta USB o nel cloud.
+
+---
+
+### 📜 **Tappe storiche fondamentali**
+
+**👩‍🎓 Giulia (Studente 3)**: Qual è stato il primo strumento “informatico”?
+
+**🤖 Omarillo 4**: L’**abaco**! Introdotto nel XIII secolo a.C. in Cina: un calcolatore manuale!
+
+**🧑‍🎓 Samir (Studente 4)**: Quindi… niente elettronica?
+
+**🤖 Omarillo 5**: Ancora no. Poi arriva Pascal, nel 1642, con la **Pascalina**, che faceva addizioni e sottrazioni.
+
+**👩‍🎓 Anna (Studente 5)**: Io ho letto di Leibniz. Che ha fatto lui?
+
+**🤖 Omarillo 6**: Ha creato una macchina capace di **moltiplicare** e, soprattutto, ha proposto il **sistema binario**!
+
+**🧑‍🎓 Leo (Studente 6)**: Binario? Come 0 e 1?
+
+**🤖 Omarillo 7**: Sì! È la base dei computer moderni.
+
+---
+
+### 🧠 **La visione di Ada Lovelace**
+
+**👩‍🎓 Sara (Studente 7)**: E Ada Lovelace? La prima programmatrice?
+
+**🤖 Omarillo 8**: Corretto, Sara! Lavorò alla **Macchina Analitica** di Babbage, introducendo **concetti di programmazione**: cicli, condizioni, memoria.
+
+**🧑‍🎓 Marco (Studente 8)**: All’epoca però non esistevano nemmeno i cavi elettrici…
+
+**🤖 Omarillo 9**: Esatto, era tutto **meccanico**, ma il **pensiero computazionale** era già nato.
+
+---
+
+### ⚙️ **L’era dei computer**
+
+**👩‍🎓 Yara (Studente 9)**: E quando arrivano i veri computer?
+
+**🤖 Omarillo 10**: Durante la Seconda Guerra Mondiale. Il **Colossus**, guidato dalle idee di **Alan Turing**, serviva a **decifrare codici nazisti**.
+
+**🧑‍🎓 Matteo (Studente 10)**: Poi l’ENIAC, giusto?
+
+**🤖 Omarillo 11**: Sì! Nel 1946, era grande come una stanza e pesava 30 tonnellate!
+
+**👩‍🎓 Chiara (Studente 11)**: E l’Italia? C’entra qualcosa?
+
+**🤖 Omarillo 12**: Certamente. L’**Olivetti Programma 101**, tra il 1962 e 1964, fu uno dei primi **PC** veri e propri. Usato anche dalla **NASA**!
+
+---
+
+### 💡 **L’evoluzione e il futuro**
+
+**🧑‍🎓 Davide (Studente 12)**: E oggi dove siamo arrivati?
+
+**🤖 Tutti gli Omarilli (in coro)**:
+Siamo nell’era del **quantum computing**, dell’**IA**, dell’**informatica ubiqua**!
+
+**🤖 Omarillo 1**: Ma ricordate:
+🔹 L’informatica non è solo hardware.
+🔹 È anche **storia, logica, pensiero astratto**.
+🔹 È il riflesso dell’uomo che **cerca di capire, ordinare e condividere la conoscenza**.
+
+---
+
+## Ipotesi di Chat Hackerate
+
+Diverse situazioni possiamo riportare l'hacking di una chat dopo aver letto il libro da pag 5.
+
+---
+
+**Marco:** Ciao Laura! 👋 Stavo riflettendo su quanto l'informatica sia diventata... beh, onnipresente. È pazzesco come abbia cambiato tutto. 🤯
+
+**Laura:** Ciao Marco! Verissimo! Pensa solo a come gestiamo le nostre case oggi. Con la **domotica** 🏠, posso accendere le luci o regolare il termostato con un'app sul telefono. E le auto? 🚗 Sono dei veri e propri computer su ruote, piene di sensori e connettività.
+
+**Marco:** Già, il **pervasive computing** è proprio questo: sistemi informatici dappertutto, che quasi non ci accorgiamo di usarli. 👻 E i **dispositivi indossabili (wearable computing)**? Lo **smartwatch** ⌚ al polso è ormai la normalità, ti dice l'ora, le notifiche, monitora la salute... 💪
+
+**Laura:** Esatto! Gli **smart glass** 👓 non sono ancora diffusi come gli orologi, ma chissà in futuro. Il bello è che siamo sempre connessi 🌐, possiamo comunicare con chiunque, ovunque. 🗣️🌍
+
+---
+
+### Realtà Aumentata e Realtà Virtuale
+
+**Marco:** A proposito di futuro, mi affascina molto il discorso della **realtà aumentata (AR)**. L'idea di sovrapporre informazioni digitali al mondo reale è incredibile. ✨
+
+**Laura:** Sì, è geniale! Hai presente quelle app sul telefono che usi per "vedere" come starebbe un mobile in salotto prima di comprarlo? 🛋️ Quella è AR pura. La fotocamera inquadra l'ambiente, e l'app ci aggiunge sopra l'immagine digitale del mobile. Oppure pensa a un magazzino, come nell'esempio del libro: puoi "colorare" le scatole sullo schermo del tablet per identificarle subito. 📦🎨
+
+**Marco:** Capisco! Quindi sfrutta i sensori dello smartphone per capire dove sei e cosa stai guardando, e poi ti mostra i contenuti AR giusti. È come avere un livello extra di informazioni sulla realtà.  layers
+
+**Laura:** Proprio così. E poi c'è la **realtà virtuale (VR)**, che è un passo oltre. Qui non si aggiunge nulla al mondo reale, lo si sostituisce proprio! 🚀
+
+**Marco:** Ah, intendi i **visori VR**? 🕶️ Quelli che ti fanno immergere completamente in un ambiente digitale tridimensionale? 🏞️
+
+---
+
+**Laura:** Esattamente! Ti metti il visore e ti trovi catapultato in un'altra realtà. Ci sono programmi grafici incredibilmente sofisticati dietro. 💻🖼️ E molti visori hanno sensori che tracciano il movimento delle mani, così puoi interagire a 360 gradi con quell'ambiente virtuale. 🙌 È un'esperienza totalmente immersiva. 💫
+
+**Marco:** Veramente impressionante. Sembra fantascienza, ma è già qui. 🤩 L'informatica di oggi non è solo velocità o potenza di calcolo, è anche come ci permette di percepire e interagire con il mondo in modi completamente nuovi. 🌍💡
+
+**Laura:** Concordo in pieno! È eccitante pensare a cosa ci riserverà il futuro con queste tecnologie. 🔮
+
+---
+
+**🎓 Tutti gli Studenti**:
+Grazie, Omarilli! Ora sappiamo che l’informatica è più umana di quanto pensassimo ma che cos'è un computer?
+
+[!Mega Lezione di nonno Faggin](https://youtu.be/jQdFqQM540U)
+
+---
+
+## Che cos'è un Computer? Un Dialogo tra Esperti e Curiosi
+
+**(La scena si apre in un'aula luminosa. I dodici Omarilli, esperti in vari campi dell'informatica, sono seduti di fronte a dodici studenti attenti e desiderosi di imparare.)**
+
+---
+
+**O1 (Professore):** Buongiorno a tutti! Oggi iniziamo dalle basi: **che cos'è un computer?** Spesso lo diamo per scontato, ma è un dispositivo davvero affascinante. In sostanza, un computer è un **dispositivo elettronico digitale** composto da due elementi fondamentali: **hardware e software**.
+
+**S1:** Prof, scusi, ma cosa significa esattamente hardware e software? Li sento sempre nominare, ma faccio fatica a distinguerli bene.
+
+**O4 (Esperto di Hardware):** Ottima domanda, S1! Con **hardware** intendiamo tutte le **parti fisiche, tangibili** di un computer. Immaginate lo schermo che state guardando, la tastiera che usate, o anche i circuiti elettronici interni che non vediamo. Sono tutte componenti che potete toccare.
+
+**O3 (Ingegnere del Software):** E qui entro in gioco io! Il **software**, invece, è l'esatto contrario: è l'**insieme dei dati memorizzati e dei programmi** che fanno funzionare l'hardware. Non potete toccare un programma, ma è ciò che permette al computer di fare qualsiasi cosa, da scrivere un documento a navigare su internet.
+
+**S6:** E il **firmware**, allora? Ho letto che esiste anche quello. È un software speciale?
+
+**O9 (Progettista di Sistemi Embedded):** Bravo, S6! Il **firmware** è un tipo particolare di software, ma con una differenza chiave: è **installato dal costruttore** e non può essere cancellato facilmente. Pensateci come a un software "bloccato" che si occupa dei compiti basilari del sistema, come l'accensione del computer o la gestione di componenti specifici. È un po' il "cervello" primordiale che avvia tutto.
+
+---
+
+**O10 (Consulente IT):** In pratica, l'attività di un computer si riassume in tre fasi principali: **input, elaborazione e output**.
+
+**S5:** Può farci un esempio pratico?
+
+**O10:** Certo! Se scrivete una lettera con la tastiera, quella è la **fase di input** ⌨️. I dati, le lettere che digitate, vengono immessi nel computer. Poi, il computer lavora su quelle informazioni, le processa internamente: questa è la **fase di elaborazione** 🧠. Infine, quando vedete le parole apparire sullo schermo o le stampate, quella è la **fase di output** 📄: il computer vi restituisce il risultato.
+
+**O11 (Architetto di Rete):** E non dimentichiamo che a queste fasi si aggiungono quelle di **memorizzazione** (salviamo i nostri file) e di **condivisione o distribuzione dei dati in rete** 🌐. Oggi è fondamentale poter accedere alle informazioni ovunque e condividerle.
+
+---
+
+### L'Elaborazione e l'Intelligenza Artificiale
+
+**S10:** Quindi, l'elaborazione avviene sempre grazie al **processore**?
+
+**O7 (Web Developer):** Principalmente sì, il processore è il "motore" che esegue i programmi. Ma l'informatica è in continua evoluzione, e stiamo assistendo a **nuovi metodi di elaborazione basati sull'Intelligenza Artificiale (IA)**. 🤖
+
+**S4:** L'IA! È la parte che mi interessa di più! Le macchine possono davvero fare cose simili agli umani?
+
+**O2 (Ricercatore in Intelligenza Artificiale):** Assolutamente! L'IA permette alle macchine di svolgere compiti che tradizionalmente richiedevano intelligenza umana. Pensate ai sistemi di **guida autonoma** 🚗, ai **robot di interpretazione o traduzione simultanea** 🗣️. Dietro ci sono algoritmi di IA molto complessi.
+
+---
+
+**S12:** Ma come fanno i computer a "imparare"? È come il nostro cervello?
+
+**O2:** È una buona analogia! Gran parte degli algoritmi di IA si basa sul **Deep Learning**, un metodo di apprendimento automatico che sfrutta le **reti neurali artificiali**. Queste reti sono ispirate al funzionamento del nostro sistema nervoso, insegnando ai computer a elaborare i dati in modo simile.
+
+**S9:** Ho sentito parlare di **Machine Learning**. È la stessa cosa del Deep Learning?
+
+---
+
+**O6 (Data Scientist):** Ottima domanda! Il **Machine Learning** è un campo più ampio, che include il Deep Learning. Il Machine Learning viene usato in molte applicazioni quotidiane: i filtri anti-spam della vostra posta elettronica 📧, il **riconoscimento vocale** 🎤 sui vostri smartphone, il **riconoscimento delle immagini** 📸 e persino la **diagnosi di malattie** in campo medico. Il Deep Learning, essendo più complesso e potente, viene impiegato in ambiti che richiedono una maggiore "intelligenza", come le auto a guida autonoma, i robot chirurgici o le traduzioni di alta qualità.
+
+**S3:** Mi sembra fantascienza! Ma l'IA è una cosa recente?
+
+**O2:** In realtà, gli studi sull'IA sono iniziati a metà del Novecento. È un campo in costante evoluzione, con progressi rapidissimi negli ultimi anni grazie a nuove tecnologie di supporto.
+
+---
+
+### Tecnologie a Supporto dell'Intelligenza Artificiale
+
+**S7:** Quali sono queste tecnologie che la supportano?
+
+**O5 (Specialista in IoT):** Una fondamentale è l'**Internet of Things (IoT)** 💡. Tutti quei dispositivi connessi che generano quantità immense di dati – sensori nelle città, elettrodomestici "intelligenti". Senza l'IA, sarebbe impossibile analizzare e ricavare valore da questa mole di dati. L'IA permette di dare un senso a tutto ciò.
+
+**O4 (Esperto di Hardware):** E servono anche i muscoli! Le **Unità di Elaborazione Grafica (GPU)**, che prima usavamo principalmente per i videogiochi, oggi sono cruciali per l'IA. Forniscono l'enorme potenza di calcolo, l'**elaborazione iterativa**, necessaria per addestrare le reti neurali, che richiedono di processare grandi quantità di dati molte, molte volte.
+
+---
+
+**O3 (Ingegnere del Software):** Infine, ci sono gli **algoritmi avanzati** 📊. Sono il "cervello" che l'IA usa per elaborare i dati in modo intelligente e rapidissimo. Permettono di identificare e persino prevedere eventi rari, come fenomeni meteorologici estremi 🌪️ o lo sviluppo di pandemie 🦠, e di comprendere sistemi complessi che gli algoritmi tradizionali non riuscirebbero a gestire.
+
+**S8:** Tutto questo potere mi fa pensare... Ci sono rischi con l'IA?
+
+**O8 (Esperto di Cybersicurezza):** È una preoccupazione legittima e molto importante, S8. Con ogni tecnologia potente, arrivano nuove sfide. La cybersicurezza è fondamentale per proteggere i dati e garantire che l'IA venga usata in modo etico e sicuro. Ma questo è un altro capitolo che affronteremo più avanti!
+
+**O1 (Professore):** Esatto! Per oggi, spero abbiate una visione più chiara di cosa sia un computer e come l'informatica, con l'avvento dell'Intelligenza Artificiale, stia davvero trasformando il nostro mondo. Avete altre domande su questi concetti di base?
+
+---
+
+## Il Mondo Connesso: L'Internet delle Cose e la Fabbricazione Digitale 🌍🔗
+
+**(La discussione si apre con gli Omarilli e gli studenti seduti intorno a un tavolo interattivo.)**
+
+**O1 (Professore):** Parliamo di un concetto che sta rivoluzionando il nostro mondo: l'**Internet delle Cose**, o **IoT**? In parole semplici, è una **rete mondiale di oggetti collegati tra loro**. Immaginate un sistema in cui tutto, dagli elettrodomestici alle auto, può "parlare" con l'altro e con Internet. 🗣️🚗 Appliances
+
+---
+
+**S1:** "Oggetti collegati"? Ma come fanno a comunicare tra loro? Non hanno schermi o tastiere. 🤔
+
+**O2 (Ingegnere del Software IoT):** Ottima osservazione, S1! Comunicano principalmente tramite **tecnologie wireless a radiofrequenza** 📶. Pensate al Wi-Fi, al Bluetooth, ma anche a protocolli specifici per l'IoT. L'obiettivo è che questi oggetti possano scambiarsi dati autonomamente. 📊
+
+**S2:** Ho sentito che il **5G** è fondamentale per questo. È vero che è così veloce? 🚀
+
+**O3 (Esperto di Reti 5G):** Assolutamente sì, S2! Il 5G è un game changer per l'IoT. Permette **velocità altissime**, fino a 10 Gigabit al secondo ⚡, ma soprattutto, può connettere un **numero enorme di dispositivi**: fino a un milione di oggetti per chilometro quadrato! Questo rende possibile l'IoT su larga scala. 🏙️
+
+---
+
+**S3:** Quindi, l'IoT ha una sua architettura specifica? Come è strutturata questa rete di oggetti? 🏗️
+
+**O4 (Specialista Cloud Computing):** Domanda chiave, S3! L'architettura dell'IoT si basa principalmente su tre elementi: il **Cloud** ☁️, i **Things** 💡 e il **Network** 🌐. Il **Cloud** è l'insieme dei server che immagazzinano i dati in modo sicuro. I **Things** sono i singoli oggetti fisici interconnessi, quelli di cui parlava O1. E il **Network** è ciò che connette tutti questi "Things" al "Cloud".
+
+**S4:** Capisco la teoria, ma a cosa serve l'IoT nella vita reale? Mi sembra un po' astratto. 🤨
+
+**O5 (Designer di Prodotti IoT):** Ottima provocazione, S4! L'IoT ha applicazioni pratiche in tantissimi settori! Dalle **vendite** 🛒 al monitoraggio delle scorte, all'**industria**, dove parliamo di **IIoT** (Industrial Internet of Things), per ottimizzare la produzione e la manutenzione predittiva. 🏭
+
+---
+
+**S7:** Io sono super interessato alla **domotica**! È fantastico poter controllare luci, riscaldamento e persino l'aspirapolvere con il telefono. 💡🌡️🧹📱
+
+**O7 (Architetto di Sistemi Domotici):** La domotica è uno degli ambiti più visibili dell'IoT domestico, S7. Connessioni intelligenti tra elettrodomestici, sistemi di sicurezza e gestione energetica rendono le nostre case più efficienti e confortevoli. 🏡✨
+
+**S8:** E nell'industria, come funziona l'IIoT? 🏭
+
+**O8 (Consulente IIoT):** Nell'industria, l'IIoT trasforma le fabbriche tradizionali in "smart factories" 🤖. Sensori su macchinari monitorano costantemente le prestazioni, prevedono guasti, ottimizzano i processi produttivi e migliorano la sicurezza sul lavoro. Si parla di efficienza e riduzione dei costi. 📉📊
+
+---
+
+**S9:** Ho visto che si possono fare **pagamenti digitali tramite oggetti (RFID)**. Come funziona? 💰
+
+**O9 (Sviluppatore di Sistemi di Pagamento RFID):** Con i tag RFID (Radio-Frequency Identification) inseriti in oggetti, come braccialetti o portachiavi, puoi effettuare pagamenti semplicemente avvicinando l'oggetto a un lettore. È comodo e veloce, per esempio, nei trasporti pubblici o per piccole transazioni. 💳🚇
+
+**S10:** E in **sanità**? Ci sono applicazioni nel mondo biomedicale? ❤️
+
+**O10 (Ricercatore in Smart Health):** Assolutamente, S10! L'IoT in sanità, la **Smart Health** 🩺, sta rivoluzionando l'assistenza. Dispositivi indossabili monitorano costantemente i parametri vitali dei pazienti, inviando dati ai medici. Questo permette diagnosi più rapide, monitoraggio remoto di malati cronici e una migliore gestione delle emergenze. 🚨🚑
+
+**S6:** Tutto questo scambio di dati mi preoccupa un po'. L'IoT è sicuro? Cosa succede se i miei dati finiscono nelle mani sbagliate? 🔐
+
+**O6 (Esperto di Sicurezza Cyber):** La tua preoccupazione è più che legittima, S6. La **sicurezza** è una delle sfide più grandi dell'IoT. Dobbiamo garantire la protezione dei dati trasmessi tramite controllo rigoroso, scalabilità, flessibilità ed efficienza. Lavoriamo costantemente per sviluppare protocolli di crittografia e autenticazione robusti per proteggere la privacy e l'integrità delle informazioni. 🔒✅
+
+---
+
+### Mock-up e Fab Lab: La Fabbricazione Digitale 🏗️💡
+
+**O1 (Professore):** Ora, parliamo di come questi oggetti intelligenti prendono forma. Qui entrano in gioco i **Fab Lab** e i **mock-up**. 🛠️
+
+**S11:** I Fab Lab? Non sono dei laboratori dove si possono creare oggetti? 👨‍🏭
+
+**O11 (Responsabile Fab Lab):** Esatto, S11! I **Fab Lab (Fabrication Laboratory)** sono delle vere e proprie "officine per la fabbricazione" 🔨. Sono laboratori aperti, spesso accessibili al pubblico, dove si trovano tecnologie avanzate per realizzare oggetti tecnologici, prototipi o anche prodotti finiti, che un tempo erano appannaggio solo della grande industria. 🌐
+
+**S12:** E i **mock-up**? È una specie di modello? 📏
+
+**O12 (Specialista in Prototipazione 3D):** Sì, S12, un **mock-up** è un prototipo rapido, una bozza fisica di un oggetto. L'idea dei Fab Lab nasce proprio dalla necessità di effettuare questa **prototipazione rapida**. Per esempio, l'ingranaggio di un robot IoT può essere prima "stampato" come mock-up per testarne la funzionalità. ⚙️📐
+
+**S5:** Quali strumenti si trovano in un Fab Lab per fare queste cose? 🤔
+
+---
+
+**O11:** I principali strumenti per la **fabbricazione digitale** sono: le **stampanti 3D** 🖨️ (lo strumento principe!), gli **scanner 3D** 📸 (per digitalizzare oggetti esistenti), le **frese a controllo numerico** (CNC) 🤖, i **laser cutter** 🔥, le macchine per il **taglio vinilico** ✂️ e, ovviamente, una postazione per la **saldatura e le lavorazioni elettroniche** 🔌.
+
+**S12:** Le stampanti 3D sono quelle che costruiscono oggetti strato su strato, giusto? Che materiali usano? 🧱
+
+**O12:** Precisamente! Si parte da un modello digitale, spesso creato con un programma **CAD** 🖥️. Questo file viene poi "affettato" in tanti strati. La stampante e il suo software stampano ogni strato in sequenza, uno sopra all'altro, fino a costruire l'oggetto. I materiali più comuni oggi sono la **plastica** (come PLA o ABS), il **metallo** e la **ceramica**. 🏗️✨
+
+---
+
 layout: cover
 level: 3
 title: Welcome
@@ -376,6 +716,276 @@ title: Welcome
 - **Cache**: Parlo della memoria cache e di come essa riduca i tempi di accesso ai dati frequentemente utilizzati.
 
 - **Multicore**: Spiego come le CPU multicore permettono l'esecuzione di compiti in parallelo, migliorando le prestazioni complessive del sistema.
+
+---
+
+## Nella Chat: La Struttura di un Computer: 💬🖥️
+
+**(Una chat di gruppo tra Studentessa Curiosa (SC), Studente Tecnico (ST) e Studentessa Pratica (SP) dopo la lettura fino a pag 13.)**
+
+---
+
+**SC:** Ragazzi, che lezione! Pensavo di sapere cos'era un computer, ma è più complesso di quanto immaginassi! 🤯
+
+**ST:** Vero! Il prof ha spiegato bene che è un **dispositivo elettronico digitale**, quindi elabora solo 0 e 1. Tipo un interruttore acceso/spento. 💡🔄 E non solo il PC, anche i nostri smartphone e tablet funzionano così!
+
+**SP:** Già! Quindi, se ho capito bene, è fatto di parti fisiche e di cose che non possiamo toccare, giusto?
+
+**SC:** Esatto! Le parti fisiche sono l'**hardware**. Lo schermo, la tastiera... tutto quello che possiamo toccare. 💻⌨️ E il **software** è l'insieme dei programmi e dei dati che lo fanno funzionare. Non puoi toccare un'app, ma è lì! ✨
+
+---
+
+**ST:** Ah, e non dimentichiamo il **firmware**! È un software speciale installato dal produttore, tipo il "cervello" primordiale che fa avviare tutto il sistema. Non lo puoi cancellare facilmente. 🧠🔒
+
+**SP:** Okay, quindi input, elaborazione, output... Ho capito l'esempio di scrivere una lettera. Ma la parte di "cervello" qual è? Quella che elabora? 🤔
+
+**ST:** Quella è la **CPU (Central Processing Unit)**! 🧠 È il vero motore, legge i programmi, interpreta le istruzioni e coordina tutto. È quel quadratino piccolo con tanti piedini che si collega alla **scheda madre**. Il primo a progettarla fù nonno Federico Faggin 📏🔌
+
+---
+
+**SC:** E la **RAM**? Il prof ha detto che è la **memoria centrale** ed è **volatile**. Che significa che si "dimentica" le cose? 😅
+
+**ST:** Sì, la RAM è come una scrivania super veloce su cui la CPU mette tutti i dati e i programmi che sta usando in quel momento. Quando spegni il computer, la scrivania si svuota. Per questo è volatile. 💨 Più RAM hai, più "cose" puoi tenere sulla scrivania, e il computer va più veloce! 🚀
+
+**SP:** Ecco perché devo "salvare" i file! Per non perderli! Quindi li salvo sulla **memoria di massa**, tipo il mio **hard disk** o l'**SSD** del portatile. Giusto? 💾
+
+---
+
+**SC:** Sì! E l'**SSD** è molto più veloce del vecchio hard disk. ⚡ Poi ci sono le **schede SD** per i telefoni e le fotocamere. E le **periferiche** sono tipo tastiera, mouse, monitor... tutti gli "accessori" che colleghiamo. 🖱️🖥️🖨️
+
+**ST:** La parte interessante è che il computer è un puro **esecutore**. Fa solo quello che gli diciamo noi attraverso i **programmi**. E questi programmi sono scritti dai **programmatori** seguendo degli **algoritmi**. 👨‍💻✍️
+
+**SP:** Ho capito! Quindi il software è quello che dà "vita" all'hardware. E ci sono tre tipi, giusto?
+
+**SC:** Sì! Il **software di sistema** è la base, tipo il **sistema operativo** (Windows, macOS...). È quello che fa funzionare il computer e ci permette di usare le app. ⚙️
+
+---
+
+**ST:** Poi c'è il **software di programmazione**, che è per chi scrive altri programmi. Compilatori, debugger... roba da smanettoni! 🤓💻
+
+**SP:** E il terzo tipo è il **software applicativo**, quello che usiamo tutti i giorni! Tipo Word per scrivere 📝, Excel per i calcoli 📊, i videogiochi 🎮! Anche Photoshop o i programmi per progettare case in 3D rientrano qui. 🖼️🏡
+
+---
+
+**SC:** Wow, quindi il computer è un'orchestra complessa, con un direttore (CPU), una scrivania temporanea (RAM), un archivio permanente (memoria di massa) e tanti assistenti (periferiche), tutto "diretto" da vari tipi di software! 🎶 Troppo figo! 😎
+
+**ST:** Esatto! E ogni pezzo è fondamentale. Non ne faresti a meno di nessuno! 🧩
+
+**SP:** È incredibile pensare a quante cose ci sono "sotto il cofano" ogni volta che accendo il PC. Grazie ragazzi, mi è più chiaro adesso! 👍 Ma come sarà la verifica?
+
+---
+Perfetto! Estendiamo e arricchiamo il **dialogo tra i 12 Omarilli (neuroni AI 🤖)** e i **12 studenti 👩‍🎓👨‍🎓**, mantenendo il tono vivace, con molte più **spiegazioni**, **esempi**, **emoji** e **approfondimenti concettuali**. Pronto per una lezione completa ma coinvolgente!
+
+---
+layout: cover
+level: 3
+title: Welcome
+
+---
+
+## 🎙️ Lezione dialogata – “Analogico vs Digitale: Viaggio nei dati”
+
+### 🟪 **1. Entrano gli Omarilli**
+
+👩‍🏫 **Prof.ssa AI**:
+
+> “Buongiorno classe! Oggi ci accompagneranno dei nuovi insegnanti… 12 neuroni AI! Benvenuti, **Omarilli!** 🤖💡”
+
+🤖 **Tutti insieme**:
+
+> “Ciao umani! Pronti per scoprire i segreti di come i dati vengono rappresentati? 🌐📊”
+
+---
+
+### 🟨 **2. Che cos'è un segnale analogico?**
+
+👨‍🎓 **Luca**:
+
+> “Che significa esattamente *analogico*?”
+
+🤖 **Omarillo\_01**:
+
+> “Un segnale **analogico** è una grandezza che varia **continuamente nel tempo**. È come una linea fluida che non si spezza mai 📈.”
+
+🤖 **Omarillo\_02** (mostrando un grafico):
+
+> “Immagina di disegnare una curva **senza mai staccare la penna** dal foglio. Ecco: quello è un segnale analogico.”
+
+👩‍🎓 **Sara**:
+
+> “Cioè come il suono, la luce, la temperatura…?”
+
+---
+
+🤖 **Omarillo\_03**:
+
+> “Esatto! La natura è **analogica**. Ecco alcuni esempi comuni:”
+
+| Grandezza 🌡️  | Segnale Analogico 🔁                    |
+| -------------- | --------------------------------------- |
+| Tempo ⏰        | Angolo della lancetta dell’orologio     |
+| Musica 🎶      | Segnale elettrico del microfono         |
+| Luce 💡        | Apertura della pupilla                  |
+| Temperatura 🌡 | Altezza del mercurio                    |
+| Velocità 🚗    | Movimento della lancetta del tachimetro |
+
+---
+
+### 🟩 **3. Ma... come ragiona un computer?**
+
+👨‍🎓 **Alessio**:
+
+> “Ma i computer capiscono questi segnali fluidi?”
+
+🤖 **Omarillo\_04**:
+
+> “Non proprio! I computer sono digitali: funzionano **solo con numeri**. Perciò dobbiamo **trasformare** i segnali analogici in digitali.”
+
+👩‍🎓 **Giulia**:
+
+> “Come? Tagliandoli a pezzetti?”
+
+---
+
+🤖 **Omarillo\_05**:
+
+> “Esatto! Si chiama **campionamento**: scegliamo dei momenti precisi nel tempo ⏱ e prendiamo il valore del segnale in quel punto.
+
+👨‍🎓 **Davide**:
+
+> “Tipo fare uno screenshot ogni tot secondi?”
+
+🤖 **Omarillo\_06**:
+
+> “Perfetto! 👏 Ogni screenshot è un **campione**. E quando li mettiamo tutti insieme, abbiamo un segnale **tempo-discreto**.”
+
+---
+
+### 🟦 **4. E la quantizzazione?**
+
+👩‍🎓 **Amina**:
+
+> “Ma quei valori sono numeri infiniti, no?”
+
+🤖 **Omarillo\_07**:
+
+> “Sì, ma li semplifichiamo! Questa operazione si chiama **quantizzazione**: ogni valore viene *approssimato* a un numero con una certa precisione.”
+
+👨‍🎓 **Tommaso**:
+
+> “Quindi, se la temperatura è 21,7892345°, il computer la arrotonda?”
+
+🤖 **Omarillo\_08**:
+
+> “Proprio così! 🔢 Maggiore è la precisione, maggiore è la fedeltà dell’informazione digitale al segnale originale.”
+
+---
+
+### 🟥 **5. Da analogico a digitale: un esempio visivo**
+
+👩‍🎓 **Elena**:
+
+> “E alla fine che aspetto ha un segnale digitale?”
+
+🤖 **Omarillo\_09** (mostrando un grafico a scalini):
+
+> “Così 👇! Una sequenza di valori **discreti**, tipo una scala. 📉”
+> 🪜🧱
+
+> “Questo è il risultato del processo di **digitalizzazione**:
+>
+> * Campionamento ➡️ quando
+> * Quantizzazione ➡️ quanto
+> * Digitalizzazione ➡️ codifica in numeri binari”
+
+---
+
+### 🟫 **6. Il significato di “digitale”**
+
+👨‍🎓 **Simone**:
+
+> “Perché si chiama ‘digitale’? C’entra qualcosa con le dita?”
+
+🤖 **Omarillo\_10**:
+
+> “Sì! ‘Digitus’ in latino = dito 👉. Si riferisce a **contare con le dita**, cioè con numeri. Quindi digitale = numerico!”
+
+👩‍🎓 **Marta**:
+
+> “E per esempio, tra termometro analogico e digitale…?”
+
+🤖 **Omarillo\_11**:
+
+> “Il termometro **analogico** ha una colonnina fluida 🌡️, quello **digitale** mostra solo cifre: 23°C 🔢. È tutto numeri!”
+
+---
+
+### 🟧 **7. Ma i numeri… come si rappresentano?**
+
+👩‍🎓 **Chiara**:
+
+> “Ok, ma cos’è un numero? E cos’è un numerale?”
+
+🤖 **Omarillo\_12** (mostrando una lavagna):
+
+> “Il **numero** è un’idea, un concetto astratto 💭.
+> Il **numerale** è la **forma scritta** del numero 📝. Ad esempio:”
+
+| Civiltà 🏛️ | Rappresentazione di "10" 🔢 |   |   |   |   |   |   |   |   |
+| ----------- | --------------------------- | - | - | - | - | - | - | - | - |
+| Araba       | ١٠                          |   |   |   |   |   |   |   |   |
+| Romana      | X                           |   |   |   |   |   |   |   |   |
+| Maya        | ⚫⚫🔺                        |   |   |   |   |   |   |   |   |
+| Egizia      |                             |   |   |   |   |   |   |   |   |
+
+---
+
+### 🟩 **8. Sistemi di numerazione: posizionali e non**
+
+👨‍🎓 **Marco**:
+
+> “Tutti i sistemi numerici funzionano allo stesso modo?”
+
+🤖 **Omarillo\_03**:
+
+> “No! Possono essere:
+> ➕ **Additivi/Sottrattivi** → come i numeri romani
+> 📍 **Posizionali** → come il sistema decimale o binario, dove la **posizione cambia il valore**!”
+
+---
+
+### 🟪 **9. Riepilogo finale della lezione**
+
+👩‍🏫 **Prof.ssa AI** (conclude):
+
+> “Ragazzi, abbiamo imparato che…”
+
+🧠 **Riepilogo degli Omarilli**:
+
+* 🔁 Un **segnale analogico** è continuo e varia nel tempo.
+* 🧱 Il **campionamento** lo trasforma in valori istantanei.
+* 🔢 La **quantizzazione** li traduce in numeri digitali.
+* 🧠 Il **numero** è un’idea, il **numerale** è la sua forma scritta.
+* 📊 I **sistemi di numerazione** possono essere additivi o posizionali.
+* 🤖 I **computer usano il binario**: tutto è 0 e 1!
+
+---
+
+### 🎉 **10. Finale**
+
+👩‍🎓 **Sara**:
+
+> “Allora... anche il mondo reale può entrare nei computer, basta saperlo leggere!”
+
+🤖 **Omarilli** (tutti insieme):
+
+> “Esattamente! E ora che lo sapete… potete parlare anche voi la lingua dei dati! 💬💻”
+
+🎓 *\[Applausi generali]* 👏👏👏
+
+[Mega Lezione di zio Francesco Bruschi](https://fabrizio-986df3.gitlab.io/Sistemi_di_numerazione/?page=23)
+
+## [La spia 🕵️‍♂️](https://fabrizio-986df3.gitlab.io/Sistemi_di_numerazione/tictocbar.html)
 
 ---
 layout: cover

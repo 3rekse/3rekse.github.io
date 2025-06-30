@@ -38,11 +38,39 @@ title: flutter caratteristiche
 4. **Sviluppo multipiattaforma**: Con un singolo codice sorgente, è possibile sviluppare app per iOS, Adroid, web, Windows, macOS e Linux.
 5. **Ampio ecosistema**: Flutter ha un vasto ecosistema che consente la personalizzazione dell'aspetto e del comportamento delle app.
 
-<!-- 
+---
 
-Note slide: 
+In informatica, un **widget** è un piccolo elemento grafico interattivo di un'interfaccia utente. Pensa a esso come a un mini-programma o a uno strumento che svolge una funzione specifica e limitata.
 
--->
+Ecco alcune caratteristiche chiave dei widget:
+
+* **Interattivi:** Permettono all'utente di interagire con un'applicazione o un sistema in modo rapido e semplice.
+* **Grafici:** Hanno una rappresentazione visiva sullo schermo, come un pulsante, una casella di testo, una barra di scorrimento, un'icona, o un piccolo display di informazioni.
+* **Funzione Specifica:** Ogni widget è progettato per uno scopo ben definito (ad esempio, mostrare il meteo, controllare la musica, visualizzare un calendario, lanciare un'applicazione).
+* **Facili da Usare:** L'obiettivo è fornire accesso rapido a informazioni o funzioni senza dover aprire un'applicazione completa.
+
+---
+
+### Dove li trovi?
+
+I widget sono onnipresenti nella tecnologia moderna:
+
+* **Sistemi Operativi (Desktop e Mobile):** Li trovi sulla schermata iniziale del tuo smartphone (ad esempio, un widget del meteo, del calendario, o di un lettore musicale) o sulla barra delle applicazioni del tuo computer (come il widget dell'orologio o delle notizie).
+* **Siti Web:** Molti siti web utilizzano widget per incorporare funzionalità da altri servizi (ad esempio, un widget di condivisione sui social media, un widget di Google Maps o un widget per le recensioni).
+* **Applicazioni:** All'interno delle applicazioni stesse, elementi come pulsanti, menu a discesa, slider e caselle di controllo sono tutti esempi di widget che permettono l'interazione con il programma.
+
+---
+
+### Esempi comuni
+
+* **Widget Meteo:** Mostra la temperatura e le condizioni attuali direttamente sulla schermata iniziale.
+* **Widget Orologio:** Un orologio digitale o analogico sempre visibile.
+* **Widget Musicale:** Controlla la riproduzione di musica (play/pausa, avanti/indietro) senza aprire l'app musicale completa.
+* **Widget Notizie:** Visualizza le ultime notizie da una fonte specifica.
+* **Widget Calendario:** Mostra gli eventi imminenti.
+
+In sintesi, un widget è uno strumento comodo e compatto che migliora l'esperienza utente fornendo accesso rapido a informazioni o funzionalità specifiche.
+
 ---
 layout: intro
 background: https://www.winklix.com/blog/wp-content/uploads/2022/08/flutter-for-cross-platform-app-development.jpg
@@ -64,6 +92,7 @@ Gli argomenti in queste sezioni ti aiutano nello sviluppo.
 Note slide: 
 
 -->
+
 ---
 layout: cover
 level: 2
@@ -118,8 +147,8 @@ layout: cover
 background: https://cdn.educba.com/academy/wp-content/uploads/2020/12/Flutter-Widgets.jpg
 level: 2
 title: Il Widget text
----
 
+---
 
 Il widget `Text` in Flutter è utilizzato per visualizzare una stringa di testo nell'interfaccia utente dell'applicazione. È uno dei widget più basilari e comuni in Flutter, permettendo agli sviluppatori di inserire testo nelle loro app in modo semplice ed efficace.
 

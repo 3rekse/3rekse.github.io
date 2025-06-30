@@ -13,6 +13,7 @@ Programmazione e risoluzione di puzzle
 layout:
 title: Pagina 2
 level: 3
+
 ---
 
 Benvenuto!
@@ -4408,7 +4409,7 @@ Una sequenza di numeri interi
 A1, ..., an.
 Output: il numero di inversioni
 nella sequenza, cioè il numero di
-Indici i <j tale che ai> aj.
+Indici *i* < *j* tale che *ai* > *aj*.
 3
 2
 5
@@ -4602,7 +4603,7 @@ D
 Ciò si traduce nel seguente algoritmo.Per prima cosa ordiniamo i punti n indicati
 dai loro coordinati X e quindi dividere l'elenco ordinato risultante in due
 metà S1 e S2 della dimensione n
-2. facendo una chiamata ricorsiva per ciascuno dei
+1. facendo una chiamata ricorsiva per ciascuno dei
 Imposta S1 e S2, abbiamo trovato le distanze minime D1 e D2 in esse.Permettere
 d = min {d1, d2}.Tuttavia, non abbiamo ancora finito perché abbiamo anche bisogno di trovare il
 distanza minima tra i punti da diversi set (cioè un punto da S1

@@ -11,6 +11,13 @@ title: Sistemi digitali
 
 ## Annus Domini MMXXIV
 
+<style>
+.toc {
+  overflow-y: auto;
+  max-height: 80vh; /* Regola l'altezza massima per dispositivi mobili */
+}
+</style>
+
 <Toc columns="2" maxDepth="1" minDepth="1" mode="next" />
 
 [Link per i Colloqui ONLINE prenotati ](https://bit.ly/LineaProf) 🎄 [🎁](https://gameomar.vercel.app/) [🎁](https://bebras.it/students/)
@@ -51,33 +58,5 @@ src: ./regole.md
 ---
 ---
 src: ./metacogn/metadialogo.md
-
----
----
-src: ./toc/toc.md
-
----
----
-src: ./toc/1toc.md
-
----
----
-src: ./toc/2toc.md
-
----
----
-src: ./toc/3toc.md
-
----
----
-src: ./toc/4toc.md
-
----
----
-src: ./toc/5toc.md
-
----
----
-src: ./toc/xtoc.md
 
 ---
