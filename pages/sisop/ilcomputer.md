@@ -5,7 +5,7 @@ title: Introduzione alle tecnologie informatiche
 background: /office/images/oldman.svg
 
 ---
-<!-- markdownlint-disable MD033 MD026-->
+
 ### 🧑‍🏫 Professore - Tecnologie informatiche
 
 ### Buongiorno, a tutti! Io mi chiamo Bonfiglio Fabrizio
@@ -53,15 +53,28 @@ title: Welcome
 ## Ciao Omarillo! Ma allora cosa tratta il sito?
 
 ```mermaid
-graph LR
-    Inizio[Avvia Processo] --> RaccoltaDati(Raccogli Input Utente);
-    RaccoltaDati --> Validazione{Dati Validi?};
-    Validazione -- Sì --> Elaborazione[Elabora Dati];
-    Validazione -- No --> Errore(Mostra Errore);
-    Elaborazione --> Salvataggio[Salva Risultati];
-    Salvataggio --> Fine(Completato);
-    Errore --> Inizio;
+graph TD
+    subgraph Linea 1: Informatica
+        A[IT story] --> B[Sistemi di Numerazione]:::redBorder
+        B --> C[Rappresentazione dei Dati]
+    end
+    
+    subgraph Linea 2: Automation LAB
+        Y[Keybord] -->D[Documenti]
+        D --> E[Fogli Elettronici]
+        Z[Algoritmi] 
+    end
 
+    subgraph Linea 3: Coputer e Reti
+        F[Architettura] --> G[Il Web]
+        G --> H[AI]
+        G --> I[Sicurezza Informatica]
+    end
+    
+    B -.->|DIAGRAMMI DI FLUSSO| Z:::redLine
+
+    classDef redBorder stroke:#f00,stroke-width:2px;
+    classDef redLine stroke:#f00,stroke-width:2px,stroke-dasharray:5;
 
 ```
 
@@ -96,7 +109,7 @@ background: <https://vidabytes.com/wp-content/uploads/2021/05/Programas-para-cre
 
 ### 🧑‍🎓 Studente-12
 
-## Troppe cose da imparare!!
+## Troppe cose da imparare!
 
 ## E io tutto questo dovrò studiare ?
 
@@ -106,32 +119,67 @@ https://github.com/rnatella/so_esempi/
 https://github.com/remzi-arpacidusseau
 https://pages.cs.wisc.edu/~remzi/OSTEP/
 -->
-## Già ! Ma da solo tre idee chiave fatti guidare!
+## Già ! Ma da degli utili strumenti fatti guidare!
 
 ## Ed ogni verifica riuscirai ad affrontare.
 
 ### 🧑‍🎓 Studente-11
 
-## Allora c'è qualcuno che me le vuole raccontare ?
+## Allora c'è qualcuno che me li vuole indicare ?
 
 ---
 layout: cover
-title: Virtualizzazione, concorrenza e persistenza.
+title:  Quaderno a quadretti.
 level: 3
 
 ---
 
 ### 🧠 Omarillo5
 
-**Allora Eccoti la tripla chiave**
+<div class="scrollable">
 
-## 🔑1 Virtualizzazione
+Certo! Il quaderno a quadretti non è solo una questione di "bellezza" o "pulizia", ma un vero e proprio **strumento didattico che supporta l'apprendimento, la precisione, l'organizzazione del pensiero e, in particolare, aiuta a superare alcune difficoltà specifiche legate all'elaborazione numerica e spaziale**. È un investimento nell'efficacia dello studio e nella comprensione profonda della materia.
 
-## 🔑2 Concorrenza
+L'utilizzo di un quaderno a quadretti dedicato a una specifica disciplina e l'importanza di usare i quadretti in modo corretto sono aspetti fondamentali, specialmente per materie come la matematica, la geometria, la fisica, ma anche per organizzare il pensiero in altre discipline come l'informatica.
 
-## 🔑3 Persistenza
+Ecco le ragioni principali:
 
-Imparando queste idee, imparerai tutto su come funziona un sistema operativo, incluso come decide quale programma eseguire successivamente su una CPU, come gestisce il sovraccarico di memoria  **sistema memoria virtuale** , come funzionano i monitor delle macchine virtuali, come gestire le informazioni sui dischi, e anche un po' su come costruire un sistema distribuito che funzioni quando alcune parti sono guaste. Quel genere di cose.
+### 1. **Ordine e Organizzazione Spaziale**
+
+* **Allineamento e Chiarezza:** I quadretti fungono da guida per allineare numeri, simboli, formule e grafici. Questo è cruciale in matematica, dove un errore di allineamento in una colonna di addizione o sottrazione, o in un'equazione, può portare a risultati completamente sbagliati.
+* **Struttura Visiva:** Aiutano a creare una struttura visiva chiara. Ogni cifra, ogni simbolo, ogni passaggio può occupare un quadretto, rendendo il lavoro più leggibile e meno confusionario. Questo è particolarmente utile per chi ha difficoltà visuo-spaziali o dislessia/discalculia, perché riduce il disordine percettivo.
+* **Separazione degli Elementi:** Permettono di separare chiaramente i diversi elementi di un problema o di una spiegazione, ad esempio, distinguendo i dati, i passaggi di calcolo, i risultati e le conclusioni.
+
+### 2. **Precisione e Accuratezza**
+
+* **Geometria e Grafici:** Nella geometria, i quadretti sono indispensabili per disegnare figure precise, misurare lunghezze, angoli e aree. Nei grafici (es. in matematica o fisica), i quadretti permettono di posizionare i punti con accuratezza e di tracciare linee e curve in modo proporzionato.
+* **Formule e Equazioni:** Aiutano a scrivere le formule in modo ordinato, mantenendo gli esponenti, i pedici e le frazioni ben allineati, riducendo il rischio di errori di trascrizione o interpretazione.
+* **Diagrammi e Schemi:** Anche in altre discipline, per creare diagrammi di flusso, schemi concettuali o mappe mentali, i quadretti offrono una griglia che facilita la proporzione e l'organizzazione degli elementi.
+
+### 3. **Facilitare la Comprensione e l'Apprendimento**
+
+* **Identificazione degli Errori:** Un lavoro ordinato e ben strutturato rende molto più semplice per lo studente (e per l'insegnante) individuare dove si è commesso un errore. Se i numeri sono sparpagliati o le colonne non sono allineate, trovare l'errore diventa un'impresa.
+* **Ripasso Efficace:** Un quaderno ordinato è uno strumento di ripasso molto più efficace. Le informazioni sono presentate in modo logico e facile da seguire, facilitando la memorizzazione e la comprensione a lungo termine.
+* **Sviluppo del Pensiero Logico:** L'abitudine a organizzare il lavoro nello spazio del quaderno riflette e rafforza la capacità di organizzare il pensiero in modo logico e sequenziale, una competenza trasferibile a molti altri ambiti.
+
+### 4. **Supporto per Difficoltà Specifiche (es. Discalculia)**
+
+Come abbiamo discusso, per chi è affetto da discalculia, la percezione spaziale dei numeri e l'organizzazione visiva sono spesso sfidanti. I quadretti diventano un **prezioso strumento compensativo**:
+
+* **Ancoraggio Visivo:** Ogni quadretto può fungere da "ancora" per una singola cifra o un singolo simbolo, aiutando a mantenere l'allineamento e a prevenire "salti" o inversioni di cifre.
+* **Riduzione del Disordine:** La griglia ordinata riduce il senso di "caos" che i numeri possono generare, fornendo un ambiente più prevedibile e meno ansiogeno per l'elaborazione numerica.
+* **Passaggi Chiaramente Delimitati:** Permette di delimitare fisicamente ogni passaggio di un calcolo o di un algoritmo, rendendo il processo più sequenziale e meno opprimente.
+
+</div>
+
+<style>
+.scrollable {
+  max-height: 300px; /* Altezza massima dell'area scrollabile */
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
 
 ---
 layout: cover
@@ -148,16 +196,154 @@ title: Welcome
 
 ## Bene! Questo significa che sei nella classe giusta
 
-## 🧑‍🎓 Studente-7
-
-## Io ho una domanda: qual è il modo migliore per imparare queste cose?
-
 ---
 layout: cover
 level: 3
 title: Welcome
 
 ---
+
+## 🧠 Omarillo9 Allora usiamo il quaderno a quadretti e ripassiamo
+
+Immaginate di dover dividere qualcosa a metà, come una 🍕 o un sacchetto di ✏️✏️✏️✏️✏️. 
+L'algoritmo per dividere un numero intero per 2 funziona un po' così, ma lo facciamo con i numeri!
+
+<div class="scrollable">
+
+**Cos'è un algoritmo?**
+
+Prima di tutto, un "algoritmo" è semplicemente una serie di istruzioni precise, passo dopo passo, per risolvere un problema. Pensateci come una ricetta: se seguite tutti i passaggi nell'ordine giusto, otterrete sempre lo stesso risultato.
+
+**Dividere per 2: l'idea di base**
+
+Dividere un numero intero per 2 significa trovare quante "metà" uguali ci sono in quel numero. Oppure, in altre parole, trovare qual è il numero che, moltiplicato per 2, dà il numero di partenza.
+
+**L'algoritmo "a mano" (o quasi!)**
+
+Immaginate di avere un numero grande, tipo 84. Come lo dividiamo per 2?
+
+1.  **Guarda l'ultima cifra:**
+    * Se l'ultima cifra è un numero **pari** (0, 2, 4, 6, 8), la divisione sarà "esatta" (senza resto).
+    * Se l'ultima cifra è un numero **dispari** (1, 3, 5, 7, 9), la divisione avrà un resto di 1 (cioè, ti rimarrà "mezza" unità).
+
+2.  **Parti da sinistra (dalla cifra più grande):**
+    Prendiamo il numero 84.
+
+    * **Prima cifra (8):** Quanti "2" ci stanno nell'8? 4! (perché 2 x 4 = 8). Scrivi 4.
+    * **Seconda cifra (4):** Quanti "2" ci stanno nel 4? 2! (perché 2 x 2 = 4). Scrivi 2.
+
+    Metti insieme le cifre che hai trovato: 42. Quindi, 84 diviso 2 fa 42. Facile, no?
+
+**Cosa succede con i numeri dispari? (Il "resto")**
+
+Prendiamo il numero 85.
+
+1.  **Guarda l'ultima cifra:** È un 5, che è dispari. Sappiamo già che avremo un resto!
+
+2.  **Parti da sinistra:**
+
+    * **Prima cifra (8):** Quanti "2" ci stanno nell'8? 4! Scrivi 4.
+    * **Seconda cifra (5):** Quanti "2" ci stanno nel 5? Ci stanno 2 "2" interi (2 x 2 = 4), e ti avanza 1 (5 - 4 = 1). Scrivi 2.
+
+    Metti insieme le cifre che hai trovato: 42. E quel "1" che ti è avanzato è il **resto**.
+    Quindi, 85 diviso 2 fa 42 con il resto di 1.
+
+**Perché funziona?**
+
+Questo algoritmo si basa sul fatto che il nostro sistema numerico (il sistema decimale) è posizionale. Ogni cifra ha un valore diverso a seconda della sua posizione (unità, decine, centinaia, ecc.). Dividendo cifra per cifra da sinistra, stiamo in realtà dividendo blocchi di valore (centinaia, decine, unità) e gestendo gli "avanzi" (i resti) man mano.
+
+**Un esempio più complesso (con "riporto")**
+
+Prendiamo il numero 356.
+
+1.  **Prima cifra (3):** Quanti "2" ci stanno nel 3? 1, e avanza 1 (3 - 2 = 1). Scrivi 1.
+    *Quel "1" che avanza lo "riportiamo" alla cifra successiva, unendolo ad essa.*
+
+2.  **Seconda cifra (5):** Ora non guardiamo solo il 5, ma guardiamo l'1 che ci è avanzato e il 5, come se fosse 15.
+    Quanti "2" ci stanno nel 15? 7, e avanza 1 (2 x 7 = 14; 15 - 14 = 1). Scrivi 7.
+    *Di nuovo, quel "1" che avanza lo "riportiamo" alla cifra successiva.*
+
+3.  **Terza cifra (6):** Ora non guardiamo solo il 6, ma guardiamo l'1 che ci è avanzato e il 6, come se fosse 16.
+    Quanti "2" ci stanno nel 16? 8! (2 x 8 = 16). Scrivi 8.
+
+Mettiamo insieme le cifre: 178.
+Quindi, 356 diviso 2 fa 178.
+
+**In sintesi, l'algoritmo per dividere un numero intero per 2 funziona così:**
+
+* **Scrivi il numero.**
+* **Parti dalla prima cifra a sinistra.**
+* **Dividila per 2:**
+    * Se è pari, scrivi il risultato.
+    * Se è dispari, scrivi il risultato della divisione del numero immediatamente inferiore (pari) e "riporta" 1 alla cifra successiva, facendolo diventare una decina (ad esempio, se il resto è 1 e la cifra successiva è 5, diventa 15).
+* **Ripeti per ogni cifra, includendo eventuali "riporti".**
+* **Se l'ultima cifra è dispari, avrai un resto di 1.**
+
+Questo algoritmo è molto utile non solo a scuola, ma anche per capire come funzionano i calcolatori, che spesso usano operazioni molto simili a questa (ma in un sistema numerico diverso, quello binario!).
+
+Certo\! Ecco un diagramma di flusso che rappresenta l'algoritmo per dividere un numero intero per 2.
+
+
+## Diagramma di Flusso: Divisione di un Numero Intero per 2
+
+```mermaid
+
+graph TD
+    A[Inizio] --> B[Inserisci il numero intero N da dividere];
+    B --> C{C'è ancora una cifra da elaborare a sinistra?};
+    C -- No --> H[Il risultato è il quoziente calcolato, con il resto se presente];
+    C -- Sì --> D[Prendi la prima cifra o la cifra corrente con il riporto da sinistra];
+    D --> E[Dividi la cifra per 2];
+    E --> F[Registra il quoziente cioè la parte intera];
+    E --> G{Il resto è 1};
+    G -- Si --> I[Aggiungi il resto come decina alla prossima cifra];
+    G -- No --> J[Passa alla prossima cifra];
+    I --> J;
+    J --> C;
+    H --> K[Fine];
+
+```
+
+### Spiegazione del Diagramma di Flusso:
+
+  * **Inizio/Fine (Ovali):** Indicano l'inizio e la fine dell'algoritmo.
+  * **Input/Output (Parallelogrammi):**
+      * **Inserisci il numero intero N da dividere:** Qui è dove l'utente fornisce il numero.
+      * **Il risultato è il quoziente calcolato, con il resto se presente:** Qui viene presentato il risultato finale.
+  * **Processi (Rettangoli):** Rappresentano le azioni o i calcoli.
+      * **Prendi la prima cifra (o la cifra corrente con il riporto) da sinistra:** Si inizia dalla cifra più significativa.
+      * **Dividi la cifra per 2:** Esegui la divisione.
+      * **Registra il quoziente (parte intera):** Il risultato della divisione per quella cifra.
+      * **Calcola il resto (0 o 1):** Verifica se c'è un resto.
+      * **Aggiungi il resto come decina alla prossima cifra:** Se c'è un resto di 1, questo "riporto" viene combinato con la cifra successiva (es. se resta 1 e la prossima cifra è 5, diventa 15).
+      * **Passa alla prossima cifra:** Continua con la cifra seguente.
+  * **Decisioni (Rombo):** Rappresentano una domanda a cui si risponde con "Sì" o "No", influenzando il percorso dell'algoritmo.
+      * **C'è ancora una cifra da elaborare a sinistra?**: Verifica se ci sono ancora cifre da dividere.
+
+Questo diagramma di flusso visualizza i passaggi logici che ti ho spiegato prima, rendendo più chiaro il processo iterativo dell'algoritmo. Spero ti sia utile\!
+
+</div>
+
+<style>
+.scrollable {
+  max-height: 300px; /* Altezza massima dell'area scrollabile */
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid red; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
+
+ 
+---
+layout: cover
+level: 3
+title: Welcome
+
+---
+
+## 🧑‍🎓 Studente-7
+
+## Io ho una domanda: qual è il modo migliore per imparare queste cose?
 
 ### 🧠 Omarillo -7
 
@@ -370,14 +556,12 @@ title: Welcome
 ---
 layout: cover
 level: 3
-title: Origini
-id: origini
-
+title: ancora
+id: ancora
 ---
 
-### 🎭 **Dialogo: "Alle Origini dell'Informatica"**
 
-*Luogo: Aula virtuale interattiva con pannelli olografici e timeline storiche animate.*
+### 🎭 **Dialogo: "Alle Origini dell'Informatica"**
 
 ```mermaid
 graph LR
@@ -696,7 +880,15 @@ Grazie, Omarilli! Ora sappiamo che l’informatica è più umana di quanto pensa
 **O12:** Precisamente! Si parte da un modello digitale, spesso creato con un programma **CAD** 🖥️. Questo file viene poi "affettato" in tanti strati. La stampante e il suo software stampano ogni strato in sequenza, uno sopra all'altro, fino a costruire l'oggetto. I materiali più comuni oggi sono la **plastica** (come PLA o ABS), il **metallo** e la **ceramica**. 🏗️✨
 
 ---
+layout: cover
+level: 3
+title: Welcome
 
+---
+
+esercizio
+
+---
 layout: cover
 level: 3
 title: Welcome
@@ -1660,7 +1852,6 @@ Se desideri lavorare con Python in un ambiente online, ci sono diverse piattafor
 3. **Scrivi ed Esegui Codice**: Puoi iniziare a scrivere il tuo codice Python e testarlo immediatamente.
 4. **Salva e Condividi**: Molte piattaforme offrono opzioni per salvare i tuoi lavori e condividerli con altri.
 
-Se hai domande specifiche su una di queste piattaforme o su come usarle, fammi sapere!
 
 </div>
 
@@ -2123,7 +2314,7 @@ title: Welcome
 
 ### 🧠 Omarillo- 7
 
-## Ottima domanda! Nel sistema binario, ogni posizione di un simbolo rappresenta una potenza di 2, proprio come nel sistema decimale ogni posizione di un simbolo rappresenta una potenza di 10. Ad esempio, il numero binario 1011 può essere spiegato come:
+## Nel sistema binario, ogni posizione di un simbolo rappresenta una potenza di 2, proprio come nel sistema decimale ogni posizione di un simbolo rappresenta una potenza di 10. Ad esempio, il numero binario 1011 può essere spiegato come:
 
 - \(1 volta 2^3 = 8\)
 - \(0 volte 2^2 = 0\)
@@ -2131,6 +2322,234 @@ title: Welcome
 - \(1 volte 2^0 = 1\)
 
 Quindi, 1011 in binario è uguale a \(8 + 0 + 2 + 1 = 11\) in decimale. 🧮
+
+---
+layout: cover
+level: 3
+title: Welcome
+
+---
+
+**Conversione Decimale-Binario (e Viceversa)**
+
+<div class="scrollable">
+
+Capire come trasformare i numeri da decimale a binario e viceversa, e saperlo fare "a mano", è fondamentale per diverse ragioni, specialmente se siete interessati al mondo della tecnologia e dell'informatica.
+
+### L'Importanza della Conversione Decimale-Binario (e Viceversa)
+
+1.  **Il Linguaggio dei Computer:**
+    * **I computer parlano in binario:** La ragione principale è che i computer, a livello più basso, funzionano con l'elettricità. Un segnale elettrico può essere "acceso" (rappresentato da 1) o "spento" (rappresentato da 0). Questo sistema a due stati è perfettamente rappresentato dal sistema numerico binario (base 2), che usa solo le cifre 0 e 1.
+    * **Tutto è binario:** Quando usate il vostro smartphone, guardate un video, scrivete un messaggio o giocate a un videogioco, tutte le informazioni (testo, immagini, suoni, istruzioni) vengono convertite in sequenze di 0 e 1 per essere elaborate dal processore. Saper convertire vi dà un'idea di come questi dati vengono "capiti" dalla macchina.
+
+2.  **Comprendere l'Hardware:**
+    * **Circuiti Digitali:** La logica alla base dei circuiti elettronici (come quelli dentro un microprocessore) è costruita su porte logiche (AND, OR, NOT) che operano con valori binari (vero/falso, 1/0). Capire il binario vi aiuta a capire come questi circuiti elaborano le informazioni.
+    * **Memoria:** La memoria dei computer (RAM, hard disk, chiavette USB) memorizza i dati sotto forma di bit (0 o 1). Comprendere come i numeri decimali vengono tradotti in sequenze di bit vi aiuta a capire come le informazioni sono immagazzinate.
+
+3.  **Programmazione e Reti:**
+    * **Livello Basso (Assembly, C):** Se mai vi avvicinerete alla programmazione a basso livello (come il linguaggio Assembly o il C per alcuni aspetti), vi imbatterete direttamente in valori binari o esadecimali (che sono una scorciatoia per il binario).
+    * **Indirizzi IP:** Nel networking, gli indirizzi IP (come 192.168.1.1) sono spesso pensati in notazione decimale, ma in realtà sono composti da 32 o 128 bit. Saperli convertire in binario è fondamentale per capire le subnet mask e il funzionamento delle reti.
+    * **Codifica dei Dati:** Dalla codifica dei colori (RGB) alla rappresentazione dei caratteri (ASCII, Unicode), molti schemi di codifica si basano su rappresentazioni binarie.
+
+4.  **Sviluppo del Pensiero Logico e Matematico:**
+    * **Basi Numeriche:** Capire il binario (e altri sistemi come l'ottale e l'esadecimale) rafforza la comprensione del concetto di "base" in un sistema numerico posizionale, che è fondamentale in matematica.
+    * **Problem Solving:** Implementare gli algoritmi manualmente richiede precisione, attenzione ai dettagli e un approccio sistematico, abilità utili in ogni campo.
+
+### Implementare gli Algoritmi di Conversione Manualmente: Perché è Importante
+
+Anche se esistono calcolatrici e strumenti online che fanno la conversione per voi, saperla fare a mano è cruciale per:
+
+1.  **Comprensione Profonda:** Eseguire l'algoritmo manualmente vi costringe a capire il "perché" dietro ogni passaggio, non solo il "come". Non state solo premendo un tasto, state costruendo attivamente il numero nel nuovo sistema.
+2.  **Debugging e Risoluzione Problemi:** Se un programma o un calcolatore restituisce un risultato inaspettato, avere la capacità di fare la conversione a mano vi permette di verificare i calcoli e identificare potenziali errori.
+3.  **Fondamenta Solide:** È come imparare a fare le operazioni matematiche base prima di usare la calcolatrice. Costruisce una base solida di conoscenza che vi servirà per concetti più complessi in informatica.
+4.  **Ragionamento Algoritmico:** Gli algoritmi di conversione sono semplici ma efficaci esempi di algoritmi. Impararli a mano aiuta a sviluppare il pensiero algoritmico: la capacità di scomporre un problema in passi logici e sequential.
+
+### Gli Algoritmi Manuali
+
+#### 1. Da Decimale a Binario (Metodo delle Divisioni Successive per 2)
+
+Questo è l'algoritmo che si usa più frequentemente:
+
+**Passaggi:**
+1.  Dividi il numero decimale per 2.
+2.  Annota il resto (che sarà sempre 0 o 1).
+3.  Usa il quoziente ottenuto come nuovo numero da dividere.
+4.  Ripeti i passaggi 1-3 finché il quoziente non diventa 0.
+5.  Il numero binario si ottiene leggendo i resti dal basso verso l'alto (dall'ultimo resto al primo).
+
+**Esempio: Convertire 13 in binario**
+
+* $13 \div 2 = 6$ con resto $\textbf{1}$
+* $6 \div 2 = 3$ con resto $\textbf{0}$
+* $3 \div 2 = 1$ con resto $\textbf{1}$
+* $1 \div 2 = 0$ con resto $\textbf{1}$
+
+Leggendo i resti dal basso verso l'alto: $\textbf{1101}_2$.
+Quindi, $13_{10} = 1101_2$.
+
+#### 2. Da Binario a Decimale (Metodo delle Potenze di 2)
+
+**Passaggi:**
+1.  Scrivi il numero binario.
+2.  Assegna a ciascuna cifra (bit) del numero binario una potenza di 2, partendo da $2^0$ per la cifra più a destra (meno significativa) e aumentando l'esponente di 1 per ogni posizione verso sinistra.
+3.  Moltiplica ogni cifra binaria per la sua corrispondente potenza di 2.
+4.  Somma tutti i risultati ottenuti.
+
+**Esempio: Convertire 1101 in decimale**
+
+* $1 \times 2^3$ (per la cifra più a sinistra)
+* $1 \times 2^2$
+* $0 \times 2^1$
+* $1 \times 2^0$ (per la cifra più a destra)
+
+Calcoli:
+* $1 \times 8 = 8$
+* $1 \times 4 = 4$
+* $0 \times 2 = 0$
+* $1 \times 1 = 1$
+
+Somma i risultati: $8 + 4 + 0 + 1 = 13$.
+Quindi, $1101_2 = 13_{10}$.
+
+Imparare questi algoritmi e metterli in pratica manualmente è un passo fondamentale per chiunque voglia addentrarsi nel mondo dell'informatica, del coding o dell'elettronica. Vi fornisce non solo una conoscenza tecnica, ma anche una mentalità analitica e di problem-solving preziosa.
+
+## Diagramma di Flusso: Conversione da Decimale a Binario
+
+Questo algoritmo usa il metodo delle divisioni successive per 2.
+
+```mermaid
+graph TD
+    A[Inizio] --> B[Inserisci il numero decimale N];
+    B --> C[Crea una lista vuota per i resti];
+    C --> D{ N è maggiore di 0?};
+    D -- No --> H[Leggi i resti dall'ultimo al primo: questo è il numero binario];
+    D -- Sì --> E[Calcola N diviso 2 -quoziente Q e resto R-];
+    E --> F[Aggiungi R all'inizio della lista dei resti];
+    F --> G[Imposta N = Q];
+    G --> D;
+    H --> I[Fine];
+
+```
+   
+## Spiegazione del Flusso:
+
+    Inizio: Si parte.
+
+    Inserisci il numero decimale N: Qui inserisci il numero decimale che vuoi convertire (es. 13).
+
+    Crea una lista vuota per i resti: Prepara un posto dove salverai i resti (es. []).
+
+    È N maggiore di 0?: Questa è una decisione.
+
+        Sì: Se N è ancora maggiore di 0, continuiamo a dividere.
+
+        No: Se N è diventato 0, abbiamo finito di dividere.
+
+    Calcola N diviso 2 (quoziente Q e resto R): Esegui la divisione.
+
+        Esempio: Se N=13: 13div2=6 (Q) con resto 1 (R).
+
+    Aggiungi R all'inizio della lista dei resti: Il resto è fondamentale. Lo aggiungi all'inizio perché poi lo leggerai dal basso verso l'alto.
+
+        Esempio: Lista diventa [1] (per il primo resto di 13 diviso 2).
+
+    Imposta N = Q: Il quoziente diventa il nuovo numero da dividere.
+
+        Esempio: N diventa 6.
+
+    Torna al passo "È N maggiore di 0?": Il ciclo si ripete.
+
+        Continua con N=6: 6div2=3 (Q) con resto 0 (R). Lista: [0, 1]. N diventa 3.
+
+        Continua con N=3: 3div2=1 (Q) con resto 1 (R). Lista: [1, 0, 1]. N diventa 1.
+
+        Continua con N=1: 1div2=0 (Q) con resto 1 (R). Lista: [1, 1, 0, 1]. N diventa 0.
+
+    È N maggiore di 0? -- No: Ora N è 0, quindi ci fermiamo.
+
+    Leggi i resti dall'ultimo al primo: questo è il numero binario: Prendi la lista dei resti nell'ordine in cui li hai aggiunti.
+
+        Esempio: [1, 1, 0, 1] è il numero binario.
+
+    Fine: L'algoritmo termina.
+
+Diagramma di Flusso: Conversione da Binario a Decimale
+
+Questo algoritmo usa il metodo delle potenze di 2.
+
+```mermaid
+
+graph TD
+    A[Inizio] --> B[Inserisci il numero binario  es. 1101 ];
+    B --> C[Imposta il valore decimale = 0];
+    C --> D[Imposta la potenza di 2 corrente = 1 - corrisponde a 2^0];
+    D --> E[Prendi la cifra bit più a destra del numero binario];
+    E --> F{Hai processato tutte le cifre del numero binario?};
+    F -- Sì --> J[Il valore decimale è il risultato];
+    F -- No --> G[Se la cifra o bit è 1: aggiungi la potenza di 2 corrente al valore decimale];
+    G --> H[Rimuovi la cifra processata dal numero binario];
+    H --> I[Moltiplica la potenza di 2 corrente per 2 -per ottenere la prossima potenza di 2- ];
+    I --> E;
+    J --> K[Fine];
+
+```
+
+## Spiegazione del Flusso:
+
+    Inizio: Si parte.
+
+    Inserisci il numero binario (es. 1101): Qui inserisci il numero binario che vuoi convertire.
+
+    Imposta il valore decimale = 0: Questa variabile conterrà il risultato finale.
+
+    Imposta la potenza di 2 corrente = 1 (corrisponde a 2^0): Iniziamo dalla potenza più bassa.
+
+    Prendi la cifra (bit) più a destra del numero binario: Iniziamo dal bit meno significativo.
+
+        Esempio: Se il numero è 1101, prendi 1.
+
+    Hai processato tutte le cifre del numero binario?: Questa è una decisione.
+
+        Sì: Se non ci sono più cifre da elaborare, abbiamo finito.
+
+        No: Se ci sono ancora cifre, continuiamo.
+
+    Se la cifra (bit) è 1: aggiungi la potenza di 2 corrente al valore decimale: Se il bit è 0, non aggiungiamo nulla. Se è 1, aggiungiamo il valore posizionale.
+
+        Esempio: Per 1101, la prima cifra a destra è 1. Potenza di 2 corrente è 1. Quindi, valore_decimale = 0 + 1 = 1.
+
+    Rimuovi la cifra processata dal numero binario: Il numero binario si accorcia.
+
+        Esempio: 1101 diventa 110.
+
+    Moltiplica la potenza di 2 corrente per 2: Passiamo alla potenza successiva.
+
+        Esempio: La potenza di 2 corrente diventa 1times2=2.
+
+    Torna al passo "Prendi la cifra (bit) più a destra...": Il ciclo si ripete.
+
+        Continua con 110, prendi 0. Potenza di 2 corrente 2. 0times2=0. valore_decimale resta 1. Potenza di 2 diventa 4. Numero diventa 11.
+
+        Continua con 11, prendi 1. Potenza di 2 corrente 4. valore_decimale = 1 + 4 = 5. Potenza di 2 diventa 8. Numero diventa 1.
+
+        Continua con 1, prendi 1. Potenza di 2 corrente 8. valore_decimale = 5 + 8 = 13. Potenza di 2 diventa 16. Numero diventa vuoto.
+
+    Hai processato tutte le cifre? -- Sì: Il numero binario è ora vuoto.
+
+    Il valore decimale è il risultato: Il valore_decimale (13 nell'esempio) è il risultato finale.
+
+    Fine: L'algoritmo termina.
+
+</div>
+
+<style>
+.scrollable {
+  max-height: 300px; /* Altezza massima dell'area scrollabile */
+  overflow-y: auto;  /* Abilita lo scroll verticale */
+  padding: 1em;      /* Aggiungi un po' di padding */
+  border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+}
+</style>
 
 ---
 layout: cover

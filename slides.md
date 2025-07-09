@@ -15,7 +15,6 @@ transition: slide-left
 title: The omarillo factory
 # Entry point for all of the actual pages
 # src: ./pages/_office.md
-
 src: ./pages/slides.md
 
 ---
