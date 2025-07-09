@@ -3935,7 +3935,15 @@ title: Welcome
 
 ### 🧠 Omarillo-5
 
-## È stato un piacere! Altre domande su come utilizzare e mantenere le risorse informatiche? Non esitare a chiedere. Buono studio a tutti!
+### È stato un piacere! Direi di considerare per il vostro futuro anche l'intelligenza artificiale.E buono studio a tutti!
+
+Per questo esplora l'idea di macchine che imitano l'essere umano, partendo dal contributo di Alan Turing allo sviluppo dei computer digitali e alla decifrazione del codice Enigma. Turing ha introdotto il concetto di macchina universale e ha posto le basi per l'intelligenza artificiale, proponendo il "test di Turing" per valutare la capacità di una macchina di mostrare un comportamento intelligente.
+
+---
+
+Oggi le aziende utilizzino algoritmi per interagire con i clienti, cercando di far percepire il proprio brand come "vivo". Turing ha anche indicato la strada per creare algoritmi intelligenti attraverso il "Machine Learning", basato sull'apprendimento automatico. L'idea era di far imparare alle macchine, partendo da uno stato simile a quello di un bambino e "educandole" gradualmente.
+
+Questo approccio si basa sull'osservazione dell'ambiente per riconoscere schemi e modificare l'algoritmo durante l'esecuzione, come avviene nei sistemi di guida automatica, nei motori di ricerca e nel riconoscimento vocale. L'affidabilità di questi algoritmi dipende dalla quantità di dati disponibili (big data). Il testo cita l'applicazione Eugene Goostman, che ha superato il test di Turing nel 2001, simulando un adolescente ucraino.
 
 ---
 layout: cover
