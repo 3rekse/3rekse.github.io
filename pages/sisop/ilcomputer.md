@@ -53,6 +53,7 @@ title: Welcome
 ## Ciao Omarillo! Ma allora cosa tratta il sito?
 
 ```mermaid
+
 graph TD
     subgraph Linea 1: Informatica
         A[IT story] --> B[Sistemi di Numerazione]:::redBorder
@@ -1081,6 +1082,8 @@ title: Welcome
 
 🤖 **Omarillo\_09** (mostrando un grafico a scalini):
 
+![Descrizione dell'immagine](/aed.png)
+
 > “Così 👇! Una sequenza di valori **discreti**, tipo una scala. 📉”
 > 🪜🧱
 
@@ -1634,6 +1637,596 @@ title: Welcome
 ---
 layout: cover
 level: 2
+title: Codifica, Calcolo e Comunicazione
+
+---
+
+### Codifica, Calcolo e Comunicazione: Un Dialogo tra Esperti e Curiosi
+
+**Partecipanti:**
+
+- **Omarillo 1 (O1):** Professore di Informatica
+- **Omarillo 2 (O2):** Esperto in Teoria della Codifica
+- **Omarillo 3 (O3):** Ingegnere delle Telecomunicazioni
+- **Omarillo 4 (O4):** Specialista in Reti Wireless
+- **Omarillo 5 (O5):** Ingegnere del Software
+- **Omarillo 6 (O6):** Esperto in Architettura dei Computer
+- **Omarillo 7 (O7):** Matematico
+- **Omarillo 8 (O8):** Storico della Scienza
+- **Omarillo 9 (O9):** Specialista in Codifiche dei Caratteri
+- **Omarillo 10 (O10):** Ricercatore in Machine Learning
+- **Omarillo 11 (O11):** Ingegnere Elettronico
+- **Omarillo 12 (O12):** Esperto in Sicurezza Informatica
+
+---
+layout: cover
+level: 3
+title: Codifica, Calcolo e Comunicazione
+
+---
+
+**Partecipanti:**
+
+- **Studente 1 (S1):** Molto curioso, con conoscenze di base
+- **Studente 2 (S2):** Interessato ai problemi della comunicazione
+- **Studente 3 (S3):** Scettico, ama le sfide intellettuali
+- **Studente 4 (S4):** Pratico, vuole capire le applicazioni
+- **Studente 5 (S5):** Interrogativo sul ruolo del computer
+- **Studente 6 (S6):** Curioso sul codice binario
+- **Studente 7 (S7):** Interessato alla codifica dei testi
+- **Studente 8 (S8):** Sbalordito dalla storia dell'ASCII
+- **Studente 9 (S9):** Interessato a come i calcolatori fanno le operazioni
+- **Studente 10 (S10):** Appassionato di telecomunicazioni
+- **Studente 11 (S11):** Curioso su UTF-8
+- **Studente 12 (S12):** Interessato ai limiti dei sistemi di codifica
+
+---
+layout: cover
+level: 3
+title: Codifica
+
+---
+
+### La scena si apre in un'aula luminosa. I dodici Omarilli, esperti in vari campi, sono seduti di fronte a dodici studenti attenti e desiderosi di imparare.
+
+**O1 (Professore):** Buongiorno a tutti! Oggi iniziamo un viaggio affascinante nel mondo della codifica e della comunicazione. Partiamo con un'analogia: la storia di Pitagora e Leucippo che comunicano attraverso il mare. Pitagora voleva rappresentare un testo usando una sequenza di sassi lanciati in mare, che creavano onde di altezze diverse.
+
+**S1:** E quindi? Qual è il senso di questa storia?
+
+**O2 (Esperto in Teoria della Codifica):** Il punto è che l'informazione può essere trasformata in numeri, cioè in qualcosa di misurabile. Pitagora usava l'altezza delle onde per rappresentare una sequenza di numeri, e poi quei numeri servivano per ricostruire il testo. Questo processo di trasformazione si chiama **codifica**.
+
+---
+layout: cover
+level: 3
+title: Codifica
+
+---
+
+**S2:** Ma il mare è sempre mosso! Le onde del sasso non si confonderebbero con quelle del vento?
+
+**O3 (Ingegnere delle Telecomunicazioni):** Assolutamente sì, S2. Questo è un problema reale che nelle telecomunicazioni si chiama "**rumore**". Per risolverlo, usiamo antenne più grandi e segnali più potenti. C'è anche il problema dell'**affievolimento del segnale**, che è il motivo per cui vi scollegate dal Wi-Fi se vi allontanate troppo dal router.
+
+**S10:** E se tante persone lanciassero sassi contemporaneamente? I messaggi si confonderebbero.
+
+**O4 (Specialista in Reti Wireless):** Hai centrato un altro problema cruciale: l'**interferenza**. Nelle reti, si risolve con il "**channel multiplexing**", che permette a più messaggi di viaggiare nello stesso mezzo usando, ad esempio, frequenze diverse.
+
+---
+layout: cover
+level: 3
+title: Codifica
+
+---
+
+### Il Superpotere del Calcolo
+
+**O5 (Ingegnere del Software):** Parliamo ora del computer. Avete notato che i computer sono ovunque e fanno cose diversissime? Nonostante tutto, il loro unico vero "superpotere" è uno solo: **calcolare**, cioè trasformare numeri.
+
+**S5:** Ma se i computer calcolano solo, come fanno a elaborare testi, musica o immagini? 🖼️🎶
+
+**O6 (Esperto in Architettura dei Computer):** Devono essere rappresentati numericamente! Prima di poter essere elaborata, qualsiasi informazione deve essere "codificata" in numeri. Questo è il concetto fondamentale.
+
+**S6:** E qui entra in gioco il **codice binario**, giusto? Perché si usano solo due simboli?
+
+---
+layout: cover
+level: 3
+title: Codifica
+
+---
+
+**O7 (Matematico):** Il codice binario è geniale per due motivi. Dal punto di vista matematico, due simboli sono il minimo indispensabile per creare sequenze diverse di uguale lunghezza. Ogni elemento di informazione si chiama "**bit**".
+
+**O11 (Ingegnere Elettronico):** E dal punto di vista tecnologico, il codice binario è perfetto per i calcolatori elettronici, che usano solo due stati elettrici (acceso/spento) per memorizzare ed elaborare le informazioni.
+
+**S9:** Quindi, anche le operazioni complesse vengono fatte solo con 0 e 1?
+
+**O8 (Storico della Scienza):** Esatto. I calcolatori combinano operazioni molto semplici su numeri a una cifra binaria. È come scomporre una somma in colonna: combinando queste operazioni elementari, un computer può fare qualsiasi cosa, da una moltiplicazione a una radice quadrata.
+
+---
+layout: cover
+level: 3
+title: Codifica
+
+---
+
+### Dalla Codifica dei Testi all'UTF-8
+
+**O9 (Specialista in Codifiche dei Caratteri):** Torniamo alla codifica dei testi. Il codice di Pitagora usava 5 bit per 26 caratteri. Ma un testo moderno ha molti più simboli: maiuscole, cifre, punteggiatura... circa 70.
+
+**S7:** Per 70 simboli non bastano 6 bit, che danno 64 combinazioni. Quindi ce ne servono 7! 🤯
+
+**O9:** Bravo, S7! Esattamente! È così che nasce il codice **ASCII** negli anni '60, usando proprio 7 bit. Una cosa curiosa è che per passare da una lettera maiuscola a quella minuscola, basta "mettere a 1" il terzo bit da sinistra.
+
+---
+layout: cover
+level: 3
+title: Codifica
+
+---
+
+**S12:** Ma se ASCII usa solo 7 bit, non può supportare alfabeti diversi da quello latino, come il greco antico. Che succede?
+
+**O10 (Ricercatore in Machine Learning):** Per includere più caratteri, si potrebbe usare una codifica con più bit, magari 16, che offrirebbe circa 64.000 caratteri. Ma questo creerebbe un problema: come facciamo a sapere se un testo è codificato in ASCII o in questa nuova codifica "SuperASCII"?
+
+**S11:** Non si può semplicemente aggiungere un bit in più per distinguere?
+
+**O9:** L'idea è stata proprio questa! Un'idea geniale. Si usa un ottavo bit, un "**bit di estensione**". Se il bit è 0, si legge il carattere come un normale ASCII a 7 bit. Se invece è 1, significa che il carattere successivo non è ASCII e bisogna leggere i prossimi 15 bit per decodificarlo.
+
+---
+layout: cover
+level: 3
+title: Codifica
+
+---
+
+**O1 (Professore):** Questa soluzione rende la codifica a "**lunghezza variabile**" e non richiede di sapere in anticipo come è codificato un testo. Questo concetto è alla base di **UTF-8**, il sistema che oggi usiamo per rappresentare tutti gli alfabeti del mondo. [Scopri di più sulla codifica dei testi](textbin.html)
+
+**S4:** Quindi, tutto quello che vedo sullo schermo, dalle emoji ai caratteri giapponesi, è tutto gestito da questo sistema?
+
+**O9:** Esatto, S4. Dalla semplice analogia dei sassi nel mare fino a un sistema complesso come UTF-8, il principio è lo stesso: rappresentare qualsiasi informazione con i numeri.
+
+**O12 (Esperto in Sicurezza Informatica):** E non dimentichiamo che ogni fase di questo processo, dalla trasmissione alla codifica, presenta sfide di sicurezza che i nostri sistemi devono affrontare. Ma questa è una storia per un'altra volta!
+
+---
+layout: cover
+level: 2
+title: Il linguaggio del codice, Turing e le funzioni
+
+---
+
+## Il linguaggio del codice, Turing e le funzioni 🧩💡
+
+**O1 (Professore):** Bene, ragazzi, riprendiamo da dove eravamo rimasti. Abbiamo visto che l'informatica ci ha permesso di digitalizzare quasi tutto ciò che ci circonda, dagli oggetti fisici alle immagini. E abbiamo anche visto che è possibile interagire con questi oggetti, fisici e virtuali, attraverso un linguaggio di programmazione.
+
+**S1:** Quindi il codice non serve solo per dare istruzioni, ma è anche un modo di "pensare" diverso? 🤔
+
+**O5 (Ingegnere del Software):** Esatto, S1. Un linguaggio, sia umano che di programmazione, non è solo un mezzo per comunicare, ma un insieme di strumenti per elaborare informazioni, immaginare possibilità e fare ragionamenti. Ogni linguaggio ha i suoi punti di forza nell'esplorare particolari aspetti della realtà.
+
+---
+layout: cover
+level: 3
+title: Il linguaggio del codice, Turing e le funzioni
+
+---
+
+**S4:** E quali sono i punti di forza dei linguaggi di programmazione?
+
+**O8 (Storico della Scienza):** Per capirlo, dobbiamo parlare di un grande pioniere: **Alan Turing**. Lui ha sfruttato tre caratteristiche dei linguaggi, che sono cruciali. La prima è che lo stesso concetto può essere espresso in qualsiasi linguaggio, in modo più o meno complicato. Ad esempio, "blackout" e "interruzione dell’erogazione di energia elettrica". Questo vale ancora di più per i linguaggi di programmazione, come **JavaScript**.
+
+**S3:** La seconda caratteristica era che un linguaggio può "parlare di sé stesso", giusto? Come una recensione di un libro che ne descrive lo stile, o un libro di grammatica.
+
+---
+layout: cover
+level: 3
+title: Il linguaggio del codice, Turing e le funzioni
+
+---
+
+**O5:** Giusto, S3. E il codice ha anche una terza caratteristica unica: i suoi comandi possono essere usati per descrivere in modo univoco e rigoroso come trasformare una certa parte del mondo. Di conseguenza, un programma può descrivere un’elaborazione da eseguire su sé stesso in modo molto preciso.
+
+**S10:** Scusi, ma a cosa serve che un programma elabori se stesso?
+
+**O2 (Esperto in Teoria della Codifica):** Facciamo un esempio: avete presente quando un programma si blocca? Ci si potrebbe chiedere se non sia possibile scrivere una funzione in JavaScript che possa dire se una qualsiasi altra funzione terminerà, oppure si bloccherà all'infinito.
+
+**S6:** E si può fare?
+
+---
+layout: cover
+level: 3
+title: Il linguaggio del codice, Turing e le funzioni
+
+---
+
+**O7 (Matematico):** Ebbene, Turing, proprio sfruttando un particolare linguaggio di programmazione, è riuscito a dimostrare, in modo semplice ed elegante, che la risposta a questa domanda è **negativa**. Ha mostrato che ci sono dei limiti intrinseci e invalicabili alla conoscenza, ovvero domande semplici e precise la cui risposta non può essere calcolata da nessun sistema di elaborazione.
+
+**O1 (Professore):** Questo ci insegna che il codice non è solo uno strumento tecnico, ma anche uno strumento "gnoseologico". Ci permette di ordinare le idee e accedere a nuovi punti di vista, incredibilmente esotici.
+
+**La gnoseologia** analizza i fondamenti, i limiti e la validità della conoscenza umana. Si occupa di come conosciamo ciò che conosciamo e delle modalità attraverso cui si sviluppa la nostra comprensione del mondo.
+
+---
+layout: cover
+level: 3
+title: Il linguaggio del codice, Turing e le funzioni
+
+---
+
+## Le Funzioni: Estendere le API 🧩
+
+**O5:** Adesso, riflettiamo sul concetto di **funzioni**. Nel nostro viaggio abbiamo imparato a usarle per creare comandi nuovi e personalizzati.
+
+**S9:** Quindi una funzione è come un nuovo comando che possiamo aggiungere noi?
+
+**O5:** Esatto, S9. Se Pitagora avesse definito la funzione "bicordo", l'avremmo considerata un elemento delle API del carillon, ma siamo stati noi a crearla. Questo rende le **API estensibili**: è possibile definire nuovi comandi, con dei nomi nuovi.
+
+---
+layout: cover
+level: 3
+title: Il linguaggio del codice, Turing e le funzioni
+
+---
+
+**S2:** Ma una funzione non fa solo unire comandi più semplici? Sembra una cosa banale.
+
+**O5:** In realtà, è molto più potente di quanto possa apparire. Prima di tutto, le funzioni ci consentono di **astrarre**. Quando usiamo la funzione "bicordo", non dobbiamo ricordare come è stata definita. Possiamo anche farla usare a qualcun altro, che potrà disinteressarsi completamente alla sua definizione. Questo ci consente di gestire sistemi molto complessi senza perdersi nei dettagli, e li rende gestibili anche dalle nostre capacità cognitive.
+
+---
+layout: cover
+level: 3
+title: Il linguaggio del codice, Turing e le funzioni
+
+---
+
+## Suoni, Ritmo e Intervalli musicali 🎶
+
+**O1 (Professore):** Ora passiamo a un'altra cosa affascinante. Abbiamo visto che le immagini possono essere digitalizzate, ma per caso, anche i suoni lo sono?
+
+**S11:** E cosa c'entra Pitagora con i suoni?
+
+**O8 (Storico della Scienza):** Pitagora era affascinato dal fatto che i suoni con frequenze che hanno un certo rapporto numerico tra loro sono armonici, cioè stanno bene tra di loro. Ad esempio, se suoniamo un suono a frequenza $f$ e uno a frequenza $2f$, abbiamo l'impressione che le due note siano la stessa, solo ad altezze diverse.
+
+---
+
+---
+layout: cover
+level: 3
+title: Il linguaggio del codice, Turing e le funzioni
+
+---
+
+## Pitagora e i Carillon: L'Armonia tra Matematica e Musica 🎶📐
+
+**O1 (Professore):** Colleghiamo due mondi che a prima vista sembrano distanti: Pitagora e i carillon. Chi si offre di rompere il ghiaccio?
+
+**S10:** Pitagora? Quello del teorema del triangolo rettangolo, $a^2 + b^2 = c^2$? E i carillon, quelle scatolette musicali? Non vedo proprio il collegamento! 🤔
+
+**O8 (Storico della Scienza):** La tua domanda è perfetta, S1. Pitagora di Samo fu un filosofo e matematico che credeva che l'universo intero fosse governato da principi matematici. Per i pitagorici, la musica non era solo suono, ma un'espressione di queste leggi matematiche che regolano il cosmo.
+
+**S12:** E quindi cosa ha scoperto di preciso sulla musica? Ha trovato delle formule? 🎼
+
+**O7 (Matematico):** Esatto, S3! Pitagora scoprì che gli intervalli musicali che suonano "bene" all'orecchio, i cosiddetti intervalli consonanti, potevano essere espressi con semplici rapporti numerici. Ad esempio, l'**ottava** corrisponde a un rapporto di frequenza di 2:1.
+
+**S5:** E gli altri intervalli? Ci sono altri esempi?
+
+**O7 (Matematico):** Certo! La **quinta**, un altro intervallo molto comune, ha un rapporto di 3:2. E la **quarta** ha un rapporto di 4:3. Questi rapporti matematici erano considerati la chiave non solo dell'armonia musicale, ma anche dell'ordine dell'universo.
+
+**S9:** Quindi Pitagora ha creato la teoria. E i carillon? Loro come c'entrano? ⚙️
+
+**O11 (Ingegnere Meccanico):** I carillon sono la dimostrazione pratica di questa teoria! Un carillon è uno strumento meccanico. Il suo funzionamento è interamente basato sulla matematica: un cilindro rotante ha dei piccoli pioli che, girando, pizzicano delle lamelle di metallo.
+
+**S10:** E la disposizione dei pioli è la melodia?
+
+**O11 (Ingegnere Meccanico):** Precisamente! La disposizione dei pioli sul cilindro crea la **sequenza musicale**. E la distanza tra i pioli e la velocità di rotazione determinano la durata e il **tempo** delle note. Anche l'armonia, l'aspetto pitagorico, può essere applicato al carillon: il modo in cui le lamelle sono accordate e disposte può creare quegli stessi intervalli musicali consonanti.
+
+**S12:** Capisco! Pitagora ha scoperto che la musica è matematica, e i carillon sono uno strumento che usa la meccanica, quindi la matematica, per produrre musica. È un'applicazione pratica di un'antica teoria! 😲
+
+**O1 (Professore):** Avete colto perfettamente il punto. Il collegamento risiede proprio nell'uso della matematica per creare e comprendere la musica. Pitagora ha gettato le basi, e i carillon sono un omaggio, una dimostrazione pratica, all'idea che l'universo e la musica siano governati da leggi matematiche.
+
+---
+layout: cover
+level: 3
+title: Il linguaggio del codice, Turing e le funzioni
+
+---
+
+**S12:** La distanza tra le altezze delle note si chiama "intervallo", giusto?
+
+**O11 (Ingegnere Elettronico):** Sì! L'intervallo tra due note, l'una con frequenza doppia dell'altra, si chiama **ottava**. Ma ci sono anche intervalli più piccoli, come il **tono**, che ha un rapporto di frequenza di $9/8$. È la distanza che c'è tra un Do e un Re, per esempio.
+
+**O1 (Professore):** Ora ci chiederemo come possiamo generare suoni armonici con un certo ritmo. E questo ci porta al prossimo grande tema: il **tempo**. Fino ad ora abbiamo lavorato con le immagini, che sono statiche. Ma per il suono, il tempo è cruciale. Le nostre API possono compiere azioni che coinvolgono il tempo? La risposta è sì, e la esploreremo nella prossima parte del nostro viaggio. 🕰️🎵
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità
+
+---
+
+### Il Superpotere del Codice: La Scalabilità 📈💡
+
+(Personaggi: 12 Omarilli esperti di programmazione e arte digitale, 12 studenti curiosi.)
+
+**O1 (Professore):** Ragazzi, fino ad ora abbiamo visto che il codice ci permette di fare cose interessanti. Ad esempio, scrivere una sequenza di comandi API per modificare un singolo pixel di un'immagine: magari lo coloriamo di nero o aumentiamo la sua componente verde. ⚫🟢
+[Coloriamo](cimg.html)
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità 📈💡
+
+---
+
+**S1:** E se volessi farlo su tutta un'immagine? Dovrei scrivere il comando per ogni singolo pixel? 😩
+
+**O5 (Ingegnere del Software):** Ottima domanda, S1! Ed è qui che arriva uno dei veri superpoteri del codice. Una volta che abbiamo capito come, per esempio, "inverdire" un singolo pixel, per il computer è esattamente la stessa cosa inverdirne una manciata o un'immagine intera di 1.000x700 pixel.
+
+**S4:** Quindi, il nostro sforzo resta lo stesso, che l'immagine sia piccola o enorme?
+
+**O5:** Esatto! Per quello che ci riguarda, l'operazione "**scala**" bene. Se il disegno diventa più grande, anche molto più grande, la nostra fatica è la stessa. Ci basta schiacciare un pulsante. 🚀
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità 📈💡
+
+---
+
+**S8:** Ma immaginate un artista come [Seurat](https://it.wikipedia.org/wiki/Georges_Seurat#/media/File:Georges_Seurat_043.jpg), un puntinista. Per lui, ingrandire il disegno significava un'enorme fatica in più, dipingendo puntino per puntino. 🤔
+
+**O12 (Esperto di Arte Digitale):** Proprio così! E immaginate di fare la stessa cosa con un'interfaccia "manuale", anche digitale, cliccando su ogni singolo pixel e spostando uno *slider* per cambiare il colore. Sarebbe un lavoro infinito.
+
+**S7:** Ah! Capisco. Il vero superpotere delle API è proprio questo: se riesci a fare una cosa una volta, con lo stesso sforzo la puoi fare anche un milione di volte! 🤩
+
+**O1 (Professore):** Avete colto il punto! Questa capacità di **scalabilità** è ciò che rende la programmazione uno strumento così potente e trasformativo, molto al di là del semplice calcolo. È la chiave per automatizzare e gestire compiti complessi con un'efficienza che il lavoro manuale non potrebbe mai raggiungere.
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità 📈💡
+
+---
+
+**O1 (Professore):** Riprendiamo il nostro viaggio. Abbiamo visto come le parole possono essere codificate con sequenze di simboli, e che ne bastano solo due diversi per codificare qualsiasi testo. ⚫⚪
+
+**S1:** Due soli simboli? È incredibile! E questo si chiama "digitale", giusto? Ho già sentito questo termine! 🤔
+
+**O2 (Esperto in Teoria della Codifica):** Esatto, S1. L'informazione, quando è codificata con una sequenza di cifre che possono assumere solo due valori, si dice appunto "**digitale**". Quindi, ciò che abbiamo visto è che il testo può essere digitalizzato.
+
+**S4:** Ma perché è così importante digitalizzare le cose? Quali sono i vantaggi? 💡
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità 📈💡
+
+---
+
+**O3 (Ingegnere delle Telecomunicazioni):** Un vantaggio l'abbiamo già visto con la storia di Leucippo e Democrito: l'informazione digitalizzata può essere trasmessa, per esempio, attraverso le onde in un mezzo. In quel caso, il mezzo era l'acqua, ma il concetto vale per qualsiasi cosa. 🌊📡
+
+**S6:** Quindi, ogni cosa che è digitalizzabile è anche trasmissibile con lo stesso meccanismo! Questo è un fatto notevole! 😮
+
+**O1 (Professore):** Assolutamente. Questo ci porta a farci due domande, che espanderanno il nostro "potere digitale" in due direzioni. La prima è: che cos'altro di interessante nella realtà può essere digitalizzato? E la seconda: oltre alla possibilità di comunicare, che altri vantaggi offre la digitalizzazione? ❓
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità 📈💡
+
+---
+
+**O5 (Ingegnere del Software):** Vi do un'anticipazione! Alla prima domanda, la risposta è: **praticamente tutto** ciò a cui puoi pensare può essere digitalizzato. Persino il tuo stesso pensiero, forse! 🧠💻
+
+**S11:** Wow! E invece per la seconda domanda, qual è la risposta? Ci sono altri vantaggi?
+
+**O6 (Esperto in Architettura dei Computer):** Un vantaggio enorme è questo: se parti della realtà sono digitalizzabili, possiamo interagirci attraverso i **calcolatori elettronici**. E lo facciamo in modi che, per noi esseri umani, sarebbero fisicamente impossibili o troppo faticosi.
+
+**S7:** Cioè, possiamo programmare un computer per fare cose che noi non potremmo fare con le nostre mani? 🦾
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità 📈💡
+
+---
+
+**O6:** Esatto! Se siete curiosi di sapere di che si tratta, abbiate un po' di pazienza, cercheremo di mostrarvelo tra poco. Intanto, per iniziare a rispondere alla prima domanda, chiediamoci: è possibile rappresentare digitalmente un sorriso? 😄
+
+**S12:** Mmm... Un sorriso è un'emozione, una forma... come si fa a renderlo digitale? 🤔
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità 📈💡
+
+---
+
+## Un Riepilogo sulla Codifica e le Basi del Digitale 📚💻
+
+**O1 (Professore):** Riassumiamo! Per prima cosa, abbiamo visto che per trasmettere informazioni attraverso mezzi fisici, come le onde, l'informazione deve avere una caratteristica fondamentale: deve essere **rappresentabile numericamente**. 🔢
+
+**S1:** E abbiamo scoperto che è possibile codificare anche il testo, trasformandolo in una sequenza di simboli numerici! 📝➡️1️⃣0️⃣
+
+**O2 (Esperto in Teoria della Codifica):** Esatto, S1! E la cosa più sorprendente è che il numero minimo di cifre per rappresentare qualsiasi messaggio testuale è incredibilmente piccolo. Bastano soltanto **due elementi diversi**! 🤯
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità
+
+---
+
+**S6:** Ah, il **codice binario**! Quella è la codifica che usa solo due simboli, vero? E il prof ha detto che è molto importante per i calcolatori.
+
+**O6 (Esperto in Architettura dei Computer):** Proprio così, S6. Tra tutte le codifiche possibili, quella binaria è la più importante perché è quella che i calcolatori usano non solo per **comunicare**, ma anche per **elaborare** e **memorizzare** le informazioni. 🧠💾
+
+**S7:** Poi abbiamo visto come sono stati inventati dei codici binari molto intelligenti per rappresentare il testo, che riescono anche a tenere conto del problema di dover aggiungere nuovi caratteri, come quelli di altri alfabeti. 🌍✍️
+
+---
+layout: cover
+level: 3
+title: Il Superpotere del Codice: La Scalabilità 📈💡
+
+---
+
+**O9 (Specialista in Codifiche dei Caratteri):** L'espansione dei codici, come abbiamo visto, è una sfida complessa che è stata risolta in modi ingegnosi. È stato fondamentale per permetterci di comunicare in tutto il mondo con gli stessi strumenti.
+
+**O1 (Professore):** E ora che abbiamo capito queste basi, siamo pronti a porci la prossima domanda, che ci aprirà un mondo di possibilità: quali altre informazioni possiamo codificare digitalmente? ❓
+
+**S12:** Tipo... le immagini o i suoni? 🤔
+
+**O1 (Professore):** Esatto! E vedrete che, cercando di rispondere a questa domanda, scopriremo un modo del tutto nuovo e molto, molto potente per interagire con gli oggetti, siano essi fisici o virtuali. Rimanete connessi! ✨
+
+---
+layout: cover
+level: 2
+title: Il Problema della Codifica 💬💡
+
+---
+
+## Pochi Segni, Infinite Combinazioni: Il Problema della Codifica 💬💡
+
+**O1 (Professore):** Ragazzi, riflettiamo su un problema classico che ha affascinato pensatori fin dall'antichità: abbiamo tantissime cose che vogliamo comunicare, ma abbiamo a disposizione pochi segni, segnali o parole per farlo! 🤔
+
+**S1:** Perché i segni scarseggiano sempre, prof? Non possiamo semplicemente inventarne di più? 🤷‍♂️
+
+**O2 (Esperto in Teoria della Comunicazione):** Il problema sollevato da S1 è molto interessante. Pensate all'analogia del mare: troppi segnali diversi, come le onde di diverse altezze, in un canale di comunicazione limitato come l'acqua, sono difficili da distinguere. Ci sono troppi fattori che possono confondere il segnale.
+
+---
+layout: cover
+level: 3
+title: Il Problema della Codifica 💬💡
+
+---
+
+**S2:** Ah, tipo il rumore del mare, o magari se i sassi non sono perfetti, o se il destinatario non vede bene... 🌊👀
+
+**O3 (Ingegnere delle Telecomunicazioni):** Esatto, S2. Tutti questi fattori possono confondere il segnale. D'altra parte, è un problema che conosciamo anche nella vita di tutti i giorni. Pensate a quanto è stato difficile imparare l'alfabeto, che ha solo 26 lettere.
+
+**S5:** Immaginate se l'alfabeto avesse 1000 lettere! Sarebbe impossibile impararle tutte e poi, durante una visita dall'oculista, come faremmo a distinguerle tutte? Sarebbe un incubo! 😵‍💫
+
+**O1 (Professore):** Vedete? Avere pochi segni è un vantaggio, perché sono più facili da distinguere e da gestire. Il vero problema è come fare a comunicare tutto ciò che vogliamo con così pochi elementi.
+
+---
+layout: cover
+level: 3
+title: Il Problema della Codifica 💬💡
+
+---
+
+**S10:** Ma il problema non è così insormontabile. Se anche i segni sono pochi, possiamo sempre combinarli tra loro, no? Come le lettere dell'alfabeto che formano infinite parole! 💡
+
+**O4 (Esperto in Reti Wireless):** Proprio così! E l'unione fa la forza. Le combinazioni di pochi segni possono essere sorprendentemente numerose. È qui che risiede la vera potenza della codifica.
+
+**O1 (Professore):** Avete colto il punto. La vera magia non è nell'avere tanti segni, ma nell'usare pochi segni in modo intelligente, combinandoli per generare una quantità quasi infinita di informazioni. È questo il principio alla base di ogni linguaggio, dal codice binario alla nostra lingua.
+
+---
+layout: cover
+level: 3
+title: Il Problema della Codifica 💬💡
+
+---
+
+## Pixel e Sfumature di Grigio: L'Arte della Digitalizzazione 🖼️💻
+
+**O1 (Professore):** Bene, ragazzi, mentre "digerite" le prime righe di codice che avete scritto, torniamo alla natura dei nostri pixel. Voi sapete che esistono altri sistemi per riprodurre le immagini da molto tempo, per esempio la fotografia. 📸
+
+**S1:** A me la fotografia in bianco e nero piace molto. Ma che c'entra con i pixel?
+
+**O2 (Esperto di Fotografia Digitale):** C'entra tantissimo, S1! Anche una foto "classica" in bianco e nero è formata da puntini, che in quel caso sono gocce di sali d'argento che diventano più o meno scure a seconda della luce che ricevono. È un po' l'antenato analogico dei nostri pixel! ⚫⚪
+
+---
+layout: cover
+level: 3
+title: Il Problema della Codifica 💬💡
+
+---
+
+**S5:** Quindi avere a disposizione anche delle sfumature di grigio per i nostri pixel potrebbe migliorare le nostre "opere d'arte" digitali?
+
+**O5 (Artista Digitale):** Assolutamente! Sarebbe come passare da un disegno fatto solo con il bianco e il nero a un'immagine che ha una palette molto più ricca. Pensate alla Monna Lisa che abbiamo citato, dove le lettere avevano più o meno inchiostro per dare un'impressione di sfumatura. Sarebbe un'ottima cosa anche per noi.
+
+**S3:** Ok, ma la domanda è: "quanto è grigio un pixel" è un'informazione che si può digitalizzare? Per me il grigio è una sfumatura, non un numero. 🤔
+
+---
+layout: cover
+level: 3
+title: Il Problema della Codifica 💬💡
+
+---
+
+**O3 (Esperto di Codifica):** Ottima osservazione, S3. Ma la risposta è sì, se ci limitiamo a un numero finito di sfumature di grigio! Possiamo prendere tutti i grigi che vogliamo, metterli in ordine, assegnare a ciascuno un numero, e poi codificare quel numero, cosa che ormai sappiamo fare benissimo.
+
+**S7:** E quante sfumature possiamo usare? Dipende da noi?
+
+**O6 (Esperto di Memoria e Trasmissione Dati):** Dipende da quanti **bit** vogliamo usare per ogni pixel. Più bit utilizziamo, più grigi avremo a disposizione. Ma attenzione: più bit significano anche più tempo per trasmettere l'immagine e più spazio per memorizzarla. È una questione di compromesso.
+
+**S11:** Quindi se usiamo 8 bit per ogni pixel, abbiamo 256 sfumature di grigio (2⁸)!
+
+---
+layout: cover
+level: 3
+title: Il Problema della Codifica 💬💡
+
+---
+
+**O6:** Esatto, S11! E questa è la scelta che di solito viene fatta per le immagini in bianco e nero, perché 256 sfumature sono più che sufficienti per l'occhio umano.
+
+**O1 (Professore):** Vedete? Ancora una volta, la digitalizzazione ci mostra la sua flessibilità. Possiamo trasformare un'informazione come la tonalità di un colore in un numero, aprendo la strada a nuove possibilità creative, ma sempre tenendo a mente i limiti tecnici con cui dobbiamo fare i conti.
+
+---
+layout: cover
+level: 2
+title: Pixel 💬💡
+
+---
+
+## Pixel, Atomi e Teletrasporto: Un Dialogo Sulla Digitalizzazione 🖼️🔬
+
+**O1 (Professore):** Bene! La "Monna Lisa a parole" ci ha dimostrato una cosa fondamentale: un'immagine può essere rappresentata come una sequenza, una matrice, di elementi discreti. Proprio come un testo. Questi elementi, nel contesto delle immagini, si chiamano **pixel**.
+
+**S1:** Pixel... come "picture element" in inglese, giusto? Quindi digitalizzare un'immagine significa trovare la sequenza di pixel che la approssima meglio? 🤔
+
+**O6 (Esperto in Architettura dei Computer):** Esatto, S1. Digitalizzare vuol dire proprio questo: trasformare l'immagine in una sequenza di elementi discreti che la descrivono. E una volta digitalizzata, l'immagine è anche molto facile da ricostruire.
+
+---
+layout: cover
+level: 3
+title: Pixel 💬💡
+
+---
+
+**S2:** Ah, come il nostro amico Democrito ad Atene! Per ricostruire l'immagine, gli basterebbe scrivere in ordine le "lettere" che gli abbiamo trasmesso e guardarle dalla giusta distanza, giusto?
+
+**O3 (Ingegnere delle Telecomunicazioni):** Proprio così! E a proposito di Democrito, questa rappresentazione "atomica" delle immagini non vi ricorda una teoria antica e dirompente? La teoria degli atomi di Leucippo e Democrito.
+
+**S5:** Sì! Quella secondo cui tutto è fatto di particelle piccolissime e indivisibili! Che c'entra con i pixel?
+
+---
+layout: cover
+level: 3
+title: Pixel 💬💡
+
+---
+
+**O8 (Storico della Scienza):** C'entra molto, S5. La loro teoria diceva che la varietà del mondo che vediamo è fatta di minuscole particelle, gli **atomi**, che non cambiano mai. Il cambiamento che sperimentiamo viene solo dal loro movimento. Questa teoria è rivoluzionaria perché è la prima volta che si parla di diversi "livelli" di realtà: un livello microscopico che i nostri sensi non percepiscono, e un livello macroscopico, globale, che è quello che vediamo.
+
+**S9:** Quindi, quando digitalizziamo un'immagine, stiamo in un certo senso facendo una rappresentazione "atomica" dove gli atomi sono i pixel! È un'idea incredibile! 🤯
+
+**S10:** E allora mi viene in mente una domanda enorme! Se riuscissimo a digitalizzare gli atomi, le particelle elementari di cui parlava Democrito, potremmo trasmetterli sulle onde, come facciamo con un testo?
+
+---
+layout: cover
+level: 3
+title: Pixel 💬💡
+
+---
+
+**S12:** Se fosse possibile, non sarebbe forse il tanto agognato **teletrasporto**?
+
+**O12 (Esperto in Fisica Teorica):** S10 e S12, avete posto una delle domande più dibattute della fisica contemporanea! La possibilità di digitalizzare e "teletrasportare" la materia è un problema affascinante e incredibilmente complesso, che tocca i fondamenti della fisica quantistica. Risolverlo è fuori dalle ambizioni di questo corso, ma la vostra domanda dimostra perfettamente come i concetti che stiamo studiando tocchino i problemi più profondi della scienza. 🌌✨
+
+---
+layout: cover
+level: 2
 title: Programma, Algoritmo e Problema
 
 ---
@@ -1741,14 +2334,14 @@ title: Welcome
                                        È il piano tradotto in un
                                        linguaggio che il computer può eseguire
 ```
-## C'è un esempio pratico per chiarire meglio questi concetti? 📘
-::left::
 
-Questa mappa mi rappresenta la relazione tra i tre concetti: un problema è ciò che desideriamo risolvere, un algoritmo è il piano che descrive come risolvere quel problema, e un programma è l'implementazione di quell'algoritmo in un linguaggio comprensibile dal computer.
+## C'è un esempio pratico per chiarire meglio questi concetti? 📘
 
 ### Nella verifica saremo noi a eseguire correttamente gli algoritmi di conversione!
 
+::left::
 
+Questa mappa mi rappresenta la relazione tra i tre concetti: un problema è ciò che desideriamo risolvere, un algoritmo è il piano che descrive come risolvere quel problema, e un programma è l'implementazione di quell'algoritmo in un linguaggio comprensibile dal computer.
 
 ---
 layout: cover
