@@ -967,7 +967,19 @@ title: Welcome
 **SP:** È incredibile pensare a quante cose ci sono "sotto il cofano" ogni volta che accendo il PC. Grazie ragazzi, mi è più chiaro adesso! 👍 Ma come sarà la verifica?
 
 ---
-Perfetto! Estendiamo e arricchiamo il **dialogo tra i 12 Omarilli (neuroni AI 🤖)** e i **12 studenti 👩‍🎓👨‍🎓**, mantenendo il tono vivace, con molte più **spiegazioni**, **esempi**, **emoji** e **approfondimenti concettuali**. Pronto per una lezione completa ma coinvolgente!
+layout: two-cols
+
+---
+
+### Segnale Analogico
+
+![Descrizione dell'immagine](/ana.png)
+
+::right::
+
+### Segnale Digitale
+
+![Descrizione dell'immagine](/dig.png)
 
 ---
 layout: cover
@@ -976,7 +988,7 @@ title: Welcome
 
 ---
 
-## 🎙️ Lezione dialogata – “Analogico vs Digitale: Viaggio nei dati”
+## 🎙️ Analogico vs Digitale: Viaggio nei dati
 
 ### 🟪 **1. Entrano gli Omarilli**
 
@@ -1178,7 +1190,7 @@ title: Welcome
 
 🎓 *\[Applausi generali]* 👏👏👏
 
-[Mega Lezione di zio Francesco Bruschi](https://fabrizio-986df3.gitlab.io/Sistemi_di_numerazione/?page=23)
+[Pertanto entro la fine dell'anno saprai?](https://fabrizio-986df3.gitlab.io/Sistemi_di_numerazione/?page=23)
 
 ## [La spia 🕵️‍♂️](https://fabrizio-986df3.gitlab.io/Sistemi_di_numerazione/tictocbar.html)
 
