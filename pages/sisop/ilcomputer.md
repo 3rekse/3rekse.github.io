@@ -282,9 +282,6 @@ Quindi, 356 diviso 2 fa 178.
 
 Questo algoritmo è molto utile non solo a scuola, ma anche per capire come funzionano i calcolatori, che spesso usano operazioni molto simili a questa (ma in un sistema numerico diverso, quello binario!).
 
-Certo\! Ecco un diagramma di flusso che rappresenta l'algoritmo per dividere un numero intero per 2.
-
-
 ## Diagramma di Flusso: Divisione di un Numero Intero per 2
 
 ```mermaid
