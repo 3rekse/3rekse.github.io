@@ -1,0 +1,11 @@
+import{_ as r}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-Bv8xpZ4Z.js";import{b as p,o as u,w as e,g as a,e as m,m as d,C as n,v as c,x as f,B as l}from"./modules/vue-BXqLZby3.js";import{_ as b}from"./slidev/cover.vue_vue_type_script_setup_true_lang-Bd1rWwO6.js";import{u as g,f as _}from"./slidev/context-BgqA_Dhw.js";import"./modules/unplugin-icons-CQIbxMDS.js";import"./index-CJl7H4dU.js";import"./modules/shiki-D1VZkxQz.js";const T={__name:"algebra.md__slidev_477",setup(v){const{$clicksContext:o,$frontmatter:i}=g();return o.setup(),(k,s)=>{const t=r;return u(),p(b,c(f(l(_)(l(i),476))),{default:e(()=>[s[1]||(s[1]=a("h2",null,"Esempio:",-1)),s[2]||(s[2]=a("p",null,"Supponiamo di dover verificare se tre variabili a 1 bit a, b, c hanno lo stesso valore.",-1)),s[3]||(s[3]=a("p",null,"Un modo per verificare questa uguaglianza a 3 vie è valutare la funzione booleana ¬((a ≠ b) ∨ (a ≠ c)).",-1)),s[4]||(s[4]=a("p",null,"Notando che l’operatore binario diverso da può essere realizzato utilizzando un gate Xor, possiamo implementare questa funzione utilizzando il programma HDL mostrato.",-1)),m(t,d({},{ranges:[]}),{default:e(()=>s[0]||(s[0]=[a("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[a("code",{class:"language-text"},[a("span",{class:"line"},[a("span",null,"CHIP TreUguali {")]),n(`
+`),a("span",{class:"line"},[a("span")]),n(`
+`),a("span",{class:"line"},[a("span",null,"    IN a,b,c;")]),n(`
+`),a("span",{class:"line"},[a("span",null,"    OUT out;")]),n(`
+`),a("span",{class:"line"},[a("span")]),n(`
+`),a("span",{class:"line"},[a("span",null,"    PARTS:")]),n(`
+`),a("span",{class:"line"},[a("span",null,"    Xor(a = a, b = b, out = ab);")]),n(`
+`),a("span",{class:"line"},[a("span",null,"    Xor(a = a, b = c, out = ac);")]),n(`
+`),a("span",{class:"line"},[a("span",null,"    Or (a=ab, b=ac, out=on);")]),n(`
+`),a("span",{class:"line"},[a("span",null,"    Nand(a=on,b=on , out=out );")]),n(`
+`),a("span",{class:"line"},[a("span",null,"    }")])])],-1)])),_:1,__:[0]},16)]),_:1,__:[1,2,3,4]},16)}}};export{T as default};

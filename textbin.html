@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Testo in Binario (UTF-8)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      display: flex;
+      gap: 40px;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+    #textInput {
+      font-size: 16px;
+      padding: 5px;
+      width: 300px;
+    }
+    #binaryOutput {
+      white-space: pre-wrap;
+      font-family: monospace;
+      background: #f0f0f0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      min-width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>  Testo in Binario (UTF-8)</h1>
+  <div class="container">
+    <div>
+      <label for="textInput">Inserisci testo:</label><br>
+      <input type="text" id="textInput" oninput="convertToUtf8Binary()" value="Caffè ☕," />
+    </div>
+    <div>
+      <label>Binario (UTF-8):</label>
+      <div id="binaryOutput"></div>
+    </div>
+  </div>
+
+  <script>
+    function convertToUtf8Binary() {
+      const input = document.getElementById('textInput').value;
+      const encoder = new TextEncoder();
+      let result = [];
+
+      for (const char of input) {
+        const bytes = encoder.encode(char); // Ottieni i byte UTF-8 del carattere
+
+        const binaryBytes = Array.from(bytes).map(byte =>
+          byte.toString(2).padStart(8, '0')
+        );
+
+        if (binaryBytes.length > 1) {
+          result.push(binaryBytes.join('-')); // Se multi-byte, separa con "-"
+        } else {
+          result.push(binaryBytes[0]); // Singolo byte
+        }
+      }
+
+      document.getElementById('binaryOutput').textContent = result.join(' ');
+    }
+
+    // Esegui la conversione al primo caricamento
+    window.addEventListener('DOMContentLoaded', convertToUtf8Binary);
+  </script>
+</body>
+</html>

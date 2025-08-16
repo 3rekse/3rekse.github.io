@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Modifica Pixel RGB con Log Comandi</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    canvas { border: 1px solid black; image-rendering: pixelated; display: block; margin-bottom: 15px; }
+    #controls { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
+    input { width: 60px; }
+    #log { background: #f9f9f9; border: 1px solid #ccc; padding: 10px; white-space: pre-wrap; max-height: 200px; overflow-y: auto; }
+    h2 { margin-top: 30px; }
+  </style>
+</head>
+<body>
+
+  <h1>Editor Pixel RGB</h1>
+
+  <canvas id="canvas" width="200" height="200"></canvas>
+
+  <div id="controls">
+    <label>X: <input type="number" id="x" min="0" max="199" value="0"></label>
+    <label>Y: <input type="number" id="y" min="0" max="199" value="0"></label>
+    <label>R: <input type="number" id="r" min="0" max="255" value="0"></label>
+    <label>G: <input type="number" id="g" min="0" max="255" value="0"></label>
+    <label>B: <input type="number" id="b" min="0" max="255" value="0"></label>
+    <button onclick="setPixel()">Imposta Pixel</button>
+    <button onclick="clearCanvas()">Pulisci</button>
+  </div>
+
+  <h2>Comandi Eseguiti</h2>
+  <div id="log"></div>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const width = canvas.width;
+    const height = canvas.height;
+    const logDiv = document.getElementById('log');
+
+    const comandi = []; // array dei comandi
+
+    function aggiornaLog() {
+      logDiv.textContent = comandi.join('\n');
+    }
+
+    function clearCanvas() {
+      ctx.fillStyle = 'black';
+      ctx.fillRect(0, 0, width, height);
+      comandi.push('cancella');
+      aggiornaLog();
+    }
+
+    function setPixel() {
+      const x = parseInt(document.getElementById('x').value);
+      const y = parseInt(document.getElementById('y').value);
+      const r = parseInt(document.getElementById('r').value);
+      const g = parseInt(document.getElementById('g').value);
+      const b = parseInt(document.getElementById('b').value);
+
+      if (x < 0 || x >= width || y < 0 || y >= height) return;
+
+      const imageData = ctx.getImageData(0, 0, width, height);
+      const index = (y * width + x) * 4;
+      imageData.data[index] = r;
+      imageData.data[index + 1] = g;
+      imageData.data[index + 2] = b;
+      imageData.data[index + 3] = 255;
+      ctx.putImageData(imageData, 0, 0);
+
+      // Aggiungi comando al log
+      comandi.push(`setPixel ${x} ${y} ${r} ${g} ${b}`);
+      aggiornaLog();
+    }
+
+    // Inizializza canvas
+    clearCanvas();
+  </script>
+
+</body>
+</html>
