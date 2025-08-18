@@ -3047,6 +3047,86 @@ graph TD
 
         No: Se N è diventato 0, abbiamo finito di dividere.
 
+        Continua con N=6: 6div2=3 (Q) con resto 0 (R). Lista: [0, 1]. N diventa 3.
+
+        Continua con N=3: 3div2=1 (Q) con resto 1 (R). Lista: [1, 0, 1]. N diventa 1.
+
+        Continua con N=1: 1div2=0 (Q) con resto 1 (R). Lista: [1, 1, 0, 1]. N diventa 0.
+
+    È N maggiore di 0? -- No: Ora N è 0, quindi ci fermiamo.
+
+    Leggi i resti dall'ultimo al primo: questo è il numero binario: Prendi la lista dei resti nell'ordine in cui li hai aggiunti.
+
+        Esempio: [1, 1, 0, 1] è il numero binario.
+
+    Fine: L'algoritmo termina.
+
+Diagramma di Flusso: Conversione da Binario a Decimale
+
+Questo algoritmo usa il metodo delle potenze di 2.
+
+```mermaid
+
+graph TD
+    A[Inizio] --> B[Inserisci il numero binario  es. 1101 ];
+    B --> C[Imposta il valore decimale = 0];
+    C --> D[Imposta la potenza di 2 corrente = 1 - corrisponde a 2^0];
+    D --> E[Prendi la cifra bit più a destra del numero binario];
+    E --> F{Hai processato tutte le cifre del numero binario?};
+    F -- Sì --> J[Il valore decimale è il risultato];
+    F -- No --> G[Se la cifra o bit è 1: aggiungi la potenza di 2 corrente al valore decimale];
+    G --> H[Rimuovi la cifra processata dal numero binario];
+    H --> I[Moltiplica la potenza di 2 corrente per 2 -per ottenere la prossima potenza di 2- ];
+    I --> E;
+    J --> K[Fine];
+
+```
+
+## Spiegazione del Flusso:
+
+    Inizio: Si parte.
+
+    Inserisci il numero binario (es. 1101): Qui inserisci il numero binario che vuoi convertire.
+
+    Imposta il valore decimale = 0: Questa variabile conterrà il risultato finale.
+
+    Imposta la potenza di 2 corrente = 1 (corrisponde a 2^0): Iniziamo dalla potenza più bassa.
+
+    Prendi la cifra (bit) più a destra del numero binario: Iniziamo dal bit meno significativo.
+
+        Esempio: Se il numero è 1101, prendi 1.
+
+    Hai processato tutte le cifre del numero binario?: Questa è una decisione.
+
+        Sì: Se non ci sono più cifre da elaborare, abbiamo finito.
+
+        No: Se ci sono ancora cifre, continuiamo.
+
+    Se la cifra (bit) è 1: aggiungi la potenza di 2 corrente al valore decimale: Se il bit è 0, non aggiungiamo nulla. Se è 1, aggiungiamo il valore posizionale.
+
+        Esempio: Per 1101, la prima cifra a destra è 1. Potenza di 2 corrente è 1. Quindi, valore_decimale = 0 + 1 = 1.
+
+    Rimuovi la cifra processata dal numero binario: Il numero binario si accorcia.
+
+        Esempio: 1101 diventa 110.
+
+    Moltiplica la potenza di 2 corrente per 2: Passiamo alla potenza successiva.
+
+        Esempio: La potenza di 2 corrente diventa 1times2=2.
+
+    Torna al passo "Prendi la cifra (bit) più a destra...": Il ciclo si ripete.
+
+        Continua con 110, prendi 0. Potenza di 2 corrente 2. 0times2=0. valore_decimale resta 1. Potenza di 2 diventa 4. Numero diventa 11.
+
+        Continua con 11, prendi 1. Potenza di 2 corrente 4. valore_decimale = 1 + 4 = 5. Potenza di 2 diventa 8. Numero diventa 1.
+
+        Continua con 1, prendi 1. Potenza di 2 corrente 8. valore_decimale = 5 + 8 = 13. Potenza di 2 diventa 16. Numero diventa vuoto.
+
+    Hai processato tutte le cifre? -- Sì: Il numero binario è ora vuoto.
+
+    Il valore decimale è il risultato: Il valore_decimale (13 nell'esempio) è il risultato finale.
+
+    Fine: L'algoritmo termina.
     Calcola N diviso 2 (quoziente Q e resto R): Esegui la divisione.
 
         Esempio: Se N=13: 13div2=6 (Q) con resto 1 (R).
@@ -3150,6 +3230,9 @@ graph TD
   overflow-y: auto;  /* Abilita lo scroll verticale */
   padding: 1em;      /* Aggiungi un po' di padding */
   border: 1px solid #ccc; /* Aggiungi un bordo per evidenziare l'area scrollabile */
+  width: 100%; /* Sfrutta la massima larghezza disponibile */
+  box-sizing: border-box; /* Include padding e bordo nella larghezza totale */
+
 }
 </style>
 
