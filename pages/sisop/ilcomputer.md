@@ -52,6 +52,7 @@ title: Welcome
 
 ## Ciao Omarillo! Ma allora cosa tratta il sito?
 
+
 ```mermaid
 
 graph TD
@@ -718,6 +719,7 @@ Diverse situazioni possiamo riportare l'hacking di una chat dopo aver letto il l
 
 ---
 
+[!Chat StoryBook ](https://g.co/gemini/share/842617fd2818)
 **🎓 Tutti gli Studenti**:
 Grazie, Omarilli! Ora sappiamo che l’informatica è più umana di quanto pensassimo ma che cos'è un computer?
 
@@ -728,6 +730,8 @@ Grazie, Omarilli! Ora sappiamo che l’informatica è più umana di quanto pensa
 ## Che cos'è un Computer? Un Dialogo tra Esperti e Curiosi
 
 **(La scena si apre in un'aula luminosa. I dodici Omarilli, esperti in vari campi dell'informatica, sono seduti di fronte a dodici studenti attenti e desiderosi di imparare.)**
+
+[!Fumetto](https://gemini.google.com/share/02dc60ad11e0)
 
 ---
 
