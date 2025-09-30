@@ -1,8 +1,3 @@
-Certamente. Ho riorganizzato e unificato il contenuto del file, focalizzandomi sulla chiarezza degli algoritmi di conversione tra sistemi numerici (Decimale, Binario, Ottale, Esadecimale) e sul concetto fondamentale del **Complemento a Due** per la rappresentazione dei numeri negativi.
-
-Ho rimosso le interazioni tra studenti e Omarilli per creare un documento più strutturato e didattico, perfetto come risorsa di studio.
-
----
 
 # Fondamenti di Sistemi di Numerazione e Rappresentazione Binaria
 
