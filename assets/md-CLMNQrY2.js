@@ -1,0 +1,5 @@
+import{b as s,o as l,w as u,g as r,i as n,v as a,x as m,B as o}from"./modules/vue-BXqLZby3.js";import{_ as p}from"./slidev/cover.vue_vue_type_script_setup_true_lang-52AYOn8D.js";import{u as d,f}from"./slidev/context-C4Vo-n2j.js";import"./index-Bp5JgvxM.js";import"./modules/shiki-D1VZkxQz.js";const b={__name:"ilcomputer.md__slidev_7",setup(g){const{$clicksContext:e,$frontmatter:i}=d();return e.setup(),(v,t)=>(l(),s(p,a(m(o(f)(o(i),6))),{default:u(()=>[t[0]||(t[0]=r("h3",null,"🧑‍🎓 Studente-12",-1)),t[1]||(t[1]=r("h2",null,"Troppe cose da imparare!",-1)),t[2]||(t[2]=r("h2",null,"E io tutto questo dovrò studiare ?",-1)),t[3]||(t[3]=r("h3",null,"🧠 Omarillo-12",-1)),n(`
+https://github.com/rnatella/so_esempi/
+https://github.com/remzi-arpacidusseau
+https://pages.cs.wisc.edu/~remzi/OSTEP/
+`),t[4]||(t[4]=r("h2",null,"Già ! Ma da degli utili strumenti fatti guidare!",-1)),t[5]||(t[5]=r("h2",null,"Ed ogni verifica riuscirai ad affrontare.",-1)),t[6]||(t[6]=r("h3",null,"🧑‍🎓 Studente-11",-1)),t[7]||(t[7]=r("h2",null,"Allora c’è qualcuno che me li vuole indicare ?",-1))]),_:1,__:[0,1,2,3,4,5,6,7]},16))}};export{b as default};
