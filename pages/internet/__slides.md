@@ -16,6 +16,20 @@ Gli ipertesti il networking e Internet
 <Toc columns="2" maxDepth="2" minDepth="2" mode="next" />
 
 ---
-src: ./_slides.md
+src: ./ai.md
+
+---
+
+---
+src: ./social.md
+
+---
+---
+src: ./citdigit.md
+
+---
+
+---
+src: ./how-internet-works.md
 
 ---

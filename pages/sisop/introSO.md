@@ -656,7 +656,7 @@ MIPS (Microprocessor without Interlocked Pipeline Stages) e x86 sono due diverse
 **x86:**
 - **CISC (Complex Instruction Set Computer)**: x86 è un esempio di architettura CISC, che utilizza un set di istruzioni più ampio e complesso.
 - **Filosofia del Design**: Offre un'ampia gamma di istruzioni, incluse molte operazioni complesse che possono eseguire più azioni in una singola istruzione.
-- **Pipelines**: La complessità delle istruzioni rende la pipeline più complicata, con meccan7ismi avanzati per gestire le dipendenze.
+- **Pipelines**: La complessità delle istruzioni rende la pipeline più complicata, con meccanismi avanzati per gestire le dipendenze.
 - **Registri**: Ha un numero minore di registri generali (originariamente 8, estesi a 16 nei moderni processori a 64 bit), il che può portare a un maggior uso di operazioni di memoria.
 - **Variabilità delle Istruzioni**: Le istruzioni x86 possono avere lunghezze variabili (da 1 a 15 byte), rendendo la decodifica più complessa.
 
