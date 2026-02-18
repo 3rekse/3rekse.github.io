@@ -1113,8 +1113,10 @@ title: Un sistema poco vulnerabile
 Sii consapevole delle pratiche di sicurezza online: Evita di cliccare su link sospetti o di scaricare file da fonti non attendibili. Sii cauto quando fornisci informazioni personali online e utilizza password complesse e uniche per i tuoi account.
 
 Se segui queste pratiche di sicurezza di base, puoi ridurre il rischio di vulnerabilità nel tuo sistema. Tuttavia, se hai dubbi sulla sicurezza del tuo sistema, potresti voler consultare un esperto di sicurezza informatica per una valutazione più approfondita.
+
 [Gli attacchi](https://ransomfeed.it/)
 
+[Smartphone] (https://fabrizio-986df3.gitlab.io/citdigit.mp4)
 ![maurizio](http://elettronica.fauser.edu/maurifcbn.jpg)
 
 ---
