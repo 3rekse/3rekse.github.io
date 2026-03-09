@@ -9,7 +9,8 @@ title: Sistemi digitali
 
 ## The Omarillo factory, your ICT adventure!
 
-## Annus Domini MMXXIV
+[Orientamento](https://excelsiorienta.unioncamere.it/)
+[Scuole](https://unica.istruzione.gov.it/portale/it/what-s-next-l-orientamento-nel-metaverso)
 
 <style>
 .toc {

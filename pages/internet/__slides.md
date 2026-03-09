@@ -13,6 +13,11 @@ background: /rete/images/terra.jpg
 
 Gli ipertesti il networking e Internet
 
+[Sicurnauti](https://unica.istruzione.gov.it/portale/it/sicurnauti)
+
+[Ruota digirale](https://ruotadigitale.it/)
+
+
 <Toc columns="2" maxDepth="2" minDepth="2" mode="next" />
 
 ---
