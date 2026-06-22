@@ -9,8 +9,9 @@ title: Sistemi digitali
 
 ## The Omarillo factory, your ICT adventure!
 
-[Orientamento](https://excelsiorienta.unioncamere.it/)
-[Scuole](https://unica.istruzione.gov.it/portale/it/what-s-next-l-orientamento-nel-metaverso)
+[🤝SOS NIPOTI🤝](https://fabrizio-986df3.gitlab.io/sos_tech.html)
+[Orientamento ](https://excelsiorienta.unioncamere.it/)
+[Scuole ](https://unica.istruzione.gov.it/portale/it/what-s-next-l-orientamento-nel-metaverso)
 
 <style>
 .toc {
