@@ -31,6 +31,10 @@ src: ./sisop/__slides.md
 
 ---
 ---
+src: ./meccatronica/__slides.md
+
+---
+---
 src: ./doc/__slides.md
 
 ---
