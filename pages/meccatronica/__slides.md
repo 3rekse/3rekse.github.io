@@ -1,12 +1,12 @@
 ---
 layout: cover
 hideInToc: false
-background: /office/images/book.jpg
+background: /mec/paride.webp
 level: 1
-title: LAB Documenti
+title: LAB Meccatronica
 ---
 
-## Tecnico delle Automationi 
+## Tecnico delle Automationi
 
 <Toc columns="2" maxDepth="2" minDepth="2" mode="next" />
 

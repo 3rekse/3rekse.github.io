@@ -1,17 +1,6 @@
----
-theme: default
-background: https://cover.slickpic.com/u/41561/1/2000.jpg
-class: text-center
-highlighter: shiki
-lineNumbers: true
-drawings:
-  persist: false
-transition: slide-left
-title: Modulo 1 - Il Motore Intelligente
----
+## 🤖 Costruisci la tua prima Creatura Cibernetica
 
-# 🤖 Costruisci la tua prima Creatura Cibernetica!
-## Modulo 1: Il Motore Intelligente — Corso di Meccatronica Pratica
+### Modulo 1: Il Motore Intelligente — Corso di Meccatronica Pratica
 
 Dai vita alla materia con bit, elettroni e codice!
 
@@ -23,25 +12,19 @@ Dai vita alla materia con bit, elettroni e codice!
 
 > **Obiettivo della Missione:** Progettare, cablare e programmare un controllore di velocità per un motore DC. Il primo vero passo per costruire qualsiasi robot!
 
-<!--
-[ELEMENTI VISUALI DA MOSTRARE]
-- Immagine di copertina accattivante: un braccio robotico o un rover da esplorazione in stile Cyberpunk/Sci-Fi.
-- Overlay grafico con testo che sfuma per dare un tocco cinematografico ed entusiasmante.
--->
-
 ---
 
-# 🛠️ La Cassetta degli Attrezzi Virtuale
-## I nostri due superpoteri per simulare gratis nel browser
+## 🛠️ La Cassetta degli Attrezzi Virtuale
+### I nostri due superpoteri per simulare gratis nel browser
 
-- **🧱 Tinkercad (by Autodesk) — *Il LEGO dei circuiti***
+- **🧱  [Tinkercad (by Autodesk)](https://www.tinkercad.com/joinclass/ZWH75DJBF)— *Il LEGO dei circuiti***
   - Nessuna saldatura, zero rischi di prendersi la scossa o bruciare componenti reali!
   - Trascini i pezzi, fai i collegamenti con i cavi colorati e scrivi il codice per Arduino.
   - **Missione su Tinkercad:** Assembleremo l'hardware e scriveremo il software di controllo.
 
 <br>
 
-- **🪟 Falstad Circuit Simulator — *Il visore a Raggi X della corrente***
+- **🪟 [Falstad Circuit Simulator](https://www.falstad.com/circuit/circuitjs.html) — *Il visore a Raggi X della corrente***
   - L'elettronica spesso sembra astratta perché la corrente non si vede... Falstad risolve il problema!
   - Mostra il flusso degli elettroni come pallini luminosi che corrono nei cavi a forma di cartoon.
   - **Missione su Falstad:** Visualizzeremo in tempo reale come funziona il segnale **PWM** per dominare la potenza del motore.
@@ -55,8 +38,8 @@ Dai vita alla materia con bit, elettroni e codice!
 
 ---
 
-# 🧠 Cos'è la Meccatronica? (L'Approccio Top-Down)
-## Non è un semplice motore che gira: è un sistema che RAGIONA!
+## 🧠 Cos'è la Meccatronica? (L'Approccio Top-Down)
+### Non è un semplice motore che gira: è un sistema che RAGIONA!
 
 - **⚡ Un motore da solo è "stupido":** Se lo colleghi a una pila gira sempre a palla finché non stacchi i fili. Non ha controllo.
 - **🤖 Un sistema Meccatronico è "intelligente":** Gira alla velocità esatta che gli imponiamo noi in qualsiasi momento.
@@ -85,8 +68,8 @@ Dai vita alla materia con bit, elettroni e codice!
 
 ---
 
-# 🛒 La Lista della Spesa per il Circuito
-## Prendi i componenti dalla barra laterale di Tinkercad
+## 🛒 La Lista della Spesa per il Circuito
+### Prendi i componenti dalla barra laterale di Tinkercad
 
 - **🧠 1x Arduino Uno R3:** La scheda madre del nostro progetto.
 - **🍞 1x Breadboard Piccola:** La piastra dove inserire i componenti per collegarli facilmente.
@@ -103,8 +86,8 @@ Dai vita alla materia con bit, elettroni e codice!
 
 ---
 
-# 🔌 Cabliamo il Sistema!
-## Segui il codice colore dei cavi (come in un film di spie)
+## [🔌 Cabliamo il Sistema!](https://tinkercircuits.com/arduino-based-dc-motor-speed-controller/)
+### Segui il codice colore dei cavi (come in un film di spie)
 
 <div class="grid grid-cols-2 gap-6 text-left">
 
@@ -143,8 +126,8 @@ Dai vita alla materia con bit, elettroni e codice!
 
 ---
 
-# 💻 Diamo la Vita al Motore! (Il Codice Arduino)
-## Il loop infinito: Leggi $\rightarrow$ Decidi $\rightarrow$ Agisci
+## 💻 Diamo la Vita al Motore! (Il Codice Arduino)
+### Il loop infinito: Leggi $\rightarrow$ Decidi $\rightarrow$ Agisci
 
 ```cpp {all|2-3|5-8|10-12|14-16|18-20|all}
 // Definiamo i "nomi" per i pin hardware
@@ -173,9 +156,9 @@ void loop() {
 
 ---
 
-# 🚀 Mettiamo in Moto!
+## 🚀 Mettiamo in Moto!
 
-## Premi "Avvia Simulazione" e goditi lo spettacolo!
+### Premi "Avvia Simulazione" e goditi lo spettacolo!
 
 * **1.** Clicca sul pulsante verde **"Avvia Simulazione"** in alto a destra su Tinkercad.
 * **2.** Clicca con il mouse sulla manopola del potenziometro e ruotala lentamente.
@@ -192,9 +175,9 @@ void loop() {
 
 ---
 
-# 📐 Teoria Pilastro 1: Il Potenziometro & l'ADC
+## 📐 Teoria Pilastro 1: Il Potenziometro & l'ADC
 
-## Come spiegare il mondo analogico a un computer digitale
+### Come spiegare il mondo analogico a un computer digitale
 
 * **I computer parlano solo in 0 e 1:** Non capiscono le sfumature della realtà (come la posizione fluida di una manopola).
 * **L'ADC (Analog to Digital Converter):** È il "traduttore" dentro Arduino che converte la tensione continua in numeri interi.
@@ -210,9 +193,9 @@ $$\text{Valore Digitale (ADC)} = \left( \frac{V_{\text{in}}}{5\,\text{V}} \right
 
 ---
 
-# ⚡ Teoria Pilastro 2: Perché serve il Transistor?
+## ⚡ Teoria Pilastro 2: Perché serve il Transistor?
 
-## Cervello vs Muscoli (O perché non collegare il motore ad Arduino!)
+### Cervello vs Muscoli (O perché non collegare il motore ad Arduino!)
 
 * **💥 Il rischio distruzione:**
 * Un pin di Arduino eroga al massimo **$20\text{ mA}$** (milliampere).
@@ -230,9 +213,9 @@ $$\text{Valore Digitale (ADC)} = \left( \frac{V_{\text{in}}}{5\,\text{V}} \right
 
 ---
 
-# 🌊 Teoria Pilastro 2: Il Segnale PWM
+## 🌊 Teoria Pilastro 2: Il Segnale PWM
 
-## Il "trucco di magia" della potenza digitale
+### Il "trucco di magia" della potenza digitale
 
 * **Come fa un segnale digitale (ON/OFF) a regolare la velocità in modo fluido?**
 * Arduino non può erogare $1.5\text{V}, 2\text{V}$ o $3.7\text{V}$ analogici... o sputa $0\text{V}$ o sputa $5\text{V}$!
@@ -240,11 +223,52 @@ $$\text{Valore Digitale (ADC)} = \left( \frac{V_{\text{in}}}{5\,\text{V}} \right
 
 > **La metafora della lampadina:** Se accendi e spegni l'interruttore della luce della tua stanza 1000 volte al secondo, la tua vista non vedrà il lampeggio, ma percepirà una luce a mezza intensità!
 
+```txt
+<cir f="1" ts="0.000005" ic="10.20027730826997" cb="50" pb="50" vr="5" mts="5e-11">
+  <v x="432 128 432 208" f="16" wf="0" maxv="5"/>
+  <DCMotor x="496 128 496 208" f="0" in="0.01" rs="10" k="0.005" kb="0.005" j="0.000009999999999999999" b="0.005" gr="1" ta="0"/>
+  <w x="432 128 448 128" f="0"/>
+  <w x="432 208 496 208" f="0"/>
+  <s x="448 128 496 128" f="0"/>
+  <d x="560 128 560 208" f="0" mo="default"/>
+  <w x="496 128 560 128" f="0"/>
+  <w x="496 208 560 208" f="0"/>
+  <o en="1" sp="64" f="x3" p="0">
+    <p v="0" sc="5"/>
+    <p v="3" sc="0.8"/>
+  </o>
+</cir>
+
+```
+
+<!--
+<cir f="1" ts="0.00001" ic="10.20027730826997" cb="61" pb="50" vr="5" mts="0.00005">
+  <t x="272 208 320 208" f="0" pn="1" be="100" mo="default" vbe="0.6336865504982642" vbc="-4.360612280125544"/>
+  <DCMotor x="400 112 400 224" f="0" in="0.5" rs="1" k="0.15" kb="0.15" j="0.02" b="0.05" gr="10000" ta="0"/>
+  <w x="320 224 400 224" f="0"/>
+  <R x="224 208 176 208" f="80" wf="2" fr="100" maxv="2.5" bias="2.5"/>
+  <r x="224 208 272 208" f="0" r="1000"/>
+  <g x="352 240 352 288" f="0"/>
+  <rw x="352 240 320 192" f="0">352,240;352,192;320,192</rw>
+  <R x="400 112 400 64" f="16" wf="0" maxv="5"/>
+  <w x="400 112 448 112" f="0"/>
+  <w x="400 224 448 224" f="0"/>
+  <d x="448 192 448 112" f="0" mo="default"/>
+  <s x="448 192 448 224" f="0"/>
+  <o en="1" sp="64" f="x3" p="0">
+    <p v="0" sc="20"/>
+    <p v="3" sc="0.025"/>
+    <p e="3" v="0" sc="20"/>
+    <p e="3" v="3" sc="0.025"/>
+  </o>
+</cir>
+-->
+
 ---
 
-# 🔄 Teoria Pilastro 3: Open Loop vs Closed Loop
+## 🔄 Teoria Pilastro 3: Open Loop vs Closed Loop
 
-## Correre a occhi aperti vs correre a occhi bendati!
+### Correre a occhi aperti vs correre a occhi bendati!
 
 ### 🔴 Catena Aperta (Open Loop)
 
@@ -264,9 +288,9 @@ $$\text{Valore Digitale (ADC)} = \left( \frac{V_{\text{in}}}{5\,\text{V}} \right
 
 ---
 
-# 🏁 Checklist Finale & Sfida Pratica
+## 🏁 Checklist Finale & Sfida Pratica
 
-## Hai sbloccato le competenze del Modulo 1!
+### Hai sbloccato le competenze del Modulo 1!
 
 * [x] **Skill 1:** Assemblaggio di circuiti con elettronica di potenza su Tinkercad.
 * [x] **Skill 2:** Traduzione dal mondo fisico al digitale con l'ADC a 10-Bit (`analogRead`).
