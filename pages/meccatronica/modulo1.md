@@ -242,6 +242,7 @@ $$\text{Valore Digitale (ADC)} = \left( \frac{V_{\text{in}}}{5\,\text{V}} \right
 ```
 
 <!--
+```md
 <cir f="1" ts="0.00001" ic="10.20027730826997" cb="61" pb="50" vr="5" mts="0.00005">
   <t x="272 208 320 208" f="0" pn="1" be="100" mo="default" vbe="0.6336865504982642" vbc="-4.360612280125544"/>
   <DCMotor x="400 112 400 224" f="0" in="0.5" rs="1" k="0.15" kb="0.15" j="0.02" b="0.05" gr="10000" ta="0"/>
@@ -262,6 +263,7 @@ $$\text{Valore Digitale (ADC)} = \left( \frac{V_{\text{in}}}{5\,\text{V}} \right
     <p e="3" v="3" sc="0.025"/>
   </o>
 </cir>
+```
 -->
 
 ---
