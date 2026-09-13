@@ -7,7 +7,9 @@ title: Sistemi digitali
 
 ---
 
-## The Omarillo factory, your ICT adventure!
+## The Omarillo factory, [your ICT adventure!](https://fabrizio-986df3.gitlab.io/omar/crono_programma_tecnologie_informatiche.pdf)
+
+<div style="display: flex; flex-wrap: nowrap; gap: 0.5rem; align-items: center;"><img src="https://fabrizio-986df3.gitlab.io/ai.svg" alt="AI" width="80" /><img src="https://fabrizio-986df3.gitlab.io/omar/aig.svg" alt="AIg" width="80" /><img src="https://fabrizio-986df3.gitlab.io/omar/aim.svg" alt="AIm" width="80" /> Prodotti didattici sviluppati con l'uso di AI</div>
 
 [🤝SOS NIPOTI🤝](https://fabrizio-986df3.gitlab.io/sos_tech.html)
 [Orientamento ](https://excelsiorienta.unioncamere.it/)

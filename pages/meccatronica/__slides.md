@@ -3,7 +3,7 @@ layout: cover
 hideInToc: false
 background: /mec/paride.webp
 level: 1
-title: LAB Meccatronica
+title: LAB Elettronia & Meccatronica
 ---
 
 ## Tecnico delle Automationi

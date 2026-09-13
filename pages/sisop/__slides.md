@@ -7,9 +7,10 @@ title: Sistemi digitali
 
 ---
 
-## Information technologies have invaded the schools of the earth
+## [Information technologies have invaded the schools of the earth](https://fabrizio-986df3.gitlab.io/dmc.mp4)
 
 ## Guida introduttiva sulle tecnologie informatiche
+
 
 <Toc columns="2" maxDepth="2" minDepth="2" mode="next" />
 
